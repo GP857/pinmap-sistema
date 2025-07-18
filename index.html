@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINMAP - Sistema de Geolocalização</title>
+    <meta name="description" content="Sistema corporativo de geolocalização com mapa interativo e clustering inteligente">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://unpkg.com">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📍 PINMAP</h1>
+            <p class="subtitle">Sistema Corporativo de Geolocalização</p>
+            <div class="status-indicator">
+                <div class="status-dot"></div>
+                <span>Sistema Online - GitHub Pages</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="stats-section">
+                <h2>📊 Estatísticas em Tempo Real</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-usuarios">100</div>
+                        <div class="stat-label">Usuários Cadastrados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="usuarios-mapeados">100</div>
+                        <div class="stat-label">Usuários Mapeados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="cidades">27</div>
+                        <div class="stat-label">Cidades Cobertas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="estados">9</div>
+                        <div class="stat-label">Estados</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="actions-section">
+                <h2>🚀 Funcionalidades</h2>
+                <div class="actions-grid">
+                    <a href="mapa.html" class="action-card primary">
+                        <div class="action-icon">🗺️</div>
+                        <h3>Mapa Interativo</h3>
+                        <p>Visualize todos os usuários no mapa com clustering inteligente</p>
+                    </a>
+                    
+                    <div class="action-card" onclick="mostrarUsuarios()">
+                        <div class="action-icon">👥</div>
+                        <h3>Lista de Usuários</h3>
+                        <p>Veja todos os usuários cadastrados com suas informações</p>
+                    </div>
+                    
+                    <div class="action-card" onclick="mostrarEstatisticas()">
+                        <div class="action-icon">📈</div>
+                        <h3>Relatórios</h3>
+                        <p>Estatísticas detalhadas e análises de distribuição</p>
+                    </div>
+                    
+                    <div class="action-card" onclick="exportarDados()">
+                        <div class="action-icon">📋</div>
+                        <h3>Exportar Dados</h3>
+                        <p>Baixe os dados em formato JSON ou CSV</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2>ℹ️ Informações do Sistema</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>🌐 Hospedagem</h4>
+                        <p>GitHub Pages - Gratuito e confiável</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>🔒 Segurança</h4>
+                        <p>SSL automático e dados protegidos</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>📱 Compatibilidade</h4>
+                        <p>Funciona em todos os dispositivos</p>
+                    </div>
+                    <div class="info-card">
+                        <h4>⚡ Performance</h4>
+                        <p>Carregamento rápido e otimizado</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 PINMAP - Sistema de Geolocalização</p>
+            <p>Desenvolvido com ❤️ para uso corporativo</p>
+        </footer>
+    </div>
+
+    <!-- Modal para exibir dados -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal()">&times;</span>
+            <h2 id="modal-title">Título</h2>
+            <div id="modal-body">Conteúdo</div>
+        </div>
+    </div>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

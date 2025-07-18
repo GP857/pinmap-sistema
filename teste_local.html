@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE - PINMAP 1000 Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .test-result {
+            background: #2a2a4e;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #4CAF50;
+        }
+        .error {
+            border-left-color: #f44336;
+        }
+        .success {
+            border-left-color: #4CAF50;
+        }
+        .warning {
+            border-left-color: #ff9800;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .stat-label {
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+        #log {
+            background: #000;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 TESTE PINMAP - 1000 Usuários</h1>
+        <p>Esta página testa se todos os 1000 usuários estão sendo carregados corretamente.</p>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="usuarios-carregados">0</div>
+                <div class="stat-label">Usuários Carregados</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="cidades-encontradas">0</div>
+                <div class="stat-label">Cidades Diferentes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="estados-encontrados">0</div>
+                <div class="stat-label">Estados Diferentes</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="tempo-carregamento">0ms</div>
+                <div class="stat-label">Tempo de Carregamento</div>
+            </div>
+        </div>
+
+        <div class="test-result" id="resultado-teste">
+            <h3>⏳ Executando testes...</h3>
+            <p>Aguarde enquanto verificamos os dados...</p>
+        </div>
+
+        <button onclick="executarTeste()">🔄 Executar Teste Novamente</button>
+        <button onclick="mostrarDetalhes()">📊 Mostrar Detalhes</button>
+        <button onclick="limparLog()">🗑️ Limpar Log</button>
+
+        <h3>📋 Log de Execução:</h3>
+        <div id="log"></div>
+    </div>
+
+    <!-- Carregar dados -->
+    <script src="dados.js"></script>
+
+    <script>
+        let logElement = document.getElementById('log');
+        
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            logElement.textContent += `[${timestamp}] ${message}\n`;
+            logElement.scrollTop = logElement.scrollHeight;
+            console.log(message);
+        }
+
+        function executarTeste() {
+            const startTime = performance.now();
+            log('🚀 Iniciando teste de carregamento...');
+            
+            // Limpar resultados anteriores
+            document.getElementById('usuarios-carregados').textContent = '0';
+            document.getElementById('cidades-encontradas').textContent = '0';
+            document.getElementById('estados-encontrados').textContent = '0';
+            document.getElementById('tempo-carregamento').textContent = '0ms';
+            
+            try {
+                // Verificar se variável usuarios existe
+                if (typeof usuarios === 'undefined') {
+                    throw new Error('Variável "usuarios" não encontrada!');
+                }
+                
+                log(`✅ Variável usuarios encontrada`);
+                log(`📊 Analisando ${usuarios.length} registros...`);
+                
+                // Contar usuários
+                const totalUsuarios = usuarios.length;
+                document.getElementById('usuarios-carregados').textContent = totalUsuarios;
+                
+                // Analisar cidades e estados
+                const cidades = new Set();
+                const estados = new Set();
+                let usuariosValidos = 0;
+                let coordenadasValidas = 0;
+                
+                usuarios.forEach((usuario, index) => {
+                    // Verificar estrutura do usuário
+                    if (usuario.id && usuario.nome && usuario.cidade && usuario.estado) {
+                        usuariosValidos++;
+                        cidades.add(usuario.cidade);
+                        estados.add(usuario.estado);
+                        
+                        // Verificar coordenadas
+                        if (usuario.latitude && usuario.longitude && 
+                            !isNaN(usuario.latitude) && !isNaN(usuario.longitude)) {
+                            coordenadasValidas++;
+                        }
+                    }
+                    
+                    // Log de progresso a cada 100 usuários
+                    if ((index + 1) % 100 === 0) {
+                        log(`📍 Processados ${index + 1} usuários...`);
+                    }
+                });
+                
+                // Atualizar estatísticas
+                document.getElementById('cidades-encontradas').textContent = cidades.size;
+                document.getElementById('estados-encontrados').textContent = estados.size;
+                
+                const endTime = performance.now();
+                const tempoCarregamento = Math.round(endTime - startTime);
+                document.getElementById('tempo-carregamento').textContent = `${tempoCarregamento}ms`;
+                
+                // Resultado do teste
+                const resultadoElement = document.getElementById('resultado-teste');
+                
+                if (totalUsuarios === 1000 && usuariosValidos === 1000 && coordenadasValidas === 1000) {
+                    resultadoElement.className = 'test-result success';
+                    resultadoElement.innerHTML = `
+                        <h3>✅ TESTE PASSOU!</h3>
+                        <p><strong>Todos os 1000 usuários foram carregados com sucesso!</strong></p>
+                        <ul>
+                            <li>✅ ${totalUsuarios} usuários carregados</li>
+                            <li>✅ ${usuariosValidos} usuários válidos</li>
+                            <li>✅ ${coordenadasValidas} coordenadas válidas</li>
+                            <li>✅ ${cidades.size} cidades diferentes</li>
+                            <li>✅ ${estados.size} estados diferentes</li>
+                        </ul>
+                    `;
+                    log(`🎉 SUCESSO! Todos os ${totalUsuarios} usuários carregados corretamente`);
+                } else {
+                    resultadoElement.className = 'test-result warning';
+                    resultadoElement.innerHTML = `
+                        <h3>⚠️ TESTE COM PROBLEMAS</h3>
+                        <p><strong>Alguns dados podem estar inconsistentes:</strong></p>
+                        <ul>
+                            <li>📊 ${totalUsuarios} usuários carregados (esperado: 1000)</li>
+                            <li>✅ ${usuariosValidos} usuários válidos</li>
+                            <li>📍 ${coordenadasValidas} coordenadas válidas</li>
+                            <li>🏙️ ${cidades.size} cidades diferentes</li>
+                            <li>🗺️ ${estados.size} estados diferentes</li>
+                        </ul>
+                    `;
+                    log(`⚠️ ATENÇÃO: ${totalUsuarios} usuários carregados, ${usuariosValidos} válidos`);
+                }
+                
+                log(`⏱️ Teste concluído em ${tempoCarregamento}ms`);
+                
+            } catch (error) {
+                const resultadoElement = document.getElementById('resultado-teste');
+                resultadoElement.className = 'test-result error';
+                resultadoElement.innerHTML = `
+                    <h3>❌ ERRO NO TESTE</h3>
+                    <p><strong>Falha ao carregar dados:</strong></p>
+                    <p>${error.message}</p>
+                `;
+                log(`❌ ERRO: ${error.message}`);
+            }
+        }
+        
+        function mostrarDetalhes() {
+            if (typeof usuarios !== 'undefined' && usuarios.length > 0) {
+                log(`📋 DETALHES DOS DADOS:`);
+                log(`   Total de usuários: ${usuarios.length}`);
+                log(`   Primeiro usuário: ${usuarios[0].nome} (${usuarios[0].cidade}/${usuarios[0].estado})`);
+                log(`   Último usuário: ${usuarios[usuarios.length-1].nome} (${usuarios[usuarios.length-1].cidade}/${usuarios[usuarios.length-1].estado})`);
+                
+                // Amostra de 5 usuários aleatórios
+                log(`   Amostra aleatória:`);
+                for (let i = 0; i < 5; i++) {
+                    const randomIndex = Math.floor(Math.random() * usuarios.length);
+                    const usuario = usuarios[randomIndex];
+                    log(`     ${randomIndex + 1}: ${usuario.nome} - ${usuario.cidade}/${usuario.estado}`);
+                }
+            }
+        }
+        
+        function limparLog() {
+            logElement.textContent = '';
+        }
+        
+        // Executar teste automaticamente ao carregar
+        window.addEventListener('load', function() {
+            setTimeout(executarTeste, 500);
+        });
+    </script>
+</body>
+</html>
+
