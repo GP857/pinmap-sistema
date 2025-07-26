@@ -2338,4 +2338,4 @@ const dados = [
 {id: 4344, nome: "Thays Villarruel", cidade: "Valinhos", estado: "SP", latitude: -22.9968933, longitude: -46.9945622, cep: "13277618"},
 {id: 4345, nome: "Aline oliveira", cidade: "Campinas", estado: "SP", latitude: -22.7114173, longitude: -43.5452744, cep: "13060123"},
 {id: 4347, nome: "Rogerio F Nunes", cidade: "Campinas", estado: "SP", latitude: -21.8836119, longitude: -51.8554591, cep: "13082210"}
-];
+]
