@@ -389,6 +389,9 @@
             // Carregar usuários
             carregarUsuarios();
             
+            // **CORREÇÃO ADICIONADA: Força o Leaflet a recalcular o tamanho do mapa**
+            mapa.invalidateSize(); 
+
             // Configurar eventos do mapa
             configurarEventosMapa();
             
@@ -402,20 +405,32 @@
         }
         
         function carregarUsuarios() {
-            if (typeof usuarios === 'undefined' || !Array.isArray(usuarios)) {
-                console.error('❌ Dados de usuários não encontrados ou inválidos. Verifique dados.js');
+            // Debug logs
+            console.log('DEBUG: Início da função carregarUsuarios().');
+            console.log('DEBUG: Tipo de "usuarios":', typeof usuarios);
+            console.log('DEBUG: É um array "usuarios"?', Array.isArray(usuarios));
+            console.log('DEBUG: Comprimento de "usuarios":', usuarios ? usuarios.length : 'não definido');
+
+
+            if (typeof usuarios === 'undefined' || !Array.isArray(usuarios) || usuarios.length === 0) {
+                console.error('❌ Dados de usuários não encontrados, inválidos ou vazios. Verifique dados.js');
                 document.getElementById('total-usuarios-mapa').textContent = 'Erro!';
+                // Definir um centro e zoom padrão se não houver dados
+                mapa.setView(BRASIL_CENTER, BRASIL_ZOOM); 
                 return;
             }
             
-            console.log(`📊 Carregando ${usuarios.length} usuários`);
+            console.log(`📊 Carregando ${usuarios.length} usuários.`); 
             
             // Limpa os marcadores existentes antes de recarregar
             marcadores.clearLayers();
             todosMarcadoresUsuario = []; // Limpa o array de referência
             
-            usuarios.forEach((usuario) => {
+            let validUsersCount = 0; 
+            
+            usuarios.forEach((usuario, index) => {
                 if (usuario.latitude && usuario.longitude) {
+                    validUsersCount++; 
                     const marcador = L.marker([usuario.latitude, usuario.longitude])
                         .bindPopup(`
                             <div style="padding: 12px; min-width: 200px;">
@@ -438,9 +453,11 @@
                         `);
                     todosMarcadoresUsuario.push(marcador); // Adiciona ao array de referência
                 } else {
-                    console.warn(`⚠️ Usuário ${usuario.nome} com coordenadas inválidas: ${usuario.latitude}, ${usuario.longitude}`);
+                    console.warn(`⚠️ Usuário ${usuario.nome} (ID: ${usuario.id || 'N/A'}, Index: ${index}) com coordenadas inválidas: Latitude: ${usuario.latitude}, Longitude: ${usuario.longitude}`);
                 }
             });
+            
+            console.log(`DEBUG: ${validUsersCount} de ${usuarios.length} usuários têm coordenadas válidas.`);
             
             // Adiciona todos os marcadores carregados ao grupo de clustering
             marcadores.addLayers(todosMarcadoresUsuario);
@@ -448,16 +465,19 @@
             
             // Ajustar zoom para mostrar todos os marcadores de usuário
             if (todosMarcadoresUsuario.length > 0) {
-                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] }); // Aumentei o padding um pouco
+                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
+                console.log('DEBUG: Mapa centralizado nos marcadores de usuários.');
             } else {
-                // Se não houver usuários, centraliza no Brasil
+                // Se não houver usuários com coordenadas válidas, centraliza no Brasil
                 mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
+                console.warn('DEBUG: Nenhum usuário válido com coordenadas para centralizar, mapa centralizado no Brasil.');
             }
             
             console.log(`✅ ${todosMarcadoresUsuario.length} marcadores adicionados ao mapa.`);
             
             // Atualizar estatísticas após carregar
             atualizarEstatisticas();
+            console.log('DEBUG: Fim da função carregarUsuarios().');
         }
         
         function configurarEventosMapa() {
@@ -721,7 +741,11 @@
             
             if (resultados.length === 0) {
                 container.innerHTML = '<div class="resultado-item">Nenhum resultado encontrado</div>';
-            } else {
+            }
+            // else if (resultados.length === 1) { // Se apenas um resultado, vá direto para ele
+            //     irParaLocal(resultados[0].latitude, resultados[0].longitude, resultados[0].nome);
+            // } 
+            else {
                 container.innerHTML = resultados.map(resultado => `
                     <div class="resultado-item" onclick="irParaLocal(${resultado.latitude}, ${resultado.longitude}, '${resultado.nome.replace(/'/g, "\\'")}')">
                         <div class="resultado-nome">${resultado.nome}</div>
@@ -790,8 +814,6 @@
             
             // Verifica marcadores do cluster
             if (clusteringAtivo) {
-                 // Esta é uma aproximação para clusters, pois 'eachLayer' em markerClusterGroup
-                 // pode não retornar apenas os markers visíveis no zoom atual, mas sim os clusters.
                  // Para uma contagem exata, precisaríamos de uma lógica mais complexa
                  // ou desativar o cluster temporariamente para a contagem.
                  // Por simplicidade, vamos contar todos os marcadores de usuário que estão dentro dos limites.
@@ -811,10 +833,11 @@
             document.getElementById('marcadores-visiveis').textContent = visiveis;
         }
 
-        // Funções de controle do mapa (faltando no trecho anterior, adicionando aqui)
+        // Funções de controle do mapa
         function voltarInicio() {
             mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
             limparMarcadorBusca();
+            atualizarEstatisticas(); // Garante que as estatísticas sejam atualizadas
         }
 
         function centralizarUsuarios() {
@@ -824,6 +847,7 @@
                 alert('Nenhum usuário para centralizar no mapa.');
             }
             limparMarcadorBusca();
+            atualizarEstatisticas(); // Garante que as estatísticas sejam atualizadas
         }
 
         function alternarClustering() {
@@ -837,15 +861,14 @@
                 console.log('Clustering ativado novamente.');
             }
             clusteringAtivo = !clusteringAtivo;
-            atualizarEstatisticas(); // Atualiza estatísticas se necessário
+            atualizarEstatisticas(); 
         }
 
         function limparBusca() {
             document.getElementById('busca-geral-input').value = '';
             ocultarResultados();
             limparMarcadorBusca();
-            // Opcional: Voltar para a visualização inicial ou centralizar usuários
-            // centralizarUsuarios();
+            // centralizarUsuarios(); // Você pode descomentar isso se quiser que volte para a visualização de todos os usuários
         }
 
         function obterMinhaLocalizacao() {
@@ -870,6 +893,7 @@
                         }).addTo(mapa)
                             .bindPopup("Sua localização atual").openPopup();
                         mapa.setView([lat, lon], 14);
+                        atualizarEstatisticas(); // Atualiza estatísticas após mover para a localização
                     },
                     (error) => {
                         console.error("Erro ao obter localização: ", error);
@@ -885,7 +909,7 @@
             // Abre o Google Maps com direções para a localização
             // assume que o usuário está no ponto de partida atual (geolocalização ou manual)
             // Se quiser forçar partida, pode adicionar &saddr=LAT,LON
-            window.open(`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`, '_blank');
+            window.open(`http://maps.google.com/maps?daddr=${lat},${lon}`, '_blank');
         }
 
         function buscarProximo(termo) {
