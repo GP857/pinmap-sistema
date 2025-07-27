@@ -342,13 +342,13 @@
     <script>
         // Variáveis globais
         let mapa;
-        let marcadores; // Grupo de marcadores com clustering
+        let marcadores; // Grupo de marcadores com clustering (para usuários)
         let todosMarcadoresUsuario = []; // Array para gerenciar marcadores de usuários individualmente
         let marcadoresBuscaPoi = L.featureGroup(); // Grupo para marcadores de busca de POI (endereço/comércio)
         let userLocationMarker = null; // Marcador para a localização do usuário
         let clusteringAtivo = true;
         let contadorBuscas = 0;
-        let cacheResultados = new Map();
+        let cacheResultadosNominatim = new Map(); // Cache específico para resultados do Nominatim
         let currentTileLayer; // Para gerenciar a camada de mapa ativa
 
         // NOVO: Camadas de mapa
@@ -382,7 +382,8 @@
         const buscaResultadosDiv = document.getElementById('busca-resultados');
 
         // URLs da API de geocodificação
-        const nominatimApiUrl = 'https://nominatim.openstreetmap.org/search?format=json&limit=10&q=';
+        // Adicionado 'countrycodes=br' para priorizar resultados no Brasil
+        const nominatimApiUrl = 'https://nominatim.openstreetmap.org/search?format=json&limit=10&countrycodes=br&q=';
 
         // --- Funções de Inicialização e Lógica do Mapa ---
 
@@ -397,36 +398,38 @@
             // Adiciona um controle de zoom personalizado (opcional, para um visual mais limpo)
             L.control.zoom({ position: 'topright' }).addTo(mapa);
 
-
             // Define a camada inicial
             currentTileLayer = camadasMapa.light;
             currentTileLayer.addTo(mapa);
 
-            // Inicializa o grupo de marcadores (clustering)
+            // Inicializa o grupo de marcadores (clustering) para usuários
             marcadores = L.markerClusterGroup();
             mapa.addLayer(marcadores);
 
-            // Adiciona o grupo de marcadores de busca de POI
+            // Adiciona o grupo de marcadores de busca de POI (endereços externos)
             mapa.addLayer(marcadoresBuscaPoi);
 
-            carregarMarcadoresUsuario();
+            // Carrega e exibe os marcadores de usuário ao iniciar
+            carregarMarcadoresUsuario(); 
             atualizarEstatisticas();
 
             // Eventos do mapa para atualizar estatísticas
             mapa.on('zoomend moveend', atualizarEstatisticas);
             
             // Evento para atualizar o número de marcadores visíveis no cluster
-            if (clusteringAtivo) {
-                 marcadores.on('clusterclick', function (a) {
-                    a.layer.zoomToBounds();
-                });
-                marcadores.on('add remove', atualizarEstatisticas); // Atualiza quando marcadores são adicionados/removidos do cluster
-            }
+            marcadores.on('clusterclick', function (a) {
+                a.layer.zoomToBounds();
+            });
+            // O evento 'add remove' no marcadores (cluster) só reflete a adição/remoção do grupo inteiro, não dos individuais
+            // Para marcadores visíveis, a lógica de contagem na 'atualizarEstatisticas' é mais relevante
         }
 
         function carregarMarcadoresUsuario() {
             if (typeof usuarios !== 'undefined' && Array.isArray(usuarios)) {
-                todosMarcadoresUsuario = []; // Limpa array antes de recarregar
+                // Limpa os marcadores existentes antes de recarregar, caso esta função seja chamada novamente
+                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m)); // Garante remoção do mapa
+                marcadores.clearLayers(); // Limpa o cluster
+                todosMarcadoresUsuario = []; // Zera o array
 
                 usuarios.forEach(usuario => {
                     if (usuario.lat && usuario.lon) {
@@ -440,13 +443,14 @@
                     }
                 });
 
-                // Adiciona marcadores ao grupo de cluster ou diretamente ao mapa
+                // Adiciona marcadores ao grupo de cluster ou diretamente ao mapa, conforme o estado
                 if (clusteringAtivo) {
                     marcadores.addLayers(todosMarcadoresUsuario);
                 } else {
                     todosMarcadoresUsuario.forEach(m => m.addTo(mapa));
                 }
                 document.getElementById('total-usuarios-mapa').textContent = usuarios.length;
+                atualizarEstatisticas(); // Atualiza após carregar os usuários
             } else {
                 console.warn("Array 'usuarios' não encontrado ou não é um array válido em dados.js");
             }
@@ -455,43 +459,45 @@
         function atualizarEstatisticas() {
             document.getElementById('zoom-atual').textContent = mapa.getZoom();
             
-            // Contagem de marcadores visíveis:
             let visiveis = 0;
             if (clusteringAtivo) {
-                // Leaflet.markercluster não tem um método direto para 'marcadores visíveis no viewport'.
-                // Isso pode ser complexo. Para simplificar, vou contar todos os marcadores de usuário
-                // e os marcadores de busca se estiverem no mapa.
-                // Uma implementação mais robusta envolveria verificar se cada marcador está dentro dos limites do mapa.
-                // Por agora, vamos assumir que marcadores de usuário são sempre contados (ou a contagem do cluster)
-                // e os de busca se estão no mapa.
-                visiveis = marcadores.getLayers().length; // Retorna o número de marcadores no cluster
+                // Leaflet.markercluster gerencia a visibilidade de seus próprios marcadores agrupados.
+                // A forma mais precisa de contar visíveis é iterar sobre as camadas do clusterGroup
+                // ou usar métodos internos se disponíveis. Para uma estimativa simples, podemos
+                // contar o total de marcadores que ele gerencia.
+                visiveis = marcadores.getLayers().length; // Total de marcadores no cluster (não necessariamente "visíveis" na tela, mas sim "ativos")
             } else {
-                // Se o clustering estiver desativado, contamos os marcadores de usuário e de busca
-                // que realmente estão na tela. (Esta parte é uma simplificação, idealmente
-                // você iteraria sobre `todosMarcadoresUsuario` e `marcadoresBuscaPoi.getLayers()`
-                // e usaria `mapa.getBounds().contains(marcador.getLatLng())` para precisão.)
-                visiveis = todosMarcadoresUsuario.length + marcadoresBuscaPoi.getLayers().length;
+                // Se o clustering estiver desativado, contamos os marcadores de usuário individualmente
+                // e os marcadores de busca, se estiverem dentro dos limites do mapa.
+                // Esta é uma contagem mais precisa de marcadores *atualmente renderizados*.
+                const bounds = mapa.getBounds();
+                visiveis = todosMarcadoresUsuario.filter(m => bounds.contains(m.getLatLng())).length;
             }
-            document.getElementById('marcadores-visiveis').textContent = visiveis; // Ajuste conforme a complexidade desejada
+            // Adiciona marcadores de busca visíveis (eles sempre são adicionados diretamente ao mapa)
+            visiveis += marcadoresBuscaPoi.getLayers().filter(m => mapa.getBounds().contains(m.getLatLng())).length;
+
+            if (userLocationMarker && mapa.hasLayer(userLocationMarker) && mapa.getBounds().contains(userLocationMarker.getLatLng())) {
+                visiveis += 1; // Se o marcador de localização do usuário estiver visível
+            }
+
+            document.getElementById('marcadores-visiveis').textContent = visiveis;
         }
 
         // --- Funções de Controle do Mapa ---
 
         function voltarInicio() {
-            mapa.setView([-22.9099, -47.0626], 12); // Centro e zoom iniciais
-            limparBusca(); // Limpa resultados de busca ao voltar ao início
-            if (!clusteringAtivo && todosMarcadoresUsuario.length > 0) {
-                todosMarcadoresUsuario.forEach(m => m.addTo(mapa)); // Garante que os marcadores de usuário apareçam
-            }
+            mapa.setView([-22.9099, -47.0626], 12); // Centro e zoom iniciais para Campinas, SP
+            limparBusca(); // Garante que a busca seja limpa
+            carregarMarcadoresUsuario(); // Garante que os marcadores de usuário sejam exibidos novamente
             atualizarEstatisticas();
         }
 
         function centralizarUsuarios() {
             if (todosMarcadoresUsuario.length > 0) {
                 const group = new L.featureGroup(todosMarcadoresUsuario);
-                mapa.fitBounds(group.getBounds());
+                mapa.fitBounds(group.getBounds(), { padding: [50, 50] }); // Adiciona um padding
             } else {
-                alert('Nenhum usuário para centralizar.');
+                alert('Nenhum usuário para centralizar no mapa.');
             }
             limparBusca(); // Limpa resultados de busca ao centralizar usuários
             atualizarEstatisticas();
@@ -500,20 +506,25 @@
         function alternarClustering() {
             clusteringAtivo = !clusteringAtivo;
             if (clusteringAtivo) {
-                // Remove todos os marcadores de usuário do mapa e adiciona ao cluster
-                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m));
+                // Remove todos os marcadores de usuário do mapa individualmente
+                todosMarcadoresUsuario.forEach(m => {
+                    if (mapa.hasLayer(m)) {
+                        mapa.removeLayer(m);
+                    }
+                });
+                // Adiciona todos ao cluster
                 marcadores.addLayers(todosMarcadoresUsuario);
                 mapa.addLayer(marcadores);
                 console.log("Clustering Ativado");
             } else {
-                // Remove o cluster e adiciona todos os marcadores de usuário diretamente ao mapa
+                // Remove o cluster do mapa
                 mapa.removeLayer(marcadores);
+                // Adiciona todos os marcadores de usuário diretamente ao mapa
                 todosMarcadoresUsuario.forEach(m => m.addTo(mapa));
                 console.log("Clustering Desativado");
             }
-            // Limpa e recarrega os marcadores de busca se houver
-            marcadoresBuscaPoi.clearLayers();
-            buscaResultadosDiv.style.display = 'none';
+            // Limpa resultados de busca e marcadores de busca para evitar confusão
+            limparBusca(); 
             atualizarEstatisticas();
             alert(`Agrupamento de marcadores: ${clusteringAtivo ? 'Ativado' : 'Desativado'}`);
         }
@@ -527,11 +538,24 @@
                 mapa.removeLayer(userLocationMarker);
                 userLocationMarker = null;
             }
-            atualizarEstatisticas();
-            // Re-adiciona os marcadores de usuário se eles foram removidos para uma busca específica
-            if (!clusteringAtivo && todosMarcadoresUsuario.length > 0) {
-                todosMarcadoresUsuario.forEach(m => m.addTo(mapa));
+            
+            // Garante que os marcadores de usuário sejam visíveis novamente
+            // Se o clustering estiver ativo, eles já estão no 'marcadores' (cluster).
+            // Se o clustering estiver desativado, precisamos adicioná-los individualmente.
+            if (!clusteringAtivo) {
+                todosMarcadoresUsuario.forEach(m => {
+                    if (!mapa.hasLayer(m)) { // Adiciona apenas se ainda não estiver no mapa
+                        m.addTo(mapa);
+                    }
+                });
+            } else {
+                // Se o clustering está ativo, certifique-se que o grupo de cluster está no mapa
+                if (!mapa.hasLayer(marcadores)) {
+                    mapa.addLayer(marcadores);
+                }
             }
+            
+            atualizarEstatisticas();
         }
 
         let layoutAtualIndex = 0;
@@ -554,10 +578,13 @@
                         const lon = position.coords.longitude;
                         const userLatLng = L.latLng(lat, lon);
 
-                        // Remove marcador anterior, se houver
+                        // Remove marcador anterior de localização do usuário, se houver
                         if (userLocationMarker) {
                             mapa.removeLayer(userLocationMarker);
                         }
+                        
+                        // Limpa resultados de busca anteriores
+                        limparBusca();
 
                         // Adiciona novo marcador para a localização do usuário
                         userLocationMarker = L.marker(userLatLng).addTo(mapa)
@@ -581,11 +608,9 @@
         // --- Funções de Busca ---
 
         async function realizarBuscaGeral() {
-            const query = buscaInput.value.trim();
+            const query = buscaInput.value.trim().toLowerCase();
             if (query === '') {
-                buscaResultadosDiv.innerHTML = '';
-                buscaResultadosDiv.style.display = 'none';
-                marcadoresBuscaPoi.clearLayers(); // Limpa marcadores de busca se a busca for vazia
+                limparBusca(); // Se a busca estiver vazia, apenas limpa
                 return;
             }
 
@@ -596,41 +621,108 @@
             contadorBuscas++;
             document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas;
 
-            if (cacheResultados.has(query)) {
-                exibirResultadosBusca(cacheResultados.get(query));
-                buscaLoading.style.display = 'none';
-                return;
+            // 1. Ocultar marcadores de usuário temporariamente durante a busca
+            if (clusteringAtivo) {
+                mapa.removeLayer(marcadores); // Remove o grupo de cluster
+            } else {
+                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m)); // Remove marcadores individuais
+            }
+            
+            let resultadosExibidos = false;
+
+            // 2. Buscar nos dados de usuários locais primeiro
+            const resultadosLocais = usuarios.filter(usuario => 
+                usuario.nome.toLowerCase().includes(query) ||
+                (usuario.endereco && usuario.endereco.toLowerCase().includes(query)) ||
+                (usuario.tipo && usuario.tipo.toLowerCase().includes(query))
+            );
+
+            if (resultadosLocais.length > 0) {
+                exibirResultadosLocais(resultadosLocais);
+                resultadosExibidos = true;
             }
 
+            // 3. Se não houver muitos resultados locais ou se a busca for mais genérica, chamar Nominatim
+            // Consideramos chamar Nominatim mesmo que haja resultados locais para permitir POIs/endereços externos.
             try {
-                const response = await fetch(`${nominatimApiUrl}${encodeURIComponent(query)}`);
-                const data = await response.json();
-
-                cacheResultados.set(query, data); // Armazena em cache
-                exibirResultadosBusca(data);
-
+                // Verificação de cache para Nominatim
+                if (cacheResultadosNominatim.has(query)) {
+                    exibirResultadosNominatim(cacheResultadosNominatim.get(query));
+                    resultadosExibidos = true;
+                } else {
+                    const response = await fetch(`${nominatimApiUrl}${encodeURIComponent(query)}`);
+                    const data = await response.json();
+                    cacheResultadosNominatim.set(query, data); // Armazena em cache
+                    if (data.length > 0) {
+                        exibirResultadosNominatim(data);
+                        resultadosExibidos = true;
+                    }
+                }
             } catch (error) {
-                console.error('Erro na busca:', error);
-                buscaResultadosDiv.style.display = 'block';
-                buscaResultadosDiv.innerHTML = '<div style="padding: 10px; color: red;">Erro ao buscar localização. Tente novamente.</div>';
+                console.error('Erro na busca Nominatim:', error);
+                // Não exibe erro fatal, apenas tenta continuar
             } finally {
                 buscaLoading.style.display = 'none';
+                if (!resultadosExibidos) {
+                    buscaResultadosDiv.style.display = 'block';
+                    buscaResultadosDiv.innerHTML = '<div style="padding: 10px; color: #666;">Nenhum resultado encontrado.</div>';
+                }
+                atualizarEstatisticas(); // Atualiza estatísticas após a busca
             }
         }
 
-        function exibirResultadosBusca(resultados) {
-            if (resultados.length === 0) {
-                buscaResultadosDiv.style.display = 'block';
-                buscaResultadosDiv.innerHTML = '<div style="padding: 10px; color: #666;">Nenhum resultado encontrado.</div>';
-                return;
-            }
-
+        function exibirResultadosLocais(resultados) {
             buscaResultadosDiv.style.display = 'block';
-            
-            // Remove marcadores de usuário temporariamente se a busca retornar resultados
-            // e o clustering estiver desativado, para focar nos resultados da busca
-            if (!clusteringAtivo) {
-                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m));
+            const header = document.createElement('div');
+            header.style.padding = '8px 12px';
+            header.style.fontWeight = 'bold';
+            header.style.backgroundColor = '#f0f0f0';
+            header.textContent = `Resultados Locais (${resultados.length}):`;
+            buscaResultadosDiv.appendChild(header);
+
+            resultados.forEach(usuario => {
+                const item = document.createElement('div');
+                item.className = 'resultado-item';
+                item.innerHTML = `
+                    <div class="resultado-nome">${usuario.nome} (Usuário)</div>
+                    <div class="resultado-endereco">${usuario.endereco || 'Endereço não informado'}</div>
+                    <div class="resultado-tipo">${usuario.tipo || 'Geral'}</div>
+                `;
+                item.onclick = () => {
+                    const lat = usuario.lat;
+                    const lon = usuario.lon;
+                    if (!isNaN(lat) && !isNaN(lon)) {
+                        mapa.setView([lat, lon], 17); // Centraliza e dá zoom mais próximo
+                        // Abrir popup do marcador de usuário se ele existir no mapa
+                        const marcadorDoUsuario = todosMarcadoresUsuario.find(m => 
+                            m.getLatLng().lat === lat && m.getLatLng().lng === lon &&
+                            (mapa.hasLayer(m) || (clusteringAtivo && marcadores.hasLayer(m))) // Verifica se o marcador está visível ou no cluster
+                        );
+                        if (marcadorDoUsuario) {
+                            marcadorDoUsuario.openPopup();
+                        } else {
+                            // Se o marcador não estiver no mapa (ex: cluster removido), adicione-o temporariamente
+                            L.marker([lat, lon]).addTo(mapa)
+                               .bindPopup(`<strong>${usuario.nome}</strong> (Usuário)<br>${usuario.endereco || ''}`)
+                               .openPopup();
+                        }
+                        buscaResultadosDiv.style.display = 'none';
+                        atualizarEstatisticas();
+                    }
+                };
+                buscaResultadosDiv.appendChild(item);
+            });
+        }
+
+        function exibirResultadosNominatim(resultados) {
+            if (resultados.length > 0) {
+                buscaResultadosDiv.style.display = 'block';
+                const header = document.createElement('div');
+                header.style.padding = '8px 12px';
+                header.style.fontWeight = 'bold';
+                header.style.backgroundColor = '#f0f0f0';
+                header.textContent = `Resultados Externos (${resultados.length}):`;
+                buscaResultadosDiv.appendChild(header);
             }
 
             resultados.forEach(resultado => {
@@ -659,7 +751,6 @@
                 };
                 buscaResultadosDiv.appendChild(item);
             });
-            atualizarEstatisticas();
         }
 
         // --- Event Listeners ---
@@ -674,6 +765,13 @@
         buscaInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
                 realizarBuscaGeral();
+            }
+        });
+
+        // Event listener para o input de busca (para limpar resultados ao digitar)
+        buscaInput.addEventListener('input', function() {
+            if (this.value.trim() === '') {
+                limparBusca();
             }
         });
     </script>
