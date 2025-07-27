@@ -8255,12 +8255,12 @@ const usuarios = [
     },
     {
         "id": 826,
-        "nome": "Gustavo",
+        "nome": "Gustavo Pinheiro",
         "cidade": "Campinas",
         "estado": "SP",
-        "latitude": -22.8942932,
-        "longitude": -47.0498295,
-        "cep": "13025242",
+        "latitude": -22.84933,
+        "longitude": -47.01613,
+        "cep": "13097-261",
         "pais": "Brasil"
     },
     {
@@ -8418,8 +8418,8 @@ const usuarios = [
         "nome": "Vanessa Mateus",
         "cidade": "Campinas",
         "estado": "SP",
-        "latitude": -22.8942932,
-        "longitude": -47.0498295,
+        "latitude": -22.84933,
+        "longitude": -47.01613,
         "cep": "13097261",
         "pais": "Brasil"
     },
