@@ -341,7 +341,7 @@
         let mapa;
         let marcadores; // Grupo de marcadores com clustering
         let todosMarcadoresUsuario = []; // Array para gerenciar marcadores de usuários individualmente
-        let marcadoresBuscaPoi = L.featureGroup(); // NOVO: Grupo para marcadores de busca de POI (endereço/comércio)
+        let marcadoresBuscaPoi = L.featureGroup(); // Grupo para marcadores de busca de POI (endereço/comércio)
         let userLocationMarker = null; // Marcador para a localização do usuário
         let clusteringAtivo = true;
         let contadorBuscas = 0;
@@ -366,7 +366,7 @@
             }).addTo(mapa);
             
             // Adiciona o grupo de marcadores de POI ao mapa
-            marcadoresBuscaPoi.addTo(mapa); // NOVO: Adiciona o featureGroup ao mapa
+            marcadoresBuscaPoi.addTo(mapa); 
             
             // Criar grupo de marcadores com clustering
             marcadores = L.markerClusterGroup({
@@ -393,7 +393,6 @@
             carregarUsuarios();
             
             // Força o Leaflet a recalcular o tamanho do mapa com um pequeno delay
-            // (Mantido, mas sem a expectativa de que resolva o problema de tiles)
             setTimeout(() => {
                 mapa.invalidateSize(); 
                 console.log('DEBUG: mapa.invalidateSize() chamado com setTimeout.');
@@ -514,7 +513,8 @@
                     }, 500);
                 } else {
                     ocultarResultados();
-                    limparMarcadoresBuscaPoi(); // Limpa ao apagar
+                    limparMarcadoresBuscaPoi(); 
+                    limparMarcadoresUsuarioEncontrado(); // Limpa ao apagar o campo
                 }
             });
             
@@ -545,8 +545,8 @@
         }
 
         async function executarBuscaGeral(termo) {
-            limparMarcadoresBuscaPoi(); // Limpa marcadores de busca anteriores (POIs e CEP)
-            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuários encontrados da busca anterior
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
             mostrarLoading();
             contadorBuscas++;
             document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas;
@@ -572,7 +572,7 @@
         
         async function buscarEndereco(termo) {
             if (cacheResultados.has(termo)) {
-                mostrarResultados(cacheResultados.get(termo), 'poi'); // Passa o tipo para 'mostrarResultados'
+                mostrarResultados(cacheResultados.get(termo), 'poi'); 
                 return;
             }
             
@@ -604,7 +604,7 @@
             }));
             
             cacheResultados.set(termo, resultados);
-            mostrarResultados(resultados, 'poi'); // Passa o tipo 'poi'
+            mostrarResultados(resultados, 'poi'); 
         }
 
         async function buscarCep(cep) {
@@ -637,15 +637,14 @@
                     const lon = parseFloat(nominatimData[0].lon);
                     const name = nominatimData[0].display_name;
 
-                    // Adaptação para mostrar como POI, mas para um único CEP
                     mostrarResultados([{
                         nome: `CEP ${cleanCep}`,
-                        endereco: viacepData.logradouro ? `${viacepData.logradouro}, ${viacepData.bairro}` : name,
+                        endereco: viacepData.logradouro ? `${viacepData.logradouro}, ${viacepData.bairro || viacepData.localidade}` : name,
                         tipo: '📮 CEP',
                         latitude: lat,
                         longitude: lon,
                         bbox: nominatimData[0].boundingbox
-                    }], 'cep'); // Passa o tipo 'cep'
+                    }], 'cep'); 
 
                 } else {
                     mostrarErro('Não foi possível geocodificar o endereço do CEP no mapa.');
@@ -657,12 +656,11 @@
             }
         }
 
-        // NOVO: Array para armazenar os marcadores de busca de usuários (não do cluster principal)
         let marcadoresUsuarioEncontrado = [];
 
         function buscarUsuarioPorNome(nomeCompleto) {
-            limparMarcadoresBuscaPoi(); // Limpa POIs e CEPs anteriores
-            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuários encontrados
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
 
             const termoLimpo = nomeCompleto.toLowerCase().trim();
             const usuariosEncontrados = usuarios.filter(user =>
@@ -673,7 +671,7 @@
             container.innerHTML = ''; 
 
             if (usuariosEncontrados.length > 0) {
-                const boundsGroup = L.featureGroup(); // Grupo para calcular os limites dos usuários encontrados
+                const boundsGroup = L.featureGroup(); 
                 usuariosEncontrados.forEach(user => {
                     if (user.latitude && user.longitude) {
                         const marker = L.marker([user.latitude, user.longitude], {
@@ -686,10 +684,12 @@
                                 shadowSize: [41, 41]
                             })
                         })
+                            // ALTERAÇÃO AQUI: Pop-up do usuário com nome, CEP e rua
                             .bindPopup(`
                                 <div style="padding: 10px;">
-                                    <strong>${user.nome}</strong><br>
-                                    <small>Usuário: ${user.cidade || ''}, ${user.estado || ''}</small><br>
+                                    <strong>${user.nome || 'Usuário Desconhecido'}</strong><br>
+                                    <small>Rua: ${user.rua || 'Não informada'}</small><br>
+                                    <small>CEP: ${user.cep || 'Não informado'}</small><br>
                                     <button onclick="obterDirecoesPara(${user.latitude}, ${user.longitude})" 
                                             style="margin-top: 8px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
                                         🧭 Direções
@@ -697,10 +697,9 @@
                                 </div>
                             `);
                         marker.addTo(mapa); 
-                        marcadoresUsuarioEncontrado.push(marker); // Adiciona ao novo array para limpar depois
+                        marcadoresUsuarioEncontrado.push(marker); 
                         boundsGroup.addLayer(marker);
 
-                        // Adiciona resultado na lista de busca
                         container.innerHTML += `
                             <div class="resultado-item" onclick="mapa.flyTo([${user.latitude}, ${user.longitude}], 15); ocultarResultados();">
                                 <div class="resultado-nome">${user.nome}</div>
@@ -726,9 +725,17 @@
         }
         
         function formatarEndereco(item) {
-            const endereco = item.address ? 
-                [item.address.road, item.address.house_number, item.address.suburb, item.address.city, item.address.state, item.address.postcode]
-                    .filter(Boolean).join(', ') : item.display_name;
+            // Tenta construir um endereço mais limpo a partir dos detalhes, senão usa display_name
+            const addressParts = [];
+            if (item.address) {
+                if (item.address.road) addressParts.push(item.address.road);
+                if (item.address.house_number) addressParts.push(item.address.house_number);
+                if (item.address.suburb && item.address.suburb !== item.address.city) addressParts.push(item.address.suburb);
+                if (item.address.city) addressParts.push(item.address.city);
+                if (item.address.state) addressParts.push(item.address.state);
+                if (item.address.postcode) addressParts.push(`CEP ${item.address.postcode}`);
+            }
+            const endereco = addressParts.length > 0 ? addressParts.join(', ') : item.display_name;
             return endereco.length > 80 ? endereco.substring(0, 80) + '...' : endereco;
         }
         
@@ -745,8 +752,16 @@
                 'natural': '🌿 Natural',
                 'landuse': '🗺️ Área',
                 'office': '🏢 Escritório',
-                'bank': '🏦 Banco', // Exemplo para Itaú
-                'atm': '🏧 ATM'
+                'bank': '🏦 Banco', 
+                'atm': '🏧 ATM',
+                'school': '🏫 Escola',
+                'hospital': '🏥 Hospital',
+                'pharmacy': '💊 Farmácia',
+                'restaurant': '🍽️ Restaurante',
+                'fuel': '⛽ Posto',
+                'hotel': '🏨 Hotel',
+                'supermarket': '🛒 Supermercado',
+                'parking': '🅿️ Estacionamento'
             };
             return tipos[classe] || '📍 Local';
         }
@@ -756,25 +771,25 @@
             document.getElementById('busca-resultados').style.display = 'none';
         }
         
-        // MODIFICADO: Função mostrarResultados para adicionar marcadores no mapa
         function mostrarResultados(resultados, tipoBusca = 'default') {
             const container = document.getElementById('busca-resultados');
             const loading = document.getElementById('busca-loading');
             
             loading.style.display = 'none';
-            container.innerHTML = ''; // Limpa resultados anteriores na lista
-            limparMarcadoresBuscaPoi(); // Limpa marcadores de busca anteriores
+            container.innerHTML = ''; 
+            limparMarcadoresBuscaPoi(); 
             
             if (resultados.length === 0) {
                 container.innerHTML = '<div class="resultado-item">Nenhum resultado encontrado</div>';
             } else {
-                const boundsGroup = L.featureGroup(); // Grupo para ajustar o zoom para todos os resultados
+                const boundsGroup = L.featureGroup(); 
                 
                 resultados.forEach(resultado => {
                     if (resultado.latitude && resultado.longitude) {
-                        let iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png'; // Padrão vermelho para POIs
+                        let iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png'; 
                         if (tipoBusca === 'cep') {
-                            iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-purple.png'; // Roxo para CEP
+                            // CORREÇÃO AQUI: Usando "violet" que é o nome correto para o roxo no CDN
+                            iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png'; 
                         }
                         
                         const marker = L.marker([resultado.latitude, resultado.longitude], {
@@ -799,12 +814,11 @@
                                 </div>
                             `);
                         
-                        marcadoresBuscaPoi.addLayer(marker); // Adiciona ao grupo de POIs
-                        boundsGroup.addLayer(marker); // Adiciona ao grupo para calcular o fitBounds
+                        marcadoresBuscaPoi.addLayer(marker); 
+                        boundsGroup.addLayer(marker); 
                         
-                        // Adiciona o resultado à lista visual
                         container.innerHTML += `
-                            <div class="resultado-item" onclick="mapa.flyTo([${resultado.latitude}, ${resultado.longitude}], 15); ocultarResultados();">
+                            <div class="resultado-item" onclick="mapa.flyTo([${resultado.latitude}, ${resultado.longitude}], 15); ocultarResults();">
                                 <div class="resultado-nome">${resultado.nome}</div>
                                 <div class="resultado-endereco">${resultado.endereco}</div>
                                 <div class="resultado-tipo">${resultado.tipo}</div>
@@ -814,7 +828,7 @@
                 });
                 
                 if (boundsGroup.getLayers().length > 0) {
-                    mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] }); // Ajusta o mapa para mostrar todos os marcadores de busca
+                    mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] }); 
                 }
             }
             
@@ -830,39 +844,31 @@
             container.style.display = 'block';
         }
         
-        function ocultarResultados() {
+        function ocultarResults() { // Renomeado para evitar conflito caso haja um 'ocultarResultados' global
             document.getElementById('busca-resultados').style.display = 'none';
             document.getElementById('busca-loading').style.display = 'none';
         }
 
-        // NOVO: Função para limpar os marcadores de POI/CEP
         function limparMarcadoresBuscaPoi() {
-            marcadoresBuscaPoi.clearLayers(); // Limpa todos os marcadores do grupo de POI
+            marcadoresBuscaPoi.clearLayers(); 
         }
         
-        // NOVO: Função para limpar os marcadores de usuários encontrados (do tipo laranja)
         function limparMarcadoresUsuarioEncontrado() {
             marcadoresUsuarioEncontrado.forEach(marker => {
                 mapa.removeLayer(marker);
             });
-            marcadoresUsuarioEncontrado = []; // Limpa o array
+            marcadoresUsuarioEncontrado = []; 
         }
         
-        // Função irParaLocal agora é mais simples, pois mostrarResultados já adiciona os marcadores
-        // É mantida caso você queira um comportamento de "ir para" para algum caso específico.
         function irParaLocal(lat, lon, nome, isUserSearch = false) {
             mapa.flyTo([lat, lon], 15);
-            // Os marcadores já devem ter sido adicionados por mostrarResultados
-            // Ou o marcador de usuário é adicionado por buscarUsuarioPorNome
-            // Esta função pode ser simplificada ou removida se não houver uso direto.
-            ocultarResults(); // Apenas oculta a lista de resultados
+            ocultarResults(); 
         }
         
         function atualizarMarcadoresVisiveis() {
             const bounds = mapa.getBounds();
             let visiveis = 0;
             
-            // Conta marcadores do cluster principal
             if (clusteringAtivo) {
                  todosMarcadoresUsuario.forEach(layer => {
                     if (bounds.contains(layer.getLatLng())) {
@@ -870,7 +876,6 @@
                     }
                 });
             } else {
-                // Se o clustering estiver desativado, todos os marcadores individuais estão no mapa
                 todosMarcadoresUsuario.forEach(layer => {
                     if (mapa.hasLayer(layer) && bounds.contains(layer.getLatLng())) {
                         visiveis++;
@@ -878,14 +883,12 @@
                 });
             }
             
-            // Adiciona a contagem de marcadores de busca de POI/CEP
             marcadoresBuscaPoi.eachLayer(layer => {
                 if (bounds.contains(layer.getLatLng())) {
                     visiveis++;
                 }
             });
 
-            // Adiciona a contagem de marcadores de busca de usuários (laranjas)
             marcadoresUsuarioEncontrado.forEach(marker => {
                  if (mapa.hasLayer(marker) && bounds.contains(marker.getLatLng())) {
                     visiveis++;
@@ -899,8 +902,8 @@
         // Funções de controle do mapa
         function voltarInicio() {
             mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
-            limparMarcadoresBuscaPoi(); // Limpa marcadores de busca
-            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuário encontrado
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
             atualizarEstatisticas(); 
         }
 
@@ -910,8 +913,8 @@
             } else {
                 alert('Nenhum usuário para centralizar no mapa.');
             }
-            limparMarcadoresBuscaPoi(); // Limpa marcadores de busca
-            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuário encontrado
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
             atualizarEstatisticas(); 
         }
 
@@ -931,11 +934,9 @@
 
         function limparBusca() {
             document.getElementById('busca-geral-input').value = '';
-            ocultarResultados();
-            limparMarcadoresBuscaPoi(); // Limpa marcadores de POI/CEP
-            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuário encontrado
-            // Opcional: voltar para a visualização dos usuários ou para o Brasil
-            // voltarInicio(); 
+            ocultarResults();
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
         }
 
         function obterMinhaLocalizacao() {
@@ -960,7 +961,7 @@
                             .bindPopup("Sua localização atual").openPopup();
                         mapa.setView([lat, lon], 14);
                         atualizarEstatisticas(); 
-                        limparMarcadoresBuscaPoi(); // Limpa outros marcadores de busca
+                        limparMarcadoresBuscaPoi(); 
                         limparMarcadoresUsuarioEncontrado();
                     },
                     (error) => {
@@ -974,12 +975,10 @@
         }
 
         function obterDirecoesPara(lat, lon) {
-            // Abre o Google Maps com direções para a localização
-            window.open(`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`, '_blank');
+            window.open(`http://maps.google.com/maps?daddr=$${lat},${lon}`, '_blank');
         }
 
         function buscarProximo(termo) {
-            // Simplesmente coloca o termo na busca e executa
             document.getElementById('busca-geral-input').value = termo;
             executarBuscaGeral(termo);
         }
@@ -990,7 +989,6 @@
             atualizarMarcadoresVisiveis();
         }
 
-        // --- INICIALIZAÇÃO DO MAPA AO CARREGAR A PÁGINA ---
         document.addEventListener('DOMContentLoaded', function() {
             inicializarMapa();
         });
