@@ -305,6 +305,9 @@
         <button class="botao-controle" onclick="limparBusca()" title="Limpar busca">
             🧹 Limpar
         </button>
+        <button class="botao-controle" onclick="alternarLayoutMapa()" title="Alternar entre estilos de mapa">
+            🎨 Layout
+        </button>
         <button class="botao-controle" onclick="obterMinhaLocalizacao()" title="Encontrar minha localização">
             📍 Minha Localização
         </button>
@@ -347,6 +350,19 @@
         let contadorBuscas = 0;
         let cacheResultados = new Map();
         
+        // NOVO: Camadas de mapa
+        const camadasMapa = {
+            'light': L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.4',
+                noWrap: true
+            }),
+            'dark': L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.4',
+                noWrap: true
+            })
+        };
+        let camadaAtual = 'light'; // Inicia com o tema claro
+        
         // Coordenadas aproximadas para Campinas, SP (usadas para priorizar buscas)
         const CAMPINAS_VIEWBOX = [-47.2, -23.0, -46.8, -22.7]; // [min_lon, min_lat, max_lon, max_lat]
         const BRASIL_CENTER = [-14.235, -51.925]; // Centro do Brasil
@@ -359,11 +375,8 @@
             // Criar mapa centrado inicialmente no Brasil
             mapa = L.map('mapa').setView(BRASIL_CENTER, BRASIL_ZOOM);
             
-            // Adicionar camada do mapa (Mantendo CartoDB Positron como sugerido)
-            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-                attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
-                noWrap: true
-            }).addTo(mapa);
+            // Adicionar camada inicial (Light)
+            camadasMapa[camadaAtual].addTo(mapa);
             
             // Adiciona o grupo de marcadores de POI ao mapa
             marcadoresBuscaPoi.addTo(mapa); 
@@ -411,17 +424,10 @@
         }
         
         function carregarUsuarios() {
-            // Debug logs
             console.log('DEBUG: Início da função carregarUsuarios().');
-            console.log('DEBUG: Tipo de "usuarios":', typeof usuarios);
-            console.log('DEBUG: É um array "usuarios"?', Array.isArray(usuarios));
-            console.log('DEBUG: Comprimento de "usuarios":', usuarios ? usuarios.length : 'não definido');
-
-
             if (typeof usuarios === 'undefined' || !Array.isArray(usuarios) || usuarios.length === 0) {
                 console.error('❌ Dados de usuários não encontrados, inválidos ou vazios. Verifique dados.js');
                 document.getElementById('total-usuarios-mapa').textContent = 'Erro!';
-                // Definir um centro e zoom padrão se não houver dados
                 mapa.setView(BRASIL_CENTER, BRASIL_ZOOM); 
                 return;
             }
@@ -430,7 +436,7 @@
             
             // Limpa os marcadores existentes antes de recarregar
             marcadores.clearLayers();
-            todosMarcadoresUsuario = []; // Limpa o array de referência
+            todosMarcadoresUsuario = []; 
             
             let validUsersCount = 0; 
             
@@ -457,7 +463,7 @@
                                 </div>
                             </div>
                         `);
-                    todosMarcadoresUsuario.push(marcador); // Adiciona ao array de referência
+                    todosMarcadoresUsuario.push(marcador); 
                 } else {
                     console.warn(`⚠️ Usuário ${usuario.nome} (ID: ${usuario.id || 'N/A'}, Index: ${index}) com coordenadas inválidas: Latitude: ${usuario.latitude}, Longitude: ${usuario.longitude}`);
                 }
@@ -465,35 +471,28 @@
             
             console.log(`DEBUG: ${validUsersCount} de ${usuarios.length} usuários têm coordenadas válidas.`);
             
-            // Adiciona todos os marcadores carregados ao grupo de clustering
             marcadores.addLayers(todosMarcadoresUsuario);
             mapa.addLayer(marcadores);
             
-            // Ajustar zoom para mostrar todos os marcadores de usuário
             if (todosMarcadoresUsuario.length > 0) {
                 mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
                 console.log('DEBUG: Mapa centralizado nos marcadores de usuários.');
             } else {
-                // Se não houver usuários com coordenadas válidas, centraliza no Brasil
                 mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
                 console.warn('DEBUG: Nenhum usuário válido com coordenadas para centralizar, mapa centralizado no Brasil.');
             }
             
             console.log(`✅ ${todosMarcadoresUsuario.length} marcadores adicionados ao mapa.`);
-            
-            // Atualizar estatísticas após carregar
             atualizarEstatisticas();
             console.log('DEBUG: Fim da função carregarUsuarios().');
         }
         
         function configurarEventosMapa() {
-            // Atualizar zoom quando mudar
             mapa.on('zoomend', function() {
                 document.getElementById('zoom-atual').textContent = mapa.getZoom();
                 atualizarMarcadoresVisiveis();
             });
             
-            // Atualizar marcadores visíveis quando mover
             mapa.on('moveend', atualizarMarcadoresVisiveis);
         }
         
@@ -502,7 +501,6 @@
             const btnBuscar = document.getElementById('busca-geral-btn');
             let debounceTimer = null;
             
-            // Busca em tempo real (debounced)
             input.addEventListener('input', (e) => {
                 clearTimeout(debounceTimer);
                 const termo = e.target.value.trim();
@@ -512,13 +510,12 @@
                         executarBuscaGeral(termo);
                     }, 500);
                 } else {
-                    ocultarResultados();
+                    ocultarResults();
                     limparMarcadoresBuscaPoi(); 
-                    limparMarcadoresUsuarioEncontrado(); // Limpa ao apagar o campo
+                    limparMarcadoresUsuarioEncontrado(); 
                 }
             });
             
-            // Busca ao clicar no botão
             btnBuscar.addEventListener('click', () => {
                 const termo = input.value.trim();
                 if (termo) {
@@ -526,7 +523,6 @@
                 }
             });
             
-            // Busca ao pressionar Enter
             input.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
                     const termo = input.value.trim();
@@ -536,10 +532,9 @@
                 }
             });
             
-            // Fechar resultados ao clicar fora
             document.addEventListener('click', (e) => {
                 if (!e.target.closest('.sistema-busca-container') && !e.target.closest('.leaflet-popup')) {
-                    ocultarResultados();
+                    ocultarResults();
                 }
             });
         }
@@ -684,7 +679,6 @@
                                 shadowSize: [41, 41]
                             })
                         })
-                            // ALTERAÇÃO AQUI: Pop-up do usuário com nome, CEP e rua
                             .bindPopup(`
                                 <div style="padding: 10px;">
                                     <strong>${user.nome || 'Usuário Desconhecido'}</strong><br>
@@ -701,7 +695,7 @@
                         boundsGroup.addLayer(marker);
 
                         container.innerHTML += `
-                            <div class="resultado-item" onclick="mapa.flyTo([${user.latitude}, ${user.longitude}], 15); ocultarResultados();">
+                            <div class="resultado-item" onclick="mapa.flyTo([${user.latitude}, ${user.longitude}], 15); ocultarResults();">
                                 <div class="resultado-nome">${user.nome}</div>
                                 <div class="resultado-endereco">${user.cidade || ''}, ${user.estado || ''}</div>
                                 <div class="resultado-tipo">👤 Usuário</div>
@@ -725,7 +719,6 @@
         }
         
         function formatarEndereco(item) {
-            // Tenta construir um endereço mais limpo a partir dos detalhes, senão usa display_name
             const addressParts = [];
             if (item.address) {
                 if (item.address.road) addressParts.push(item.address.road);
@@ -788,7 +781,6 @@
                     if (resultado.latitude && resultado.longitude) {
                         let iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png'; 
                         if (tipoBusca === 'cep') {
-                            // CORREÇÃO AQUI: Usando "violet" que é o nome correto para o roxo no CDN
                             iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png'; 
                         }
                         
@@ -844,7 +836,7 @@
             container.style.display = 'block';
         }
         
-        function ocultarResults() { // Renomeado para evitar conflito caso haja um 'ocultarResultados' global
+        function ocultarResults() { 
             document.getElementById('busca-resultados').style.display = 'none';
             document.getElementById('busca-loading').style.display = 'none';
         }
@@ -939,6 +931,20 @@
             limparMarcadoresUsuarioEncontrado(); 
         }
 
+        // NOVO: Função para alternar o layout do mapa
+        function alternarLayoutMapa() {
+            // Remove a camada atual do mapa
+            mapa.removeLayer(camadasMapa[camadaAtual]);
+            
+            // Alterna para a próxima camada
+            camadaAtual = (camadaAtual === 'light') ? 'dark' : 'light';
+            
+            // Adiciona a nova camada ao mapa
+            camadasMapa[camadaAtual].addTo(mapa);
+            
+            console.log(`Layout do mapa alterado para: ${camadaAtual}`);
+        }
+
         function obterMinhaLocalizacao() {
             if ("geolocation" in navigator) {
                 navigator.geolocation.getCurrentPosition(
@@ -951,48 +957,4 @@
                         userLocationMarker = L.marker([lat, lon], {
                             icon: L.icon({
                                 iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png', 
-                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                iconSize: [25, 41],
-                                iconAnchor: [12, 41],
-                                popupAnchor: [1, -34],
-                                shadowSize: [41, 41]
-                            })
-                        }).addTo(mapa)
-                            .bindPopup("Sua localização atual").openPopup();
-                        mapa.setView([lat, lon], 14);
-                        atualizarEstatisticas(); 
-                        limparMarcadoresBuscaPoi(); 
-                        limparMarcadoresUsuarioEncontrado();
-                    },
-                    (error) => {
-                        console.error("Erro ao obter localização: ", error);
-                        alert("Não foi possível obter sua localização. Verifique as permissões do navegador.");
-                    }
-                );
-            } else {
-                alert("Geolocalização não é suportada pelo seu navegador.");
-            }
-        }
-
-        function obterDirecoesPara(lat, lon) {
-            window.open(`http://maps.google.com/maps?daddr=$${lat},${lon}`, '_blank');
-        }
-
-        function buscarProximo(termo) {
-            document.getElementById('busca-geral-input').value = termo;
-            executarBuscaGeral(termo);
-        }
-
-        function atualizarEstatisticas() {
-            document.getElementById('total-usuarios-mapa').textContent = usuarios.length;
-            document.getElementById('zoom-atual').textContent = mapa.getZoom();
-            atualizarMarcadoresVisiveis();
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            inicializarMapa();
-        });
-
-    </script>
-</body>
-</html>
+                                shadowUrl: '
