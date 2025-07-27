@@ -341,7 +341,7 @@
         let mapa;
         let marcadores; // Grupo de marcadores com clustering
         let todosMarcadoresUsuario = []; // Array para gerenciar marcadores de usuários individualmente
-        let marcadorBusca = null; // Marcador para resultados de busca de endereço/POI
+        let marcadoresBuscaPoi = L.featureGroup(); // Grupo para marcadores de busca de POI (endereço/comércio)
         let userLocationMarker = null; // Marcador para a localização do usuário
         let clusteringAtivo = true;
         let contadorBuscas = 0;
@@ -359,11 +359,14 @@
             // Criar mapa centrado inicialmente no Brasil
             mapa = L.map('mapa').setView(BRASIL_CENTER, BRASIL_ZOOM);
             
-            // Adicionar camada do mapa
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors | PINMAP v5.3',
-                noWrap: true // Tenta evitar a repetição infinita do mapa mundi
+            // Adicionar camada do mapa (Mantendo CartoDB Positron como sugerido)
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
+                noWrap: true
             }).addTo(mapa);
+            
+            // Adiciona o grupo de marcadores de POI ao mapa
+            marcadoresBuscaPoi.addTo(mapa); 
             
             // Criar grupo de marcadores com clustering
             marcadores = L.markerClusterGroup({
@@ -389,6 +392,12 @@
             // Carregar usuários
             carregarUsuarios();
             
+            // Força o Leaflet a recalcular o tamanho do mapa com um pequeno delay
+            setTimeout(() => {
+                mapa.invalidateSize(); 
+                console.log('DEBUG: mapa.invalidateSize() chamado com setTimeout.');
+            }, 100);
+
             // Configurar eventos do mapa
             configurarEventosMapa();
             
@@ -402,20 +411,32 @@
         }
         
         function carregarUsuarios() {
-            if (typeof usuarios === 'undefined' || !Array.isArray(usuarios)) {
-                console.error('❌ Dados de usuários não encontrados ou inválidos. Verifique dados.js');
+            // Debug logs
+            console.log('DEBUG: Início da função carregarUsuarios().');
+            console.log('DEBUG: Tipo de "usuarios":', typeof usuarios);
+            console.log('DEBUG: É um array "usuarios"?', Array.isArray(usuarios));
+            console.log('DEBUG: Comprimento de "usuarios":', usuarios ? usuarios.length : 'não definido');
+
+
+            if (typeof usuarios === 'undefined' || !Array.isArray(usuarios) || usuarios.length === 0) {
+                console.error('❌ Dados de usuários não encontrados, inválidos ou vazios. Verifique dados.js');
                 document.getElementById('total-usuarios-mapa').textContent = 'Erro!';
+                // Definir um centro e zoom padrão se não houver dados
+                mapa.setView(BRASIL_CENTER, BRASIL_ZOOM); 
                 return;
             }
             
-            console.log(`📊 Carregando ${usuarios.length} usuários`);
+            console.log(`📊 Carregando ${usuarios.length} usuários.`); 
             
             // Limpa os marcadores existentes antes de recarregar
             marcadores.clearLayers();
             todosMarcadoresUsuario = []; // Limpa o array de referência
             
-            usuarios.forEach((usuario) => {
+            let validUsersCount = 0; 
+            
+            usuarios.forEach((usuario, index) => {
                 if (usuario.latitude && usuario.longitude) {
+                    validUsersCount++; 
                     const marcador = L.marker([usuario.latitude, usuario.longitude])
                         .bindPopup(`
                             <div style="padding: 12px; min-width: 200px;">
@@ -438,9 +459,11 @@
                         `);
                     todosMarcadoresUsuario.push(marcador); // Adiciona ao array de referência
                 } else {
-                    console.warn(`⚠️ Usuário ${usuario.nome} com coordenadas inválidas: ${usuario.latitude}, ${usuario.longitude}`);
+                    console.warn(`⚠️ Usuário ${usuario.nome} (ID: ${usuario.id || 'N/A'}, Index: ${index}) com coordenadas inválidas: Latitude: ${usuario.latitude}, Longitude: ${usuario.longitude}`);
                 }
             });
+            
+            console.log(`DEBUG: ${validUsersCount} de ${usuarios.length} usuários têm coordenadas válidas.`);
             
             // Adiciona todos os marcadores carregados ao grupo de clustering
             marcadores.addLayers(todosMarcadoresUsuario);
@@ -448,16 +471,19 @@
             
             // Ajustar zoom para mostrar todos os marcadores de usuário
             if (todosMarcadoresUsuario.length > 0) {
-                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] }); // Aumentei o padding um pouco
+                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
+                console.log('DEBUG: Mapa centralizado nos marcadores de usuários.');
             } else {
-                // Se não houver usuários, centraliza no Brasil
+                // Se não houver usuários com coordenadas válidas, centraliza no Brasil
                 mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
+                console.warn('DEBUG: Nenhum usuário válido com coordenadas para centralizar, mapa centralizado no Brasil.');
             }
             
             console.log(`✅ ${todosMarcadoresUsuario.length} marcadores adicionados ao mapa.`);
             
             // Atualizar estatísticas após carregar
             atualizarEstatisticas();
+            console.log('DEBUG: Fim da função carregarUsuarios().');
         }
         
         function configurarEventosMapa() {
@@ -487,6 +513,8 @@
                     }, 500);
                 } else {
                     ocultarResultados();
+                    limparMarcadoresBuscaPoi(); 
+                    limparMarcadoresUsuarioEncontrado(); // Limpa ao apagar o campo
                 }
             });
             
@@ -517,24 +545,21 @@
         }
 
         async function executarBuscaGeral(termo) {
-            limparMarcadorBusca(); // Limpa marcador de busca anterior
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
             mostrarLoading();
             contadorBuscas++;
             document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas;
 
             try {
-                // Verifica se é um CEP (8 dígitos, com ou sem hífen)
                 const isCep = /^\d{5}-?\d{3}$/.test(termo);
-                // Verifica se o termo parece um nome de usuário (não contém números ou palavras de endereço comum)
                 const isPossibleUserName = !/\d/.test(termo) && !/rua|avenida|av\.|travessa|alameda|estrada|rodovia|praça|praca|cep|bairro|cidade|estado/i.test(termo);
 
                 if (isCep) {
                     await buscarCep(termo);
                 } else if (isPossibleUserName && usuarios.some(u => u.nome && u.nome.toLowerCase().includes(termo.toLowerCase()))) {
-                    // Só busca como usuário se realmente encontrar um match
                     buscarUsuarioPorNome(termo);
                 } else {
-                    // Se não for CEP nem nome de usuário provável, busca como endereço/POI
                     await buscarEndereco(termo);
                 }
             } catch (error) {
@@ -546,18 +571,16 @@
         }
         
         async function buscarEndereco(termo) {
-            // Verificar cache
             if (cacheResultados.has(termo)) {
-                mostrarResultados(cacheResultados.get(termo));
+                mostrarResultados(cacheResultados.get(termo), 'poi'); 
                 return;
             }
             
-            // Buscar via API Nominatim, restringindo e priorizando Brasil/Campinas
             const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(termo)}` +
-                        `&format=json&limit=8&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
-                        `&countrycodes=br` + // Limita a busca ao Brasil
-                        `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + // Prioriza resultados dentro da caixa de Campinas
-                        `&bounded=0`; // Usar 0 para dar preferência, mas não restringir totalmente a caixa
+                        `&format=json&limit=15&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
+                        `&countrycodes=br` + 
+                        `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + 
+                        `&bounded=0`; 
 
             const response = await fetch(url, {
                 headers: {
@@ -571,7 +594,6 @@
             
             const dados = await response.json();
             
-            // Processar resultados
             const resultados = dados.map(item => ({
                 nome: extrairNome(item),
                 endereco: formatarEndereco(item),
@@ -581,22 +603,18 @@
                 bbox: item.boundingbox
             }));
             
-            // Salvar no cache
             cacheResultados.set(termo, resultados);
-            
-            // Mostrar resultados
-            mostrarResultados(resultados);
+            mostrarResultados(resultados, 'poi'); 
         }
 
         async function buscarCep(cep) {
-            const cleanCep = cep.replace(/\D/g, ''); // Remove não-dígitos
+            const cleanCep = cep.replace(/\D/g, ''); 
             if (cleanCep.length !== 8) {
                 mostrarErro('CEP inválido. Digite 8 dígitos numéricos.');
                 return;
             }
 
             try {
-                // 1. Consultar ViaCEP para obter dados do endereço
                 const viacepUrl = `https://viacep.com.br/ws/${cleanCep}/json/`;
                 const viacepResponse = await fetch(viacepUrl);
                 const viacepData = await viacepResponse.json();
@@ -606,8 +624,6 @@
                     return;
                 }
 
-                // 2. Usar dados do ViaCEP para geocodificar com Nominatim (para lat/lng)
-                // Incluímos Brasil explicitamente para ajudar o Nominatim
                 const addressQuery = `${viacepData.logradouro || ''}, ${viacepData.bairro || ''}, ${viacepData.localidade || ''}, ${viacepData.uf || ''}, Brasil`;
                 const nominatimUrl = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(addressQuery)}&format=json&limit=1&countrycodes=br`;
 
@@ -621,8 +637,15 @@
                     const lon = parseFloat(nominatimData[0].lon);
                     const name = nominatimData[0].display_name;
 
-                    irParaLocal(lat, lon, `CEP ${cleanCep} - ${viacepData.logradouro || viacepData.localidade || 'Localidade'}`);
-                    ocultarResultados(); // Oculta resultados da busca se um CEP for encontrado e marcado
+                    mostrarResultados([{
+                        nome: `CEP ${cleanCep}`,
+                        endereco: viacepData.logradouro ? `${viacepData.logradouro}, ${viacepData.bairro || viacepData.localidade}` : name,
+                        tipo: '📮 CEP',
+                        latitude: lat,
+                        longitude: lon,
+                        bbox: nominatimData[0].boundingbox
+                    }], 'cep'); 
+
                 } else {
                     mostrarErro('Não foi possível geocodificar o endereço do CEP no mapa.');
                 }
@@ -633,8 +656,11 @@
             }
         }
 
+        let marcadoresUsuarioEncontrado = [];
+
         function buscarUsuarioPorNome(nomeCompleto) {
-            limparMarcadorBusca(); // Limpa marcador de busca de localização
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
 
             const termoLimpo = nomeCompleto.toLowerCase().trim();
             const usuariosEncontrados = usuarios.filter(user =>
@@ -642,15 +668,15 @@
             );
 
             const container = document.getElementById('busca-resultados');
-            container.innerHTML = ''; // Limpa resultados anteriores
+            container.innerHTML = ''; 
 
             if (usuariosEncontrados.length > 0) {
-                const tempMarkers = []; // Marcadores temporários para ajuste de zoom
+                const boundsGroup = L.featureGroup(); 
                 usuariosEncontrados.forEach(user => {
                     if (user.latitude && user.longitude) {
                         const marker = L.marker([user.latitude, user.longitude], {
                             icon: L.icon({
-                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png', // Ícone laranja para usuários encontrados
+                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png', 
                                 shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                 iconSize: [25, 41],
                                 iconAnchor: [12, 41],
@@ -658,13 +684,24 @@
                                 shadowSize: [41, 41]
                             })
                         })
-                            .bindPopup(`<strong>${user.nome}</strong><br>Usuário encontrado: ${user.cidade || ''}`);
-                        marker.addTo(mapa); // Adiciona diretamente ao mapa, não ao cluster
-                        tempMarkers.push(marker);
+                            // ALTERAÇÃO AQUI: Pop-up do usuário com nome, CEP e rua
+                            .bindPopup(`
+                                <div style="padding: 10px;">
+                                    <strong>${user.nome || 'Usuário Desconhecido'}</strong><br>
+                                    <small>Rua: ${user.rua || 'Não informada'}</small><br>
+                                    <small>CEP: ${user.cep || 'Não informado'}</small><br>
+                                    <button onclick="obterDirecoesPara(${user.latitude}, ${user.longitude})" 
+                                            style="margin-top: 8px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🧭 Direções
+                                    </button>
+                                </div>
+                            `);
+                        marker.addTo(mapa); 
+                        marcadoresUsuarioEncontrado.push(marker); 
+                        boundsGroup.addLayer(marker);
 
-                        // Adiciona resultado na lista de busca
                         container.innerHTML += `
-                            <div class="resultado-item" onclick="irParaLocal(${user.latitude}, ${user.longitude}, '${user.nome.replace(/'/g, "\\'")}', true)">
+                            <div class="resultado-item" onclick="mapa.flyTo([${user.latitude}, ${user.longitude}], 15); ocultarResultados();">
                                 <div class="resultado-nome">${user.nome}</div>
                                 <div class="resultado-endereco">${user.cidade || ''}, ${user.estado || ''}</div>
                                 <div class="resultado-tipo">👤 Usuário</div>
@@ -673,8 +710,8 @@
                     }
                 });
                 
-                if (tempMarkers.length > 0) {
-                    mapa.fitBounds(new L.featureGroup(tempMarkers).getBounds(), { padding: [50, 50] });
+                if (boundsGroup.getLayers().length > 0) {
+                    mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] });
                 }
                 container.style.display = 'block';
             } else {
@@ -688,7 +725,17 @@
         }
         
         function formatarEndereco(item) {
-            const endereco = item.display_name;
+            // Tenta construir um endereço mais limpo a partir dos detalhes, senão usa display_name
+            const addressParts = [];
+            if (item.address) {
+                if (item.address.road) addressParts.push(item.address.road);
+                if (item.address.house_number) addressParts.push(item.address.house_number);
+                if (item.address.suburb && item.address.suburb !== item.address.city) addressParts.push(item.address.suburb);
+                if (item.address.city) addressParts.push(item.address.city);
+                if (item.address.state) addressParts.push(item.address.state);
+                if (item.address.postcode) addressParts.push(`CEP ${item.address.postcode}`);
+            }
+            const endereco = addressParts.length > 0 ? addressParts.join(', ') : item.display_name;
             return endereco.length > 80 ? endereco.substring(0, 80) + '...' : endereco;
         }
         
@@ -703,7 +750,18 @@
                 'place': '📍 Local',
                 'building': '🏢 Edifício',
                 'natural': '🌿 Natural',
-                'landuse': '🗺️ Área'
+                'landuse': '🗺️ Área',
+                'office': '🏢 Escritório',
+                'bank': '🏦 Banco', 
+                'atm': '🏧 ATM',
+                'school': '🏫 Escola',
+                'hospital': '🏥 Hospital',
+                'pharmacy': '💊 Farmácia',
+                'restaurant': '🍽️ Restaurante',
+                'fuel': '⛽ Posto',
+                'hotel': '🏨 Hotel',
+                'supermarket': '🛒 Supermercado',
+                'parking': '🅿️ Estacionamento'
             };
             return tipos[classe] || '📍 Local';
         }
@@ -713,22 +771,65 @@
             document.getElementById('busca-resultados').style.display = 'none';
         }
         
-        function mostrarResultados(resultados) {
+        function mostrarResultados(resultados, tipoBusca = 'default') {
             const container = document.getElementById('busca-resultados');
             const loading = document.getElementById('busca-loading');
             
             loading.style.display = 'none';
+            container.innerHTML = ''; 
+            limparMarcadoresBuscaPoi(); 
             
             if (resultados.length === 0) {
                 container.innerHTML = '<div class="resultado-item">Nenhum resultado encontrado</div>';
             } else {
-                container.innerHTML = resultados.map(resultado => `
-                    <div class="resultado-item" onclick="irParaLocal(${resultado.latitude}, ${resultado.longitude}, '${resultado.nome.replace(/'/g, "\\'")}')">
-                        <div class="resultado-nome">${resultado.nome}</div>
-                        <div class="resultado-endereco">${resultado.endereco}</div>
-                        <div class="resultado-tipo">${resultado.tipo}</div>
-                    </div>
-                `).join('');
+                const boundsGroup = L.featureGroup(); 
+                
+                resultados.forEach(resultado => {
+                    if (resultado.latitude && resultado.longitude) {
+                        let iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png'; 
+                        if (tipoBusca === 'cep') {
+                            // CORREÇÃO AQUI: Usando "violet" que é o nome correto para o roxo no CDN
+                            iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png'; 
+                        }
+                        
+                        const marker = L.marker([resultado.latitude, resultado.longitude], {
+                            icon: L.icon({
+                                iconUrl: iconUrl,
+                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                iconSize: [25, 41],
+                                iconAnchor: [12, 41],
+                                popupAnchor: [1, -34],
+                                shadowSize: [41, 41]
+                            })
+                        })
+                            .bindPopup(`
+                                <div style="padding: 10px; min-width: 180px;">
+                                    <h5 style="margin: 0 0 5px 0; color: #333;">${resultado.nome}</h5>
+                                    <p style="margin: 0 0 5px 0; font-size: 12px; color: #555;">${resultado.endereco}</p>
+                                    <span style="font-size: 11px; color: #777;">${resultado.tipo}</span>
+                                    <button onclick="obterDirecoesPara(${resultado.latitude}, ${resultado.longitude})" 
+                                            style="margin-top: 8px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🧭 Direções
+                                    </button>
+                                </div>
+                            `);
+                        
+                        marcadoresBuscaPoi.addLayer(marker); 
+                        boundsGroup.addLayer(marker); 
+                        
+                        container.innerHTML += `
+                            <div class="resultado-item" onclick="mapa.flyTo([${resultado.latitude}, ${resultado.longitude}], 15); ocultarResults();">
+                                <div class="resultado-nome">${resultado.nome}</div>
+                                <div class="resultado-endereco">${resultado.endereco}</div>
+                                <div class="resultado-tipo">${resultado.tipo}</div>
+                            </div>
+                        `;
+                    }
+                });
+                
+                if (boundsGroup.getLayers().length > 0) {
+                    mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] }); 
+                }
             }
             
             container.style.display = 'block';
@@ -743,78 +844,67 @@
             container.style.display = 'block';
         }
         
-        function ocultarResultados() {
+        function ocultarResults() { // Renomeado para evitar conflito caso haja um 'ocultarResultados' global
             document.getElementById('busca-resultados').style.display = 'none';
             document.getElementById('busca-loading').style.display = 'none';
         }
 
-        function limparMarcadorBusca() {
-            if (marcadorBusca) {
-                mapa.removeLayer(marcadorBusca);
-                marcadorBusca = null;
-            }
+        function limparMarcadoresBuscaPoi() {
+            marcadoresBuscaPoi.clearLayers(); 
+        }
+        
+        function limparMarcadoresUsuarioEncontrado() {
+            marcadoresUsuarioEncontrado.forEach(marker => {
+                mapa.removeLayer(marker);
+            });
+            marcadoresUsuarioEncontrado = []; 
         }
         
         function irParaLocal(lat, lon, nome, isUserSearch = false) {
-            // Centralizar mapa no local
-            mapa.setView([lat, lon], 15);
-            
-            limparMarcadorBusca(); // Remove marcador de busca anterior
-
-            // Adicionar novo marcador
-            const iconUrl = isUserSearch 
-                ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-orange.png' // Laranja para usuário
-                : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png'; // Vermelho para localização/CEP
-            
-            marcadorBusca = L.marker([lat, lon], {
-                icon: L.icon({
-                    iconUrl: iconUrl,
-                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                    iconSize: [25, 41],
-                    iconAnchor: [12, 41],
-                    popupAnchor: [1, -34],
-                    shadowSize: [41, 41]
-                })
-            }).addTo(mapa);
-            
-            // Mostrar popup
-            marcadorBusca.bindPopup(`<strong>📍 ${nome}</strong><br><small>${isUserSearch ? 'Usuário encontrado' : 'Local encontrado pela busca'}</small>`).openPopup();
-            
-            // Ocultar resultados
-            ocultarResultados();
+            mapa.flyTo([lat, lon], 15);
+            ocultarResults(); 
         }
         
         function atualizarMarcadoresVisiveis() {
             const bounds = mapa.getBounds();
             let visiveis = 0;
             
-            // Verifica marcadores do cluster
             if (clusteringAtivo) {
-                 // Esta é uma aproximação para clusters, pois 'eachLayer' em markerClusterGroup
-                 // pode não retornar apenas os markers visíveis no zoom atual, mas sim os clusters.
-                 // Para uma contagem exata, precisaríamos de uma lógica mais complexa
-                 // ou desativar o cluster temporariamente para a contagem.
-                 // Por simplicidade, vamos contar todos os marcadores de usuário que estão dentro dos limites.
-                todosMarcadoresUsuario.forEach(layer => {
+                 todosMarcadoresUsuario.forEach(layer => {
                     if (bounds.contains(layer.getLatLng())) {
                         visiveis++;
                     }
                 });
             } else {
-                // Se o clustering estiver desativado, todos os marcadores individuais estão no mapa
                 todosMarcadoresUsuario.forEach(layer => {
                     if (mapa.hasLayer(layer) && bounds.contains(layer.getLatLng())) {
                         visiveis++;
                     }
                 });
             }
+            
+            marcadoresBuscaPoi.eachLayer(layer => {
+                if (bounds.contains(layer.getLatLng())) {
+                    visiveis++;
+                }
+            });
+
+            marcadoresUsuarioEncontrado.forEach(marker => {
+                 if (mapa.hasLayer(marker) && bounds.contains(marker.getLatLng())) {
+                    visiveis++;
+                }
+            });
+
+
             document.getElementById('marcadores-visiveis').textContent = visiveis;
         }
 
-        // Funções de controle do mapa (faltando no trecho anterior, adicionando aqui)
+        // Funções de controle do mapa
         function voltarInicio() {
             mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
-            limparMarcadorBusca();
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
+            atualizarEstatisticas(); 
         }
 
         function centralizarUsuarios() {
@@ -823,29 +913,30 @@
             } else {
                 alert('Nenhum usuário para centralizar no mapa.');
             }
-            limparMarcadorBusca();
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
+            atualizarEstatisticas(); 
         }
 
         function alternarClustering() {
             if (clusteringAtivo) {
-                mapa.removeLayer(marcadores); // Remove o grupo de cluster
-                todosMarcadoresUsuario.forEach(m => m.addTo(mapa)); // Adiciona marcadores individualmente
+                mapa.removeLayer(marcadores); 
+                todosMarcadoresUsuario.forEach(m => m.addTo(mapa)); 
                 console.log('Clustering desativado. Marcadores individuais exibidos.');
             } else {
-                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m)); // Remove marcadores individuais
-                mapa.addLayer(marcadores); // Adiciona o grupo de cluster
+                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m)); 
+                mapa.addLayer(marcadores); 
                 console.log('Clustering ativado novamente.');
             }
             clusteringAtivo = !clusteringAtivo;
-            atualizarEstatisticas(); // Atualiza estatísticas se necessário
+            atualizarEstatisticas(); 
         }
 
         function limparBusca() {
             document.getElementById('busca-geral-input').value = '';
-            ocultarResultados();
-            limparMarcadorBusca();
-            // Opcional: Voltar para a visualização inicial ou centralizar usuários
-            // centralizarUsuarios();
+            ocultarResults();
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
         }
 
         function obterMinhaLocalizacao() {
@@ -854,13 +945,12 @@
                     (position) => {
                         const lat = position.coords.latitude;
                         const lon = position.coords.longitude;
-                        irParaLocal(lat, lon, "Sua Localização", false); // Usar cor padrão para sua localização
                         if (userLocationMarker) {
                             mapa.removeLayer(userLocationMarker);
                         }
                         userLocationMarker = L.marker([lat, lon], {
                             icon: L.icon({
-                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png', // Ícone azul para localização do usuário
+                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png', 
                                 shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
                                 iconSize: [25, 41],
                                 iconAnchor: [12, 41],
@@ -870,6 +960,9 @@
                         }).addTo(mapa)
                             .bindPopup("Sua localização atual").openPopup();
                         mapa.setView([lat, lon], 14);
+                        atualizarEstatisticas(); 
+                        limparMarcadoresBuscaPoi(); 
+                        limparMarcadoresUsuarioEncontrado();
                     },
                     (error) => {
                         console.error("Erro ao obter localização: ", error);
@@ -882,14 +975,10 @@
         }
 
         function obterDirecoesPara(lat, lon) {
-            // Abre o Google Maps com direções para a localização
-            // assume que o usuário está no ponto de partida atual (geolocalização ou manual)
-            // Se quiser forçar partida, pode adicionar &saddr=LAT,LON
-            window.open(`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`, '_blank');
+            window.open(`http://maps.google.com/maps?daddr=$${lat},${lon}`, '_blank');
         }
 
         function buscarProximo(termo) {
-            // Simplesmente coloca o termo na busca e executa
             document.getElementById('busca-geral-input').value = termo;
             executarBuscaGeral(termo);
         }
@@ -898,10 +987,8 @@
             document.getElementById('total-usuarios-mapa').textContent = usuarios.length;
             document.getElementById('zoom-atual').textContent = mapa.getZoom();
             atualizarMarcadoresVisiveis();
-            // Contador de buscas já é atualizado em executarBuscaGeral
         }
 
-        // --- INICIALIZAÇÃO DO MAPA AO CARREGAR A PÁGINA ---
         document.addEventListener('DOMContentLoaded', function() {
             inicializarMapa();
         });
