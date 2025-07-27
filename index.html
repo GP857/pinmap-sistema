@@ -1,382 +1,370 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PINMAP - Mapa Interativo com Busca</title>
-    
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
-    
+    <title>PINMAP v5.3 - Mapa Interativo com Busca</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
     <style>
         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f7f6;
+            color: #333;
         }
-        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .container {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px;
+            gap: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar {
+            width: 300px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            flex-shrink: 0;
+        }
+        .map-container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
         #mapa {
-            height: 100vh; /* Garante que o mapa ocupe 100% da altura da viewport */
-            width: 100%; /* Garante que o mapa ocupe 100% da largura da viewport */
+            height: 100%; /* Ocupa o restante do espaço disponível */
+            min-height: 500px; /* Garante uma altura mínima */
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            background-color: #e0e0e0; /* Cor de fundo enquanto carrega */
         }
-        
-        /* Sistema de Busca */
-        .sistema-busca-container {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
+        .controles-mapa, .estatisticas-mapa {
             background: white;
             padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            min-width: 320px;
-            max-width: 400px;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.2);
-        }
-        
-        .busca-header {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 12px;
-            font-weight: 600;
-            color: #2c3e50;
-            font-size: 14px;
-        }
-        
-        .busca-input-container {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 10px;
-        }
-        
-        .busca-input {
-            flex: 1;
-            padding: 12px;
-            border: 2px solid #e1e8ed;
             border-radius: 8px;
-            font-size: 14px;
-            transition: all 0.2s;
-            outline: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
-        
-        .busca-input:focus {
-            border-color: #007bff;
-            box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
-        }
-        
-        .busca-btn {
-            padding: 12px 16px;
-            background: linear-gradient(135deg, #007bff, #0056b3);
+        .controles-mapa button, .sistema-busca-container button, #estiloMapa {
+            background-color: #3498db;
             color: white;
             border: none;
-            border-radius: 8px;
+            padding: 10px 15px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 14px;
-            font-weight: 500;
-            transition: all 0.2s;
-            min-width: 80px;
+            transition: background-color 0.2s;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 8px; /* Espaço entre botões */
         }
-        
-        .busca-btn:hover {
-            background: linear-gradient(135deg, #0056b3, #004085);
-            transform: translateY(-1px);
+        .controles-mapa button:hover, .sistema-busca-container button:hover, #estiloMapa:hover {
+            background-color: #2980b9;
         }
-        
-        .busca-btn:active {
-            transform: translateY(0);
+        .sistema-busca-container {
+            position: relative;
+            margin-bottom: 15px;
         }
-        
-        .busca-loading {
-            display: none;
-            text-align: center;
-            padding: 15px;
-            color: #666;
+        .sistema-busca-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
             font-size: 14px;
         }
-        
-        .busca-resultados {
-            display: none;
-            max-height: 250px;
+        #busca-resultados {
+            position: absolute;
+            width: 100%;
+            max-height: 300px;
             overflow-y: auto;
-            border-top: 1px solid #eee;
-            margin-top: 10px;
+            background-color: white;
+            border: 1px solid #eee;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            z-index: 1000;
+            display: none; /* Escondido por padrão */
         }
-        
         .resultado-item {
-            padding: 12px;
-            border-bottom: 1px solid #f0f0f0;
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
             cursor: pointer;
-            transition: all 0.2s;
-            font-size: 13px;
+            transition: background-color 0.2s;
         }
-        
-        .resultado-item:hover {
-            background: #f8f9fa;
-            transform: translateX(2px);
-        }
-        
         .resultado-item:last-child {
             border-bottom: none;
         }
-        
+        .resultado-item:hover {
+            background-color: #f0f0f0;
+        }
         .resultado-nome {
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 4px;
-        }
-        
-        .resultado-endereco {
-            color: #666;
-            font-size: 12px;
-            line-height: 1.3;
-        }
-        
-        .resultado-tipo {
-            display: inline-block;
-            background: #e3f2fd;
-            color: #1976d2;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 10px;
-            margin-top: 4px;
-        }
-        
-        /* Controles do mapa */
-        .controles-mapa {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .controles-mapa select {
-            background: white;
-            border: none;
-            padding: 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.2s;
-            min-width: 120px;
-            font-weight: 500;
-            -webkit-appearance: none; /* Remove padrão do navegador */
-            -moz-appearance: none;    /* Remove padrão do navegador */
-            appearance: none;         /* Remove padrão do navegador */
-            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292%22%20height%3D%22292%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M287%2069L146%20208%205%2069z%22%2F%3E%3C%2Fsvg%3E'); /* Seta customizada */
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-            background-size: 12px;
-        }
-        
-        .controles-mapa select:hover {
-            background: #f8f9fa;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-
-        .botao-controle {
-            background: white;
-            border: none;
-            padding: 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-            cursor: pointer;
-            font-size: 14px;
-            transition: all 0.2s;
-            min-width: 120px;
-            font-weight: 500;
-        }
-        
-        .botao-controle:hover {
-            background: #f8f9fa;
-            transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-
-        /* Info overlay */
-        .info-overlay {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            background: rgba(255,255,255,0.95);
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-            max-width: 300px;
-            z-index: 1000;
-            backdrop-filter: blur(10px);
-        }
-        
-        .info-overlay h4 {
-            margin: 0 0 12px 0;
-            color: #2c3e50;
-            font-size: 16px;
-        }
-        
-        .info-stats {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
-            font-size: 12px;
-        }
-        
-        .stat-item {
-            text-align: center;
-            padding: 10px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            transition: all 0.2s;
-        }
-        
-        .stat-item:hover {
-            background: #e9ecef;
-        }
-        
-        .stat-number {
             font-weight: bold;
-            font-size: 18px;
-            color: #007bff;
+            color: #333;
             margin-bottom: 2px;
         }
-        
-        .stat-label {
+        .resultado-endereco, .resultado-tipo {
+            font-size: 12px;
             color: #666;
-            font-size: 11px;
         }
-        
-        /* Responsivo */
-        @media (max-width: 768px) {
-            .sistema-busca-container {
-                top: 10px;
-                left: 10px;
-                right: 10px;
-                min-width: auto;
-                max-width: none;
-            }
-            
-            .controles-mapa {
-                top: 10px;
-                right: 10px;
-            }
+        #busca-loading {
+            text-align: center;
+            padding: 10px;
+            font-style: italic;
+            color: #555;
+            display: none;
+        }
+        .estatisticas-mapa p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .estatisticas-mapa strong {
+            color: #2c3e50;
+        }
 
-            .info-overlay {
-                bottom: 10px;
-                left: 10px;
-                right: 10px;
-                max-width: none;
-            }
-            
-            .info-stats {
-                grid-template-columns: repeat(4, 1fr);
-            }
+        /* Estilos para os clusters de marcadores */
+        .marker-cluster-small div {
+            background-color: rgba(181, 226, 140, 0.6);
         }
-        
-        /* Loading animation */
-        .loading-spinner {
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            border: 2px solid #f3f3f3;
-            border-top: 2px solid #007bff;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
+        .marker-cluster-small span {
+            background-color: rgba(181, 226, 140, 0.8);
         }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+
+        .marker-cluster-medium div {
+            background-color: rgba(241, 211, 87, 0.6);
+        }
+        .marker-cluster-medium span {
+            background-color: rgba(241, 211, 87, 0.8);
+        }
+
+        .marker-cluster-large div {
+            background-color: rgba(253, 156, 115, 0.6);
+        }
+        .marker-cluster-large span {
+            background-color: rgba(253, 156, 115, 0.8);
+        }
+
+        .marker-cluster div, .marker-cluster span {
+            width: 30px;
+            height: 30px;
+            margin-left: 5px;
+            margin-top: 5px;
+            border-radius: 15px;
+            font-size: 12px;
+            line-height: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            background-color: #2c3e50;
+            border: 2px solid #fff;
         }
     </style>
 </head>
 <body>
-    <div id="mapa"></div>
-    
-    <div class="sistema-busca-container">
-        <div class="busca-header">
-            🔍 Buscar Localização
-        </div>
-        <div class="busca-input-container">
-            <input type="text" 
-                   id="busca-geral-input" 
-                   class="busca-input"
-                   placeholder="Digite nome, rua, cidade, CEP..."
-                   autocomplete="off">
-            <button id="busca-geral-btn" class="busca-btn">Buscar</button>
-        </div>
-        <div id="busca-loading" class="busca-loading">
-            <span class="loading-spinner"></span> Buscando...
-        </div>
-        <div id="busca-resultados" class="busca-resultados"></div>
+    <header>
+        <h1>PINMAP v5.3 - Mapa de Usuários</h1>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sistema-busca-container">
+                <h3>🔍 Buscar Localização ou Usuário</h3>
+                <input type="text" id="busca-geral-input" placeholder="Rua, Cidade, CEP ou Nome do Usuário...">
+                <button id="busca-geral-btn">Buscar</button>
+                <div id="busca-loading">Carregando...</div>
+                <div id="busca-resultados">
+                    </div>
+            </div>
+
+            <div class="controles-mapa">
+                <h3>🛠️ Controles do Mapa</h3>
+                <button onclick="voltarInicio()">Voltar ao Brasil</button>
+                <button onclick="centralizarUsuarios()">Centralizar Usuários</button>
+                <button onclick="alternarClustering()">Alternar Agrupamento</button>
+                <button onclick="limparBusca()">Limpar Busca</button>
+                <button onclick="obterMinhaLocalizacao()">Minha Localização</button>
+                
+                <label for="estiloMapa" style="font-size: 13px; font-weight: 500; color: #333; margin-top: 10px; display: block;">Estilo do Mapa:</label>
+                <select id="estiloMapa" onchange="alternarEstiloMapa()" 
+                        style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; margin-top: 5px; margin-bottom: 0;">
+                    <option value="light">Claro</option>
+                    <option value="dark">Escuro</option>
+                    <option value="voyager">Detalhado</option>
+                </select>
+            </div>
+
+            <div class="estatisticas-mapa">
+                <h3>📈 Estatísticas</h3>
+                <p>Total de Usuários: <strong id="total-usuarios-mapa">0</strong></p>
+                <p>Marcadores Visíveis: <strong id="marcadores-visiveis">0</strong></p>
+                <p>Zoom Atual: <strong id="zoom-atual">0</strong></p>
+                <p>Buscas Realizadas: <strong id="buscas-realizadas-mapa">0</strong></p>
+            </div>
+        </aside>
+        <main class="map-container">
+            <div id="mapa"></div>
+        </main>
     </div>
-    
-    <div class="controles-mapa">
-        <button class="botao-controle" onclick="voltarInicio()" title="Voltar ao início">
-            🏠 Início
-        </button>
-        <button class="botao-controle" onclick="centralizarUsuarios()" title="Ver todos os usuários">
-            👥 Usuários
-        </button>
-        <button class="botao-controle" onclick="alternarClustering()" title="Alternar clustering">
-            🔗 Cluster
-        </button>
-        <button class="botao-controle" onclick="limparBusca()" title="Limpar busca">
-            🧹 Limpar
-        </button>
-        <button class="botao-controle" onclick="obterMinhaLocalizacao()" title="Encontrar minha localização">
-            📍 Minha Localização
-        </button>
-        <select id="estiloMapa" class="botao-controle" onchange="alternarEstiloMapa()">
-            <option value="light">☀️ Light (Padrão)</option>
-            <option value="dark">🌙 Dark</option>
-            <option value="voyager">🌈 Voyager</option>
-        </select>
-    </div>
-    
-    <div class="info-overlay">
-        <h4>📊 Estatísticas do Mapa</h4>
-        <div class="info-stats">
-            <div class="stat-item">
-                <div class="stat-number" id="total-usuarios-mapa">0</div>
-                <div class="stat-label">Usuários</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="buscas-realizadas-mapa">0</div>
-                <div class="stat-label">Buscas</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="zoom-atual">4</div>
-                <div class="stat-label">Zoom</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="marcadores-visiveis">0</div>
-                <div class="stat-label">Visíveis</div>
-            </div>
-        </div>
-    </div>
-    
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-    <script src="dados.js"></script>
-    
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjGwYSPwrKfMwtYVHVLEoNFAj/SsN+"
+     crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="dados.js"></script> 
     <script>
-        // Variáveis globais
+        // --- Variáveis Globais ---
         let mapa;
-        let marcadores; // Grupo de marcadores com clustering (para usuários)
-        let todosMarcadoresUsuario = []; // Array para gerenciar marcadores de usuários individualmente
-        let marcadoresBuscaPoi = L.featureGroup(); // Grupo para marcadores de busca de POI (endereço/comércio/CEP)
-        let userLocationMarker = null; // Marcador para a localização do usuário
+        let marcadores; // Grupo de marcadores com clustering
+        let todosMarcadoresUsuario = []; // Array para referenciar todos os marcadores de usuário individualmente
+        let marcadoresBuscaPoi = L.featureGroup(); // Grupo para marcadores de busca (POIs, CEPs)
+        let userLocationMarker = null; // Marcador da localização do usuário
         let clusteringAtivo = true;
         let contadorBuscas = 0;
-        let cacheResultados = new Map();
+        let cacheResultados = new Map(); // Cache para resultados de busca
+        let camadasMapa; // Objeto para armazenar as camadas de mapa disponíveis
+        let camadaAtual; // Variável para a camada de mapa ativa
+        let estiloAtual = 'light'; // Estilo de mapa padrão
 
-        // Camadas de mapa
-        let camadasMapa
+        // Coordenadas aproximadas para Campinas, SP (usadas para priorizar buscas)
+        const CAMPINAS_VIEWBOX = [-47.2, -23.0, -46.8, -22.7]; // [min_lon, min_lat, max_lon, max_lat]
+        const BRASIL_CENTER = [-14.235, -51.925]; // Centro do Brasil
+        const BRASIL_ZOOM = 4; // Zoom para o Brasil
+
+        // --- Início dos Ícones Customizados ---
+        const userIcon = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png', // Exemplo: marcador verde para usuários
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+
+        const cepIcon = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-purple.png', // Roxo para CEP
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+
+        const commerceIcon = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png', // Vermelho para Comércio/POIs
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        });
+        // --- Fim dos Ícones Customizados ---
+
+        // Inicializar mapa
+        function inicializarMapa() {
+            console.log('🗺️ Inicializando PINMAP com Sistema de Busca');
+            
+            // Criar mapa centrado inicialmente no Brasil
+            mapa = L.map('mapa').setView(BRASIL_CENTER, BRASIL_ZOOM);
+            
+            // Definir as camadas de mapa disponíveis (sem Positron)
+            camadasMapa = {
+                light: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
+                    noWrap: true,
+                    maxZoom: 20
+                }),
+                dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                    attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
+                    noWrap: true,
+                    maxZoom: 20
+                }),
+                voyager: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                    attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
+                    noWrap: true,
+                    maxZoom: 20
+                })
+            };
+
+            // Adicionar camada padrão (light) ao mapa
+            camadaAtual = camadasMapa.light;
+            camadaAtual.addTo(mapa);
+            
+            // Adiciona o grupo de marcadores de POI ao mapa
+            marcadoresBuscaPoi.addTo(mapa); 
+            
+            // Criar grupo de marcadores com clustering
+            marcadores = L.markerClusterGroup({
+                chunkedLoading: true,
+                maxClusterRadius: 50,
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                zoomToBoundsOnClick: true,
+                iconCreateFunction: function(cluster) {
+                    const count = cluster.getChildCount();
+                    let className = 'marker-cluster-small';
+                    if (count > 100) className = 'marker-cluster-large';
+                    else if (count > 20) className = 'marker-cluster-medium';
+                    
+                    return new L.DivIcon({
+                        html: '<div><span>' + count + '</span></div>',
+                        className: 'marker-cluster ' + className,
+                        iconSize: new L.Point(40, 40)
+                    });
+                }
+            });
+            
+            // Carregar usuários
+            carregarUsuarios();
+            
+            // Força o Leaflet a recalcular o tamanho do mapa com um pequeno delay
+            setTimeout(() => {
+                mapa.invalidateSize(); 
+                console.log('DEBUG: mapa.invalidateSize() chamado com setTimeout.');
+            }, 100);
+
+            // Configurar eventos do mapa
+            configurarEventosMapa();
+            
+            // Configurar sistema de busca
+            configurarSistemaBusca();
+            
+            // Atualizar estatísticas iniciais
+            atualizarEstatisticas();
+            
+            console.log('✅ PINMAP inicializado com sucesso');
+        }
+        
+        function alternarEstiloMapa() {
+            const selectElement = document.getElementById('estiloMapa');
+            const novoEstilo = selectElement.value;
+
+            // Remove a camada atual do mapa
+            if (camadaAtual) {
+                mapa.removeLayer(camadaAtual);
+            }
+
+            // Define a nova camada e o estilo atual
+            camadaAtual = camadasMapa
