@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINMAP - Mapa Interativo</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIINR9F9edUaC3htGYNEJ1T+POmpCSAApMF/7S1sFwR--5xL/PrqUPSSJ"
+     crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow: hidden; /* Evita barras de rolagem indesejadas */
+        }
+        
+        #mapa {
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .controles-mapa {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .botao-controle {
+            background: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+            display: flex; /* Para alinhar ícone e texto */
+            align-items: center;
+            justify-content: center;
+            gap: 5px; /* Espaço entre ícone e texto */
+        }
+        
+        .botao-controle:hover {
+            background: #f0f0f0;
+            transform: translateY(-1px);
+        }
+        
+        .info-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255,255,255,0.95);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+            max-width: 300px;
+            z-index: 1000;
+        }
+        
+        .info-overlay h4 {
+            margin: 0 0 10px 0;
+            color: #333;
+            text-align: center;
+        }
+        
+        .info-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 12px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 8px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .stat-number {
+            font-weight: bold;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 2px;
+        }
+        
+        /* Estilos do sistema de busca (injetados via JS ou definidos aqui para clareza) */
+        .sistema-busca-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            max-width: calc(100% - 40px);
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .busca-input-wrapper {
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #busca-endereco-input {
+            flex-grow: 1;
+            border: none;
+            outline: none;
+            padding: 8px 10px;
+            font-size: 16px;
+        }
+
+        .busca-botoes {
+            display: flex;
+            gap: 5px;
+        }
+
+        .busca-botoes button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            font-size: 18px;
+            color: #555;
+            transition: color 0.2s;
+        }
+
+        .busca-botoes button:hover {
+            color: #007bff;
+        }
+
+        #limpar-busca-btn {
+            display: none; /* Escondido por padrão */
+        }
+
+        #busca-resultados, #busca-loading {
+            display: none;
+            max-height: 300px;
+            overflow-y: auto;
+            border-top: 1px solid #eee;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        #busca-loading {
+            text-align: center;
+            padding: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .resultado-item {
+            padding: 12px 15px;
+            border-bottom: 1px solid #f5f5f5;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .resultado-item:last-child {
+            border-bottom: none;
+        }
+
+        .resultado-item:hover {
+            background-color: #f8f8f8;
+        }
+
+        .resultado-item strong {
+            display: block;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .resultado-item span {
+            display: block;
+            font-size: 12px;
+            color: #777;
+            margin-top: 2px;
+        }
+
+        .resultado-item.erro {
+            color: #dc3545;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .leaflet-popup-content {
+            padding: 15px !important;
+        }
+        .popup-busca h3 {
+            margin-top: 0;
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        .popup-busca p {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+        .popup-busca .popup-acao {
+            display: block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 13px;
+            transition: background-color 0.2s;
+        }
+        .popup-busca .popup-acao:hover {
+            background: #0056b3;
+        }
+
+        /* Marcador de busca personalizado */
+        .marcador-busca {
+            /* estilos definidos no JS */
+        }
+        
+        @media (max-width: 768px) {
+            .controles-mapa {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .info-overlay {
+                bottom: 10px;
+                left: 10px;
+                max-width: calc(100% - 20px);
+            }
+            
+            .sistema-busca-container {
+                top: 10px;
+                left: 10px;
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="mapa"></div>
+    
+    <div class="controles-mapa">
+        <button class="botao-controle" onclick="voltarInicio()" title="Voltar ao início">
+            🏠 Início
+        </button>
+        <button class="botao-controle" onclick="centralizarUsuarios()" title="Ver todos os usuários">
+            👥 Usuários
+        </button>
+        <button class="botao-controle" onclick="alternarClustering()" title="Alternar agrupamento de marcadores">
+            🔗 Cluster
+        </button>
+        <button class="botao-controle" onclick="exportarDados()" title="Exportar dados de estatísticas">
+            📊 Exportar
+        </button>
+    </div>
+    
+    <div class="info-overlay">
+        <h4>📊 Estatísticas do Mapa</h4>
+        <div class="info-stats">
+            <div class="stat-item">
+                <div class="stat-number" id="total-usuarios-mapa">0</div>
+                <div class="stat-label">Usuários</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="buscas-realizadas-mapa">0</div>
+                <div class="stat-label">Buscas</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="zoom-atual">0</div>
+                <div class="stat-label">Zoom</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="marcadores-visiveis">0</div>
+                <div class="stat-label">Visíveis</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-Rksm5RenBEKsPO7t7tBPQz<span><br/></span>LzwaaQyHF9kNpwxzl+t/HSY"
+     crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
+    <script src="dados.js"></script> 
+    <script src="sistema_busca_mapa.js"></script> 
+    
+    <script>
+        // Variáveis globais
+        let mapa;
+        let marcadores;
+        let clusteringAtivo = true;
+        let contadorBuscas = 0;
+        let sistemaBusca; // Adicionado para acesso global ao sistema de busca
+
+        // Inicializar mapa
+        function inicializarMapa() {
+            console.log('🗺️ Inicializando PINMAP com Sistema de Busca');
+            
+            // 1. Criar mapa centrado no mundo, prevenindo imagens repetidas
+            mapa = L.map('mapa', {
+                worldCopyJump: true // Evita cópias repetidas do mapa mundi
+            }).setView([0, 0], 2); // Centraliza no equador com zoom para visão mundial
+            
+            // Adicionar camada do mapa OpenStreetMap
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors | PINMAP v5.2',
+                maxZoom: 19, // Ajuste conforme necessário
+            }).addTo(mapa);
+            
+            // Criar grupo de marcadores com clustering
+            marcadores = L.markerClusterGroup({
+                chunkedLoading: true,
+                maxClusterRadius: 50,
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                zoomToBoundsOnClick: true
+            });
+            
+            // 3. Carregar usuários (e ajustar o mapa depois)
+            carregarUsuarios();
+            
+            // Inicializar sistema de busca (passando a instância do mapa)
+            sistemaBusca = new SistemaBuscaMapa(mapa); // Atribui a variável global
+            
+            // Configurar eventos do mapa
+            configurarEventosMapa();
+            
+            // Atualizar estatísticas iniciais
+            atualizarEstatisticas();
+            
+            console.log('✅ PINMAP inicializado com sucesso');
+        }
+        
+        function carregarUsuarios() {
+            if (typeof usuarios === 'undefined' || !Array.isArray(usuarios)) {
+                console.error('❌ Dados de usuários não encontrados ou em formato inválido. Verifique dados.js');
+                document.getElementById('total-usuarios-mapa').textContent = 'Erro!';
+                return;
+            }
+            
+            console.log(`⏳ Carregando ${usuarios.length} usuários...`);
+            
+            usuarios.forEach((usuario, index) => {
+                // Adicione validação extra para dados do usuário
+                if (typeof usuario.latitude === 'number' && typeof usuario.longitude === 'number' &&
+                    !isNaN(usuario.latitude) && !isNaN(usuario.longitude)) {
+                    
+                    const popupContent = `
+                        <h3>${usuario.nome || 'Usuário Desconhecido'}</h3>
+                        <p><strong>Cidade:</strong> ${usuario.cidade || 'N/A'}</p>
+                        <p><strong>Estado:</strong> ${usuario.estado || 'N/A'}</p>
+                        <p><strong>CEP:</strong> ${usuario.cep || 'N/A'}</p>
+                        ${usuario.id ? `<p><strong>ID:</strong> ${usuario.id}</p>` : ''}
+                        <a href="javascript:void(0)" onclick="obterDirecoesPara(${usuario.latitude}, ${usuario.longitude})" class="popup-acao">Obter Direções</a>
+                    `;
+
+                    const marcador = L.marker([usuario.latitude, usuario.longitude])
+                        .bindPopup(popupContent);
+                    
+                    marcadores.addLayer(marcador);
+                } else {
+                    console.warn(`Usuário ${usuario.id || index} sem coordenadas válidas. Pulando.`);
+                }
+            });
+            
+            mapa.addLayer(marcadores);
+            
+            // Ajustar zoom para mostrar todos os marcadores APÓS todos serem adicionados
+            if (marcadores.getLayers().length > 0) {
+                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] }); // Aumentei o padding para melhor visualização
+            } else {
+                // Se não houver marcadores, o mapa permanece na visão mundial inicial (0,0, zoom 2)
+                console.warn('Nenhum marcador adicionado. Mantendo visão mundial inicial.');
+            }
+            
+            console.log(`✅ ${marcadores.getLayers().length} usuários carregados.`);
+        }
+        
+        function configurarEventosMapa() {
+            // Atualizar zoom quando mudar
+            mapa.on('zoomend', function() {
+                document.getElementById('zoom-atual').textContent = mapa.getZoom();
+                atualizarMarcadoresVisiveis();
+            });
+            
+            // Atualizar marcadores visíveis quando mover
+            mapa.on('moveend', atualizarMarcadoresVisiveis);
+            
+            // Interceptar busca para atualizar contador (já no sistema_busca_mapa.js)
+            // A lógica de contagem agora será feita diretamente no sistema_busca_mapa.js para melhor integração.
+        }
+        
+        function atualizarMarcadoresVisiveis() {
+            const bounds = mapa.getBounds();
+            let visiveis = 0;
+            
+            // Itera sobre os marcadores (ou clusters) que estão visíveis no mapa
+            if (clusteringAtivo) {
+                // Se o clustering está ativo, precisamos iterar sobre os marcadores não agrupados
+                marcadores.eachLayer(function(layer) {
+                    if (bounds.contains(layer.getLatLng())) {
+                        visiveis++;
+                    }
+                });
+            } else {
+                // Se o clustering está desativado, os marcadores estão diretamente no mapa
+                marcadores.eachLayer(function(layer) {
+                    if (mapa.hasLayer(layer) && bounds.contains(layer.getLatLng())) {
+                        visiveis++;
+                    }
+                });
+            }
+            
+            document.getElementById('marcadores-visiveis').textContent = visiveis;
+        }
+        
+        function atualizarEstatisticas() {
+            if (typeof usuarios !== 'undefined') {
+                document.getElementById('total-usuarios-mapa').textContent = usuarios.length;
+            }
+            document.getElementById('zoom-atual').textContent = mapa.getZoom();
+            document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas; // Atualiza contador de buscas
+            atualizarMarcadoresVisiveis();
+        }
+        
+        // Funções de controle
+        function voltarInicio() {
+            // Volta para a página principal (recarrega a página)
+            window.location.reload();
+        }
+        
+        function centralizarUsuarios() {
+            if (marcadores.getLayers().length > 0) {
+                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
+            } else {
+                mapa.setView([0, 0], 2); // Fallback para visão mundial
+            }
+        }
+        
+        function alternarClustering() {
+            if (clusteringAtivo) {
+                mapa.removeLayer(marcadores); // Remove o grupo de clusters
+                // Adiciona cada marcador individualmente ao mapa
+                marcadores.eachLayer(function(layer) {
+                    mapa.addLayer(layer);
+                });
+                clusteringAtivo = false;
+                console.log('🔗 Clustering desativado');
+            } else {
+                // Remove todos os marcadores individuais
+                marcadores.eachLayer(function(layer) {
+                    mapa.removeLayer(layer);
+                });
+                mapa.addLayer(marcadores); // Adiciona o grupo de clusters novamente
+                clusteringAtivo = true;
+                console.log('🔗 Clustering ativado');
+            }
+            atualizarMarcadoresVisiveis(); // Atualiza contagem de visíveis
+        }
+        
+        function exportarDados() {
+            const dados = {
+                totalUsuarios: usuarios.length,
+                buscasRealizadas: contadorBuscas,
+                zoomAtual: mapa.getZoom(),
+                centro: mapa.getCenter(),
+                timestamp: new Date().toISOString()
+            };
+            
+            const blob = new Blob([JSON.stringify(dados, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'pinmap_estatisticas.json';
+            a.click();
+            URL.revokeObjectURL(url);
+            alert('Estatísticas exportadas como pinmap_estatisticas.json');
+        }
+        
+        function buscarProximo(cidade) {
+            // Esta função pode ser chamada de fora, por exemplo, de um popup
+            if (sistemaBusca) {
+                document.getElementById('busca-endereco-input').value = cidade;
+                sistemaBusca.buscarEndereco(cidade);
+            }
+        }
+        
+        function obterDirecoesPara(lat, lng) {
+            // Abre o Google Maps com direções para o ponto selecionado
+            const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+            window.open(url, '_blank');
+        }
+        
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', inicializarMapa);
+    </script>
+</body>
+</html>
