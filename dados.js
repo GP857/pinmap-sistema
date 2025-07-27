@@ -10,7 +10,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.744338,
         "longitude": -47.1767203,
-        "cep": 13145352,
+        "cep": "13145352",
         "pais": "Brasil"
     },
     {
@@ -20,7 +20,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9320985,
         "longitude": -47.0762548,
-        "cep": 13050008,
+        "cep": "13050008",
         "pais": "Brasil"
     },
     {
@@ -30,7 +30,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8533533,
         "longitude": -47.0469649,
-        "cep": 13087500,
+        "cep": "13087500",
         "pais": "Brasil"
     },
     {
@@ -40,7 +40,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9421519,
         "longitude": -47.0230088,
-        "cep": 13045260,
+        "cep": "13045260",
         "pais": "Brasil"
     },
     {
@@ -50,7 +50,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322020,
+        "cep": "13322020",
         "pais": "Brasil"
     },
     {
@@ -60,7 +60,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8862883,
         "longitude": -47.2013605,
-        "cep": 13186635,
+        "cep": "13186635",
         "pais": "Brasil"
     },
     {
@@ -70,7 +70,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9826214,
         "longitude": -47.1202832,
-        "cep": 13054421,
+        "cep": "13054421",
         "pais": "Brasil"
     },
     {
@@ -80,7 +80,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9813643,
         "longitude": -46.9938373,
-        "cep": 13276409,
+        "cep": "13276409",
         "pais": "Brasil"
     },
     {
@@ -90,7 +90,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9710829,
         "longitude": -47.1572759,
-        "cep": 13056204,
+        "cep": "13056204",
         "pais": "Brasil"
     },
     {
@@ -100,7 +100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5571965,
         "longitude": -47.3772316,
-        "cep": 13486333,
+        "cep": "13486333",
         "pais": "Brasil"
     },
     {
@@ -110,7 +110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1286709,
         "longitude": -47.2424757,
-        "cep": 13348220,
+        "cep": "13348220",
         "pais": "Brasil"
     },
     {
@@ -120,7 +120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7881625,
         "longitude": -47.1927215,
-        "cep": 13142126,
+        "cep": "13142126",
         "pais": "Brasil"
     },
     {
@@ -130,7 +130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9329629,
         "longitude": -47.0909205,
-        "cep": 13050055,
+        "cep": "13050055",
         "pais": "Brasil"
     },
     {
@@ -140,7 +140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9262061,
         "longitude": -47.1001863,
-        "cep": 13060022,
+        "cep": "13060022",
         "pais": "Brasil"
     },
     {
@@ -150,7 +150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9430521,
         "longitude": -47.0911774,
-        "cep": 13050061,
+        "cep": "13050061",
         "pais": "Brasil"
     },
     {
@@ -160,7 +160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9552089,
         "longitude": -46.9939365,
-        "cep": 13272071,
+        "cep": "13272071",
         "pais": "Brasil"
     },
     {
@@ -170,7 +170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181655,
+        "cep": "13181655",
         "pais": "Brasil"
     },
     {
@@ -180,7 +180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9079159,
         "longitude": -47.0476421,
-        "cep": 13026050,
+        "cep": "13026050",
         "pais": "Brasil"
     },
     {
@@ -190,7 +190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8235953,
         "longitude": -47.2390337,
-        "cep": 13175662,
+        "cep": "13175662",
         "pais": "Brasil"
     },
     {
@@ -200,7 +200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13331600,
+        "cep": "13331600",
         "pais": "Brasil"
     },
     {
@@ -210,7 +210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9841935,
         "longitude": -46.9805303,
-        "cep": 13275616,
+        "cep": "13275616",
         "pais": "Brasil"
     },
     {
@@ -220,7 +220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064862,
+        "cep": "13064862",
         "pais": "Brasil"
     },
     {
@@ -230,7 +230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6996652,
         "longitude": -46.9929159,
-        "cep": 13911062,
+        "cep": "13911062",
         "pais": "Brasil"
     },
     {
@@ -240,7 +240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8639094,
         "longitude": -47.1440188,
-        "cep": 13067356,
+        "cep": "13067356",
         "pais": "Brasil"
     },
     {
@@ -250,7 +250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7283727,
         "longitude": -47.3004621,
-        "cep": 13473040,
+        "cep": "13473040",
         "pais": "Brasil"
     },
     {
@@ -260,7 +260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8238635,
         "longitude": -47.28698,
-        "cep": 13172794,
+        "cep": "13172794",
         "pais": "Brasil"
     },
     {
@@ -270,7 +270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9109054,
         "longitude": -47.0521818,
-        "cep": 13026001,
+        "cep": "13026001",
         "pais": "Brasil"
     },
     {
@@ -280,7 +280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9892034,
         "longitude": -47.1153765,
-        "cep": 13054353,
+        "cep": "13054353",
         "pais": "Brasil"
     },
     {
@@ -290,7 +290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9471187,
         "longitude": -47.032606,
-        "cep": 13045135,
+        "cep": "13045135",
         "pais": "Brasil"
     },
     {
@@ -300,7 +300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1231882,
         "longitude": -47.230564,
-        "cep": 13346480,
+        "cep": "13346480",
         "pais": "Brasil"
     },
     {
@@ -310,7 +310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9278024,
         "longitude": -47.116801,
-        "cep": 13060571,
+        "cep": "13060571",
         "pais": "Brasil"
     },
     {
@@ -320,7 +320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185844,
+        "cep": "13185844",
         "pais": "Brasil"
     },
     {
@@ -330,7 +330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2452332,
         "longitude": -46.8565464,
-        "cep": 13205732,
+        "cep": "13205732",
         "pais": "Brasil"
     },
     {
@@ -340,7 +340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173433,
+        "cep": "13173433",
         "pais": "Brasil"
     },
     {
@@ -350,7 +350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9464264,
         "longitude": -47.0265448,
-        "cep": 13045165,
+        "cep": "13045165",
         "pais": "Brasil"
     },
     {
@@ -360,7 +360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9615427,
         "longitude": -47.0508372,
-        "cep": 13042710,
+        "cep": "13042710",
         "pais": "Brasil"
     },
     {
@@ -370,7 +370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9021291,
         "longitude": -47.1954572,
-        "cep": 13186521,
+        "cep": "13186521",
         "pais": "Brasil"
     },
     {
@@ -380,7 +380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7205895,
         "longitude": -47.3494206,
-        "cep": 13470220,
+        "cep": "13470220",
         "pais": "Brasil"
     },
     {
@@ -390,7 +390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8839734,
         "longitude": -47.2022231,
-        "cep": 13186170,
+        "cep": "13186170",
         "pais": "Brasil"
     },
     {
@@ -400,7 +400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9254342,
         "longitude": -47.1168349,
-        "cep": 13060367,
+        "cep": "13060367",
         "pais": "Brasil"
     },
     {
@@ -410,7 +410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8909327,
         "longitude": -46.9803095,
-        "cep": 13105672,
+        "cep": "13105672",
         "pais": "Brasil"
     },
     {
@@ -420,7 +420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8794004,
         "longitude": -47.2045346,
-        "cep": 13186013,
+        "cep": "13186013",
         "pais": "Brasil"
     },
     {
@@ -430,7 +430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9339272,
         "longitude": -47.0590281,
-        "cep": 13040089,
+        "cep": "13040089",
         "pais": "Brasil"
     },
     {
@@ -440,7 +440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9526727,
         "longitude": -47.1634092,
-        "cep": 13059194,
+        "cep": "13059194",
         "pais": "Brasil"
     },
     {
@@ -450,7 +450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9254688,
         "longitude": -47.0733412,
-        "cep": 13030540,
+        "cep": "13030540",
         "pais": "Brasil"
     },
     {
@@ -460,7 +460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6147446,
         "longitude": -47.422346,
-        "cep": 13481274,
+        "cep": "13481274",
         "pais": "Brasil"
     },
     {
@@ -470,7 +470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9778664,
         "longitude": -47.1435873,
-        "cep": 13056400,
+        "cep": "13056400",
         "pais": "Brasil"
     },
     {
@@ -480,7 +480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8980637,
         "longitude": -47.0675449,
-        "cep": 13020110,
+        "cep": "13020110",
         "pais": "Brasil"
     },
     {
@@ -490,7 +490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13451190,
+        "cep": "13451190",
         "pais": "Brasil"
     },
     {
@@ -500,7 +500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5540246,
         "longitude": -47.4524335,
-        "cep": 13483506,
+        "cep": "13483506",
         "pais": "Brasil"
     },
     {
@@ -510,7 +510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9761443,
         "longitude": -46.9884262,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -520,7 +520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9031228,
         "longitude": -47.2468119,
-        "cep": 13188191,
+        "cep": "13188191",
         "pais": "Brasil"
     },
     {
@@ -530,7 +530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8839734,
         "longitude": -47.2022231,
-        "cep": 13186020,
+        "cep": "13186020",
         "pais": "Brasil"
     },
     {
@@ -540,7 +540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8136892,
         "longitude": -47.2296625,
-        "cep": 13177292,
+        "cep": "13177292",
         "pais": "Brasil"
     },
     {
@@ -550,7 +550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9641762,
         "longitude": -47.1703876,
-        "cep": 13057201,
+        "cep": "13057201",
         "pais": "Brasil"
     },
     {
@@ -560,7 +560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9466673,
         "longitude": -47.1207725,
-        "cep": 13060773,
+        "cep": "13060773",
         "pais": "Brasil"
     },
     {
@@ -570,7 +570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -580,7 +580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8790882,
         "longitude": -47.1961951,
-        "cep": 13186330,
+        "cep": "13186330",
         "pais": "Brasil"
     },
     {
@@ -590,7 +590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741347,
         "longitude": -46.894846,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -600,7 +600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9541865,
         "longitude": -47.0769735,
-        "cep": 13051410,
+        "cep": "13051410",
         "pais": "Brasil"
     },
     {
@@ -610,7 +610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -620,7 +620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.976843,
         "longitude": -47.1164158,
-        "cep": 13054541,
+        "cep": "13054541",
         "pais": "Brasil"
     },
     {
@@ -630,7 +630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9380711,
         "longitude": -47.116636,
-        "cep": 13060740,
+        "cep": "13060740",
         "pais": "Brasil"
     },
     {
@@ -640,7 +640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8779459,
         "longitude": -47.0510204,
-        "cep": 13076869,
+        "cep": "13076869",
         "pais": "Brasil"
     },
     {
@@ -650,7 +650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9973292,
         "longitude": -47.0180416,
-        "cep": 13278210,
+        "cep": "13278210",
         "pais": "Brasil"
     },
     {
@@ -660,7 +660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284488,
+        "cep": "13284488",
         "pais": "Brasil"
     },
     {
@@ -670,7 +670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7304316,
         "longitude": -47.284983,
-        "cep": 13475010,
+        "cep": "13475010",
         "pais": "Brasil"
     },
     {
@@ -680,7 +680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9000726,
         "longitude": -47.0970989,
-        "cep": 13033740,
+        "cep": "13033740",
         "pais": "Brasil"
     },
     {
@@ -690,7 +690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9060283,
         "longitude": -46.976542,
-        "cep": 13273300,
+        "cep": "13273300",
         "pais": "Brasil"
     },
     {
@@ -700,7 +700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8732349,
         "longitude": -47.0284539,
-        "cep": 13091012,
+        "cep": "13091012",
         "pais": "Brasil"
     },
     {
@@ -710,7 +710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9075221,
         "longitude": -47.0556501,
-        "cep": 13015122,
+        "cep": "13015122",
         "pais": "Brasil"
     },
     {
@@ -720,7 +720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9123495,
         "longitude": -47.0542174,
-        "cep": 13026064,
+        "cep": "13026064",
         "pais": "Brasil"
     },
     {
@@ -730,7 +730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9065228,
         "longitude": -47.1172128,
-        "cep": 13061100,
+        "cep": "13061100",
         "pais": "Brasil"
     },
     {
@@ -740,7 +740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.952742,
         "longitude": -47.1828226,
-        "cep": 13058358,
+        "cep": "13058358",
         "pais": "Brasil"
     },
     {
@@ -750,7 +750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9565814,
         "longitude": -47.1928846,
-        "cep": 13058017,
+        "cep": "13058017",
         "pais": "Brasil"
     },
     {
@@ -760,7 +760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -770,7 +770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173482,
+        "cep": "13173482",
         "pais": "Brasil"
     },
     {
@@ -780,7 +780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8708673,
         "longitude": -47.062513,
-        "cep": 13087320,
+        "cep": "13087320",
         "pais": "Brasil"
     },
     {
@@ -790,7 +790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8160143,
         "longitude": -47.1638459,
-        "cep": 13179322,
+        "cep": "13179322",
         "pais": "Brasil"
     },
     {
@@ -800,7 +800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9460931,
         "longitude": -47.1234351,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -810,7 +810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.79312,
         "longitude": -47.1977505,
-        "cep": 13178353,
+        "cep": "13178353",
         "pais": "Brasil"
     },
     {
@@ -820,7 +820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.91746,
         "longitude": -47.1017742,
-        "cep": 13060073,
+        "cep": "13060073",
         "pais": "Brasil"
     },
     {
@@ -830,7 +830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9214184,
         "longitude": -47.0418145,
-        "cep": 13100430,
+        "cep": "13100430",
         "pais": "Brasil"
     },
     {
@@ -840,7 +840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8086625,
         "longitude": -47.2040194,
-        "cep": 13178321,
+        "cep": "13178321",
         "pais": "Brasil"
     },
     {
@@ -850,7 +850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9736336,
         "longitude": -47.1711701,
-        "cep": 13057400,
+        "cep": "13057400",
         "pais": "Brasil"
     },
     {
@@ -860,7 +860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.940511,
         "longitude": -47.0008297,
-        "cep": 13272700,
+        "cep": "13272700",
         "pais": "Brasil"
     },
     {
@@ -870,7 +870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274560,
+        "cep": "13274560",
         "pais": "Brasil"
     },
     {
@@ -880,7 +880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9750222,
         "longitude": -47.1451955,
-        "cep": 13056425,
+        "cep": "13056425",
         "pais": "Brasil"
     },
     {
@@ -890,7 +890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396666,
         "longitude": -46.9738752,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -900,7 +900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9594918,
         "longitude": -47.1842196,
-        "cep": 13058381,
+        "cep": "13058381",
         "pais": "Brasil"
     },
     {
@@ -910,7 +910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9505183,
         "longitude": -46.9725696,
-        "cep": 13273601,
+        "cep": "13273601",
         "pais": "Brasil"
     },
     {
@@ -920,7 +920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9202183,
         "longitude": -47.102124,
-        "cep": 13060061,
+        "cep": "13060061",
         "pais": "Brasil"
     },
     {
@@ -930,7 +930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9062771,
         "longitude": -47.1749254,
-        "cep": 13185340,
+        "cep": "13185340",
         "pais": "Brasil"
     },
     {
@@ -940,7 +940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7007656,
         "longitude": -47.2949187,
-        "cep": 13474580,
+        "cep": "13474580",
         "pais": "Brasil"
     },
     {
@@ -950,7 +950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181580,
+        "cep": "13181580",
         "pais": "Brasil"
     },
     {
@@ -960,7 +960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520271,
         "longitude": -46.9718894,
-        "cep": 13273608,
+        "cep": "13273608",
         "pais": "Brasil"
     },
     {
@@ -970,7 +970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9509438,
         "longitude": -47.1772102,
-        "cep": 13058301,
+        "cep": "13058301",
         "pais": "Brasil"
     },
     {
@@ -980,7 +980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9664154,
         "longitude": -47.1691105,
-        "cep": 13057189,
+        "cep": "13057189",
         "pais": "Brasil"
     },
     {
@@ -990,7 +990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8763501,
         "longitude": -47.0451729,
-        "cep": 13076001,
+        "cep": "13076001",
         "pais": "Brasil"
     },
     {
@@ -1000,7 +1000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057036,
+        "cep": "13057036",
         "pais": "Brasil"
     },
     {
@@ -1010,7 +1010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8763501,
         "longitude": -47.0451729,
-        "cep": 13076001,
+        "cep": "13076001",
         "pais": "Brasil"
     },
     {
@@ -1020,7 +1020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.821683,
         "longitude": -47.2663733,
-        "cep": 13170011,
+        "cep": "13170011",
         "pais": "Brasil"
     },
     {
@@ -1030,7 +1030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1036735,
         "longitude": -47.2245757,
-        "cep": 13345731,
+        "cep": "13345731",
         "pais": "Brasil"
     },
     {
@@ -1040,7 +1040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8493661,
         "longitude": -47.073947,
-        "cep": 13080120,
+        "cep": "13080120",
         "pais": "Brasil"
     },
     {
@@ -1050,7 +1050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9000726,
         "longitude": -47.0970989,
-        "cep": 13033740,
+        "cep": "13033740",
         "pais": "Brasil"
     },
     {
@@ -1060,7 +1060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9025519,
         "longitude": -47.1623466,
-        "cep": 13064845,
+        "cep": "13064845",
         "pais": "Brasil"
     },
     {
@@ -1070,7 +1070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9398265,
         "longitude": -47.0351344,
-        "cep": 13043710,
+        "cep": "13043710",
         "pais": "Brasil"
     },
     {
@@ -1080,7 +1080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284162,
+        "cep": "13284162",
         "pais": "Brasil"
     },
     {
@@ -1090,7 +1090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061342,
+        "cep": "13061342",
         "pais": "Brasil"
     },
     {
@@ -1100,7 +1100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741347,
         "longitude": -46.894846,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -1110,7 +1110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051172,
+        "cep": "13051172",
         "pais": "Brasil"
     },
     {
@@ -1120,7 +1120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9335671,
         "longitude": -47.0182686,
-        "cep": 13046545,
+        "cep": "13046545",
         "pais": "Brasil"
     },
     {
@@ -1130,7 +1130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9277187,
         "longitude": -47.155003,
-        "cep": 13059607,
+        "cep": "13059607",
         "pais": "Brasil"
     },
     {
@@ -1140,7 +1140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7881625,
         "longitude": -47.1927215,
-        "cep": 13142126,
+        "cep": "13142126",
         "pais": "Brasil"
     },
     {
@@ -1150,7 +1150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9508199,
         "longitude": -47.0308653,
-        "cep": 13044500,
+        "cep": "13044500",
         "pais": "Brasil"
     },
     {
@@ -1160,7 +1160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9703064,
         "longitude": -47.1331145,
-        "cep": 13054011,
+        "cep": "13054011",
         "pais": "Brasil"
     },
     {
@@ -1170,7 +1170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2065634,
         "longitude": -46.8492222,
-        "cep": 13220025,
+        "cep": "13220025",
         "pais": "Brasil"
     },
     {
@@ -1180,7 +1180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9467497,
         "longitude": -46.9793206,
-        "cep": 13273440,
+        "cep": "13273440",
         "pais": "Brasil"
     },
     {
@@ -1190,7 +1190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181350,
+        "cep": "13181350",
         "pais": "Brasil"
     },
     {
@@ -1200,7 +1200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8543737,
         "longitude": -47.2147438,
-        "cep": 13183633,
+        "cep": "13183633",
         "pais": "Brasil"
     },
     {
@@ -1210,7 +1210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9246553,
         "longitude": -47.1229234,
-        "cep": 13060800,
+        "cep": "13060800",
         "pais": "Brasil"
     },
     {
@@ -1220,7 +1220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8670271,
         "longitude": -47.2227036,
-        "cep": 13184000,
+        "cep": "13184000",
         "pais": "Brasil"
     },
     {
@@ -1230,7 +1230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283166,
+        "cep": "13283166",
         "pais": "Brasil"
     },
     {
@@ -1240,7 +1240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9288428,
         "longitude": -47.0736526,
-        "cep": 13030117,
+        "cep": "13030117",
         "pais": "Brasil"
     },
     {
@@ -1250,7 +1250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8682138,
         "longitude": -47.2085975,
-        "cep": 13184390,
+        "cep": "13184390",
         "pais": "Brasil"
     },
     {
@@ -1260,7 +1260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9380711,
         "longitude": -47.116636,
-        "cep": 13060740,
+        "cep": "13060740",
         "pais": "Brasil"
     },
     {
@@ -1270,7 +1270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8705726,
         "longitude": -46.9712451,
-        "cep": 13104002,
+        "cep": "13104002",
         "pais": "Brasil"
     },
     {
@@ -1280,7 +1280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13349341,
+        "cep": "13349341",
         "pais": "Brasil"
     },
     {
@@ -1290,7 +1290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181778,
+        "cep": "13181778",
         "pais": "Brasil"
     },
     {
@@ -1300,7 +1300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9044645,
         "longitude": -47.1686043,
-        "cep": 13185404,
+        "cep": "13185404",
         "pais": "Brasil"
     },
     {
@@ -1310,7 +1310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8924319,
         "longitude": -47.2342928,
-        "cep": 13188020,
+        "cep": "13188020",
         "pais": "Brasil"
     },
     {
@@ -1320,7 +1320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9718668,
         "longitude": -47.1779622,
-        "cep": 13057123,
+        "cep": "13057123",
         "pais": "Brasil"
     },
     {
@@ -1330,7 +1330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.850331,
         "longitude": -47.0670917,
-        "cep": 13080160,
+        "cep": "13080160",
         "pais": "Brasil"
     },
     {
@@ -1340,7 +1340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8604568,
         "longitude": -47.2061633,
-        "cep": 13183281,
+        "cep": "13183281",
         "pais": "Brasil"
     },
     {
@@ -1350,7 +1350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040215,
+        "cep": "13040215",
         "pais": "Brasil"
     },
     {
@@ -1360,7 +1360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310005,
+        "cep": "13310005",
         "pais": "Brasil"
     },
     {
@@ -1370,7 +1370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7705853,
         "longitude": -47.1506184,
-        "cep": 13140299,
+        "cep": "13140299",
         "pais": "Brasil"
     },
     {
@@ -1380,7 +1380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9291129,
         "longitude": -47.1234936,
-        "cep": 13060833,
+        "cep": "13060833",
         "pais": "Brasil"
     },
     {
@@ -1390,7 +1390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8675273,
         "longitude": -47.1769867,
-        "cep": 13184884,
+        "cep": "13184884",
         "pais": "Brasil"
     },
     {
@@ -1400,7 +1400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9521667,
         "longitude": -47.0813922,
-        "cep": 13051076,
+        "cep": "13051076",
         "pais": "Brasil"
     },
     {
@@ -1410,7 +1410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8899773,
         "longitude": -46.9784981,
-        "cep": 13105796,
+        "cep": "13105796",
         "pais": "Brasil"
     },
     {
@@ -1420,7 +1420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1000064,
         "longitude": -47.1793381,
-        "cep": 13340370,
+        "cep": "13340370",
         "pais": "Brasil"
     },
     {
@@ -1430,7 +1430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9634134,
         "longitude": -47.139214,
-        "cep": 13056632,
+        "cep": "13056632",
         "pais": "Brasil"
     },
     {
@@ -1440,7 +1440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9266305,
         "longitude": -47.0365843,
-        "cep": 13045760,
+        "cep": "13045760",
         "pais": "Brasil"
     },
     {
@@ -1450,7 +1450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13255140,
+        "cep": "13255140",
         "pais": "Brasil"
     },
     {
@@ -1460,7 +1460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9701811,
         "longitude": -47.0729465,
-        "cep": 13049583,
+        "cep": "13049583",
         "pais": "Brasil"
     },
     {
@@ -1470,7 +1470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9581539,
         "longitude": -47.189327,
-        "cep": 13058272,
+        "cep": "13058272",
         "pais": "Brasil"
     },
     {
@@ -1480,7 +1480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5565428,
         "longitude": -46.6420547,
-        "cep": 1321010,
+        "cep": "01321010",
         "pais": "Brasil"
     },
     {
@@ -1490,7 +1490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8060512,
         "longitude": -47.2004215,
-        "cep": 13178652,
+        "cep": "13178652",
         "pais": "Brasil"
     },
     {
@@ -1500,7 +1500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8459779,
         "longitude": -47.2070839,
-        "cep": 13183661,
+        "cep": "13183661",
         "pais": "Brasil"
     },
     {
@@ -1510,7 +1510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7925146,
         "longitude": -47.1966851,
-        "cep": 13178351,
+        "cep": "13178351",
         "pais": "Brasil"
     },
     {
@@ -1520,7 +1520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4080279,
         "longitude": -46.9664659,
-        "cep": 13806655,
+        "cep": "13806655",
         "pais": "Brasil"
     },
     {
@@ -1530,7 +1530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9031836,
         "longitude": -47.081586,
-        "cep": 13032405,
+        "cep": "13032405",
         "pais": "Brasil"
     },
     {
@@ -1540,7 +1540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9280441,
         "longitude": -47.051792,
-        "cep": 13041805,
+        "cep": "13041805",
         "pais": "Brasil"
     },
     {
@@ -1550,7 +1550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8292704,
         "longitude": -47.2189548,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -1560,7 +1560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9290171,
         "longitude": -47.0893095,
-        "cep": 13050471,
+        "cep": "13050471",
         "pais": "Brasil"
     },
     {
@@ -1570,7 +1570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9045526,
         "longitude": -47.1805166,
-        "cep": 13185352,
+        "cep": "13185352",
         "pais": "Brasil"
     },
     {
@@ -1580,7 +1580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13332070,
+        "cep": "13332070",
         "pais": "Brasil"
     },
     {
@@ -1590,7 +1590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8292704,
         "longitude": -47.2189548,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -1600,7 +1600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8877501,
         "longitude": -47.0645663,
-        "cep": 13073013,
+        "cep": "13073013",
         "pais": "Brasil"
     },
     {
@@ -1610,7 +1610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9838363,
         "longitude": -47.0892063,
-        "cep": 13052729,
+        "cep": "13052729",
         "pais": "Brasil"
     },
     {
@@ -1620,7 +1620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9470487,
         "longitude": -46.9745562,
-        "cep": 13273592,
+        "cep": "13273592",
         "pais": "Brasil"
     },
     {
@@ -1630,7 +1630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8805293,
         "longitude": -47.0250374,
-        "cep": 13091530,
+        "cep": "13091530",
         "pais": "Brasil"
     },
     {
@@ -1640,7 +1640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13332162,
+        "cep": "13332162",
         "pais": "Brasil"
     },
     {
@@ -1650,7 +1650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9018384,
         "longitude": -47.0767608,
-        "cep": 13070752,
+        "cep": "13070752",
         "pais": "Brasil"
     },
     {
@@ -1660,7 +1660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9478447,
         "longitude": -47.0230569,
-        "cep": 13045040,
+        "cep": "13045040",
         "pais": "Brasil"
     },
     {
@@ -1670,7 +1670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9382446,
         "longitude": -47.0368304,
-        "cep": 13043730,
+        "cep": "13043730",
         "pais": "Brasil"
     },
     {
@@ -1680,7 +1680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0653238,
         "longitude": -46.9699852,
-        "cep": 13860196,
+        "cep": "13860196",
         "pais": "Brasil"
     },
     {
@@ -1690,7 +1690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13067312,
+        "cep": "13067312",
         "pais": "Brasil"
     },
     {
@@ -1700,7 +1700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9339272,
         "longitude": -47.0590281,
-        "cep": 13040089,
+        "cep": "13040089",
         "pais": "Brasil"
     },
     {
@@ -1710,7 +1710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893977,
         "longitude": -47.1000521,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -1720,7 +1720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065190,
+        "cep": "13065190",
         "pais": "Brasil"
     },
     {
@@ -1730,7 +1730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -1740,7 +1740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8914908,
         "longitude": -47.2247404,
-        "cep": 13187149,
+        "cep": "13187149",
         "pais": "Brasil"
     },
     {
@@ -1750,7 +1750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9271396,
         "longitude": -47.0991229,
-        "cep": 13060020,
+        "cep": "13060020",
         "pais": "Brasil"
     },
     {
@@ -1760,7 +1760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3593302,
         "longitude": -46.9583851,
-        "cep": 13845360,
+        "cep": "13845360",
         "pais": "Brasil"
     },
     {
@@ -1770,7 +1770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9778344,
         "longitude": -46.9858981,
-        "cep": 13275224,
+        "cep": "13275224",
         "pais": "Brasil"
     },
     {
@@ -1780,7 +1780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9472317,
         "longitude": -47.1116166,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
@@ -1790,7 +1790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8793444,
         "longitude": -47.0453886,
-        "cep": 13076000,
+        "cep": "13076000",
         "pais": "Brasil"
     },
     {
@@ -1800,7 +1800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9621207,
         "longitude": -47.1958671,
-        "cep": 13058216,
+        "cep": "13058216",
         "pais": "Brasil"
     },
     {
@@ -1810,7 +1810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8118681,
         "longitude": -47.0302948,
-        "cep": 13098401,
+        "cep": "13098401",
         "pais": "Brasil"
     },
     {
@@ -1820,7 +1820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7412465,
         "longitude": -47.6310815,
-        "cep": 13417820,
+        "cep": "13417820",
         "pais": "Brasil"
     },
     {
@@ -1830,7 +1830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8564206,
         "longitude": -47.1588373,
-        "cep": 13068609,
+        "cep": "13068609",
         "pais": "Brasil"
     },
     {
@@ -1840,7 +1840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.812475,
         "longitude": -47.2206274,
-        "cep": 13177908,
+        "cep": "13177908",
         "pais": "Brasil"
     },
     {
@@ -1850,7 +1850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9435184,
         "longitude": -47.1027632,
-        "cep": 13050572,
+        "cep": "13050572",
         "pais": "Brasil"
     },
     {
@@ -1860,7 +1860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9568834,
         "longitude": -47.0796972,
-        "cep": 13051420,
+        "cep": "13051420",
         "pais": "Brasil"
     },
     {
@@ -1870,7 +1870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8671408,
         "longitude": -47.2186137,
-        "cep": 13184235,
+        "cep": "13184235",
         "pais": "Brasil"
     },
     {
@@ -1880,7 +1880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181380,
+        "cep": "13181380",
         "pais": "Brasil"
     },
     {
@@ -1890,7 +1890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9523709,
         "longitude": -47.1816295,
-        "cep": 13058421,
+        "cep": "13058421",
         "pais": "Brasil"
     },
     {
@@ -1900,7 +1900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9046037,
         "longitude": -47.1041828,
-        "cep": 13033206,
+        "cep": "13033206",
         "pais": "Brasil"
     },
     {
@@ -1910,7 +1910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035395,
         "longitude": -47.1727544,
-        "cep": 13185490,
+        "cep": "13185490",
         "pais": "Brasil"
     },
     {
@@ -1920,7 +1920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8536208,
         "longitude": -47.1086764,
-        "cep": 13082140,
+        "cep": "13082140",
         "pais": "Brasil"
     },
     {
@@ -1930,7 +1930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7890385,
         "longitude": -47.179507,
-        "cep": 13142218,
+        "cep": "13142218",
         "pais": "Brasil"
     },
     {
@@ -1940,7 +1940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5536156,
         "longitude": -47.4053241,
-        "cep": 13484000,
+        "cep": "13484000",
         "pais": "Brasil"
     },
     {
@@ -1950,7 +1950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9281419,
         "longitude": -47.1127522,
-        "cep": 13060039,
+        "cep": "13060039",
         "pais": "Brasil"
     },
     {
@@ -1960,7 +1960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9454368,
         "longitude": -47.0853294,
-        "cep": 13051038,
+        "cep": "13051038",
         "pais": "Brasil"
     },
     {
@@ -1970,7 +1970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9143702,
         "longitude": -47.0847401,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -1980,7 +1980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9881088,
         "longitude": -47.137793,
-        "cep": 13056130,
+        "cep": "13056130",
         "pais": "Brasil"
     },
     {
@@ -1990,7 +1990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9541167,
         "longitude": -47.1924075,
-        "cep": 13058012,
+        "cep": "13058012",
         "pais": "Brasil"
     },
     {
@@ -2000,7 +2000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13106760,
+        "cep": "13106760",
         "pais": "Brasil"
     },
     {
@@ -2010,7 +2010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13035555,
+        "cep": "13035555",
         "pais": "Brasil"
     },
     {
@@ -2020,7 +2020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.913852,
         "longitude": -47.0328706,
-        "cep": 13100237,
+        "cep": "13100237",
         "pais": "Brasil"
     },
     {
@@ -2030,7 +2030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9635882,
         "longitude": -47.1306179,
-        "cep": 13054047,
+        "cep": "13054047",
         "pais": "Brasil"
     },
     {
@@ -2040,7 +2040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181722,
+        "cep": "13181722",
         "pais": "Brasil"
     },
     {
@@ -2050,7 +2050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.929657,
         "longitude": -47.0306021,
-        "cep": 13101198,
+        "cep": "13101198",
         "pais": "Brasil"
     },
     {
@@ -2060,7 +2060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8816897,
         "longitude": -47.0487353,
-        "cep": 13076540,
+        "cep": "13076540",
         "pais": "Brasil"
     },
     {
@@ -2070,7 +2070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184664,
+        "cep": "13184664",
         "pais": "Brasil"
     },
     {
@@ -2080,7 +2080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.589339,
         "longitude": -47.3765377,
-        "cep": 13487264,
+        "cep": "13487264",
         "pais": "Brasil"
     },
     {
@@ -2090,7 +2090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9737709,
         "longitude": -47.1459868,
-        "cep": 13056440,
+        "cep": "13056440",
         "pais": "Brasil"
     },
     {
@@ -2100,7 +2100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9620971,
         "longitude": -47.1459518,
-        "cep": 13056675,
+        "cep": "13056675",
         "pais": "Brasil"
     },
     {
@@ -2110,7 +2110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9484844,
         "longitude": -47.1984464,
-        "cep": 13058820,
+        "cep": "13058820",
         "pais": "Brasil"
     },
     {
@@ -2120,7 +2120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9453343,
         "longitude": -47.0493804,
-        "cep": 13044163,
+        "cep": "13044163",
         "pais": "Brasil"
     },
     {
@@ -2130,7 +2130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180023,
+        "cep": "13180023",
         "pais": "Brasil"
     },
     {
@@ -2140,7 +2140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9462774,
         "longitude": -47.0916038,
-        "cep": 13050078,
+        "cep": "13050078",
         "pais": "Brasil"
     },
     {
@@ -2150,7 +2150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3630977,
         "longitude": -46.9354996,
-        "cep": 13840110,
+        "cep": "13840110",
         "pais": "Brasil"
     },
     {
@@ -2160,7 +2160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9184401,
         "longitude": -47.102031,
-        "cep": 13060072,
+        "cep": "13060072",
         "pais": "Brasil"
     },
     {
@@ -2170,7 +2170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9692545,
         "longitude": -47.0008236,
-        "cep": 13271180,
+        "cep": "13271180",
         "pais": "Brasil"
     },
     {
@@ -2180,7 +2180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7505415,
         "longitude": -47.3283649,
-        "cep": 13466320,
+        "cep": "13466320",
         "pais": "Brasil"
     },
     {
@@ -2190,7 +2190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8419619,
         "longitude": -47.2183419,
-        "cep": 13183713,
+        "cep": "13183713",
         "pais": "Brasil"
     },
     {
@@ -2200,7 +2200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.980061,
         "longitude": -47.1583004,
-        "cep": 13057043,
+        "cep": "13057043",
         "pais": "Brasil"
     },
     {
@@ -2210,7 +2210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8962324,
         "longitude": -47.0846688,
-        "cep": 13070120,
+        "cep": "13070120",
         "pais": "Brasil"
     },
     {
@@ -2220,7 +2220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9319607,
         "longitude": -47.0873837,
-        "cep": 13050022,
+        "cep": "13050022",
         "pais": "Brasil"
     },
     {
@@ -2230,7 +2230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181492,
+        "cep": "13181492",
         "pais": "Brasil"
     },
     {
@@ -2240,7 +2240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8981385,
         "longitude": -47.0891952,
-        "cep": 13070017,
+        "cep": "13070017",
         "pais": "Brasil"
     },
     {
@@ -2250,17 +2250,17 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.3168866,
         "longitude": -46.3279182,
-        "cep": 37576000,
+        "cep": "37576000",
         "pais": NaN
     },
     {
         "id": 226,
         "nome": "marcelo",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.9921507,
         "longitude": -49.4455477,
-        "cep": 13165498,
+        "cep": "13165498",
         "pais": NaN
     },
     {
@@ -2270,7 +2270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181654,
+        "cep": "13181654",
         "pais": "Brasil"
     },
     {
@@ -2280,7 +2280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8462842,
         "longitude": -47.0269523,
-        "cep": 13097105,
+        "cep": "13097105",
         "pais": "Brasil"
     },
     {
@@ -2290,7 +2290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235551,
         "longitude": -47.119233,
-        "cep": 13060562,
+        "cep": "13060562",
         "pais": "Brasil"
     },
     {
@@ -2300,7 +2300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0566826,
         "longitude": -47.8420459,
-        "cep": 18500000,
+        "cep": "18500000",
         "pais": "Brasil"
     },
     {
@@ -2310,7 +2310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8955765,
         "longitude": -47.0586758,
-        "cep": 13024091,
+        "cep": "13024091",
         "pais": "Brasil"
     },
     {
@@ -2320,7 +2320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9321665,
         "longitude": -47.0382761,
-        "cep": 13045635,
+        "cep": "13045635",
         "pais": "Brasil"
     },
     {
@@ -2330,7 +2330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -2340,7 +2340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8617541,
         "longitude": -47.1451052,
-        "cep": 13067370,
+        "cep": "13067370",
         "pais": "Brasil"
     },
     {
@@ -2350,7 +2350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8602388,
         "longitude": -46.9657068,
-        "cep": 13104150,
+        "cep": "13104150",
         "pais": "Brasil"
     },
     {
@@ -2360,7 +2360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0311162,
         "longitude": -47.1266586,
-        "cep": 13053701,
+        "cep": "13053701",
         "pais": "Brasil"
     },
     {
@@ -2370,7 +2370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.987456,
         "longitude": -47.1032272,
-        "cep": 13052610,
+        "cep": "13052610",
         "pais": "Brasil"
     },
     {
@@ -2380,7 +2380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9361297,
         "longitude": -47.0503207,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -2390,7 +2390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7904033,
         "longitude": -47.1802734,
-        "cep": 13142200,
+        "cep": "13142200",
         "pais": "Brasil"
     },
     {
@@ -2400,7 +2400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.949359,
         "longitude": -47.17596,
-        "cep": 13058306,
+        "cep": "13058306",
         "pais": "Brasil"
     },
     {
@@ -2410,7 +2410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243791,
         "longitude": -47.3331376,
-        "cep": 13471255,
+        "cep": "13471255",
         "pais": "Brasil"
     },
     {
@@ -2420,7 +2420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6131349,
         "longitude": -47.4268603,
-        "cep": 13481874,
+        "cep": "13481874",
         "pais": "Brasil"
     },
     {
@@ -2430,7 +2430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9949164,
         "longitude": -47.1393343,
-        "cep": 13056013,
+        "cep": "13056013",
         "pais": "Brasil"
     },
     {
@@ -2440,7 +2440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9458804,
         "longitude": -47.0913206,
-        "cep": 13050088,
+        "cep": "13050088",
         "pais": "Brasil"
     },
     {
@@ -2450,7 +2450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2624238,
         "longitude": -47.6720659,
-        "cep": 18558024,
+        "cep": "18558024",
         "pais": "Brasil"
     },
     {
@@ -2460,7 +2460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520271,
         "longitude": -46.9718894,
-        "cep": 13273608,
+        "cep": "13273608",
         "pais": "Brasil"
     },
     {
@@ -2470,7 +2470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.76352,
         "longitude": -47.3499411,
-        "cep": 13468857,
+        "cep": "13468857",
         "pais": "Brasil"
     },
     {
@@ -2480,7 +2480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8934845,
         "longitude": -47.1661784,
-        "cep": 13185503,
+        "cep": "13185503",
         "pais": "Brasil"
     },
     {
@@ -2490,7 +2490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.965265,
         "longitude": -47.0462257,
-        "cep": 13042460,
+        "cep": "13042460",
         "pais": "Brasil"
     },
     {
@@ -2500,7 +2500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4149076,
         "longitude": -47.5665896,
-        "cep": 13500370,
+        "cep": "13500370",
         "pais": "Brasil"
     },
     {
@@ -2510,7 +2510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034200,
+        "cep": "13034200",
         "pais": "Brasil"
     },
     {
@@ -2520,7 +2520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7940605,
         "longitude": -47.2812602,
-        "cep": 13173280,
+        "cep": "13173280",
         "pais": "Brasil"
     },
     {
@@ -2530,7 +2530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13171660,
+        "cep": "13171660",
         "pais": "Brasil"
     },
     {
@@ -2540,7 +2540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8649625,
         "longitude": -47.2109388,
-        "cep": 13184290,
+        "cep": "13184290",
         "pais": "Brasil"
     },
     {
@@ -2550,7 +2550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9244279,
         "longitude": -47.074888,
-        "cep": 13030470,
+        "cep": "13030470",
         "pais": "Brasil"
     },
     {
@@ -2560,7 +2560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9138791,
         "longitude": -47.0423054,
-        "cep": 13100470,
+        "cep": "13100470",
         "pais": "Brasil"
     },
     {
@@ -2568,9 +2568,9 @@ const usuarios = [
         "nome": "Alexandre Assis",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360431,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360431",
         "pais": "Brasil"
     },
     {
@@ -2580,7 +2580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9079911,
         "longitude": -47.0935233,
-        "cep": 13033195,
+        "cep": "13033195",
         "pais": "Brasil"
     },
     {
@@ -2590,7 +2590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9143702,
         "longitude": -47.0847401,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -2600,7 +2600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1578924,
         "longitude": -46.9573652,
-        "cep": 13212620,
+        "cep": "13212620",
         "pais": "Brasil"
     },
     {
@@ -2610,7 +2610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9000726,
         "longitude": -47.0970989,
-        "cep": 13033740,
+        "cep": "13033740",
         "pais": "Brasil"
     },
     {
@@ -2620,7 +2620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9526727,
         "longitude": -47.1634092,
-        "cep": 13059194,
+        "cep": "13059194",
         "pais": "Brasil"
     },
     {
@@ -2630,7 +2630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9337646,
         "longitude": -47.1061876,
-        "cep": 13060432,
+        "cep": "13060432",
         "pais": "Brasil"
     },
     {
@@ -2640,7 +2640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9614206,
         "longitude": -47.0188602,
-        "cep": 13271781,
+        "cep": "13271781",
         "pais": "Brasil"
     },
     {
@@ -2650,7 +2650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8231512,
         "longitude": -47.1671254,
-        "cep": 13179272,
+        "cep": "13179272",
         "pais": "Brasil"
     },
     {
@@ -2660,7 +2660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13339245,
+        "cep": "13339245",
         "pais": "Brasil"
     },
     {
@@ -2670,7 +2670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9464879,
         "longitude": -47.1613763,
-        "cep": 13059615,
+        "cep": "13059615",
         "pais": "Brasil"
     },
     {
@@ -2680,7 +2680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8535047,
         "longitude": -47.10624,
-        "cep": 13082125,
+        "cep": "13082125",
         "pais": "Brasil"
     },
     {
@@ -2690,7 +2690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9191842,
         "longitude": -47.0903313,
-        "cep": 13031390,
+        "cep": "13031390",
         "pais": "Brasil"
     },
     {
@@ -2700,7 +2700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9143702,
         "longitude": -47.0847401,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -2710,7 +2710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.970769,
         "longitude": -47.1209827,
-        "cep": 13054108,
+        "cep": "13054108",
         "pais": "Brasil"
     },
     {
@@ -2720,7 +2720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323223,
+        "cep": "13323223",
         "pais": "Brasil"
     },
     {
@@ -2730,7 +2730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9364847,
         "longitude": -47.1309741,
-        "cep": 13059648,
+        "cep": "13059648",
         "pais": "Brasil"
     },
     {
@@ -2740,7 +2740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9970008,
         "longitude": -47.1401717,
-        "cep": 13056022,
+        "cep": "13056022",
         "pais": "Brasil"
     },
     {
@@ -2750,7 +2750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9006351,
         "longitude": -47.2376733,
-        "cep": 13188091,
+        "cep": "13188091",
         "pais": "Brasil"
     },
     {
@@ -2760,7 +2760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8998134,
         "longitude": -47.0680082,
-        "cep": 13020100,
+        "cep": "13020100",
         "pais": "Brasil"
     },
     {
@@ -2770,7 +2770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001054,
         "longitude": -47.1941955,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -2780,7 +2780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9040533,
         "longitude": -47.2379441,
-        "cep": 13188101,
+        "cep": "13188101",
         "pais": "Brasil"
     },
     {
@@ -2790,7 +2790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9213859,
         "longitude": -47.0213974,
-        "cep": 13101405,
+        "cep": "13101405",
         "pais": "Brasil"
     },
     {
@@ -2800,7 +2800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13457039,
+        "cep": "13457039",
         "pais": "Brasil"
     },
     {
@@ -2810,7 +2810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5707057,
         "longitude": -47.4185559,
-        "cep": 13482832,
+        "cep": "13482832",
         "pais": "Brasil"
     },
     {
@@ -2820,7 +2820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741347,
         "longitude": -46.894846,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -2830,7 +2830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8928504,
         "longitude": -47.0625847,
-        "cep": 13023220,
+        "cep": "13023220",
         "pais": "Brasil"
     },
     {
@@ -2840,7 +2840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049103,
+        "cep": "13049103",
         "pais": "Brasil"
     },
     {
@@ -2850,7 +2850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5671774,
         "longitude": -47.4173882,
-        "cep": 13482284,
+        "cep": "13482284",
         "pais": "Brasil"
     },
     {
@@ -2860,7 +2860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8557032,
         "longitude": -47.2198303,
-        "cep": 13183100,
+        "cep": "13183100",
         "pais": "Brasil"
     },
     {
@@ -2870,7 +2870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9707354,
         "longitude": -47.1388692,
-        "cep": 13056480,
+        "cep": "13056480",
         "pais": "Brasil"
     },
     {
@@ -2880,7 +2880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8414311,
         "longitude": -47.1387596,
-        "cep": 13069510,
+        "cep": "13069510",
         "pais": "Brasil"
     },
     {
@@ -2890,7 +2890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9738533,
         "longitude": -47.1689827,
-        "cep": 13057425,
+        "cep": "13057425",
         "pais": "Brasil"
     },
     {
@@ -2900,7 +2900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7942579,
         "longitude": -47.3004571,
-        "cep": 13382030,
+        "cep": "13382030",
         "pais": "Brasil"
     },
     {
@@ -2910,7 +2910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283614,
+        "cep": "13283614",
         "pais": "Brasil"
     },
     {
@@ -2920,18 +2920,18 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.6604584,
         "longitude": -46.7371151,
-        "cep": 13780000,
+        "cep": "13780000",
         "pais": "Brasil"
     },
     {
         "id": 293,
-        "nome": "Rhenan",
-        "cidade": "Hortolândia",
-        "estado": "SP",
-        "latitude": -22.8574723,
-        "longitude": -47.2237563,
-        "cep": 13183040,
-        "pais": "Brasil"
+        "nome": "RheINDEFINIDOHortolândia",
+        "cidade": "SP",
+        "estado": "-22.8574723",
+        "latitude": -47.2237563,
+        "longitude": 13183040.0,
+        "cep": "Brasil",
+        "pais": NaN
     },
     {
         "id": 294,
@@ -2940,7 +2940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9052829,
         "longitude": -47.2407087,
-        "cep": 13188081,
+        "cep": "13188081",
         "pais": "Brasil"
     },
     {
@@ -2950,7 +2950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9468515,
         "longitude": -47.1558065,
-        "cep": 13059105,
+        "cep": "13059105",
         "pais": "Brasil"
     },
     {
@@ -2960,7 +2960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454397,
+        "cep": "13454397",
         "pais": "Brasil"
     },
     {
@@ -2970,7 +2970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1841912,
         "longitude": -46.9259587,
-        "cep": 13211772,
+        "cep": "13211772",
         "pais": "Brasil"
     },
     {
@@ -2980,7 +2980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064844,
+        "cep": "13064844",
         "pais": "Brasil"
     },
     {
@@ -2990,7 +2990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034655,
+        "cep": "13034655",
         "pais": "Brasil"
     },
     {
@@ -3000,7 +3000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9696437,
         "longitude": -47.1374782,
-        "cep": 13056488,
+        "cep": "13056488",
         "pais": "Brasil"
     },
     {
@@ -3010,7 +3010,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -20.9390196,
         "longitude": -45.8263558,
-        "cep": 37175000,
+        "cep": "37175000",
         "pais": NaN
     },
     {
@@ -3020,7 +3020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057504,
+        "cep": "13057504",
         "pais": "Brasil"
     },
     {
@@ -3030,7 +3030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.830893,
         "longitude": -47.1749727,
-        "cep": 13179022,
+        "cep": "13179022",
         "pais": "Brasil"
     },
     {
@@ -3040,7 +3040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9297676,
         "longitude": -47.0541216,
-        "cep": 13041355,
+        "cep": "13041355",
         "pais": "Brasil"
     },
     {
@@ -3050,7 +3050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.948928,
         "longitude": -47.1900258,
-        "cep": 13058512,
+        "cep": "13058512",
         "pais": "Brasil"
     },
     {
@@ -3060,7 +3060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9434917,
         "longitude": -47.132079,
-        "cep": 13059674,
+        "cep": "13059674",
         "pais": "Brasil"
     },
     {
@@ -3070,7 +3070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0406542,
         "longitude": -47.1057555,
-        "cep": 13053318,
+        "cep": "13053318",
         "pais": "Brasil"
     },
     {
@@ -3080,7 +3080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9521667,
         "longitude": -47.0813922,
-        "cep": 13051076,
+        "cep": "13051076",
         "pais": "Brasil"
     },
     {
@@ -3090,7 +3090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8934845,
         "longitude": -47.1661784,
-        "cep": 13185503,
+        "cep": "13185503",
         "pais": "Brasil"
     },
     {
@@ -3100,7 +3100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8933048,
         "longitude": -47.1671159,
-        "cep": 13185539,
+        "cep": "13185539",
         "pais": "Brasil"
     },
     {
@@ -3110,7 +3110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -3120,7 +3120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180170,
+        "cep": "13180170",
         "pais": "Brasil"
     },
     {
@@ -3130,7 +3130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8783515,
         "longitude": -47.0688146,
-        "cep": 13073065,
+        "cep": "13073065",
         "pais": "Brasil"
     },
     {
@@ -3140,7 +3140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2030069,
         "longitude": -46.9824419,
-        "cep": 13211771,
+        "cep": "13211771",
         "pais": "Brasil"
     },
     {
@@ -3150,7 +3150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8402386,
         "longitude": -47.2205685,
-        "cep": 13183700,
+        "cep": "13183700",
         "pais": "Brasil"
     },
     {
@@ -3160,7 +3160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1920309,
         "longitude": -46.8886271,
-        "cep": 13207780,
+        "cep": "13207780",
         "pais": "Brasil"
     },
     {
@@ -3170,17 +3170,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456570,
+        "cep": "13456570",
         "pais": "Brasil"
     },
     {
         "id": 318,
         "nome": "Carlos Sergio",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.9921507,
         "longitude": -49.4455477,
-        "cep": 34800000,
+        "cep": "34800000",
         "pais": NaN
     },
     {
@@ -3190,7 +3190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7453582,
         "longitude": -47.0653244,
-        "cep": 13085758,
+        "cep": "13085758",
         "pais": "Brasil"
     },
     {
@@ -3200,7 +3200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9407899,
         "longitude": -47.1926792,
-        "cep": 13058575,
+        "cep": "13058575",
         "pais": "Brasil"
     },
     {
@@ -3210,7 +3210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9243222,
         "longitude": -47.015096,
-        "cep": 13101259,
+        "cep": "13101259",
         "pais": "Brasil"
     },
     {
@@ -3220,7 +3220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8801949,
         "longitude": -47.0288233,
-        "cep": 13091467,
+        "cep": "13091467",
         "pais": "Brasil"
     },
     {
@@ -3230,7 +3230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.928395,
         "longitude": -47.0273595,
-        "cep": 13101130,
+        "cep": "13101130",
         "pais": "Brasil"
     },
     {
@@ -3240,7 +3240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.935559,
         "longitude": -47.1243157,
-        "cep": 13060723,
+        "cep": "13060723",
         "pais": "Brasil"
     },
     {
@@ -3250,7 +3250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9737709,
         "longitude": -47.1459868,
-        "cep": 13056440,
+        "cep": "13056440",
         "pais": "Brasil"
     },
     {
@@ -3260,7 +3260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9725098,
         "longitude": -47.1218511,
-        "cep": 13054133,
+        "cep": "13054133",
         "pais": "Brasil"
     },
     {
@@ -3270,7 +3270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13088683,
+        "cep": "13088683",
         "pais": "Brasil"
     },
     {
@@ -3280,7 +3280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8927256,
         "longitude": -47.1609362,
-        "cep": 13064832,
+        "cep": "13064832",
         "pais": "Brasil"
     },
     {
@@ -3290,7 +3290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8908776,
         "longitude": -46.982625,
-        "cep": 13105618,
+        "cep": "13105618",
         "pais": "Brasil"
     },
     {
@@ -3300,7 +3300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9415331,
         "longitude": -47.02638,
-        "cep": 13045290,
+        "cep": "13045290",
         "pais": "Brasil"
     },
     {
@@ -3310,7 +3310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9725412,
         "longitude": -47.1758315,
-        "cep": 13057127,
+        "cep": "13057127",
         "pais": "Brasil"
     },
     {
@@ -3320,7 +3320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050436,
+        "cep": "13050436",
         "pais": "Brasil"
     },
     {
@@ -3330,7 +3330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9887107,
         "longitude": -47.9294354,
-        "cep": 13563650,
+        "cep": "13563650",
         "pais": "Brasil"
     },
     {
@@ -3340,7 +3340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9308017,
         "longitude": -47.2398836,
-        "cep": 13197232,
+        "cep": "13197232",
         "pais": "Brasil"
     },
     {
@@ -3350,7 +3350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7400495,
         "longitude": -47.3102379,
-        "cep": 13478650,
+        "cep": "13478650",
         "pais": "Brasil"
     },
     {
@@ -3360,7 +3360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938899,
         "longitude": -47.1228027,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -3370,7 +3370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9170121,
         "longitude": -47.0866888,
-        "cep": 13031885,
+        "cep": "13031885",
         "pais": "Brasil"
     },
     {
@@ -3380,7 +3380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040145,
+        "cep": "13040145",
         "pais": "Brasil"
     },
     {
@@ -3390,7 +3390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9018058,
         "longitude": -47.2384451,
-        "cep": 13188100,
+        "cep": "13188100",
         "pais": "Brasil"
     },
     {
@@ -3400,7 +3400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8821737,
         "longitude": -47.0674225,
-        "cep": 13073090,
+        "cep": "13073090",
         "pais": "Brasil"
     },
     {
@@ -3410,7 +3410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450866,
+        "cep": "13450866",
         "pais": "Brasil"
     },
     {
@@ -3420,7 +3420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8094853,
         "longitude": -47.1763065,
-        "cep": 13179131,
+        "cep": "13179131",
         "pais": "Brasil"
     },
     {
@@ -3430,7 +3430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9596753,
         "longitude": -46.991356,
-        "cep": 13272006,
+        "cep": "13272006",
         "pais": "Brasil"
     },
     {
@@ -3440,7 +3440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185560,
+        "cep": "13185560",
         "pais": "Brasil"
     },
     {
@@ -3450,7 +3450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8850695,
         "longitude": -47.1112027,
-        "cep": 13063240,
+        "cep": "13063240",
         "pais": "Brasil"
     },
     {
@@ -3460,7 +3460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9303973,
         "longitude": -47.151297,
-        "cep": 13059602,
+        "cep": "13059602",
         "pais": "Brasil"
     },
     {
@@ -3470,7 +3470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8940828,
         "longitude": -47.0629468,
-        "cep": 13023200,
+        "cep": "13023200",
         "pais": "Brasil"
     },
     {
@@ -3480,7 +3480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7934487,
         "longitude": -47.2793374,
-        "cep": 13173311,
+        "cep": "13173311",
         "pais": "Brasil"
     },
     {
@@ -3490,7 +3490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180170,
+        "cep": "13180170",
         "pais": "Brasil"
     },
     {
@@ -3500,7 +3500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8841331,
         "longitude": -47.1506447,
-        "cep": 13067107,
+        "cep": "13067107",
         "pais": "Brasil"
     },
     {
@@ -3510,7 +3510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8559467,
         "longitude": -47.2169415,
-        "cep": 13183130,
+        "cep": "13183130",
         "pais": "Brasil"
     },
     {
@@ -3520,7 +3520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1327433,
         "longitude": -47.2406213,
-        "cep": 13348160,
+        "cep": "13348160",
         "pais": "Brasil"
     },
     {
@@ -3530,7 +3530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9479825,
         "longitude": -46.9787538,
-        "cep": 13273420,
+        "cep": "13273420",
         "pais": "Brasil"
     },
     {
@@ -3540,7 +3540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9401593,
         "longitude": -47.0936908,
-        "cep": 13050122,
+        "cep": "13050122",
         "pais": "Brasil"
     },
     {
@@ -3550,7 +3550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8969586,
         "longitude": -47.0780046,
-        "cep": 13070770,
+        "cep": "13070770",
         "pais": "Brasil"
     },
     {
@@ -3560,7 +3560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293713,
         "longitude": -47.0403594,
-        "cep": 13045685,
+        "cep": "13045685",
         "pais": "Brasil"
     },
     {
@@ -3570,7 +3570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8684682,
         "longitude": -47.1775743,
-        "cep": 13184885,
+        "cep": "13184885",
         "pais": "Brasil"
     },
     {
@@ -3580,7 +3580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052200,
+        "cep": "13052200",
         "pais": "Brasil"
     },
     {
@@ -3590,7 +3590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0184336,
         "longitude": -47.5211313,
-        "cep": 13370025,
+        "cep": "13370025",
         "pais": "Brasil"
     },
     {
@@ -3600,7 +3600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7874719,
         "longitude": -46.9964514,
-        "cep": 13098754,
+        "cep": "13098754",
         "pais": "Brasil"
     },
     {
@@ -3610,7 +3610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.882004,
         "longitude": -47.0466419,
-        "cep": 13076550,
+        "cep": "13076550",
         "pais": "Brasil"
     },
     {
@@ -3620,7 +3620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6886778,
         "longitude": -46.9833357,
-        "cep": 13912454,
+        "cep": "13912454",
         "pais": "Brasil"
     },
     {
@@ -3630,7 +3630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9503039,
         "longitude": -47.1933874,
-        "cep": 13058005,
+        "cep": "13058005",
         "pais": "Brasil"
     },
     {
@@ -3640,7 +3640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7234564,
         "longitude": -47.6287343,
-        "cep": 13418310,
+        "cep": "13418310",
         "pais": "Brasil"
     },
     {
@@ -3650,7 +3650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9858092,
         "longitude": -47.1492686,
-        "cep": 13056283,
+        "cep": "13056283",
         "pais": "Brasil"
     },
     {
@@ -3660,7 +3660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7318735,
         "longitude": -47.1818045,
-        "cep": 13145688,
+        "cep": "13145688",
         "pais": "Brasil"
     },
     {
@@ -3670,7 +3670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3911332,
         "longitude": -46.9350087,
-        "cep": 13843154,
+        "cep": "13843154",
         "pais": "Brasil"
     },
     {
@@ -3680,7 +3680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8292704,
         "longitude": -47.2189548,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -3690,7 +3690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.590358,
         "longitude": -47.4296897,
-        "cep": 13481671,
+        "cep": "13481671",
         "pais": "Brasil"
     },
     {
@@ -3700,7 +3700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.798723,
         "longitude": -47.2813901,
-        "cep": 13173224,
+        "cep": "13173224",
         "pais": "Brasil"
     },
     {
@@ -3710,7 +3710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8994702,
         "longitude": -47.0999081,
-        "cep": 13033900,
+        "cep": "13033900",
         "pais": "Brasil"
     },
     {
@@ -3720,7 +3720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9789176,
         "longitude": -46.9968838,
-        "cep": 13276250,
+        "cep": "13276250",
         "pais": "Brasil"
     },
     {
@@ -3730,7 +3730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9220304,
         "longitude": -47.039518,
-        "cep": 13100505,
+        "cep": "13100505",
         "pais": "Brasil"
     },
     {
@@ -3740,7 +3740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8475147,
         "longitude": -47.109622,
-        "cep": 13082135,
+        "cep": "13082135",
         "pais": "Brasil"
     },
     {
@@ -3748,9 +3748,9 @@ const usuarios = [
         "nome": "jose maria de lima jr",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360184,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360184",
         "pais": "Brasil"
     },
     {
@@ -3760,7 +3760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1041239,
         "longitude": -47.2309298,
-        "cep": 13348865,
+        "cep": "13348865",
         "pais": "Brasil"
     },
     {
@@ -3770,7 +3770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396035,
         "longitude": -47.1389362,
-        "cep": 13059650,
+        "cep": "13059650",
         "pais": "Brasil"
     },
     {
@@ -3780,7 +3780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7421568,
         "longitude": -47.6021583,
-        "cep": 13423100,
+        "cep": "13423100",
         "pais": "Brasil"
     },
     {
@@ -3790,7 +3790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035395,
         "longitude": -47.1727544,
-        "cep": 13185490,
+        "cep": "13185490",
         "pais": "Brasil"
     },
     {
@@ -3800,7 +3800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13290156,
+        "cep": "13290156",
         "pais": "Brasil"
     },
     {
@@ -3810,7 +3810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.97184,
         "longitude": -47.0108235,
-        "cep": 13271415,
+        "cep": "13271415",
         "pais": "Brasil"
     },
     {
@@ -3820,7 +3820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5901072,
         "longitude": -47.3742317,
-        "cep": 13487287,
+        "cep": "13487287",
         "pais": "Brasil"
     },
     {
@@ -3830,7 +3830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7502549,
         "longitude": -47.1708671,
-        "cep": 13145133,
+        "cep": "13145133",
         "pais": "Brasil"
     },
     {
@@ -3840,7 +3840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9328963,
         "longitude": -47.158738,
-        "cep": 13059613,
+        "cep": "13059613",
         "pais": "Brasil"
     },
     {
@@ -3850,7 +3850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040145,
+        "cep": "13040145",
         "pais": "Brasil"
     },
     {
@@ -3860,7 +3860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13294400,
+        "cep": "13294400",
         "pais": "Brasil"
     },
     {
@@ -3870,7 +3870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456530,
+        "cep": "13456530",
         "pais": "Brasil"
     },
     {
@@ -3880,7 +3880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8160268,
         "longitude": -47.2735558,
-        "cep": 13170586,
+        "cep": "13170586",
         "pais": "Brasil"
     },
     {
@@ -3890,7 +3890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9654587,
         "longitude": -47.197979,
-        "cep": 13058142,
+        "cep": "13058142",
         "pais": "Brasil"
     },
     {
@@ -3900,17 +3900,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9503039,
         "longitude": -47.1933874,
-        "cep": 13058005,
+        "cep": "13058005",
         "pais": "Brasil"
     },
     {
         "id": 391,
         "nome": "Antonio Carlos da Silva",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -22.5907673,
         "longitude": -47.1674091,
-        "cep": 13825000,
+        "cep": "13825000",
         "pais": NaN
     },
     {
@@ -3920,7 +3920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9367213,
         "longitude": -47.0867144,
-        "cep": 13050020,
+        "cep": "13050020",
         "pais": "Brasil"
     },
     {
@@ -3930,7 +3930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8961544,
         "longitude": -47.036845,
-        "cep": 13092331,
+        "cep": "13092331",
         "pais": "Brasil"
     },
     {
@@ -3940,7 +3940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8918706,
         "longitude": -47.2075138,
-        "cep": 13186642,
+        "cep": "13186642",
         "pais": "Brasil"
     },
     {
@@ -3950,7 +3950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9761443,
         "longitude": -46.9884262,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -3960,7 +3960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.925062,
         "longitude": -47.0757993,
-        "cep": 13030580,
+        "cep": "13030580",
         "pais": "Brasil"
     },
     {
@@ -3970,7 +3970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001054,
         "longitude": -47.1941955,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -3980,7 +3980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8262668,
         "longitude": -47.1680157,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -3990,7 +3990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8854404,
         "longitude": -47.0396907,
-        "cep": 13090764,
+        "cep": "13090764",
         "pais": "Brasil"
     },
     {
@@ -4000,7 +4000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042340,
+        "cep": "13042340",
         "pais": "Brasil"
     },
     {
@@ -4010,7 +4010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7341101,
         "longitude": -47.3504632,
-        "cep": 13469400,
+        "cep": "13469400",
         "pais": "Brasil"
     },
     {
@@ -4020,7 +4020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7229945,
         "longitude": -47.3474341,
-        "cep": 13470160,
+        "cep": "13470160",
         "pais": "Brasil"
     },
     {
@@ -4030,7 +4030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8834977,
         "longitude": -47.1512713,
-        "cep": 13067102,
+        "cep": "13067102",
         "pais": "Brasil"
     },
     {
@@ -4040,7 +4040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2840884,
         "longitude": -48.1267265,
-        "cep": 17380000,
+        "cep": "17380000",
         "pais": "Brasil"
     },
     {
@@ -4050,7 +4050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9359774,
         "longitude": -47.0644195,
-        "cep": 13040109,
+        "cep": "13040109",
         "pais": "Brasil"
     },
     {
@@ -4060,7 +4060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8918706,
         "longitude": -47.2075138,
-        "cep": 13186642,
+        "cep": "13186642",
         "pais": "Brasil"
     },
     {
@@ -4070,7 +4070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8688958,
         "longitude": -47.2062083,
-        "cep": 13184350,
+        "cep": "13184350",
         "pais": "Brasil"
     },
     {
@@ -4080,7 +4080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9880115,
         "longitude": -46.985358,
-        "cep": 13275443,
+        "cep": "13275443",
         "pais": "Brasil"
     },
     {
@@ -4090,7 +4090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5740527,
         "longitude": -47.1601275,
-        "cep": 13163188,
+        "cep": "13163188",
         "pais": "Brasil"
     },
     {
@@ -4100,7 +4100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6034822,
         "longitude": -47.4195026,
-        "cep": 13481521,
+        "cep": "13481521",
         "pais": "Brasil"
     },
     {
@@ -4110,7 +4110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9338502,
         "longitude": -47.1002543,
-        "cep": 13060123,
+        "cep": "13060123",
         "pais": "Brasil"
     },
     {
@@ -4120,7 +4120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -4130,7 +4130,7 @@ const usuarios = [
         "estado": "MA",
         "latitude": -4.3779379,
         "longitude": -44.6692369,
-        "cep": 65708000,
+        "cep": "65708000",
         "pais": NaN
     },
     {
@@ -4140,7 +4140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741911,
         "longitude": -47.3236871,
-        "cep": 13478051,
+        "cep": "13478051",
         "pais": "Brasil"
     },
     {
@@ -4150,7 +4150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9337518,
         "longitude": -47.0232726,
-        "cep": 13046190,
+        "cep": "13046190",
         "pais": "Brasil"
     },
     {
@@ -4160,7 +4160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.823662,
         "longitude": -47.2409354,
-        "cep": 13175667,
+        "cep": "13175667",
         "pais": "Brasil"
     },
     {
@@ -4170,7 +4170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9120273,
         "longitude": -47.0344546,
-        "cep": 13100223,
+        "cep": "13100223",
         "pais": "Brasil"
     },
     {
@@ -4180,7 +4180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8780072,
         "longitude": -47.2016803,
-        "cep": 13186022,
+        "cep": "13186022",
         "pais": "Brasil"
     },
     {
@@ -4190,7 +4190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9421519,
         "longitude": -47.0230088,
-        "cep": 13045260,
+        "cep": "13045260",
         "pais": "Brasil"
     },
     {
@@ -4200,7 +4200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8855542,
         "longitude": -47.0275585,
-        "cep": 13091100,
+        "cep": "13091100",
         "pais": "Brasil"
     },
     {
@@ -4210,7 +4210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058305,
+        "cep": "13058305",
         "pais": "Brasil"
     },
     {
@@ -4220,7 +4220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8918706,
         "longitude": -47.2075138,
-        "cep": 13186642,
+        "cep": "13186642",
         "pais": "Brasil"
     },
     {
@@ -4230,7 +4230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9905824,
         "longitude": -47.0993396,
-        "cep": 13052693,
+        "cep": "13052693",
         "pais": "Brasil"
     },
     {
@@ -4240,7 +4240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9477423,
         "longitude": -47.1201904,
-        "cep": 13060781,
+        "cep": "13060781",
         "pais": "Brasil"
     },
     {
@@ -4250,7 +4250,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -21.6762861,
         "longitude": -45.9211696,
-        "cep": 37750000,
+        "cep": "37750000",
         "pais": NaN
     },
     {
@@ -4260,7 +4260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9784108,
         "longitude": -47.1734045,
-        "cep": 13057547,
+        "cep": "13057547",
         "pais": "Brasil"
     },
     {
@@ -4270,7 +4270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9423431,
         "longitude": -47.0450722,
-        "cep": 13044000,
+        "cep": "13044000",
         "pais": "Brasil"
     },
     {
@@ -4280,7 +4280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9221519,
         "longitude": -47.0171721,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -4290,17 +4290,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064841,
+        "cep": "13064841",
         "pais": "Brasil"
     },
     {
         "id": 430,
         "nome": "Gustavo manoel Dos Santos",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.9921507,
         "longitude": -49.4455477,
-        "cep": 13497192,
+        "cep": "13497192",
         "pais": NaN
     },
     {
@@ -4310,7 +4310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6781707,
         "longitude": -46.9859338,
-        "cep": 13914464,
+        "cep": "13914464",
         "pais": "Brasil"
     },
     {
@@ -4320,7 +4320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7044237,
         "longitude": -47.291139,
-        "cep": 13474590,
+        "cep": "13474590",
         "pais": "Brasil"
     },
     {
@@ -4330,7 +4330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9068447,
         "longitude": -47.1023862,
-        "cep": 13033185,
+        "cep": "13033185",
         "pais": "Brasil"
     },
     {
@@ -4340,7 +4340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9112063,
         "longitude": -47.0505639,
-        "cep": 13026026,
+        "cep": "13026026",
         "pais": "Brasil"
     },
     {
@@ -4350,7 +4350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13260000,
+        "cep": "13260000",
         "pais": "Brasil"
     },
     {
@@ -4360,7 +4360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.964315,
         "longitude": -47.1068377,
-        "cep": 13052320,
+        "cep": "13052320",
         "pais": "Brasil"
     },
     {
@@ -4370,7 +4370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.936091,
         "longitude": -47.0641076,
-        "cep": 13040061,
+        "cep": "13040061",
         "pais": "Brasil"
     },
     {
@@ -4380,7 +4380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6302924,
         "longitude": -48.038039,
-        "cep": 18206770,
+        "cep": "18206770",
         "pais": "Brasil"
     },
     {
@@ -4390,7 +4390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9031836,
         "longitude": -47.081586,
-        "cep": 13032405,
+        "cep": "13032405",
         "pais": "Brasil"
     },
     {
@@ -4400,7 +4400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9155284,
         "longitude": -47.030079,
-        "cep": 13100365,
+        "cep": "13100365",
         "pais": "Brasil"
     },
     {
@@ -4410,7 +4410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.559903,
         "longitude": -47.4436422,
-        "cep": 13483230,
+        "cep": "13483230",
         "pais": "Brasil"
     },
     {
@@ -4420,7 +4420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.89695,
         "longitude": -47.2358262,
-        "cep": 13188030,
+        "cep": "13188030",
         "pais": "Brasil"
     },
     {
@@ -4430,7 +4430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1216996,
         "longitude": -47.2294126,
-        "cep": 13346450,
+        "cep": "13346450",
         "pais": "Brasil"
     },
     {
@@ -4440,7 +4440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8138456,
         "longitude": -47.0297742,
-        "cep": 13098422,
+        "cep": "13098422",
         "pais": "Brasil"
     },
     {
@@ -4450,7 +4450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059768,
+        "cep": "13059768",
         "pais": "Brasil"
     },
     {
@@ -4460,7 +4460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8493018,
         "longitude": -47.0353601,
-        "cep": 13088847,
+        "cep": "13088847",
         "pais": "Brasil"
     },
     {
@@ -4470,7 +4470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8086625,
         "longitude": -47.2040194,
-        "cep": 13178321,
+        "cep": "13178321",
         "pais": "Brasil"
     },
     {
@@ -4480,7 +4480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8435909,
         "longitude": -47.0486026,
-        "cep": 13087600,
+        "cep": "13087600",
         "pais": "Brasil"
     },
     {
@@ -4490,7 +4490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9211069,
         "longitude": -47.0435592,
-        "cep": 13100410,
+        "cep": "13100410",
         "pais": "Brasil"
     },
     {
@@ -4500,7 +4500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0952132,
         "longitude": -47.2227406,
-        "cep": 13345040,
+        "cep": "13345040",
         "pais": "Brasil"
     },
     {
@@ -4510,7 +4510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455440,
+        "cep": "13455440",
         "pais": "Brasil"
     },
     {
@@ -4520,7 +4520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9508199,
         "longitude": -47.0308653,
-        "cep": 13044500,
+        "cep": "13044500",
         "pais": "Brasil"
     },
     {
@@ -4530,7 +4530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040725,
+        "cep": "13040725",
         "pais": "Brasil"
     },
     {
@@ -4540,7 +4540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1035017,
         "longitude": -47.2598624,
-        "cep": 13349302,
+        "cep": "13349302",
         "pais": "Brasil"
     },
     {
@@ -4550,7 +4550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9368409,
         "longitude": -47.0397719,
-        "cep": 13043650,
+        "cep": "13043650",
         "pais": "Brasil"
     },
     {
@@ -4560,7 +4560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0366211,
         "longitude": -47.1118869,
-        "cep": 13053217,
+        "cep": "13053217",
         "pais": "Brasil"
     },
     {
@@ -4570,7 +4570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9445393,
         "longitude": -47.1125364,
-        "cep": 13060616,
+        "cep": "13060616",
         "pais": "Brasil"
     },
     {
@@ -4580,7 +4580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470486,
+        "cep": "13470486",
         "pais": "Brasil"
     },
     {
@@ -4590,7 +4590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -4600,7 +4600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7225619,
         "longitude": -47.3058646,
-        "cep": 13473300,
+        "cep": "13473300",
         "pais": "Brasil"
     },
     {
@@ -4610,7 +4610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5952694,
         "longitude": -47.4165376,
-        "cep": 13481631,
+        "cep": "13481631",
         "pais": "Brasil"
     },
     {
@@ -4620,7 +4620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064000,
+        "cep": "13064000",
         "pais": "Brasil"
     },
     {
@@ -4630,7 +4630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9191842,
         "longitude": -47.0903313,
-        "cep": 13031390,
+        "cep": "13031390",
         "pais": "Brasil"
     },
     {
@@ -4640,7 +4640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181796,
+        "cep": "13181796",
         "pais": "Brasil"
     },
     {
@@ -4650,7 +4650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9442153,
         "longitude": -47.1218549,
-        "cep": 13060744,
+        "cep": "13060744",
         "pais": "Brasil"
     },
     {
@@ -4660,7 +4660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001054,
         "longitude": -47.1941955,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -4670,7 +4670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322261,
+        "cep": "13322261",
         "pais": "Brasil"
     },
     {
@@ -4680,7 +4680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9820838,
         "longitude": -47.0000454,
-        "cep": 13277020,
+        "cep": "13277020",
         "pais": "Brasil"
     },
     {
@@ -4690,7 +4690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9078155,
         "longitude": -47.1171268,
-        "cep": 13061346,
+        "cep": "13061346",
         "pais": "Brasil"
     },
     {
@@ -4700,7 +4700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4572188,
         "longitude": -47.5387818,
-        "cep": 13513198,
+        "cep": "13513198",
         "pais": "Brasil"
     },
     {
@@ -4710,7 +4710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009761,
         "longitude": -47.2298333,
-        "cep": 13188000,
+        "cep": "13188000",
         "pais": "Brasil"
     },
     {
@@ -4720,7 +4720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9208432,
         "longitude": -47.0830179,
-        "cep": 13031500,
+        "cep": "13031500",
         "pais": "Brasil"
     },
     {
@@ -4730,7 +4730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9423431,
         "longitude": -47.0450722,
-        "cep": 13044000,
+        "cep": "13044000",
         "pais": "Brasil"
     },
     {
@@ -4740,7 +4740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9208549,
         "longitude": -47.0823175,
-        "cep": 13031400,
+        "cep": "13031400",
         "pais": "Brasil"
     },
     {
@@ -4750,7 +4750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8618498,
         "longitude": -47.0381773,
-        "cep": 13088106,
+        "cep": "13088106",
         "pais": "Brasil"
     },
     {
@@ -4760,7 +4760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4085928,
         "longitude": -47.5553146,
-        "cep": 13506732,
+        "cep": "13506732",
         "pais": "Brasil"
     },
     {
@@ -4770,7 +4770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9949164,
         "longitude": -47.1393343,
-        "cep": 13056013,
+        "cep": "13056013",
         "pais": "Brasil"
     },
     {
@@ -4780,7 +4780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893871,
         "longitude": -46.9976837,
-        "cep": 13277440,
+        "cep": "13277440",
         "pais": "Brasil"
     },
     {
@@ -4790,7 +4790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8479259,
         "longitude": -47.0730912,
-        "cep": 13080080,
+        "cep": "13080080",
         "pais": "Brasil"
     },
     {
@@ -4800,7 +4800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1190622,
         "longitude": -46.9703124,
-        "cep": 13213282,
+        "cep": "13213282",
         "pais": "Brasil"
     },
     {
@@ -4810,7 +4810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9012379,
         "longitude": -47.0647994,
-        "cep": 13020260,
+        "cep": "13020260",
         "pais": "Brasil"
     },
     {
@@ -4820,7 +4820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9281385,
         "longitude": -47.0373443,
-        "cep": 13045603,
+        "cep": "13045603",
         "pais": "Brasil"
     },
     {
@@ -4830,7 +4830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9615029,
         "longitude": -46.981417,
-        "cep": 13274390,
+        "cep": "13274390",
         "pais": "Brasil"
     },
     {
@@ -4840,7 +4840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454095,
+        "cep": "13454095",
         "pais": "Brasil"
     },
     {
@@ -4850,7 +4850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7939353,
         "longitude": -47.2026121,
-        "cep": 13178724,
+        "cep": "13178724",
         "pais": "Brasil"
     },
     {
@@ -4860,7 +4860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9350484,
         "longitude": -47.061358,
-        "cep": 13040108,
+        "cep": "13040108",
         "pais": "Brasil"
     },
     {
@@ -4870,7 +4870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.887888,
         "longitude": -47.0682221,
-        "cep": 13073340,
+        "cep": "13073340",
         "pais": "Brasil"
     },
     {
@@ -4880,7 +4880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453758,
+        "cep": "13453758",
         "pais": "Brasil"
     },
     {
@@ -4890,7 +4890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9034868,
         "longitude": -47.2445655,
-        "cep": 13188180,
+        "cep": "13188180",
         "pais": "Brasil"
     },
     {
@@ -4900,7 +4900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.791425,
         "longitude": -47.2839803,
-        "cep": 13173286,
+        "cep": "13173286",
         "pais": "Brasil"
     },
     {
@@ -4910,7 +4910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9714612,
         "longitude": -47.012647,
-        "cep": 13271430,
+        "cep": "13271430",
         "pais": "Brasil"
     },
     {
@@ -4920,7 +4920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9110182,
         "longitude": -47.0669952,
-        "cep": 13035270,
+        "cep": "13035270",
         "pais": "Brasil"
     },
     {
@@ -4930,7 +4930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5725306,
         "longitude": -47.4523209,
-        "cep": 13482781,
+        "cep": "13482781",
         "pais": "Brasil"
     },
     {
@@ -4940,7 +4940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9244945,
         "longitude": -47.0165487,
-        "cep": 13101284,
+        "cep": "13101284",
         "pais": "Brasil"
     },
     {
@@ -4950,7 +4950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13182630,
+        "cep": "13182630",
         "pais": "Brasil"
     },
     {
@@ -4960,7 +4960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5478113,
         "longitude": -47.4130217,
-        "cep": 13484115,
+        "cep": "13484115",
         "pais": "Brasil"
     },
     {
@@ -4970,7 +4970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7267849,
         "longitude": -47.3137092,
-        "cep": 13472310,
+        "cep": "13472310",
         "pais": "Brasil"
     },
     {
@@ -4980,7 +4980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458870,
+        "cep": "13458870",
         "pais": "Brasil"
     },
     {
@@ -4990,7 +4990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9361297,
         "longitude": -47.0503207,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -5000,7 +5000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.903251,
         "longitude": -47.1724126,
-        "cep": 13185230,
+        "cep": "13185230",
         "pais": "Brasil"
     },
     {
@@ -5010,7 +5010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9649534,
         "longitude": -47.1985552,
-        "cep": 13058179,
+        "cep": "13058179",
         "pais": "Brasil"
     },
     {
@@ -5020,7 +5020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4004357,
         "longitude": -47.5612899,
-        "cep": 13500315,
+        "cep": "13500315",
         "pais": "Brasil"
     },
     {
@@ -5030,7 +5030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9504314,
         "longitude": -47.0893452,
-        "cep": 13051103,
+        "cep": "13051103",
         "pais": "Brasil"
     },
     {
@@ -5040,7 +5040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8828176,
         "longitude": -46.9867309,
-        "cep": 13105125,
+        "cep": "13105125",
         "pais": "Brasil"
     },
     {
@@ -5050,7 +5050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9464879,
         "longitude": -47.1613763,
-        "cep": 13059615,
+        "cep": "13059615",
         "pais": "Brasil"
     },
     {
@@ -5060,7 +5060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.193497,
         "longitude": -46.8684219,
-        "cep": 13219071,
+        "cep": "13219071",
         "pais": "Brasil"
     },
     {
@@ -5070,7 +5070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9356662,
         "longitude": -47.2538203,
-        "cep": 13197340,
+        "cep": "13197340",
         "pais": "Brasil"
     },
     {
@@ -5080,7 +5080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5514568,
         "longitude": -47.3944182,
-        "cep": 13485042,
+        "cep": "13485042",
         "pais": "Brasil"
     },
     {
@@ -5090,7 +5090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9546438,
         "longitude": -47.0833799,
-        "cep": 13051433,
+        "cep": "13051433",
         "pais": "Brasil"
     },
     {
@@ -5100,7 +5100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5609015,
         "longitude": -47.4044997,
-        "cep": 13480151,
+        "cep": "13480151",
         "pais": "Brasil"
     },
     {
@@ -5110,7 +5110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.875946,
         "longitude": -47.2417396,
-        "cep": 13189217,
+        "cep": "13189217",
         "pais": "Brasil"
     },
     {
@@ -5120,7 +5120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181640,
+        "cep": "13181640",
         "pais": "Brasil"
     },
     {
@@ -5130,7 +5130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0416538,
         "longitude": -47.3718002,
-        "cep": 13350000,
+        "cep": "13350000",
         "pais": "Brasil"
     },
     {
@@ -5140,7 +5140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9103885,
         "longitude": -47.0794859,
-        "cep": 13035010,
+        "cep": "13035010",
         "pais": "Brasil"
     },
     {
@@ -5150,7 +5150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8834433,
         "longitude": -47.0353418,
-        "cep": 13090830,
+        "cep": "13090830",
         "pais": "Brasil"
     },
     {
@@ -5160,7 +5160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8771892,
         "longitude": -47.0554574,
-        "cep": 13075460,
+        "cep": "13075460",
         "pais": "Brasil"
     },
     {
@@ -5170,7 +5170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051069,
+        "cep": "13051069",
         "pais": "Brasil"
     },
     {
@@ -5180,7 +5180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181796,
+        "cep": "13181796",
         "pais": "Brasil"
     },
     {
@@ -5190,7 +5190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9645124,
         "longitude": -47.198595,
-        "cep": 13058208,
+        "cep": "13058208",
         "pais": "Brasil"
     },
     {
@@ -5200,7 +5200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.418595,
         "longitude": -47.5718754,
-        "cep": 13503390,
+        "cep": "13503390",
         "pais": "Brasil"
     },
     {
@@ -5210,7 +5210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049107,
+        "cep": "13049107",
         "pais": "Brasil"
     },
     {
@@ -5220,7 +5220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9353917,
         "longitude": -47.09251,
-        "cep": 13050063,
+        "cep": "13050063",
         "pais": "Brasil"
     },
     {
@@ -5230,7 +5230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7432085,
         "longitude": -47.3540809,
-        "cep": 13469097,
+        "cep": "13469097",
         "pais": "Brasil"
     },
     {
@@ -5240,7 +5240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9115815,
         "longitude": -47.119288,
-        "cep": 13061371,
+        "cep": "13061371",
         "pais": "Brasil"
     },
     {
@@ -5250,7 +5250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9307354,
         "longitude": -47.1661866,
-        "cep": 13059620,
+        "cep": "13059620",
         "pais": "Brasil"
     },
     {
@@ -5260,7 +5260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8883635,
         "longitude": -47.0426516,
-        "cep": 13090770,
+        "cep": "13090770",
         "pais": "Brasil"
     },
     {
@@ -5270,7 +5270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8449116,
         "longitude": -47.0221495,
-        "cep": 13097121,
+        "cep": "13097121",
         "pais": "Brasil"
     },
     {
@@ -5280,7 +5280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8914908,
         "longitude": -47.2247404,
-        "cep": 13187149,
+        "cep": "13187149",
         "pais": "Brasil"
     },
     {
@@ -5290,7 +5290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.934064,
         "longitude": -47.0866598,
-        "cep": 13050000,
+        "cep": "13050000",
         "pais": "Brasil"
     },
     {
@@ -5300,7 +5300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7702854,
         "longitude": -47.1624813,
-        "cep": 13140426,
+        "cep": "13140426",
         "pais": "Brasil"
     },
     {
@@ -5310,7 +5310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9168214,
         "longitude": -47.0445426,
-        "cep": 13026140,
+        "cep": "13026140",
         "pais": "Brasil"
     },
     {
@@ -5320,7 +5320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034830,
+        "cep": "13034830",
         "pais": "Brasil"
     },
     {
@@ -5330,7 +5330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8459779,
         "longitude": -47.2070839,
-        "cep": 13183661,
+        "cep": "13183661",
         "pais": "Brasil"
     },
     {
@@ -5340,7 +5340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8936515,
         "longitude": -47.2496321,
-        "cep": 13188235,
+        "cep": "13188235",
         "pais": "Brasil"
     },
     {
@@ -5350,7 +5350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9658318,
         "longitude": -47.0419805,
-        "cep": 13042820,
+        "cep": "13042820",
         "pais": "Brasil"
     },
     {
@@ -5360,7 +5360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9218223,
         "longitude": -47.0878121,
-        "cep": 13031580,
+        "cep": "13031580",
         "pais": "Brasil"
     },
     {
@@ -5370,7 +5370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5418341,
         "longitude": -47.1701473,
-        "cep": 13165524,
+        "cep": "13165524",
         "pais": "Brasil"
     },
     {
@@ -5380,7 +5380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470487,
+        "cep": "13470487",
         "pais": "Brasil"
     },
     {
@@ -5390,7 +5390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455450,
+        "cep": "13455450",
         "pais": "Brasil"
     },
     {
@@ -5400,7 +5400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9320985,
         "longitude": -47.0762548,
-        "cep": 13050008,
+        "cep": "13050008",
         "pais": "Brasil"
     },
     {
@@ -5410,7 +5410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13451076,
+        "cep": "13451076",
         "pais": "Brasil"
     },
     {
@@ -5420,7 +5420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9079159,
         "longitude": -47.0476421,
-        "cep": 13026050,
+        "cep": "13026050",
         "pais": "Brasil"
     },
     {
@@ -5430,7 +5430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9443416,
         "longitude": -47.0406979,
-        "cep": 13044440,
+        "cep": "13044440",
         "pais": "Brasil"
     },
     {
@@ -5440,7 +5440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322224,
+        "cep": "13322224",
         "pais": "Brasil"
     },
     {
@@ -5450,7 +5450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9290171,
         "longitude": -47.0893095,
-        "cep": 13050471,
+        "cep": "13050471",
         "pais": "Brasil"
     },
     {
@@ -5460,7 +5460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8985279,
         "longitude": -47.0556835,
-        "cep": 13025061,
+        "cep": "13025061",
         "pais": "Brasil"
     },
     {
@@ -5470,7 +5470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9112794,
         "longitude": -47.0818246,
-        "cep": 13035000,
+        "cep": "13035000",
         "pais": "Brasil"
     },
     {
@@ -5480,7 +5480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9306974,
         "longitude": -47.1783236,
-        "cep": 13058726,
+        "cep": "13058726",
         "pais": "Brasil"
     },
     {
@@ -5490,7 +5490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178559,
+        "cep": "13178559",
         "pais": "Brasil"
     },
     {
@@ -5500,7 +5500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8498124,
         "longitude": -47.2094688,
-        "cep": 13183627,
+        "cep": "13183627",
         "pais": "Brasil"
     },
     {
@@ -5510,7 +5510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9636375,
         "longitude": -47.1397688,
-        "cep": 13056640,
+        "cep": "13056640",
         "pais": "Brasil"
     },
     {
@@ -5520,7 +5520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8514046,
         "longitude": -47.1075637,
-        "cep": 13082085,
+        "cep": "13082085",
         "pais": "Brasil"
     },
     {
@@ -5530,7 +5530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8908191,
         "longitude": -47.2080093,
-        "cep": 13186664,
+        "cep": "13186664",
         "pais": "Brasil"
     },
     {
@@ -5540,7 +5540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.4800208,
         "longitude": -47.5531095,
-        "cep": 14200000,
+        "cep": "14200000",
         "pais": "Brasil"
     },
     {
@@ -5550,7 +5550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938899,
         "longitude": -47.1228027,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -5560,7 +5560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.903251,
         "longitude": -47.1724126,
-        "cep": 13185230,
+        "cep": "13185230",
         "pais": "Brasil"
     },
     {
@@ -5570,7 +5570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8480023,
         "longitude": -47.1102067,
-        "cep": 13082180,
+        "cep": "13082180",
         "pais": "Brasil"
     },
     {
@@ -5580,7 +5580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7626991,
         "longitude": -47.3396561,
-        "cep": 13467110,
+        "cep": "13467110",
         "pais": "Brasil"
     },
     {
@@ -5590,7 +5590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9479334,
         "longitude": -47.1369878,
-        "cep": 13059703,
+        "cep": "13059703",
         "pais": "Brasil"
     },
     {
@@ -5600,7 +5600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9954104,
         "longitude": -47.143007,
-        "cep": 13056040,
+        "cep": "13056040",
         "pais": "Brasil"
     },
     {
@@ -5610,7 +5610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13386078,
+        "cep": "13386078",
         "pais": "Brasil"
     },
     {
@@ -5620,7 +5620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13085415,
+        "cep": "13085415",
         "pais": "Brasil"
     },
     {
@@ -5630,7 +5630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7307838,
         "longitude": -47.3101606,
-        "cep": 13472080,
+        "cep": "13472080",
         "pais": "Brasil"
     },
     {
@@ -5640,7 +5640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9617711,
         "longitude": -47.0491571,
-        "cep": 13042670,
+        "cep": "13042670",
         "pais": "Brasil"
     },
     {
@@ -5650,7 +5650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13332057,
+        "cep": "13332057",
         "pais": "Brasil"
     },
     {
@@ -5660,7 +5660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3817943,
         "longitude": -47.5623484,
-        "cep": 13505070,
+        "cep": "13505070",
         "pais": "Brasil"
     },
     {
@@ -5670,7 +5670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9413142,
         "longitude": -47.1572811,
-        "cep": 13059042,
+        "cep": "13059042",
         "pais": "Brasil"
     },
     {
@@ -5680,7 +5680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9427712,
         "longitude": -47.1869266,
-        "cep": 13058535,
+        "cep": "13058535",
         "pais": "Brasil"
     },
     {
@@ -5690,7 +5690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040565,
+        "cep": "13040565",
         "pais": "Brasil"
     },
     {
@@ -5700,7 +5700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9692545,
         "longitude": -47.0008236,
-        "cep": 13271180,
+        "cep": "13271180",
         "pais": "Brasil"
     },
     {
@@ -5710,7 +5710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893977,
         "longitude": -47.1000521,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -5720,7 +5720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.903251,
         "longitude": -47.1724126,
-        "cep": 13185230,
+        "cep": "13185230",
         "pais": "Brasil"
     },
     {
@@ -5730,7 +5730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13312784,
+        "cep": "13312784",
         "pais": "Brasil"
     },
     {
@@ -5740,7 +5740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8678781,
         "longitude": -47.2284093,
-        "cep": 13189284,
+        "cep": "13189284",
         "pais": "Brasil"
     },
     {
@@ -5750,7 +5750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8262668,
         "longitude": -47.1680157,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -5760,7 +5760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8086959,
         "longitude": -47.2179225,
-        "cep": 13177903,
+        "cep": "13177903",
         "pais": "Brasil"
     },
     {
@@ -5770,7 +5770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9673928,
         "longitude": -47.147656,
-        "cep": 13056521,
+        "cep": "13056521",
         "pais": "Brasil"
     },
     {
@@ -5780,7 +5780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6126459,
         "longitude": -46.699986,
-        "cep": 13930000,
+        "cep": "13930000",
         "pais": "Brasil"
     },
     {
@@ -5790,7 +5790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7409217,
         "longitude": -47.2986622,
-        "cep": 13477500,
+        "cep": "13477500",
         "pais": "Brasil"
     },
     {
@@ -5800,7 +5800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9208549,
         "longitude": -47.0823175,
-        "cep": 13031400,
+        "cep": "13031400",
         "pais": "Brasil"
     },
     {
@@ -5810,7 +5810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9012379,
         "longitude": -47.0647994,
-        "cep": 13020260,
+        "cep": "13020260",
         "pais": "Brasil"
     },
     {
@@ -5820,7 +5820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9539397,
         "longitude": -46.9938095,
-        "cep": 13272080,
+        "cep": "13272080",
         "pais": "Brasil"
     },
     {
@@ -5830,7 +5830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453022,
+        "cep": "13453022",
         "pais": "Brasil"
     },
     {
@@ -5840,7 +5840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9296948,
         "longitude": -47.0898402,
-        "cep": 13050460,
+        "cep": "13050460",
         "pais": "Brasil"
     },
     {
@@ -5850,7 +5850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520619,
         "longitude": -47.0268035,
-        "cep": 13044503,
+        "cep": "13044503",
         "pais": "Brasil"
     },
     {
@@ -5860,7 +5860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8893321,
         "longitude": -47.0217891,
-        "cep": 13092526,
+        "cep": "13092526",
         "pais": "Brasil"
     },
     {
@@ -5870,7 +5870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9281419,
         "longitude": -47.1127522,
-        "cep": 13060039,
+        "cep": "13060039",
         "pais": "Brasil"
     },
     {
@@ -5880,7 +5880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9902782,
         "longitude": -47.1451819,
-        "cep": 13056073,
+        "cep": "13056073",
         "pais": "Brasil"
     },
     {
@@ -5890,7 +5890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7933755,
         "longitude": -47.0876757,
-        "cep": 13085260,
+        "cep": "13085260",
         "pais": "Brasil"
     },
     {
@@ -5900,7 +5900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9166603,
         "longitude": -47.0372482,
-        "cep": 13100310,
+        "cep": "13100310",
         "pais": "Brasil"
     },
     {
@@ -5910,7 +5910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7771928,
         "longitude": -47.3039081,
-        "cep": 13380112,
+        "cep": "13380112",
         "pais": "Brasil"
     },
     {
@@ -5920,7 +5920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9611223,
         "longitude": -47.0652153,
-        "cep": 13049255,
+        "cep": "13049255",
         "pais": "Brasil"
     },
     {
@@ -5930,7 +5930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9494881,
         "longitude": -47.0960032,
-        "cep": 13050191,
+        "cep": "13050191",
         "pais": "Brasil"
     },
     {
@@ -5940,7 +5940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.97024,
         "longitude": -47.1818788,
-        "cep": 13057121,
+        "cep": "13057121",
         "pais": "Brasil"
     },
     {
@@ -5950,7 +5950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9175742,
         "longitude": -47.1177416,
-        "cep": 13060291,
+        "cep": "13060291",
         "pais": "Brasil"
     },
     {
@@ -5960,7 +5960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8952252,
         "longitude": -47.1583944,
-        "cep": 13064806,
+        "cep": "13064806",
         "pais": "Brasil"
     },
     {
@@ -5970,7 +5970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9053768,
         "longitude": -47.0984642,
-        "cep": 13033035,
+        "cep": "13033035",
         "pais": "Brasil"
     },
     {
@@ -5980,7 +5980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0951406,
         "longitude": -47.2785202,
-        "cep": 13349045,
+        "cep": "13349045",
         "pais": "Brasil"
     },
     {
@@ -5990,7 +5990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9331198,
         "longitude": -47.1177839,
-        "cep": 13060535,
+        "cep": "13060535",
         "pais": "Brasil"
     },
     {
@@ -6000,7 +6000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8251046,
         "longitude": -47.235804,
-        "cep": 13175668,
+        "cep": "13175668",
         "pais": "Brasil"
     },
     {
@@ -6010,7 +6010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8792858,
         "longitude": -47.0529593,
-        "cep": 13076628,
+        "cep": "13076628",
         "pais": "Brasil"
     },
     {
@@ -6020,7 +6020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5916723,
         "longitude": -47.3946411,
-        "cep": 13481296,
+        "cep": "13481296",
         "pais": "Brasil"
     },
     {
@@ -6030,7 +6030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9057706,
         "longitude": -47.176324,
-        "cep": 13185342,
+        "cep": "13185342",
         "pais": "Brasil"
     },
     {
@@ -6040,7 +6040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8816928,
         "longitude": -48.4446246,
-        "cep": 18603760,
+        "cep": "18603760",
         "pais": "Brasil"
     },
     {
@@ -6050,7 +6050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.74995,
         "longitude": -47.3172624,
-        "cep": 13478710,
+        "cep": "13478710",
         "pais": "Brasil"
     },
     {
@@ -6060,7 +6060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13260000,
+        "cep": "13260000",
         "pais": "Brasil"
     },
     {
@@ -6070,7 +6070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9233997,
         "longitude": -47.1076451,
-        "cep": 13060059,
+        "cep": "13060059",
         "pais": "Brasil"
     },
     {
@@ -6080,7 +6080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0416538,
         "longitude": -47.3718002,
-        "cep": 13350000,
+        "cep": "13350000",
         "pais": "Brasil"
     },
     {
@@ -6090,7 +6090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9808169,
         "longitude": -46.9940304,
-        "cep": 13276390,
+        "cep": "13276390",
         "pais": "Brasil"
     },
     {
@@ -6100,7 +6100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8154615,
         "longitude": -47.2311486,
-        "cep": 13177244,
+        "cep": "13177244",
         "pais": "Brasil"
     },
     {
@@ -6110,7 +6110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9316034,
         "longitude": -47.1823677,
-        "cep": 13058713,
+        "cep": "13058713",
         "pais": "Brasil"
     },
     {
@@ -6120,7 +6120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1508,
         "longitude": -46.9085714,
-        "cep": 13214483,
+        "cep": "13214483",
         "pais": "Brasil"
     },
     {
@@ -6130,7 +6130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9711948,
         "longitude": -47.1747839,
-        "cep": 13057136,
+        "cep": "13057136",
         "pais": "Brasil"
     },
     {
@@ -6140,7 +6140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9202588,
         "longitude": -47.0483894,
-        "cep": 13026370,
+        "cep": "13026370",
         "pais": "Brasil"
     },
     {
@@ -6150,7 +6150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8902385,
         "longitude": -47.0369147,
-        "cep": 13090723,
+        "cep": "13090723",
         "pais": "Brasil"
     },
     {
@@ -6160,7 +6160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8301864,
         "longitude": -47.0778704,
-        "cep": 13084070,
+        "cep": "13084070",
         "pais": "Brasil"
     },
     {
@@ -6170,7 +6170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9992384,
         "longitude": -46.9919195,
-        "cep": 13277732,
+        "cep": "13277732",
         "pais": "Brasil"
     },
     {
@@ -6180,7 +6180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8648577,
         "longitude": -47.0385152,
-        "cep": 13088300,
+        "cep": "13088300",
         "pais": "Brasil"
     },
     {
@@ -6190,7 +6190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9329629,
         "longitude": -47.0909205,
-        "cep": 13050055,
+        "cep": "13050055",
         "pais": "Brasil"
     },
     {
@@ -6200,7 +6200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7329109,
         "longitude": -47.3446008,
-        "cep": 13471104,
+        "cep": "13471104",
         "pais": "Brasil"
     },
     {
@@ -6210,7 +6210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9542778,
         "longitude": -47.0791433,
-        "cep": 13051027,
+        "cep": "13051027",
         "pais": "Brasil"
     },
     {
@@ -6220,7 +6220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9401055,
         "longitude": -47.1566134,
-        "cep": 13059016,
+        "cep": "13059016",
         "pais": "Brasil"
     },
     {
@@ -6230,7 +6230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.93256,
         "longitude": -47.0950688,
-        "cep": 13050515,
+        "cep": "13050515",
         "pais": "Brasil"
     },
     {
@@ -6240,7 +6240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9672414,
         "longitude": -46.9933081,
-        "cep": 13274125,
+        "cep": "13274125",
         "pais": "Brasil"
     },
     {
@@ -6250,7 +6250,7 @@ const usuarios = [
         "estado": "MS",
         "latitude": -22.5378671,
         "longitude": -55.7282747,
-        "cep": 79904672,
+        "cep": "79904672",
         "pais": NaN
     },
     {
@@ -6260,7 +6260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9482757,
         "longitude": -47.1978878,
-        "cep": 13058822,
+        "cep": "13058822",
         "pais": "Brasil"
     },
     {
@@ -6270,7 +6270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.193497,
         "longitude": -46.8684219,
-        "cep": 13219071,
+        "cep": "13219071",
         "pais": "Brasil"
     },
     {
@@ -6280,7 +6280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9093483,
         "longitude": -47.075027,
-        "cep": 13035060,
+        "cep": "13035060",
         "pais": "Brasil"
     },
     {
@@ -6290,7 +6290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9546438,
         "longitude": -47.0833799,
-        "cep": 13051433,
+        "cep": "13051433",
         "pais": "Brasil"
     },
     {
@@ -6300,7 +6300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9200767,
         "longitude": -47.09118,
-        "cep": 13031790,
+        "cep": "13031790",
         "pais": "Brasil"
     },
     {
@@ -6310,7 +6310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8867618,
         "longitude": -47.0345209,
-        "cep": 13091107,
+        "cep": "13091107",
         "pais": "Brasil"
     },
     {
@@ -6320,7 +6320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9425043,
         "longitude": -47.08278,
-        "cep": 13049020,
+        "cep": "13049020",
         "pais": "Brasil"
     },
     {
@@ -6330,7 +6330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9432128,
         "longitude": -47.1327814,
-        "cep": 13059673,
+        "cep": "13059673",
         "pais": "Brasil"
     },
     {
@@ -6340,7 +6340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8840901,
         "longitude": -47.1782626,
-        "cep": 13185143,
+        "cep": "13185143",
         "pais": "Brasil"
     },
     {
@@ -6350,7 +6350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9778664,
         "longitude": -47.1435873,
-        "cep": 13056400,
+        "cep": "13056400",
         "pais": "Brasil"
     },
     {
@@ -6360,7 +6360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9762211,
         "longitude": -47.1424937,
-        "cep": 13056350,
+        "cep": "13056350",
         "pais": "Brasil"
     },
     {
@@ -6370,7 +6370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185148,
+        "cep": "13185148",
         "pais": "Brasil"
     },
     {
@@ -6380,7 +6380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186524,
+        "cep": "13186524",
         "pais": "Brasil"
     },
     {
@@ -6390,7 +6390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310284,
+        "cep": "13310284",
         "pais": "Brasil"
     },
     {
@@ -6400,17 +6400,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8667857,
         "longitude": -47.0565434,
-        "cep": 13087221,
+        "cep": "13087221",
         "pais": "Brasil"
     },
     {
         "id": 641,
         "nome": "Lucas Oliveira",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -15.949925,
         "longitude": -44.856018,
-        "cep": 39300000,
+        "cep": "39300000",
         "pais": NaN
     },
     {
@@ -6420,7 +6420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9406451,
         "longitude": -47.1132544,
-        "cep": 13060504,
+        "cep": "13060504",
         "pais": "Brasil"
     },
     {
@@ -6430,7 +6430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9253186,
         "longitude": -47.123645,
-        "cep": 13060810,
+        "cep": "13060810",
         "pais": "Brasil"
     },
     {
@@ -6440,7 +6440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9521667,
         "longitude": -47.0813922,
-        "cep": 13051076,
+        "cep": "13051076",
         "pais": "Brasil"
     },
     {
@@ -6450,7 +6450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13327331,
+        "cep": "13327331",
         "pais": "Brasil"
     },
     {
@@ -6460,7 +6460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5640207,
         "longitude": -47.1631696,
-        "cep": 13167092,
+        "cep": "13167092",
         "pais": "Brasil"
     },
     {
@@ -6470,7 +6470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9381841,
         "longitude": -47.0470546,
-        "cep": 13044075,
+        "cep": "13044075",
         "pais": "Brasil"
     },
     {
@@ -6480,7 +6480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069426,
+        "cep": "13069426",
         "pais": "Brasil"
     },
     {
@@ -6490,7 +6490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9415088,
         "longitude": -47.0457142,
-        "cep": 13044100,
+        "cep": "13044100",
         "pais": "Brasil"
     },
     {
@@ -6500,7 +6500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7242747,
         "longitude": -47.3079074,
-        "cep": 13473290,
+        "cep": "13473290",
         "pais": "Brasil"
     },
     {
@@ -6510,7 +6510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9556357,
         "longitude": -47.1883752,
-        "cep": 13058334,
+        "cep": "13058334",
         "pais": "Brasil"
     },
     {
@@ -6520,7 +6520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0450175,
         "longitude": -47.1301026,
-        "cep": 13053616,
+        "cep": "13053616",
         "pais": "Brasil"
     },
     {
@@ -6530,7 +6530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.790714,
         "longitude": -46.9947421,
-        "cep": 13098772,
+        "cep": "13098772",
         "pais": "Brasil"
     },
     {
@@ -6540,7 +6540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0395177,
         "longitude": -47.1124719,
-        "cep": 13053206,
+        "cep": "13053206",
         "pais": "Brasil"
     },
     {
@@ -6550,7 +6550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8942616,
         "longitude": -47.21359,
-        "cep": 13187130,
+        "cep": "13187130",
         "pais": "Brasil"
     },
     {
@@ -6560,7 +6560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7405648,
         "longitude": -47.3207637,
-        "cep": 13478190,
+        "cep": "13478190",
         "pais": "Brasil"
     },
     {
@@ -6570,7 +6570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9887606,
         "longitude": -46.9971988,
-        "cep": 13277430,
+        "cep": "13277430",
         "pais": "Brasil"
     },
     {
@@ -6580,7 +6580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8488983,
         "longitude": -47.1149888,
-        "cep": 13082195,
+        "cep": "13082195",
         "pais": "Brasil"
     },
     {
@@ -6590,7 +6590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7484591,
         "longitude": -47.1767736,
-        "cep": 13145093,
+        "cep": "13145093",
         "pais": "Brasil"
     },
     {
@@ -6600,17 +6600,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9057706,
         "longitude": -47.176324,
-        "cep": 13185342,
+        "cep": "13185342",
         "pais": "Brasil"
     },
     {
         "id": 661,
         "nome": "Diego Pereira",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.8941408,
         "longitude": -48.2622678,
-        "cep": 17260000,
+        "cep": "17260000",
         "pais": NaN
     },
     {
@@ -6620,7 +6620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8492156,
         "longitude": -47.1167838,
-        "cep": 13082220,
+        "cep": "13082220",
         "pais": "Brasil"
     },
     {
@@ -6630,7 +6630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3549507,
         "longitude": -47.3759181,
-        "cep": 13600520,
+        "cep": "13600520",
         "pais": "Brasil"
     },
     {
@@ -6640,7 +6640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042370,
+        "cep": "13042370",
         "pais": "Brasil"
     },
     {
@@ -6650,7 +6650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9834431,
         "longitude": -47.0893854,
-        "cep": 13052726,
+        "cep": "13052726",
         "pais": "Brasil"
     },
     {
@@ -6660,7 +6660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5494674,
         "longitude": -47.4137009,
-        "cep": 13484070,
+        "cep": "13484070",
         "pais": "Brasil"
     },
     {
@@ -6670,7 +6670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6022141,
         "longitude": -47.4177903,
-        "cep": 13481522,
+        "cep": "13481522",
         "pais": "Brasil"
     },
     {
@@ -6680,7 +6680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9304291,
         "longitude": -47.0615404,
-        "cep": 13040100,
+        "cep": "13040100",
         "pais": "Brasil"
     },
     {
@@ -6690,7 +6690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13190029,
+        "cep": "13190029",
         "pais": "Brasil"
     },
     {
@@ -6700,7 +6700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9793997,
         "longitude": -46.9886198,
-        "cep": 13275400,
+        "cep": "13275400",
         "pais": "Brasil"
     },
     {
@@ -6710,7 +6710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9372472,
         "longitude": -47.1140575,
-        "cep": 13060510,
+        "cep": "13060510",
         "pais": "Brasil"
     },
     {
@@ -6720,7 +6720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9555916,
         "longitude": -46.9770338,
-        "cep": 13273096,
+        "cep": "13273096",
         "pais": "Brasil"
     },
     {
@@ -6730,7 +6730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9690199,
         "longitude": -47.1218706,
-        "cep": 13054142,
+        "cep": "13054142",
         "pais": "Brasil"
     },
     {
@@ -6740,7 +6740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1038629,
         "longitude": -47.2330377,
-        "cep": 13348863,
+        "cep": "13348863",
         "pais": "Brasil"
     },
     {
@@ -6750,7 +6750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9885288,
         "longitude": -46.9879309,
-        "cep": 13275537,
+        "cep": "13275537",
         "pais": "Brasil"
     },
     {
@@ -6760,7 +6760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -6770,7 +6770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9672414,
         "longitude": -46.9933081,
-        "cep": 13274125,
+        "cep": "13274125",
         "pais": "Brasil"
     },
     {
@@ -6780,7 +6780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8596731,
         "longitude": -47.0349367,
-        "cep": 13088118,
+        "cep": "13088118",
         "pais": "Brasil"
     },
     {
@@ -6790,7 +6790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13031680,
+        "cep": "13031680",
         "pais": "Brasil"
     },
     {
@@ -6800,7 +6800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9896375,
         "longitude": -47.1452374,
-        "cep": 13056074,
+        "cep": "13056074",
         "pais": "Brasil"
     },
     {
@@ -6810,7 +6810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181735,
+        "cep": "13181735",
         "pais": "Brasil"
     },
     {
@@ -6820,7 +6820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9297308,
         "longitude": -47.1108777,
-        "cep": 13060043,
+        "cep": "13060043",
         "pais": "Brasil"
     },
     {
@@ -6830,7 +6830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454174,
+        "cep": "13454174",
         "pais": "Brasil"
     },
     {
@@ -6840,7 +6840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040145,
+        "cep": "13040145",
         "pais": "Brasil"
     },
     {
@@ -6850,7 +6850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9040773,
         "longitude": -47.0572239,
-        "cep": 13015010,
+        "cep": "13015010",
         "pais": "Brasil"
     },
     {
@@ -6860,7 +6860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.103408,
         "longitude": -47.1868199,
-        "cep": 13340645,
+        "cep": "13340645",
         "pais": "Brasil"
     },
     {
@@ -6870,7 +6870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -6880,7 +6880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9031228,
         "longitude": -47.2468119,
-        "cep": 13188191,
+        "cep": "13188191",
         "pais": "Brasil"
     },
     {
@@ -6890,7 +6890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9531128,
         "longitude": -47.2168254,
-        "cep": 13058761,
+        "cep": "13058761",
         "pais": "Brasil"
     },
     {
@@ -6900,7 +6900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6502928,
         "longitude": -47.1893067,
-        "cep": 13150312,
+        "cep": "13150312",
         "pais": "Brasil"
     },
     {
@@ -6910,7 +6910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13277021,
+        "cep": "13277021",
         "pais": "Brasil"
     },
     {
@@ -6920,7 +6920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.407201,
         "longitude": -47.5619181,
-        "cep": 13504092,
+        "cep": "13504092",
         "pais": "Brasil"
     },
     {
@@ -6930,7 +6930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8936515,
         "longitude": -47.2496321,
-        "cep": 13188235,
+        "cep": "13188235",
         "pais": "Brasil"
     },
     {
@@ -6940,7 +6940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9421408,
         "longitude": -47.0818605,
-        "cep": 13049137,
+        "cep": "13049137",
         "pais": "Brasil"
     },
     {
@@ -6950,7 +6950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1106219,
         "longitude": -47.2252237,
-        "cep": 13346250,
+        "cep": "13346250",
         "pais": "Brasil"
     },
     {
@@ -6960,7 +6960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1260581,
         "longitude": -47.2509697,
-        "cep": 13349812,
+        "cep": "13349812",
         "pais": "Brasil"
     },
     {
@@ -6970,7 +6970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9073596,
         "longitude": -47.2132791,
-        "cep": 13187110,
+        "cep": "13187110",
         "pais": "Brasil"
     },
     {
@@ -6980,7 +6980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9071508,
         "longitude": -47.059358,
-        "cep": 13013052,
+        "cep": "13013052",
         "pais": "Brasil"
     },
     {
@@ -6990,7 +6990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -7000,7 +7000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9217259,
         "longitude": -47.0727854,
-        "cep": 13030290,
+        "cep": "13030290",
         "pais": "Brasil"
     },
     {
@@ -7010,7 +7010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8608419,
         "longitude": -47.1530868,
-        "cep": 13068113,
+        "cep": "13068113",
         "pais": "Brasil"
     },
     {
@@ -7020,7 +7020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9871565,
         "longitude": -47.1378783,
-        "cep": 13056114,
+        "cep": "13056114",
         "pais": "Brasil"
     },
     {
@@ -7030,7 +7030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9413142,
         "longitude": -47.1572811,
-        "cep": 13059042,
+        "cep": "13059042",
         "pais": "Brasil"
     },
     {
@@ -7040,7 +7040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9109305,
         "longitude": -47.0711752,
-        "cep": 13035030,
+        "cep": "13035030",
         "pais": "Brasil"
     },
     {
@@ -7050,7 +7050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9381841,
         "longitude": -47.0470546,
-        "cep": 13044075,
+        "cep": "13044075",
         "pais": "Brasil"
     },
     {
@@ -7060,7 +7060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13176205,
+        "cep": "13176205",
         "pais": "Brasil"
     },
     {
@@ -7070,7 +7070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9319607,
         "longitude": -47.0873837,
-        "cep": 13050022,
+        "cep": "13050022",
         "pais": "Brasil"
     },
     {
@@ -7080,7 +7080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9262061,
         "longitude": -47.1001863,
-        "cep": 13060022,
+        "cep": "13060022",
         "pais": "Brasil"
     },
     {
@@ -7090,7 +7090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9645124,
         "longitude": -47.198595,
-        "cep": 13058208,
+        "cep": "13058208",
         "pais": "Brasil"
     },
     {
@@ -7100,7 +7100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8867972,
         "longitude": -47.2191882,
-        "cep": 13187174,
+        "cep": "13187174",
         "pais": "Brasil"
     },
     {
@@ -7110,7 +7110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396666,
         "longitude": -46.9738752,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -7120,7 +7120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -7130,7 +7130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3581852,
         "longitude": -47.5564547,
-        "cep": 13505660,
+        "cep": "13505660",
         "pais": "Brasil"
     },
     {
@@ -7140,7 +7140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8156458,
         "longitude": -47.2524661,
-        "cep": 13175380,
+        "cep": "13175380",
         "pais": "Brasil"
     },
     {
@@ -7150,7 +7150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8925955,
         "longitude": -47.2241955,
-        "cep": 13187164,
+        "cep": "13187164",
         "pais": "Brasil"
     },
     {
@@ -7160,7 +7160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9162729,
         "longitude": -47.2589746,
-        "cep": 13199190,
+        "cep": "13199190",
         "pais": "Brasil"
     },
     {
@@ -7170,7 +7170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9841935,
         "longitude": -46.9805303,
-        "cep": 13275616,
+        "cep": "13275616",
         "pais": "Brasil"
     },
     {
@@ -7180,7 +7180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8050813,
         "longitude": -47.3065033,
-        "cep": 13382536,
+        "cep": "13382536",
         "pais": "Brasil"
     },
     {
@@ -7190,7 +7190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9841935,
         "longitude": -46.9805303,
-        "cep": 13275616,
+        "cep": "13275616",
         "pais": "Brasil"
     },
     {
@@ -7200,7 +7200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9761443,
         "longitude": -46.9884262,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -7210,7 +7210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13044491,
+        "cep": "13044491",
         "pais": "Brasil"
     },
     {
@@ -7220,7 +7220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7735171,
         "longitude": -47.1731111,
-        "cep": 13142470,
+        "cep": "13142470",
         "pais": "Brasil"
     },
     {
@@ -7230,7 +7230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9111918,
         "longitude": -47.0667921,
-        "cep": 13035375,
+        "cep": "13035375",
         "pais": "Brasil"
     },
     {
@@ -7240,7 +7240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.904025,
         "longitude": -47.2415052,
-        "cep": 13188167,
+        "cep": "13188167",
         "pais": "Brasil"
     },
     {
@@ -7250,7 +7250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9176184,
         "longitude": -47.0809993,
-        "cep": 13031365,
+        "cep": "13031365",
         "pais": "Brasil"
     },
     {
@@ -7260,7 +7260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.978566,
         "longitude": -47.0798468,
-        "cep": 13049539,
+        "cep": "13049539",
         "pais": "Brasil"
     },
     {
@@ -7270,7 +7270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -7280,17 +7280,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4518041,
         "longitude": -46.9257833,
-        "cep": 13802100,
+        "cep": "13802100",
         "pais": "Brasil"
     },
     {
         "id": 729,
         "nome": "Barbudinho",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.7767128,
         "longitude": -46.7108179,
-        "cep": 13506670,
+        "cep": "13506670",
         "pais": NaN
     },
     {
@@ -7300,7 +7300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1021438,
         "longitude": -47.2178124,
-        "cep": 13345411,
+        "cep": "13345411",
         "pais": "Brasil"
     },
     {
@@ -7310,7 +7310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9210316,
         "longitude": -47.161388,
-        "cep": 13059220,
+        "cep": "13059220",
         "pais": "Brasil"
     },
     {
@@ -7320,7 +7320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9460052,
         "longitude": -47.0229414,
-        "cep": 13045045,
+        "cep": "13045045",
         "pais": "Brasil"
     },
     {
@@ -7330,7 +7330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7019733,
         "longitude": -46.9898324,
-        "cep": 13911122,
+        "cep": "13911122",
         "pais": "Brasil"
     },
     {
@@ -7340,7 +7340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9198628,
         "longitude": -46.9720546,
-        "cep": 13273282,
+        "cep": "13273282",
         "pais": "Brasil"
     },
     {
@@ -7350,7 +7350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741347,
         "longitude": -46.894846,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -7360,7 +7360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.848548,
         "longitude": -47.1108988,
-        "cep": 13082190,
+        "cep": "13082190",
         "pais": "Brasil"
     },
     {
@@ -7370,7 +7370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9018384,
         "longitude": -47.0767608,
-        "cep": 13070752,
+        "cep": "13070752",
         "pais": "Brasil"
     },
     {
@@ -7380,7 +7380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8613176,
         "longitude": -47.1520209,
-        "cep": 13068315,
+        "cep": "13068315",
         "pais": "Brasil"
     },
     {
@@ -7390,7 +7390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9668893,
         "longitude": -47.0416001,
-        "cep": 13042760,
+        "cep": "13042760",
         "pais": "Brasil"
     },
     {
@@ -7400,7 +7400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13304384,
+        "cep": "13304384",
         "pais": "Brasil"
     },
     {
@@ -7410,7 +7410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.89695,
         "longitude": -47.2358262,
-        "cep": 13188030,
+        "cep": "13188030",
         "pais": "Brasil"
     },
     {
@@ -7420,7 +7420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9281385,
         "longitude": -47.0373443,
-        "cep": 13045603,
+        "cep": "13045603",
         "pais": "Brasil"
     },
     {
@@ -7430,7 +7430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9427834,
         "longitude": -47.1178897,
-        "cep": 13060752,
+        "cep": "13060752",
         "pais": "Brasil"
     },
     {
@@ -7440,7 +7440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.6787705,
         "longitude": -49.7399136,
-        "cep": 16402753,
+        "cep": "16402753",
         "pais": "Brasil"
     },
     {
@@ -7450,7 +7450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5981765,
         "longitude": -47.421184,
-        "cep": 13482815,
+        "cep": "13482815",
         "pais": "Brasil"
     },
     {
@@ -7460,7 +7460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7119411,
         "longitude": -47.2927869,
-        "cep": 13474200,
+        "cep": "13474200",
         "pais": "Brasil"
     },
     {
@@ -7470,7 +7470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2840884,
         "longitude": -48.1267265,
-        "cep": 17380000,
+        "cep": "17380000",
         "pais": "Brasil"
     },
     {
@@ -7480,7 +7480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9265289,
         "longitude": -47.1228034,
-        "cep": 13060831,
+        "cep": "13060831",
         "pais": "Brasil"
     },
     {
@@ -7490,7 +7490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9302565,
         "longitude": -47.0307046,
-        "cep": 13101005,
+        "cep": "13101005",
         "pais": "Brasil"
     },
     {
@@ -7500,7 +7500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6802322,
         "longitude": -46.992452,
-        "cep": 13914142,
+        "cep": "13914142",
         "pais": "Brasil"
     },
     {
@@ -7510,7 +7510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9957083,
         "longitude": -47.0001593,
-        "cep": 13277721,
+        "cep": "13277721",
         "pais": "Brasil"
     },
     {
@@ -7520,7 +7520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8066853,
         "longitude": -47.2756858,
-        "cep": 13173524,
+        "cep": "13173524",
         "pais": "Brasil"
     },
     {
@@ -7530,7 +7530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 8295480,
+        "cep": "08295480",
         "pais": "Brasil"
     },
     {
@@ -7540,7 +7540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9320985,
         "longitude": -47.0762548,
-        "cep": 13050008,
+        "cep": "13050008",
         "pais": "Brasil"
     },
     {
@@ -7550,7 +7550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13172440,
+        "cep": "13172440",
         "pais": "Brasil"
     },
     {
@@ -7560,7 +7560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181775,
+        "cep": "13181775",
         "pais": "Brasil"
     },
     {
@@ -7570,7 +7570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8536208,
         "longitude": -47.1086764,
-        "cep": 13082140,
+        "cep": "13082140",
         "pais": "Brasil"
     },
     {
@@ -7580,7 +7580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8478153,
         "longitude": -47.1445638,
-        "cep": 13069085,
+        "cep": "13069085",
         "pais": "Brasil"
     },
     {
@@ -7590,7 +7590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1030302,
         "longitude": -47.7147937,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -7600,7 +7600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056803,
+        "cep": "13056803",
         "pais": "Brasil"
     },
     {
@@ -7610,7 +7610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323264,
+        "cep": "13323264",
         "pais": "Brasil"
     },
     {
@@ -7620,7 +7620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13142370,
+        "cep": "13142370",
         "pais": "Brasil"
     },
     {
@@ -7630,7 +7630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454426,
+        "cep": "13454426",
         "pais": "Brasil"
     },
     {
@@ -7640,7 +7640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9502328,
         "longitude": -47.159683,
-        "cep": 13059670,
+        "cep": "13059670",
         "pais": "Brasil"
     },
     {
@@ -7650,7 +7650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -7660,7 +7660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -7670,7 +7670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3395418,
         "longitude": -46.9495024,
-        "cep": 13846071,
+        "cep": "13846071",
         "pais": "Brasil"
     },
     {
@@ -7680,7 +7680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893977,
         "longitude": -47.1000521,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -7690,7 +7690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8157766,
         "longitude": -47.2762445,
-        "cep": 13170022,
+        "cep": "13170022",
         "pais": "Brasil"
     },
     {
@@ -7700,7 +7700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7652782,
         "longitude": -47.349891,
-        "cep": 13468875,
+        "cep": "13468875",
         "pais": "Brasil"
     },
     {
@@ -7710,7 +7710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8918706,
         "longitude": -47.2075138,
-        "cep": 13186642,
+        "cep": "13186642",
         "pais": "Brasil"
     },
     {
@@ -7720,7 +7720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5707057,
         "longitude": -47.4185559,
-        "cep": 13482278,
+        "cep": "13482278",
         "pais": "Brasil"
     },
     {
@@ -7730,7 +7730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180190,
+        "cep": "13180190",
         "pais": "Brasil"
     },
     {
@@ -7740,7 +7740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9096919,
         "longitude": -47.0589796,
-        "cep": 13013000,
+        "cep": "13013000",
         "pais": "Brasil"
     },
     {
@@ -7750,7 +7750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13046020,
+        "cep": "13046020",
         "pais": "Brasil"
     },
     {
@@ -7760,7 +7760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8086288,
         "longitude": -47.1854069,
-        "cep": 13178440,
+        "cep": "13178440",
         "pais": "Brasil"
     },
     {
@@ -7770,7 +7770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470749,
+        "cep": "13470749",
         "pais": "Brasil"
     },
     {
@@ -7780,7 +7780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9453313,
         "longitude": -47.0993267,
-        "cep": 13050544,
+        "cep": "13050544",
         "pais": "Brasil"
     },
     {
@@ -7790,7 +7790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8974675,
         "longitude": -47.0652496,
-        "cep": 13023102,
+        "cep": "13023102",
         "pais": "Brasil"
     },
     {
@@ -7800,7 +7800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 6719500,
+        "cep": "06719500",
         "pais": "Brasil"
     },
     {
@@ -7810,7 +7810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6931,
         "longitude": -46.9926,
-        "cep": 13914553,
+        "cep": "13914553",
         "pais": "Brasil"
     },
     {
@@ -7820,7 +7820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456435,
+        "cep": "13456435",
         "pais": "Brasil"
     },
     {
@@ -7830,7 +7830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235122,
         "longitude": -47.1152845,
-        "cep": 13060330,
+        "cep": "13060330",
         "pais": "Brasil"
     },
     {
@@ -7840,7 +7840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9096919,
         "longitude": -47.0589796,
-        "cep": 13013001,
+        "cep": "13013001",
         "pais": "Brasil"
     },
     {
@@ -7850,7 +7850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7502427,
         "longitude": -47.1714916,
-        "cep": 13145131,
+        "cep": "13145131",
         "pais": "Brasil"
     },
     {
@@ -7860,7 +7860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5154319,
         "longitude": -47.4580938,
-        "cep": 18031080,
+        "cep": "18031080",
         "pais": "Brasil"
     },
     {
@@ -7870,7 +7870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8908191,
         "longitude": -47.2080093,
-        "cep": 13186664,
+        "cep": "13186664",
         "pais": "Brasil"
     },
     {
@@ -7880,7 +7880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8903938,
         "longitude": -47.1798149,
-        "cep": 13185013,
+        "cep": "13185013",
         "pais": "Brasil"
     },
     {
@@ -7890,7 +7890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8468609,
         "longitude": -47.2165424,
-        "cep": 13183864,
+        "cep": "13183864",
         "pais": "Brasil"
     },
     {
@@ -7900,7 +7900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235396,
         "longitude": -47.0155691,
-        "cep": 13101361,
+        "cep": "13101361",
         "pais": "Brasil"
     },
     {
@@ -7910,7 +7910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13299035,
+        "cep": "13299035",
         "pais": "Brasil"
     },
     {
@@ -7920,7 +7920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7350212,
         "longitude": -47.6667059,
-        "cep": 13403020,
+        "cep": "13403020",
         "pais": "Brasil"
     },
     {
@@ -7930,7 +7930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9575742,
         "longitude": -46.9943028,
-        "cep": 13272041,
+        "cep": "13272041",
         "pais": "Brasil"
     },
     {
@@ -7940,7 +7940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8684682,
         "longitude": -47.1775743,
-        "cep": 13184885,
+        "cep": "13184885",
         "pais": "Brasil"
     },
     {
@@ -7950,7 +7950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 6150270,
+        "cep": "06150270",
         "pais": "Brasil"
     },
     {
@@ -7960,7 +7960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3800069,
         "longitude": -47.5749449,
-        "cep": 13505315,
+        "cep": "13505315",
         "pais": "Brasil"
     },
     {
@@ -7970,7 +7970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9387281,
         "longitude": -47.1144787,
-        "cep": 13060469,
+        "cep": "13060469",
         "pais": "Brasil"
     },
     {
@@ -7980,7 +7980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9352549,
         "longitude": -47.0122148,
-        "cep": 13046365,
+        "cep": "13046365",
         "pais": "Brasil"
     },
     {
@@ -7990,7 +7990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9703943,
         "longitude": -46.9959798,
-        "cep": 13270020,
+        "cep": "13270020",
         "pais": "Brasil"
     },
     {
@@ -8000,7 +8000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8682526,
         "longitude": -47.0360246,
-        "cep": 13088095,
+        "cep": "13088095",
         "pais": "Brasil"
     },
     {
@@ -8010,7 +8010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9018384,
         "longitude": -47.0767608,
-        "cep": 13070752,
+        "cep": "13070752",
         "pais": "Brasil"
     },
     {
@@ -8020,7 +8020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9265289,
         "longitude": -47.1228034,
-        "cep": 13060831,
+        "cep": "13060831",
         "pais": "Brasil"
     },
     {
@@ -8030,7 +8030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8830312,
         "longitude": -47.1951914,
-        "cep": 13186260,
+        "cep": "13186260",
         "pais": "Brasil"
     },
     {
@@ -8040,7 +8040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9453343,
         "longitude": -47.0493804,
-        "cep": 13044902,
+        "cep": "13044902",
         "pais": "Brasil"
     },
     {
@@ -8050,7 +8050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455186,
+        "cep": "13455186",
         "pais": "Brasil"
     },
     {
@@ -8060,7 +8060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8840901,
         "longitude": -47.1782626,
-        "cep": 13185143,
+        "cep": "13185143",
         "pais": "Brasil"
     },
     {
@@ -8070,7 +8070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9388252,
         "longitude": -47.0159743,
-        "cep": 13046260,
+        "cep": "13046260",
         "pais": "Brasil"
     },
     {
@@ -8080,17 +8080,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9652531,
         "longitude": -46.9220683,
-        "cep": 13274772,
+        "cep": "13274772",
         "pais": "Brasil"
     },
     {
         "id": 809,
         "nome": "Pablo",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.5398323,
         "longitude": -46.7162843,
-        "cep": 17393048,
+        "cep": "17393048",
         "pais": NaN
     },
     {
@@ -8100,7 +8100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3471531,
         "longitude": -49.1017754,
-        "cep": 17056070,
+        "cep": "17056070",
         "pais": "Brasil"
     },
     {
@@ -8110,7 +8110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8847661,
         "longitude": -47.2184331,
-        "cep": 13187242,
+        "cep": "13187242",
         "pais": "Brasil"
     },
     {
@@ -8120,7 +8120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9334614,
         "longitude": -47.1172487,
-        "cep": 13060534,
+        "cep": "13060534",
         "pais": "Brasil"
     },
     {
@@ -8130,7 +8130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8160612,
         "longitude": -47.0081465,
-        "cep": 13098020,
+        "cep": "13098020",
         "pais": "Brasil"
     },
     {
@@ -8140,7 +8140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -8150,7 +8150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181664,
+        "cep": "13181664",
         "pais": "Brasil"
     },
     {
@@ -8160,7 +8160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.904579,
         "longitude": -47.2475388,
-        "cep": 13188200,
+        "cep": "13188200",
         "pais": "Brasil"
     },
     {
@@ -8170,7 +8170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13321421,
+        "cep": "13321421",
         "pais": "Brasil"
     },
     {
@@ -8180,7 +8180,7 @@ const usuarios = [
         "estado": "PE",
         "latitude": -7.5083492,
         "longitude": -35.3156312,
-        "cep": 55870000,
+        "cep": "55870000",
         "pais": NaN
     },
     {
@@ -8190,7 +8190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3527523,
         "longitude": -47.8666296,
-        "cep": 18277008,
+        "cep": "18277008",
         "pais": "Brasil"
     },
     {
@@ -8200,7 +8200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13289470,
+        "cep": "13289470",
         "pais": "Brasil"
     },
     {
@@ -8210,7 +8210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7205895,
         "longitude": -47.3494206,
-        "cep": 13470220,
+        "cep": "13470220",
         "pais": "Brasil"
     },
     {
@@ -8220,7 +8220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274440,
+        "cep": "13274440",
         "pais": "Brasil"
     },
     {
@@ -8230,7 +8230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -8240,7 +8240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6712269,
         "longitude": -47.7010603,
-        "cep": 13408024,
+        "cep": "13408024",
         "pais": "Brasil"
     },
     {
@@ -8250,7 +8250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1508919,
         "longitude": -47.9716869,
-        "cep": 14169317,
+        "cep": "14169317",
         "pais": "Brasil"
     },
     {
@@ -8260,7 +8260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8942932,
         "longitude": -47.0498295,
-        "cep": 13025242,
+        "cep": "13025242",
         "pais": "Brasil"
     },
     {
@@ -8270,7 +8270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8501781,
         "longitude": -47.10881,
-        "cep": 13082200,
+        "cep": "13082200",
         "pais": "Brasil"
     },
     {
@@ -8280,7 +8280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0935823,
         "longitude": -47.2766209,
-        "cep": 13349041,
+        "cep": "13349041",
         "pais": "Brasil"
     },
     {
@@ -8290,7 +8290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9848644,
         "longitude": -47.121988,
-        "cep": 13054441,
+        "cep": "13054441",
         "pais": "Brasil"
     },
     {
@@ -8300,7 +8300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284452,
+        "cep": "13284452",
         "pais": "Brasil"
     },
     {
@@ -8310,7 +8310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9327334,
         "longitude": -47.1201876,
-        "cep": 13060703,
+        "cep": "13060703",
         "pais": "Brasil"
     },
     {
@@ -8320,7 +8320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9707154,
         "longitude": -47.1415124,
-        "cep": 13056483,
+        "cep": "13056483",
         "pais": "Brasil"
     },
     {
@@ -8330,7 +8330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0117416,
         "longitude": -47.0175063,
-        "cep": 13278072,
+        "cep": "13278072",
         "pais": "Brasil"
     },
     {
@@ -8340,7 +8340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9329046,
         "longitude": -47.1153509,
-        "cep": 13060437,
+        "cep": "13060437",
         "pais": "Brasil"
     },
     {
@@ -8350,7 +8350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9367213,
         "longitude": -47.0867144,
-        "cep": 13050020,
+        "cep": "13050020",
         "pais": "Brasil"
     },
     {
@@ -8360,7 +8360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.987456,
         "longitude": -47.1032272,
-        "cep": 13052610,
+        "cep": "13052610",
         "pais": "Brasil"
     },
     {
@@ -8370,7 +8370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -8380,7 +8380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9201723,
         "longitude": -47.0681957,
-        "cep": 13036265,
+        "cep": "13036265",
         "pais": "Brasil"
     },
     {
@@ -8390,7 +8390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8523585,
         "longitude": -47.1056895,
-        "cep": 13082080,
+        "cep": "13082080",
         "pais": "Brasil"
     },
     {
@@ -8400,7 +8400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9825364,
         "longitude": -47.0927614,
-        "cep": 13052531,
+        "cep": "13052531",
         "pais": "Brasil"
     },
     {
@@ -8410,7 +8410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9750222,
         "longitude": -47.1451955,
-        "cep": 13056425,
+        "cep": "13056425",
         "pais": "Brasil"
     },
     {
@@ -8420,7 +8420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8942932,
         "longitude": -47.0498295,
-        "cep": 13025242,
+        "cep": "13097261",
         "pais": "Brasil"
     },
     {
@@ -8430,7 +8430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13315000,
+        "cep": "13315000",
         "pais": "Brasil"
     },
     {
@@ -8440,7 +8440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180290,
+        "cep": "13180290",
         "pais": "Brasil"
     },
     {
@@ -8450,7 +8450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235106,
         "longitude": -47.1067577,
-        "cep": 13060190,
+        "cep": "13060190",
         "pais": "Brasil"
     },
     {
@@ -8460,7 +8460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7719419,
         "longitude": -47.1532255,
-        "cep": 13140488,
+        "cep": "13140488",
         "pais": "Brasil"
     },
     {
@@ -8470,7 +8470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040656,
+        "cep": "13040656",
         "pais": "Brasil"
     },
     {
@@ -8480,7 +8480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9533584,
         "longitude": -46.9768531,
-        "cep": 13273090,
+        "cep": "13273090",
         "pais": "Brasil"
     },
     {
@@ -8490,7 +8490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8912433,
         "longitude": -47.0820531,
-        "cep": 13070062,
+        "cep": "13070062",
         "pais": "Brasil"
     },
     {
@@ -8500,7 +8500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8918708,
         "longitude": -47.0431704,
-        "cep": 13090768,
+        "cep": "13090768",
         "pais": "Brasil"
     },
     {
@@ -8510,7 +8510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6143674,
         "longitude": -46.9203432,
-        "cep": 13832210,
+        "cep": "13832210",
         "pais": "Brasil"
     },
     {
@@ -8520,7 +8520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9777996,
         "longitude": -47.1196369,
-        "cep": 13054552,
+        "cep": "13054552",
         "pais": "Brasil"
     },
     {
@@ -8530,7 +8530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9493051,
         "longitude": -47.1766147,
-        "cep": 13058296,
+        "cep": "13058296",
         "pais": "Brasil"
     },
     {
@@ -8540,7 +8540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9371168,
         "longitude": -46.9954418,
-        "cep": 13272839,
+        "cep": "13272839",
         "pais": "Brasil"
     },
     {
@@ -8550,7 +8550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9759917,
         "longitude": -47.1236463,
-        "cep": 13054214,
+        "cep": "13054214",
         "pais": "Brasil"
     },
     {
@@ -8560,7 +8560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9761443,
         "longitude": -46.9884262,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -8570,7 +8570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8157766,
         "longitude": -47.2762445,
-        "cep": 13170021,
+        "cep": "13170021",
         "pais": "Brasil"
     },
     {
@@ -8580,7 +8580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243791,
         "longitude": -47.3331376,
-        "cep": 13471255,
+        "cep": "13471255",
         "pais": "Brasil"
     },
     {
@@ -8590,7 +8590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8557032,
         "longitude": -47.2198303,
-        "cep": 13183100,
+        "cep": "13183100",
         "pais": "Brasil"
     },
     {
@@ -8600,7 +8600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453882,
+        "cep": "13453882",
         "pais": "Brasil"
     },
     {
@@ -8610,7 +8610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7520957,
         "longitude": -47.1716,
-        "cep": 13145129,
+        "cep": "13145129",
         "pais": "Brasil"
     },
     {
@@ -8620,7 +8620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8851106,
         "longitude": -47.1125517,
-        "cep": 13063330,
+        "cep": "13063330",
         "pais": "Brasil"
     },
     {
@@ -8630,7 +8630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5824068,
         "longitude": -47.3719432,
-        "cep": 13487136,
+        "cep": "13487136",
         "pais": "Brasil"
     },
     {
@@ -8640,17 +8640,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8846662,
         "longitude": -47.1459721,
-        "cep": 13067180,
+        "cep": "13067180",
         "pais": "Brasil"
     },
     {
         "id": 865,
         "nome": "luiz Santos",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -22.634031,
         "longitude": -47.0557719,
-        "cep": 13825000,
+        "cep": "13825000",
         "pais": NaN
     },
     {
@@ -8660,7 +8660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7334776,
         "longitude": -47.6222626,
-        "cep": 13420640,
+        "cep": "13420640",
         "pais": "Brasil"
     },
     {
@@ -8670,7 +8670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272725,
+        "cep": "13272725",
         "pais": "Brasil"
     },
     {
@@ -8680,7 +8680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9489988,
         "longitude": -46.9791367,
-        "cep": 13273400,
+        "cep": "13273400",
         "pais": "Brasil"
     },
     {
@@ -8690,7 +8690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9034868,
         "longitude": -47.2445655,
-        "cep": 13188180,
+        "cep": "13188180",
         "pais": "Brasil"
     },
     {
@@ -8700,7 +8700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454174,
+        "cep": "13454174",
         "pais": "Brasil"
     },
     {
@@ -8710,7 +8710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8541249,
         "longitude": -47.1087502,
-        "cep": 13082160,
+        "cep": "13082160",
         "pais": "Brasil"
     },
     {
@@ -8720,7 +8720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8481843,
         "longitude": -47.145417,
-        "cep": 13069083,
+        "cep": "13069083",
         "pais": "Brasil"
     },
     {
@@ -8730,7 +8730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6781707,
         "longitude": -46.9859338,
-        "cep": 13914464,
+        "cep": "13914464",
         "pais": "Brasil"
     },
     {
@@ -8740,7 +8740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9537942,
         "longitude": -47.0111981,
-        "cep": 13272513,
+        "cep": "13272513",
         "pais": "Brasil"
     },
     {
@@ -8750,7 +8750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8456027,
         "longitude": -47.1099495,
-        "cep": 13082634,
+        "cep": "13082634",
         "pais": "Brasil"
     },
     {
@@ -8760,7 +8760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6103741,
         "longitude": -47.409144,
-        "cep": 13481807,
+        "cep": "13481807",
         "pais": "Brasil"
     },
     {
@@ -8770,7 +8770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3993046,
         "longitude": -47.5481459,
-        "cep": 13506710,
+        "cep": "13506710",
         "pais": "Brasil"
     },
     {
@@ -8780,7 +8780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8392979,
         "longitude": -47.6126417,
-        "cep": 13395106,
+        "cep": "13395106",
         "pais": "Brasil"
     },
     {
@@ -8790,7 +8790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9213859,
         "longitude": -47.0213974,
-        "cep": 13101405,
+        "cep": "13101405",
         "pais": "Brasil"
     },
     {
@@ -8800,7 +8800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -8810,7 +8810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9329629,
         "longitude": -47.0909205,
-        "cep": 13050575,
+        "cep": "13050575",
         "pais": "Brasil"
     },
     {
@@ -8820,7 +8820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.04134,
         "longitude": -47.129418,
-        "cep": 13053631,
+        "cep": "13053631",
         "pais": "Brasil"
     },
     {
@@ -8830,7 +8830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9442153,
         "longitude": -47.1218549,
-        "cep": 13060744,
+        "cep": "13060744",
         "pais": "Brasil"
     },
     {
@@ -8840,7 +8840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458718,
+        "cep": "13458718",
         "pais": "Brasil"
     },
     {
@@ -8850,7 +8850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9085531,
         "longitude": -47.0560834,
-        "cep": 13015082,
+        "cep": "13015082",
         "pais": "Brasil"
     },
     {
@@ -8860,7 +8860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9546438,
         "longitude": -47.0833799,
-        "cep": 13051433,
+        "cep": "13051433",
         "pais": "Brasil"
     },
     {
@@ -8870,7 +8870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056382,
+        "cep": "13056382",
         "pais": "Brasil"
     },
     {
@@ -8880,7 +8880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893977,
         "longitude": -47.1000521,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -8890,7 +8890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9322764,
         "longitude": -47.0383649,
-        "cep": 13045505,
+        "cep": "13045505",
         "pais": "Brasil"
     },
     {
@@ -8900,7 +8900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9207661,
         "longitude": -47.0896009,
-        "cep": 13031835,
+        "cep": "13031835",
         "pais": "Brasil"
     },
     {
@@ -8910,7 +8910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.862018,
         "longitude": -47.0315934,
-        "cep": 13088117,
+        "cep": "13088117",
         "pais": "Brasil"
     },
     {
@@ -8920,7 +8920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7195627,
         "longitude": -47.1832532,
-        "cep": 13145758,
+        "cep": "13145758",
         "pais": "Brasil"
     },
     {
@@ -8930,7 +8930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9187837,
         "longitude": -47.0604455,
-        "cep": 13041311,
+        "cep": "13041311",
         "pais": "Brasil"
     },
     {
@@ -8940,7 +8940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9765149,
         "longitude": -47.0739871,
-        "cep": 13049483,
+        "cep": "13049483",
         "pais": "Brasil"
     },
     {
@@ -8950,7 +8950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9527774,
         "longitude": -47.185877,
-        "cep": 13058368,
+        "cep": "13058368",
         "pais": "Brasil"
     },
     {
@@ -8960,7 +8960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034205,
+        "cep": "13034205",
         "pais": "Brasil"
     },
     {
@@ -8970,7 +8970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6031985,
         "longitude": -47.4098592,
-        "cep": 13481128,
+        "cep": "13481128",
         "pais": "Brasil"
     },
     {
@@ -8980,7 +8980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396666,
         "longitude": -46.9738752,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -8990,7 +8990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9082468,
         "longitude": -47.2102008,
-        "cep": 13187042,
+        "cep": "13187042",
         "pais": "Brasil"
     },
     {
@@ -9000,7 +9000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9374709,
         "longitude": -47.0667216,
-        "cep": 13040065,
+        "cep": "13040065",
         "pais": "Brasil"
     },
     {
@@ -9010,7 +9010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8782108,
         "longitude": -47.1938734,
-        "cep": 13186300,
+        "cep": "13186300",
         "pais": "Brasil"
     },
     {
@@ -9020,7 +9020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450180,
+        "cep": "13450180",
         "pais": "Brasil"
     },
     {
@@ -9030,7 +9030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396666,
         "longitude": -46.9738752,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -9040,7 +9040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8699041,
         "longitude": -47.2138661,
-        "cep": 13184493,
+        "cep": "13184493",
         "pais": "Brasil"
     },
     {
@@ -9050,7 +9050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9474148,
         "longitude": -47.0887232,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -9060,7 +9060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9287933,
         "longitude": -47.0837045,
-        "cep": 13031435,
+        "cep": "13031435",
         "pais": "Brasil"
     },
     {
@@ -9070,7 +9070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7883103,
         "longitude": -47.1848024,
-        "cep": 13142198,
+        "cep": "13142198",
         "pais": "Brasil"
     },
     {
@@ -9080,7 +9080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9068568,
         "longitude": -47.0797761,
-        "cep": 13035570,
+        "cep": "13035570",
         "pais": "Brasil"
     },
     {
@@ -9090,7 +9090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0112141,
         "longitude": -47.0159041,
-        "cep": 13278071,
+        "cep": "13278071",
         "pais": "Brasil"
     },
     {
@@ -9100,7 +9100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0320991,
         "longitude": -47.1218206,
-        "cep": 13053114,
+        "cep": "13053114",
         "pais": "Brasil"
     },
     {
@@ -9110,7 +9110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3768927,
         "longitude": -47.5595389,
-        "cep": 13505008,
+        "cep": "13505008",
         "pais": "Brasil"
     },
     {
@@ -9120,7 +9120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13187216,
+        "cep": "13187216",
         "pais": "Brasil"
     },
     {
@@ -9130,7 +9130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9522991,
         "longitude": -47.180263,
-        "cep": 13058422,
+        "cep": "13058422",
         "pais": "Brasil"
     },
     {
@@ -9140,7 +9140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.970959,
         "longitude": -47.1714259,
-        "cep": 13057143,
+        "cep": "13057143",
         "pais": "Brasil"
     },
     {
@@ -9150,7 +9150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13197198,
+        "cep": "13197198",
         "pais": "Brasil"
     },
     {
@@ -9160,7 +9160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0015753,
         "longitude": -46.9899827,
-        "cep": 13277280,
+        "cep": "13277280",
         "pais": "Brasil"
     },
     {
@@ -9170,7 +9170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9841935,
         "longitude": -46.9805303,
-        "cep": 13275616,
+        "cep": "13275616",
         "pais": "Brasil"
     },
     {
@@ -9180,7 +9180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13098059,
+        "cep": "13098059",
         "pais": "Brasil"
     },
     {
@@ -9190,7 +9190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9329629,
         "longitude": -47.0909205,
-        "cep": 13050909,
+        "cep": "13050909",
         "pais": "Brasil"
     },
     {
@@ -9200,7 +9200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9018405,
         "longitude": -47.2503304,
-        "cep": 13188211,
+        "cep": "13188211",
         "pais": "Brasil"
     },
     {
@@ -9210,7 +9210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009579,
         "longitude": -47.0672935,
-        "cep": 13020170,
+        "cep": "13020170",
         "pais": "Brasil"
     },
     {
@@ -9220,7 +9220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9118273,
         "longitude": -47.0774325,
-        "cep": 13035130,
+        "cep": "13035130",
         "pais": "Brasil"
     },
     {
@@ -9230,27 +9230,27 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8086625,
         "longitude": -47.2040194,
-        "cep": 13178321,
+        "cep": "13178321",
         "pais": "Brasil"
     },
     {
         "id": 924,
         "nome": "Gilmar Oliveira",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -20.8554391,
         "longitude": -49.4003602,
-        "cep": 18275816,
+        "cep": "18275816",
         "pais": NaN
     },
     {
         "id": 925,
         "nome": "Neto Nascimento",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.2659007,
         "longitude": -45.8952669,
-        "cep": 13606182,
+        "cep": "13606182",
         "pais": NaN
     },
     {
@@ -9260,7 +9260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8060131,
         "longitude": -47.1177965,
-        "cep": 13148218,
+        "cep": "13148218",
         "pais": "Brasil"
     },
     {
@@ -9270,7 +9270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8852878,
         "longitude": -47.1066571,
-        "cep": 13063001,
+        "cep": "13063001",
         "pais": "Brasil"
     },
     {
@@ -9280,7 +9280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8723628,
         "longitude": -46.9703903,
-        "cep": 13104020,
+        "cep": "13104020",
         "pais": "Brasil"
     },
     {
@@ -9290,7 +9290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.862018,
         "longitude": -47.0315934,
-        "cep": 13088117,
+        "cep": "13088117",
         "pais": "Brasil"
     },
     {
@@ -9300,7 +9300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9449808,
         "longitude": -47.3062099,
-        "cep": 13190532,
+        "cep": "13190532",
         "pais": "Brasil"
     },
     {
@@ -9310,7 +9310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13339315,
+        "cep": "13339315",
         "pais": "Brasil"
     },
     {
@@ -9320,7 +9320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.035417,
         "longitude": -47.1125218,
-        "cep": 13053234,
+        "cep": "13053234",
         "pais": "Brasil"
     },
     {
@@ -9330,7 +9330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9496249,
         "longitude": -47.3218214,
-        "cep": 13190019,
+        "cep": "13190019",
         "pais": "Brasil"
     },
     {
@@ -9340,7 +9340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9223016,
         "longitude": -46.968811,
-        "cep": 13273272,
+        "cep": "13273272",
         "pais": "Brasil"
     },
     {
@@ -9350,7 +9350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8914355,
         "longitude": -47.1081988,
-        "cep": 13063432,
+        "cep": "13063432",
         "pais": "Brasil"
     },
     {
@@ -9360,7 +9360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7465622,
         "longitude": -47.3418808,
-        "cep": 13465660,
+        "cep": "13465660",
         "pais": "Brasil"
     },
     {
@@ -9370,7 +9370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13339140,
+        "cep": "13339140",
         "pais": "Brasil"
     },
     {
@@ -9380,7 +9380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9531008,
         "longitude": -47.0906109,
-        "cep": 13051105,
+        "cep": "13051105",
         "pais": "Brasil"
     },
     {
@@ -9390,7 +9390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6126459,
         "longitude": -46.699986,
-        "cep": 13930000,
+        "cep": "13930000",
         "pais": "Brasil"
     },
     {
@@ -9400,7 +9400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9112794,
         "longitude": -47.0818246,
-        "cep": 13035000,
+        "cep": "13035000",
         "pais": "Brasil"
     },
     {
@@ -9410,7 +9410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9641762,
         "longitude": -47.1703876,
-        "cep": 13057201,
+        "cep": "13057201",
         "pais": "Brasil"
     },
     {
@@ -9420,7 +9420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9258488,
         "longitude": -47.0155287,
-        "cep": 13101280,
+        "cep": "13101280",
         "pais": "Brasil"
     },
     {
@@ -9430,7 +9430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8070767,
         "longitude": -47.2260788,
-        "cep": 13177030,
+        "cep": "13177030",
         "pais": "Brasil"
     },
     {
@@ -9440,7 +9440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183353,
+        "cep": "13183353",
         "pais": "Brasil"
     },
     {
@@ -9450,7 +9450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9472281,
         "longitude": -47.0279828,
-        "cep": 13045541,
+        "cep": "13045541",
         "pais": "Brasil"
     },
     {
@@ -9460,7 +9460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7910133,
         "longitude": -47.1831376,
-        "cep": 13142190,
+        "cep": "13142190",
         "pais": "Brasil"
     },
     {
@@ -9470,7 +9470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9281385,
         "longitude": -47.0373443,
-        "cep": 13045603,
+        "cep": "13045603",
         "pais": "Brasil"
     },
     {
@@ -9480,7 +9480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9709043,
         "longitude": -47.1725661,
-        "cep": 13057141,
+        "cep": "13057141",
         "pais": "Brasil"
     },
     {
@@ -9490,7 +9490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9400908,
         "longitude": -47.0479826,
-        "cep": 13044162,
+        "cep": "13044162",
         "pais": "Brasil"
     },
     {
@@ -9500,7 +9500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180240,
+        "cep": "13180240",
         "pais": "Brasil"
     },
     {
@@ -9510,7 +9510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9565829,
         "longitude": -47.1983029,
-        "cep": 13058124,
+        "cep": "13058124",
         "pais": "Brasil"
     },
     {
@@ -9520,7 +9520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065030,
+        "cep": "13065030",
         "pais": "Brasil"
     },
     {
@@ -9530,7 +9530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13304276,
+        "cep": "13304276",
         "pais": "Brasil"
     },
     {
@@ -9540,7 +9540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363794,
         "longitude": -47.1517229,
-        "cep": 13059633,
+        "cep": "13059633",
         "pais": "Brasil"
     },
     {
@@ -9550,7 +9550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8238241,
         "longitude": -47.17102,
-        "cep": 13179160,
+        "cep": "13179160",
         "pais": "Brasil"
     },
     {
@@ -9560,7 +9560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5635551,
         "longitude": -47.3882089,
-        "cep": 13486084,
+        "cep": "13486084",
         "pais": "Brasil"
     },
     {
@@ -9570,7 +9570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9484096,
         "longitude": -47.0945356,
-        "cep": 13050183,
+        "cep": "13050183",
         "pais": "Brasil"
     },
     {
@@ -9580,7 +9580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9820084,
         "longitude": -47.1579094,
-        "cep": 13057040,
+        "cep": "13057040",
         "pais": "Brasil"
     },
     {
@@ -9590,7 +9590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9217689,
         "longitude": -47.0561458,
-        "cep": 13041760,
+        "cep": "13041760",
         "pais": "Brasil"
     },
     {
@@ -9600,7 +9600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458033,
+        "cep": "13458033",
         "pais": "Brasil"
     },
     {
@@ -9610,7 +9610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9302565,
         "longitude": -47.0307046,
-        "cep": 13101105,
+        "cep": "13101105",
         "pais": "Brasil"
     },
     {
@@ -9620,7 +9620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -9630,7 +9630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9090444,
         "longitude": -47.0761189,
-        "cep": 13035370,
+        "cep": "13035370",
         "pais": "Brasil"
     },
     {
@@ -9640,7 +9640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9187506,
         "longitude": -47.0582867,
-        "cep": 13041301,
+        "cep": "13041301",
         "pais": "Brasil"
     },
     {
@@ -9650,7 +9650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9460052,
         "longitude": -47.0229414,
-        "cep": 13045045,
+        "cep": "13045045",
         "pais": "Brasil"
     },
     {
@@ -9660,7 +9660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9189821,
         "longitude": -47.2764343,
-        "cep": 13199118,
+        "cep": "13199118",
         "pais": "Brasil"
     },
     {
@@ -9670,7 +9670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8863857,
         "longitude": -47.1791901,
-        "cep": 13185146,
+        "cep": "13185146",
         "pais": "Brasil"
     },
     {
@@ -9680,7 +9680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8310332,
         "longitude": -47.2654425,
-        "cep": 13171150,
+        "cep": "13171150",
         "pais": "Brasil"
     },
     {
@@ -9690,7 +9690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8623214,
         "longitude": -46.9731281,
-        "cep": 13104180,
+        "cep": "13104180",
         "pais": "Brasil"
     },
     {
@@ -9700,7 +9700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8516271,
         "longitude": -47.2089084,
-        "cep": 13183551,
+        "cep": "13183551",
         "pais": "Brasil"
     },
     {
@@ -9710,7 +9710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7742145,
         "longitude": -47.1660543,
-        "cep": 13142398,
+        "cep": "13142398",
         "pais": "Brasil"
     },
     {
@@ -9720,7 +9720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9110182,
         "longitude": -47.0669952,
-        "cep": 13035270,
+        "cep": "13035270",
         "pais": "Brasil"
     },
     {
@@ -9730,7 +9730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.903251,
         "longitude": -47.1724126,
-        "cep": 13185230,
+        "cep": "13185230",
         "pais": "Brasil"
     },
     {
@@ -9740,7 +9740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178484,
+        "cep": "13178484",
         "pais": "Brasil"
     },
     {
@@ -9750,7 +9750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8553186,
         "longitude": -47.2106431,
-        "cep": 13183620,
+        "cep": "13183620",
         "pais": "Brasil"
     },
     {
@@ -9760,7 +9760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065197,
+        "cep": "13065197",
         "pais": "Brasil"
     },
     {
@@ -9770,7 +9770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0566826,
         "longitude": -47.8420459,
-        "cep": 18500000,
+        "cep": "18500000",
         "pais": "Brasil"
     },
     {
@@ -9780,7 +9780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.500698,
         "longitude": -47.4217821,
-        "cep": 14407087,
+        "cep": "14407087",
         "pais": "Brasil"
     },
     {
@@ -9790,7 +9790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9582517,
         "longitude": -47.2163101,
-        "cep": 13058652,
+        "cep": "13058652",
         "pais": "Brasil"
     },
     {
@@ -9800,7 +9800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9429937,
         "longitude": -47.1578729,
-        "cep": 13059020,
+        "cep": "13059020",
         "pais": "Brasil"
     },
     {
@@ -9810,7 +9810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9952515,
         "longitude": -46.9937823,
-        "cep": 13277510,
+        "cep": "13277510",
         "pais": "Brasil"
     },
     {
@@ -9820,7 +9820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8613564,
         "longitude": -47.1439131,
-        "cep": 13067364,
+        "cep": "13067364",
         "pais": "Brasil"
     },
     {
@@ -9830,7 +9830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8905008,
         "longitude": -47.1623114,
-        "cep": 13185403,
+        "cep": "13185403",
         "pais": "Brasil"
     },
     {
@@ -9840,7 +9840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7048525,
         "longitude": -47.3021928,
-        "cep": 13474480,
+        "cep": "13474480",
         "pais": "Brasil"
     },
     {
@@ -9850,7 +9850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363325,
         "longitude": -47.1584035,
-        "cep": 13059630,
+        "cep": "13059630",
         "pais": "Brasil"
     },
     {
@@ -9860,17 +9860,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0015753,
         "longitude": -46.9899827,
-        "cep": 13277280,
+        "cep": "13277280",
         "pais": "Brasil"
     },
     {
         "id": 987,
         "nome": "Yuri souza",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.8941408,
         "longitude": -48.2622678,
-        "cep": 18275120,
+        "cep": "18275120",
         "pais": NaN
     },
     {
@@ -9880,7 +9880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7378915,
         "longitude": -47.2379314,
-        "cep": 13476696,
+        "cep": "13476696",
         "pais": "Brasil"
     },
     {
@@ -9890,7 +9890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1238423,
         "longitude": -47.2402599,
-        "cep": 13348310,
+        "cep": "13348310",
         "pais": "Brasil"
     },
     {
@@ -9900,7 +9900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2816988,
         "longitude": -47.6593005,
-        "cep": 18550530,
+        "cep": "18550530",
         "pais": "Brasil"
     },
     {
@@ -9910,7 +9910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 9340130,
+        "cep": "09340130",
         "pais": "Brasil"
     },
     {
@@ -9920,7 +9920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8496273,
         "longitude": -47.2052815,
-        "cep": 13183540,
+        "cep": "13183540",
         "pais": "Brasil"
     },
     {
@@ -9930,7 +9930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284486,
+        "cep": "13284486",
         "pais": "Brasil"
     },
     {
@@ -9940,17 +9940,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9319607,
         "longitude": -47.0873837,
-        "cep": 13050022,
+        "cep": "13050022",
         "pais": "Brasil"
     },
     {
         "id": 995,
         "nome": "Lucas Carvalho",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.2509915,
         "longitude": -45.8020551,
-        "cep": 13460000,
+        "cep": "13460000",
         "pais": NaN
     },
     {
@@ -9960,7 +9960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8979594,
         "longitude": -47.2331931,
-        "cep": 13188072,
+        "cep": "13188072",
         "pais": "Brasil"
     },
     {
@@ -9970,7 +9970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772815,
         "longitude": -47.1723943,
-        "cep": 13057503,
+        "cep": "13057503",
         "pais": "Brasil"
     },
     {
@@ -9980,7 +9980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8139184,
         "longitude": -47.2328498,
-        "cep": 13177240,
+        "cep": "13177240",
         "pais": "Brasil"
     },
     {
@@ -9990,7 +9990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.969321,
         "longitude": -47.1336693,
-        "cep": 13054033,
+        "cep": "13054033",
         "pais": "Brasil"
     },
     {
@@ -10000,7 +10000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8927256,
         "longitude": -47.1609362,
-        "cep": 13064832,
+        "cep": "13064832",
         "pais": "Brasil"
     },
     {
@@ -10010,7 +10010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9413727,
         "longitude": -47.314128,
-        "cep": 13190658,
+        "cep": "13190658",
         "pais": "Brasil"
     },
     {
@@ -10020,7 +10020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9522991,
         "longitude": -47.180263,
-        "cep": 13058422,
+        "cep": "13058422",
         "pais": "Brasil"
     },
     {
@@ -10030,7 +10030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9217259,
         "longitude": -47.0727854,
-        "cep": 13030290,
+        "cep": "13030290",
         "pais": "Brasil"
     },
     {
@@ -10040,7 +10040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.903849,
         "longitude": -47.0524757,
-        "cep": 13025062,
+        "cep": "13025062",
         "pais": "Brasil"
     },
     {
@@ -10050,7 +10050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8783607,
         "longitude": -47.201621,
-        "cep": 13186030,
+        "cep": "13186030",
         "pais": "Brasil"
     },
     {
@@ -10060,7 +10060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4293215,
         "longitude": -46.8122839,
-        "cep": 13972240,
+        "cep": "13972240",
         "pais": "Brasil"
     },
     {
@@ -10070,7 +10070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13349720,
+        "cep": "13349720",
         "pais": "Brasil"
     },
     {
@@ -10080,7 +10080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9443416,
         "longitude": -47.0406979,
-        "cep": 13044440,
+        "cep": "13044440",
         "pais": "Brasil"
     },
     {
@@ -10090,7 +10090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069426,
+        "cep": "13069426",
         "pais": "Brasil"
     },
     {
@@ -10100,7 +10100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.939787,
         "longitude": -47.1399339,
-        "cep": 13059681,
+        "cep": "13059681",
         "pais": "Brasil"
     },
     {
@@ -10110,7 +10110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13067733,
+        "cep": "13067733",
         "pais": "Brasil"
     },
     {
@@ -10120,7 +10120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9382446,
         "longitude": -47.0368304,
-        "cep": 13043730,
+        "cep": "13043730",
         "pais": "Brasil"
     },
     {
@@ -10130,7 +10130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9650669,
         "longitude": -47.0437078,
-        "cep": 13042550,
+        "cep": "13042550",
         "pais": "Brasil"
     },
     {
@@ -10140,7 +10140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8837558,
         "longitude": -47.1758304,
-        "cep": 13185158,
+        "cep": "13185158",
         "pais": "Brasil"
     },
     {
@@ -10150,7 +10150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13107234,
+        "cep": "13107234",
         "pais": "Brasil"
     },
     {
@@ -10160,7 +10160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9716719,
         "longitude": -46.9868835,
-        "cep": 13275070,
+        "cep": "13275070",
         "pais": "Brasil"
     },
     {
@@ -10170,7 +10170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9663108,
         "longitude": -47.0640512,
-        "cep": 13049252,
+        "cep": "13049252",
         "pais": "Brasil"
     },
     {
@@ -10180,7 +10180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9025519,
         "longitude": -47.1623466,
-        "cep": 13064845,
+        "cep": "13064845",
         "pais": "Brasil"
     },
     {
@@ -10190,7 +10190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8666281,
         "longitude": -47.0605833,
-        "cep": 13087310,
+        "cep": "13087310",
         "pais": "Brasil"
     },
     {
@@ -10200,7 +10200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3508977,
         "longitude": -47.687611,
-        "cep": 18560000,
+        "cep": "18560000",
         "pais": "Brasil"
     },
     {
@@ -10210,7 +10210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001913,
         "longitude": -47.1869983,
-        "cep": 13178868,
+        "cep": "13178868",
         "pais": "Brasil"
     },
     {
@@ -10220,7 +10220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.850571,
         "longitude": -47.2267315,
-        "cep": 13183839,
+        "cep": "13183839",
         "pais": "Brasil"
     },
     {
@@ -10230,7 +10230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13101229,
+        "cep": "13101229",
         "pais": "Brasil"
     },
     {
@@ -10240,7 +10240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9617818,
         "longitude": -47.2196907,
-        "cep": 13058619,
+        "cep": "13058619",
         "pais": "Brasil"
     },
     {
@@ -10250,7 +10250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7569432,
         "longitude": -47.3433408,
-        "cep": 13468150,
+        "cep": "13468150",
         "pais": "Brasil"
     },
     {
@@ -10260,7 +10260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9204698,
         "longitude": -47.0196611,
-        "cep": 13101310,
+        "cep": "13101310",
         "pais": "Brasil"
     },
     {
@@ -10270,7 +10270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7453582,
         "longitude": -47.0653244,
-        "cep": 13085758,
+        "cep": "13085758",
         "pais": "Brasil"
     },
     {
@@ -10280,7 +10280,7 @@ const usuarios = [
         "estado": "RJ",
         "latitude": -22.9742957,
         "longitude": -43.330261,
-        "cep": 22753737,
+        "cep": "22753737",
         "pais": NaN
     },
     {
@@ -10290,7 +10290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4223203,
         "longitude": -47.5827532,
-        "cep": 13503540,
+        "cep": "13503540",
         "pais": "Brasil"
     },
     {
@@ -10300,7 +10300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9479334,
         "longitude": -47.1369878,
-        "cep": 13059703,
+        "cep": "13059703",
         "pais": "Brasil"
     },
     {
@@ -10310,7 +10310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9243069,
         "longitude": -47.0590997,
-        "cep": 13041190,
+        "cep": "13041190",
         "pais": "Brasil"
     },
     {
@@ -10320,7 +10320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8889394,
         "longitude": -47.1761717,
-        "cep": 13185050,
+        "cep": "13185050",
         "pais": "Brasil"
     },
     {
@@ -10330,7 +10330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9030278,
         "longitude": -47.0426161,
-        "cep": 13092005,
+        "cep": "13092005",
         "pais": "Brasil"
     },
     {
@@ -10340,7 +10340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458184,
+        "cep": "13458184",
         "pais": "Brasil"
     },
     {
@@ -10350,7 +10350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13471080,
+        "cep": "13471080",
         "pais": "Brasil"
     },
     {
@@ -10360,7 +10360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.758352,
         "longitude": -47.1522846,
-        "cep": 13140113,
+        "cep": "13140113",
         "pais": "Brasil"
     },
     {
@@ -10370,7 +10370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8069503,
         "longitude": -47.1937423,
-        "cep": 13178382,
+        "cep": "13178382",
         "pais": "Brasil"
     },
     {
@@ -10380,7 +10380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9862709,
         "longitude": -47.1179295,
-        "cep": 13054371,
+        "cep": "13054371",
         "pais": "Brasil"
     },
     {
@@ -10390,7 +10390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8837558,
         "longitude": -47.1758304,
-        "cep": 13185158,
+        "cep": "13185158",
         "pais": "Brasil"
     },
     {
@@ -10400,7 +10400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9084795,
         "longitude": -47.1179068,
-        "cep": 13061337,
+        "cep": "13061337",
         "pais": "Brasil"
     },
     {
@@ -10410,7 +10410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9425203,
         "longitude": -47.0299442,
-        "cep": 13045310,
+        "cep": "13045310",
         "pais": "Brasil"
     },
     {
@@ -10420,7 +10420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9382446,
         "longitude": -47.0368304,
-        "cep": 13043730,
+        "cep": "13043730",
         "pais": "Brasil"
     },
     {
@@ -10430,7 +10430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186702,
+        "cep": "13186702",
         "pais": "Brasil"
     },
     {
@@ -10440,7 +10440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283272,
+        "cep": "13283272",
         "pais": "Brasil"
     },
     {
@@ -10450,7 +10450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9111918,
         "longitude": -47.0667921,
-        "cep": 13035375,
+        "cep": "13035375",
         "pais": "Brasil"
     },
     {
@@ -10460,7 +10460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8180025,
         "longitude": -47.232043,
-        "cep": 13175685,
+        "cep": "13175685",
         "pais": "Brasil"
     },
     {
@@ -10470,7 +10470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8995786,
         "longitude": -47.0953097,
-        "cep": 13033585,
+        "cep": "13033585",
         "pais": "Brasil"
     },
     {
@@ -10480,7 +10480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9018384,
         "longitude": -47.0767608,
-        "cep": 13070752,
+        "cep": "13070752",
         "pais": "Brasil"
     },
     {
@@ -10490,7 +10490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13285820,
+        "cep": "13285820",
         "pais": "Brasil"
     },
     {
@@ -10500,7 +10500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8763037,
         "longitude": -47.1458376,
-        "cep": 13067400,
+        "cep": "13067400",
         "pais": "Brasil"
     },
     {
@@ -10510,7 +10510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9205614,
         "longitude": -47.0345121,
-        "cep": 13100483,
+        "cep": "13100483",
         "pais": "Brasil"
     },
     {
@@ -10520,7 +10520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7128727,
         "longitude": -47.2828039,
-        "cep": 13474266,
+        "cep": "13474266",
         "pais": "Brasil"
     },
     {
@@ -10530,7 +10530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454178,
+        "cep": "13454178",
         "pais": "Brasil"
     },
     {
@@ -10540,7 +10540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9896375,
         "longitude": -47.1452374,
-        "cep": 13056074,
+        "cep": "13056074",
         "pais": "Brasil"
     },
     {
@@ -10550,7 +10550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4021214,
         "longitude": -47.5694383,
-        "cep": 13500220,
+        "cep": "13500220",
         "pais": "Brasil"
     },
     {
@@ -10560,7 +10560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.193497,
         "longitude": -46.8684219,
-        "cep": 13219071,
+        "cep": "13219071",
         "pais": "Brasil"
     },
     {
@@ -10570,7 +10570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.104686,
         "longitude": -47.2251097,
-        "cep": 13345600,
+        "cep": "13345600",
         "pais": "Brasil"
     },
     {
@@ -10580,7 +10580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13339545,
+        "cep": "13339545",
         "pais": "Brasil"
     },
     {
@@ -10590,7 +10590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009579,
         "longitude": -47.0672935,
-        "cep": 13020170,
+        "cep": "13020170",
         "pais": "Brasil"
     },
     {
@@ -10600,7 +10600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9426125,
         "longitude": -45.4746002,
-        "cep": 12422530,
+        "cep": "12422530",
         "pais": "Brasil"
     },
     {
@@ -10610,7 +10610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.74995,
         "longitude": -47.3172624,
-        "cep": 13478710,
+        "cep": "13478710",
         "pais": "Brasil"
     },
     {
@@ -10620,7 +10620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7667949,
         "longitude": -47.3478252,
-        "cep": 13468881,
+        "cep": "13468881",
         "pais": "Brasil"
     },
     {
@@ -10630,7 +10630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0956826,
         "longitude": -47.2209241,
-        "cep": 13345004,
+        "cep": "13345004",
         "pais": "Brasil"
     },
     {
@@ -10640,7 +10640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13285408,
+        "cep": "13285408",
         "pais": "Brasil"
     },
     {
@@ -10650,7 +10650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1030302,
         "longitude": -47.7147937,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -10660,7 +10660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9463633,
         "longitude": -47.1235093,
-        "cep": 13060774,
+        "cep": "13060774",
         "pais": "Brasil"
     },
     {
@@ -10670,7 +10670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9546401,
         "longitude": -46.9937864,
-        "cep": 13272081,
+        "cep": "13272081",
         "pais": "Brasil"
     },
     {
@@ -10680,7 +10680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6012869,
         "longitude": -47.4229663,
-        "cep": 13481685,
+        "cep": "13481685",
         "pais": "Brasil"
     },
     {
@@ -10690,7 +10690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.921478,
         "longitude": -47.0382795,
-        "cep": 13100497,
+        "cep": "13100497",
         "pais": "Brasil"
     },
     {
@@ -10700,7 +10700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8496273,
         "longitude": -47.2052815,
-        "cep": 13183540,
+        "cep": "13183540",
         "pais": "Brasil"
     },
     {
@@ -10710,7 +10710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9201723,
         "longitude": -47.0681957,
-        "cep": 13036265,
+        "cep": "13036265",
         "pais": "Brasil"
     },
     {
@@ -10720,7 +10720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8193305,
         "longitude": -47.2429747,
-        "cep": 13175658,
+        "cep": "13175658",
         "pais": "Brasil"
     },
     {
@@ -10730,7 +10730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9361297,
         "longitude": -47.0503207,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -10740,7 +10740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7419391,
         "longitude": -47.3538075,
-        "cep": 13469095,
+        "cep": "13469095",
         "pais": "Brasil"
     },
     {
@@ -10750,7 +10750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181672,
+        "cep": "13181672",
         "pais": "Brasil"
     },
     {
@@ -10760,7 +10760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9337518,
         "longitude": -47.0232726,
-        "cep": 13046190,
+        "cep": "13046190",
         "pais": "Brasil"
     },
     {
@@ -10770,7 +10770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9673467,
         "longitude": -46.9520955,
-        "cep": 13274465,
+        "cep": "13274465",
         "pais": "Brasil"
     },
     {
@@ -10780,7 +10780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9173474,
         "longitude": -47.0313165,
-        "cep": 13100396,
+        "cep": "13100396",
         "pais": "Brasil"
     },
     {
@@ -10790,7 +10790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9096919,
         "longitude": -47.0589796,
-        "cep": 13013000,
+        "cep": "13013000",
         "pais": "Brasil"
     },
     {
@@ -10800,7 +10800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9272215,
         "longitude": -47.1606789,
-        "cep": 13059230,
+        "cep": "13059230",
         "pais": "Brasil"
     },
     {
@@ -10810,7 +10810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13285866,
+        "cep": "13285866",
         "pais": "Brasil"
     },
     {
@@ -10820,7 +10820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9277595,
         "longitude": -47.0243433,
-        "cep": 13101109,
+        "cep": "13101109",
         "pais": "Brasil"
     },
     {
@@ -10830,7 +10830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9135045,
         "longitude": -47.0343773,
-        "cep": 13100291,
+        "cep": "13100291",
         "pais": "Brasil"
     },
     {
@@ -10840,7 +10840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458620,
+        "cep": "13458620",
         "pais": "Brasil"
     },
     {
@@ -10850,7 +10850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2002469,
         "longitude": -47.3932378,
-        "cep": 13610431,
+        "cep": "13610431",
         "pais": "Brasil"
     },
     {
@@ -10860,7 +10860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9482245,
         "longitude": -47.1896015,
-        "cep": 13058510,
+        "cep": "13058510",
         "pais": "Brasil"
     },
     {
@@ -10870,7 +10870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.929425,
         "longitude": -47.1647248,
-        "cep": 13059232,
+        "cep": "13059232",
         "pais": "Brasil"
     },
     {
@@ -10880,7 +10880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8055455,
         "longitude": -47.1964511,
-        "cep": 13178372,
+        "cep": "13178372",
         "pais": "Brasil"
     },
     {
@@ -10890,7 +10890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4247896,
         "longitude": -46.9542444,
-        "cep": 13807010,
+        "cep": "13807010",
         "pais": "Brasil"
     },
     {
@@ -10900,7 +10900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9214184,
         "longitude": -47.0418145,
-        "cep": 13100430,
+        "cep": "13100430",
         "pais": "Brasil"
     },
     {
@@ -10910,7 +10910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.987703,
         "longitude": -47.1384168,
-        "cep": 13056116,
+        "cep": "13056116",
         "pais": "Brasil"
     },
     {
@@ -10920,7 +10920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8963478,
         "longitude": -47.1593567,
-        "cep": 13064810,
+        "cep": "13064810",
         "pais": "Brasil"
     },
     {
@@ -10930,7 +10930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051110,
+        "cep": "13051110",
         "pais": "Brasil"
     },
     {
@@ -10940,7 +10940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1106219,
         "longitude": -47.2252237,
-        "cep": 13346250,
+        "cep": "13346250",
         "pais": "Brasil"
     },
     {
@@ -10950,7 +10950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0416538,
         "longitude": -47.3718002,
-        "cep": 13350000,
+        "cep": "13350000",
         "pais": "Brasil"
     },
     {
@@ -10960,7 +10960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9202183,
         "longitude": -47.102124,
-        "cep": 13060061,
+        "cep": "13060061",
         "pais": "Brasil"
     },
     {
@@ -10970,7 +10970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8288463,
         "longitude": -47.101936,
-        "cep": 13082754,
+        "cep": "13082754",
         "pais": "Brasil"
     },
     {
@@ -10980,7 +10980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13287134,
+        "cep": "13287134",
         "pais": "Brasil"
     },
     {
@@ -10990,7 +10990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9330398,
         "longitude": -47.0818268,
-        "cep": 13050014,
+        "cep": "13050014",
         "pais": "Brasil"
     },
     {
@@ -11000,7 +11000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7304316,
         "longitude": -47.284983,
-        "cep": 13475010,
+        "cep": "13475010",
         "pais": "Brasil"
     },
     {
@@ -11010,7 +11010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9062771,
         "longitude": -47.1749254,
-        "cep": 13185340,
+        "cep": "13185340",
         "pais": "Brasil"
     },
     {
@@ -11020,7 +11020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235106,
         "longitude": -47.1067577,
-        "cep": 13060190,
+        "cep": "13060190",
         "pais": "Brasil"
     },
     {
@@ -11030,7 +11030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8960296,
         "longitude": -47.1607555,
-        "cep": 13064812,
+        "cep": "13064812",
         "pais": "Brasil"
     },
     {
@@ -11040,7 +11040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9463176,
         "longitude": -47.1576942,
-        "cep": 13059100,
+        "cep": "13059100",
         "pais": "Brasil"
     },
     {
@@ -11050,7 +11050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9921324,
         "longitude": -46.9920688,
-        "cep": 13277642,
+        "cep": "13277642",
         "pais": "Brasil"
     },
     {
@@ -11060,7 +11060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8530865,
         "longitude": -47.2057169,
-        "cep": 13183510,
+        "cep": "13183510",
         "pais": "Brasil"
     },
     {
@@ -11070,7 +11070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -11080,7 +11080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9233312,
         "longitude": -46.9711799,
-        "cep": 13273274,
+        "cep": "13273274",
         "pais": "Brasil"
     },
     {
@@ -11090,7 +11090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.809755,
         "longitude": -47.248204,
-        "cep": 13175115,
+        "cep": "13175115",
         "pais": "Brasil"
     },
     {
@@ -11100,7 +11100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9424508,
         "longitude": -47.0421357,
-        "cep": 13044715,
+        "cep": "13044715",
         "pais": "Brasil"
     },
     {
@@ -11110,7 +11110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8280517,
         "longitude": -47.077521,
-        "cep": 13084140,
+        "cep": "13084140",
         "pais": "Brasil"
     },
     {
@@ -11120,7 +11120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8235067,
         "longitude": -47.1753439,
-        "cep": 13179072,
+        "cep": "13179072",
         "pais": "Brasil"
     },
     {
@@ -11130,7 +11130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9431122,
         "longitude": -47.1655827,
-        "cep": 13059001,
+        "cep": "13059001",
         "pais": "Brasil"
     },
     {
@@ -11140,7 +11140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.744338,
         "longitude": -47.1767203,
-        "cep": 13145352,
+        "cep": "13145352",
         "pais": "Brasil"
     },
     {
@@ -11150,7 +11150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8175445,
         "longitude": -47.246918,
-        "cep": 13175375,
+        "cep": "13175375",
         "pais": "Brasil"
     },
     {
@@ -11160,7 +11160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9332555,
         "longitude": -47.1241729,
-        "cep": 13060712,
+        "cep": "13060712",
         "pais": "Brasil"
     },
     {
@@ -11170,7 +11170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9468515,
         "longitude": -47.1558065,
-        "cep": 13059105,
+        "cep": "13059105",
         "pais": "Brasil"
     },
     {
@@ -11180,7 +11180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4368093,
         "longitude": -46.9263658,
-        "cep": 13802334,
+        "cep": "13802334",
         "pais": "Brasil"
     },
     {
@@ -11190,7 +11190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9295066,
         "longitude": -47.1121276,
-        "cep": 13060037,
+        "cep": "13060037",
         "pais": "Brasil"
     },
     {
@@ -11200,7 +11200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7741457,
         "longitude": -47.1501914,
-        "cep": 13140699,
+        "cep": "13140699",
         "pais": "Brasil"
     },
     {
@@ -11210,7 +11210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13046140,
+        "cep": "13046140",
         "pais": "Brasil"
     },
     {
@@ -11220,7 +11220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9232169,
         "longitude": -47.017958,
-        "cep": 13101135,
+        "cep": "13101135",
         "pais": "Brasil"
     },
     {
@@ -11230,7 +11230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1375349,
         "longitude": -47.1915317,
-        "cep": 13342200,
+        "cep": "13342200",
         "pais": "Brasil"
     },
     {
@@ -11240,7 +11240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.840338,
         "longitude": -47.1409607,
-        "cep": 13069528,
+        "cep": "13069528",
         "pais": "Brasil"
     },
     {
@@ -11250,7 +11250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9634134,
         "longitude": -47.139214,
-        "cep": 13056632,
+        "cep": "13056632",
         "pais": "Brasil"
     },
     {
@@ -11260,7 +11260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9474148,
         "longitude": -47.0887232,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -11270,7 +11270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9085531,
         "longitude": -47.0560834,
-        "cep": 13015082,
+        "cep": "13015082",
         "pais": "Brasil"
     },
     {
@@ -11280,7 +11280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8951338,
         "longitude": -47.0793148,
-        "cep": 13070710,
+        "cep": "13070710",
         "pais": "Brasil"
     },
     {
@@ -11290,7 +11290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8658573,
         "longitude": -47.0446193,
-        "cep": 13087016,
+        "cep": "13087016",
         "pais": "Brasil"
     },
     {
@@ -11300,7 +11300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3738102,
         "longitude": -47.5427996,
-        "cep": 13506176,
+        "cep": "13506176",
         "pais": "Brasil"
     },
     {
@@ -11310,7 +11310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8026686,
         "longitude": -47.2780096,
-        "cep": 13173212,
+        "cep": "13173212",
         "pais": "Brasil"
     },
     {
@@ -11320,7 +11320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9319607,
         "longitude": -47.0873837,
-        "cep": 13050022,
+        "cep": "13050022",
         "pais": "Brasil"
     },
     {
@@ -11330,7 +11330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9011398,
         "longitude": -47.0361888,
-        "cep": 13092496,
+        "cep": "13092496",
         "pais": "Brasil"
     },
     {
@@ -11340,7 +11340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9521667,
         "longitude": -47.0813922,
-        "cep": 13051076,
+        "cep": "13051076",
         "pais": "Brasil"
     },
     {
@@ -11350,7 +11350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9439673,
         "longitude": -47.099832,
-        "cep": 13050543,
+        "cep": "13050543",
         "pais": "Brasil"
     },
     {
@@ -11360,7 +11360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.911853,
         "longitude": -47.0658354,
-        "cep": 13035400,
+        "cep": "13035400",
         "pais": "Brasil"
     },
     {
@@ -11370,7 +11370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9368409,
         "longitude": -47.0397719,
-        "cep": 13043650,
+        "cep": "13043650",
         "pais": "Brasil"
     },
     {
@@ -11380,7 +11380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -11390,7 +11390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9557689,
         "longitude": -47.0042692,
-        "cep": 13272453,
+        "cep": "13272453",
         "pais": "Brasil"
     },
     {
@@ -11400,7 +11400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.91266,
         "longitude": -47.0296163,
-        "cep": 13100235,
+        "cep": "13100235",
         "pais": "Brasil"
     },
     {
@@ -11410,17 +11410,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8848991,
         "longitude": -47.0857464,
-        "cep": 13070088,
+        "cep": "13070088",
         "pais": "Brasil"
     },
     {
         "id": 1142,
         "nome": "Antonio Rigone",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.2135816,
         "longitude": -46.8813884,
-        "cep": 23060501,
+        "cep": "23060501",
         "pais": NaN
     },
     {
@@ -11430,7 +11430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9486709,
         "longitude": -47.1120629,
-        "cep": 13060648,
+        "cep": "13060648",
         "pais": "Brasil"
     },
     {
@@ -11440,7 +11440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7570041,
         "longitude": -47.3572077,
-        "cep": 13468570,
+        "cep": "13468570",
         "pais": "Brasil"
     },
     {
@@ -11450,7 +11450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064871,
+        "cep": "13064871",
         "pais": "Brasil"
     },
     {
@@ -11460,7 +11460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9928166,
         "longitude": -47.1418302,
-        "cep": 13056050,
+        "cep": "13056050",
         "pais": "Brasil"
     },
     {
@@ -11470,7 +11470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5601005,
         "longitude": -47.1154795,
-        "cep": 18135580,
+        "cep": "18135580",
         "pais": "Brasil"
     },
     {
@@ -11480,7 +11480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8885949,
         "longitude": -47.0384356,
-        "cep": 13090714,
+        "cep": "13090714",
         "pais": "Brasil"
     },
     {
@@ -11490,7 +11490,7 @@ const usuarios = [
         "estado": "CE",
         "latitude": -3.7965978,
         "longitude": -38.4972432,
-        "cep": 60822131,
+        "cep": "60822131",
         "pais": NaN
     },
     {
@@ -11500,7 +11500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9472317,
         "longitude": -47.1116166,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
@@ -11510,7 +11510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9453235,
         "longitude": -47.1178808,
-        "cep": 13060798,
+        "cep": "13060798",
         "pais": "Brasil"
     },
     {
@@ -11520,7 +11520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061342,
+        "cep": "13061342",
         "pais": "Brasil"
     },
     {
@@ -11530,7 +11530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6996652,
         "longitude": -46.9929159,
-        "cep": 13911062,
+        "cep": "13911062",
         "pais": "Brasil"
     },
     {
@@ -11540,7 +11540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8839734,
         "longitude": -47.2022231,
-        "cep": 13186170,
+        "cep": "13186170",
         "pais": "Brasil"
     },
     {
@@ -11550,7 +11550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9844229,
         "longitude": -47.1222543,
-        "cep": 13054581,
+        "cep": "13054581",
         "pais": "Brasil"
     },
     {
@@ -11560,7 +11560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772866,
         "longitude": -47.1362233,
-        "cep": 13056340,
+        "cep": "13056340",
         "pais": "Brasil"
     },
     {
@@ -11570,7 +11570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396666,
         "longitude": -46.9738752,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -11580,7 +11580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9297308,
         "longitude": -47.1108777,
-        "cep": 13060043,
+        "cep": "13060043",
         "pais": "Brasil"
     },
     {
@@ -11590,7 +11590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5818945,
         "longitude": -47.3809408,
-        "cep": 13487030,
+        "cep": "13487030",
         "pais": "Brasil"
     },
     {
@@ -11600,7 +11600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9508145,
         "longitude": -47.0773197,
-        "cep": 13051054,
+        "cep": "13051054",
         "pais": "Brasil"
     },
     {
@@ -11610,7 +11610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8079778,
         "longitude": -47.1746067,
-        "cep": 13179153,
+        "cep": "13179153",
         "pais": "Brasil"
     },
     {
@@ -11620,7 +11620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9570551,
         "longitude": -46.9909938,
-        "cep": 13272150,
+        "cep": "13272150",
         "pais": "Brasil"
     },
     {
@@ -11630,7 +11630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9591964,
         "longitude": -47.2020273,
-        "cep": 13058133,
+        "cep": "13058133",
         "pais": "Brasil"
     },
     {
@@ -11640,7 +11640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4120179,
         "longitude": -47.5637002,
-        "cep": 13500390,
+        "cep": "13500390",
         "pais": "Brasil"
     },
     {
@@ -11650,7 +11650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9085531,
         "longitude": -47.0560834,
-        "cep": 13015082,
+        "cep": "13015082",
         "pais": "Brasil"
     },
     {
@@ -11660,7 +11660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8191127,
         "longitude": -47.2890418,
-        "cep": 13172691,
+        "cep": "13172691",
         "pais": "Brasil"
     },
     {
@@ -11670,7 +11670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8262668,
         "longitude": -47.1680157,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -11680,7 +11680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9855247,
         "longitude": -47.121707,
-        "cep": 13054281,
+        "cep": "13054281",
         "pais": "Brasil"
     },
     {
@@ -11690,7 +11690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13255540,
+        "cep": "13255540",
         "pais": "Brasil"
     },
     {
@@ -11700,7 +11700,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.0693412,
         "longitude": -46.5707584,
-        "cep": 37795000,
+        "cep": "37795000",
         "pais": NaN
     },
     {
@@ -11710,7 +11710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13294118,
+        "cep": "13294118",
         "pais": "Brasil"
     },
     {
@@ -11720,7 +11720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8026686,
         "longitude": -47.2780096,
-        "cep": 13173212,
+        "cep": "13173212",
         "pais": "Brasil"
     },
     {
@@ -11730,7 +11730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6775106,
         "longitude": -47.7088246,
-        "cep": 13409017,
+        "cep": "13409017",
         "pais": "Brasil"
     },
     {
@@ -11740,7 +11740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7948188,
         "longitude": -47.0873082,
-        "cep": 13085245,
+        "cep": "13085245",
         "pais": "Brasil"
     },
     {
@@ -11750,7 +11750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9494714,
         "longitude": -46.9830642,
-        "cep": 13273114,
+        "cep": "13273114",
         "pais": "Brasil"
     },
     {
@@ -11760,7 +11760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8571963,
         "longitude": -47.1512245,
-        "cep": 13068205,
+        "cep": "13068205",
         "pais": "Brasil"
     },
     {
@@ -11770,7 +11770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8161995,
         "longitude": -47.0266,
-        "cep": 13098427,
+        "cep": "13098427",
         "pais": "Brasil"
     },
     {
@@ -11780,7 +11780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.744211,
         "longitude": -47.6364464,
-        "cep": 13417520,
+        "cep": "13417520",
         "pais": "Brasil"
     },
     {
@@ -11790,7 +11790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7245857,
         "longitude": -47.3199641,
-        "cep": 13472403,
+        "cep": "13472403",
         "pais": "Brasil"
     },
     {
@@ -11800,7 +11800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1183108,
         "longitude": -47.264122,
-        "cep": 13349204,
+        "cep": "13349204",
         "pais": "Brasil"
     },
     {
@@ -11810,7 +11810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4471493,
         "longitude": -47.5445269,
-        "cep": 13512070,
+        "cep": "13512070",
         "pais": "Brasil"
     },
     {
@@ -11820,7 +11820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454365,
+        "cep": "13454365",
         "pais": "Brasil"
     },
     {
@@ -11830,7 +11830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9074464,
         "longitude": -47.1784335,
-        "cep": 13185350,
+        "cep": "13185350",
         "pais": "Brasil"
     },
     {
@@ -11840,7 +11840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.390483,
         "longitude": -47.5754736,
-        "cep": 13504150,
+        "cep": "13504150",
         "pais": "Brasil"
     },
     {
@@ -11850,7 +11850,7 @@ const usuarios = [
         "estado": "PA",
         "latitude": -1.4262548,
         "longitude": -48.4747133,
-        "cep": 66085754,
+        "cep": "66085754",
         "pais": NaN
     },
     {
@@ -11860,7 +11860,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.0693412,
         "longitude": -46.5707584,
-        "cep": 37795000,
+        "cep": "37795000",
         "pais": NaN
     },
     {
@@ -11870,7 +11870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9649534,
         "longitude": -47.1985552,
-        "cep": 13058179,
+        "cep": "13058179",
         "pais": "Brasil"
     },
     {
@@ -11880,7 +11880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8235953,
         "longitude": -47.2390337,
-        "cep": 13175662,
+        "cep": "13175662",
         "pais": "Brasil"
     },
     {
@@ -11890,7 +11890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181655,
+        "cep": "13181655",
         "pais": "Brasil"
     },
     {
@@ -11900,7 +11900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454360,
+        "cep": "13454360",
         "pais": "Brasil"
     },
     {
@@ -11910,7 +11910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7991702,
         "longitude": -47.2257789,
-        "cep": 13177432,
+        "cep": "13177432",
         "pais": "Brasil"
     },
     {
@@ -11920,7 +11920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7206789,
         "longitude": -47.1739028,
-        "cep": 13145807,
+        "cep": "13145807",
         "pais": "Brasil"
     },
     {
@@ -11930,7 +11930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7799479,
         "longitude": -47.1341353,
-        "cep": 13140798,
+        "cep": "13140798",
         "pais": "Brasil"
     },
     {
@@ -11940,7 +11940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13333420,
+        "cep": "13333420",
         "pais": "Brasil"
     },
     {
@@ -11950,7 +11950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4005793,
         "longitude": -47.5540776,
-        "cep": 13506715,
+        "cep": "13506715",
         "pais": "Brasil"
     },
     {
@@ -11960,7 +11960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1215097,
         "longitude": -47.2417665,
-        "cep": 13348390,
+        "cep": "13348390",
         "pais": "Brasil"
     },
     {
@@ -11970,7 +11970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13474020,
+        "cep": "13474020",
         "pais": "Brasil"
     },
     {
@@ -11980,7 +11980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9617948,
         "longitude": -47.001296,
-        "cep": 13272101,
+        "cep": "13272101",
         "pais": "Brasil"
     },
     {
@@ -11990,17 +11990,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
         "id": 1200,
         "nome": "Assis Coelho",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.8941408,
         "longitude": -48.2622678,
-        "cep": 77800000,
+        "cep": "77800000",
         "pais": NaN
     },
     {
@@ -12010,7 +12010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235396,
         "longitude": -47.0155691,
-        "cep": 13101361,
+        "cep": "13101361",
         "pais": "Brasil"
     },
     {
@@ -12020,7 +12020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9251095,
         "longitude": -46.9720621,
-        "cep": 13273275,
+        "cep": "13273275",
         "pais": "Brasil"
     },
     {
@@ -12030,7 +12030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3996366,
         "longitude": -47.5667515,
-        "cep": 13500190,
+        "cep": "13500190",
         "pais": "Brasil"
     },
     {
@@ -12040,7 +12040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059028,
+        "cep": "13059028",
         "pais": "Brasil"
     },
     {
@@ -12050,7 +12050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450240,
+        "cep": "13450240",
         "pais": "Brasil"
     },
     {
@@ -12060,7 +12060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9342815,
         "longitude": -47.1022507,
-        "cep": 13060130,
+        "cep": "13060130",
         "pais": "Brasil"
     },
     {
@@ -12070,7 +12070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9594918,
         "longitude": -47.1842196,
-        "cep": 13058381,
+        "cep": "13058381",
         "pais": "Brasil"
     },
     {
@@ -12080,7 +12080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9298942,
         "longitude": -47.1562628,
-        "cep": 13059611,
+        "cep": "13059611",
         "pais": "Brasil"
     },
     {
@@ -12090,7 +12090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.87439,
         "longitude": -47.2360667,
-        "cep": 13189213,
+        "cep": "13189213",
         "pais": "Brasil"
     },
     {
@@ -12100,7 +12100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7047572,
         "longitude": -47.295501,
-        "cep": 13474462,
+        "cep": "13474462",
         "pais": "Brasil"
     },
     {
@@ -12110,7 +12110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9203879,
         "longitude": -47.0807962,
-        "cep": 13031392,
+        "cep": "13031392",
         "pais": "Brasil"
     },
     {
@@ -12120,7 +12120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9398265,
         "longitude": -47.0351344,
-        "cep": 13043700,
+        "cep": "13043700",
         "pais": "Brasil"
     },
     {
@@ -12130,7 +12130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9262061,
         "longitude": -47.1001863,
-        "cep": 13060022,
+        "cep": "13060022",
         "pais": "Brasil"
     },
     {
@@ -12140,7 +12140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9601529,
         "longitude": -47.1929899,
-        "cep": 13058035,
+        "cep": "13058035",
         "pais": "Brasil"
     },
     {
@@ -12150,7 +12150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9851576,
         "longitude": -47.1172904,
-        "cep": 13054414,
+        "cep": "13054414",
         "pais": "Brasil"
     },
     {
@@ -12160,7 +12160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052550,
+        "cep": "13052550",
         "pais": "Brasil"
     },
     {
@@ -12170,7 +12170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9330398,
         "longitude": -47.0818268,
-        "cep": 13050014,
+        "cep": "13050014",
         "pais": "Brasil"
     },
     {
@@ -12180,7 +12180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9491288,
         "longitude": -47.1604761,
-        "cep": 13059117,
+        "cep": "13059117",
         "pais": "Brasil"
     },
     {
@@ -12190,7 +12190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7221203,
         "longitude": -47.1779485,
-        "cep": 13145776,
+        "cep": "13145776",
         "pais": "Brasil"
     },
     {
@@ -12200,7 +12200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6666664,
         "longitude": -46.9850449,
-        "cep": 13914552,
+        "cep": "13914552",
         "pais": "Brasil"
     },
     {
@@ -12210,7 +12210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9479334,
         "longitude": -47.1369878,
-        "cep": 13059703,
+        "cep": "13059703",
         "pais": "Brasil"
     },
     {
@@ -12220,7 +12220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9335671,
         "longitude": -47.0182686,
-        "cep": 13046545,
+        "cep": "13046545",
         "pais": "Brasil"
     },
     {
@@ -12230,7 +12230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9277187,
         "longitude": -47.155003,
-        "cep": 13059607,
+        "cep": "13059607",
         "pais": "Brasil"
     },
     {
@@ -12240,7 +12240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8123239,
         "longitude": -47.2464421,
-        "cep": 13175125,
+        "cep": "13175125",
         "pais": "Brasil"
     },
     {
@@ -12250,7 +12250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8848991,
         "longitude": -47.0857464,
-        "cep": 13070088,
+        "cep": "13070088",
         "pais": "Brasil"
     },
     {
@@ -12260,7 +12260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7153179,
         "longitude": -47.3574732,
-        "cep": 13470412,
+        "cep": "13470412",
         "pais": "Brasil"
     },
     {
@@ -12270,7 +12270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9662862,
         "longitude": -47.1448371,
-        "cep": 13056671,
+        "cep": "13056671",
         "pais": "Brasil"
     },
     {
@@ -12280,7 +12280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9453343,
         "longitude": -47.0493804,
-        "cep": 13044904,
+        "cep": "13044904",
         "pais": "Brasil"
     },
     {
@@ -12290,7 +12290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061091,
+        "cep": "13061091",
         "pais": "Brasil"
     },
     {
@@ -12300,7 +12300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9262061,
         "longitude": -47.1001863,
-        "cep": 13060022,
+        "cep": "13060022",
         "pais": "Brasil"
     },
     {
@@ -12310,7 +12310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8118681,
         "longitude": -47.0302948,
-        "cep": 13098401,
+        "cep": "13098401",
         "pais": "Brasil"
     },
     {
@@ -12320,7 +12320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9767485,
         "longitude": -47.1303419,
-        "cep": 13054672,
+        "cep": "13054672",
         "pais": "Brasil"
     },
     {
@@ -12330,7 +12330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9334614,
         "longitude": -47.1172487,
-        "cep": 13060534,
+        "cep": "13060534",
         "pais": "Brasil"
     },
     {
@@ -12340,7 +12340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520841,
         "longitude": -47.009843,
-        "cep": 13272510,
+        "cep": "13272510",
         "pais": "Brasil"
     },
     {
@@ -12350,7 +12350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5842444,
         "longitude": -47.4202,
-        "cep": 13482065,
+        "cep": "13482065",
         "pais": "Brasil"
     },
     {
@@ -12360,7 +12360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -12370,7 +12370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9059526,
         "longitude": -47.1039723,
-        "cep": 13033165,
+        "cep": "13033165",
         "pais": "Brasil"
     },
     {
@@ -12380,7 +12380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9432772,
         "longitude": -47.1865432,
-        "cep": 13058532,
+        "cep": "13058532",
         "pais": "Brasil"
     },
     {
@@ -12390,7 +12390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9005565,
         "longitude": -47.0277737,
-        "cep": 13092511,
+        "cep": "13092511",
         "pais": "Brasil"
     },
     {
@@ -12400,7 +12400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9458804,
         "longitude": -47.0913206,
-        "cep": 13050088,
+        "cep": "13050088",
         "pais": "Brasil"
     },
     {
@@ -12410,7 +12410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8292704,
         "longitude": -47.2189548,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -12420,7 +12420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8918706,
         "longitude": -47.2075138,
-        "cep": 13186642,
+        "cep": "13186642",
         "pais": "Brasil"
     },
     {
@@ -12430,7 +12430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3970166,
         "longitude": -47.5556227,
-        "cep": 13506690,
+        "cep": "13506690",
         "pais": "Brasil"
     },
     {
@@ -12440,7 +12440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9464879,
         "longitude": -47.1613763,
-        "cep": 13059615,
+        "cep": "13059615",
         "pais": "Brasil"
     },
     {
@@ -12450,7 +12450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9850544,
         "longitude": -47.0978661,
-        "cep": 13052577,
+        "cep": "13052577",
         "pais": "Brasil"
     },
     {
@@ -12460,7 +12460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13285602,
+        "cep": "13285602",
         "pais": "Brasil"
     },
     {
@@ -12470,7 +12470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8303119,
         "longitude": -47.0804029,
-        "cep": 13084754,
+        "cep": "13084754",
         "pais": "Brasil"
     },
     {
@@ -12480,7 +12480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7524852,
         "longitude": -47.3168363,
-        "cep": 13478713,
+        "cep": "13478713",
         "pais": "Brasil"
     },
     {
@@ -12490,7 +12490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7409217,
         "longitude": -47.2986622,
-        "cep": 13477500,
+        "cep": "13477500",
         "pais": "Brasil"
     },
     {
@@ -12500,7 +12500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456625,
+        "cep": "13456625",
         "pais": "Brasil"
     },
     {
@@ -12510,7 +12510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8251046,
         "longitude": -47.235804,
-        "cep": 13175668,
+        "cep": "13175668",
         "pais": "Brasil"
     },
     {
@@ -12520,7 +12520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8122898,
         "longitude": -47.2320279,
-        "cep": 13177282,
+        "cep": "13177282",
         "pais": "Brasil"
     },
     {
@@ -12530,7 +12530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9266167,
         "longitude": -47.1200002,
-        "cep": 13060565,
+        "cep": "13060565",
         "pais": "Brasil"
     },
     {
@@ -12540,7 +12540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4485328,
         "longitude": -47.4755033,
-        "cep": 18077640,
+        "cep": "18077640",
         "pais": "Brasil"
     },
     {
@@ -12550,7 +12550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8979594,
         "longitude": -47.2331931,
-        "cep": 13188072,
+        "cep": "13188072",
         "pais": "Brasil"
     },
     {
@@ -12560,7 +12560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8426017,
         "longitude": -47.1528261,
-        "cep": 13069098,
+        "cep": "13069098",
         "pais": "Brasil"
     },
     {
@@ -12570,7 +12570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180330,
+        "cep": "13180330",
         "pais": "Brasil"
     },
     {
@@ -12580,7 +12580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8241814,
         "longitude": -47.0915339,
-        "cep": 13084405,
+        "cep": "13084405",
         "pais": "Brasil"
     },
     {
@@ -12590,7 +12590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9368871,
         "longitude": -47.0385522,
-        "cep": 13043770,
+        "cep": "13043770",
         "pais": "Brasil"
     },
     {
@@ -12600,17 +12600,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 6230150,
+        "cep": "06230150",
         "pais": "Brasil"
     },
     {
         "id": 1261,
         "nome": "Paulo Luz",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.3380121,
         "longitude": -47.8368572,
-        "cep": 13219005,
+        "cep": "13219005",
         "pais": NaN
     },
     {
@@ -12620,7 +12620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7295821,
         "longitude": -47.1828868,
-        "cep": 13145674,
+        "cep": "13145674",
         "pais": "Brasil"
     },
     {
@@ -12630,7 +12630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9285841,
         "longitude": -47.1642329,
-        "cep": 13059235,
+        "cep": "13059235",
         "pais": "Brasil"
     },
     {
@@ -12640,7 +12640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8162734,
         "longitude": -47.028665,
-        "cep": 13098421,
+        "cep": "13098421",
         "pais": "Brasil"
     },
     {
@@ -12650,7 +12650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0311162,
         "longitude": -47.1266586,
-        "cep": 13053701,
+        "cep": "13053701",
         "pais": "Brasil"
     },
     {
@@ -12660,7 +12660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.939672,
         "longitude": -47.1685759,
-        "cep": 13059587,
+        "cep": "13059587",
         "pais": "Brasil"
     },
     {
@@ -12670,7 +12670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8559467,
         "longitude": -47.2169415,
-        "cep": 13183130,
+        "cep": "13183130",
         "pais": "Brasil"
     },
     {
@@ -12680,7 +12680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0964486,
         "longitude": -47.2773648,
-        "cep": 13349057,
+        "cep": "13349057",
         "pais": "Brasil"
     },
     {
@@ -12690,7 +12690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181481,
+        "cep": "13181481",
         "pais": "Brasil"
     },
     {
@@ -12700,7 +12700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13339568,
+        "cep": "13339568",
         "pais": "Brasil"
     },
     {
@@ -12710,7 +12710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9662862,
         "longitude": -47.1448371,
-        "cep": 13056671,
+        "cep": "13056671",
         "pais": "Brasil"
     },
     {
@@ -12720,7 +12720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9207661,
         "longitude": -47.0896009,
-        "cep": 13031835,
+        "cep": "13031835",
         "pais": "Brasil"
     },
     {
@@ -12730,7 +12730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7189434,
         "longitude": -47.1674231,
-        "cep": 13145546,
+        "cep": "13145546",
         "pais": "Brasil"
     },
     {
@@ -12740,7 +12740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9332151,
         "longitude": -47.0852367,
-        "cep": 13050010,
+        "cep": "13050010",
         "pais": "Brasil"
     },
     {
@@ -12750,7 +12750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9297308,
         "longitude": -47.1108777,
-        "cep": 13060043,
+        "cep": "13060043",
         "pais": "Brasil"
     },
     {
@@ -12760,7 +12760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454350,
+        "cep": "13454350",
         "pais": "Brasil"
     },
     {
@@ -12770,17 +12770,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9699008,
         "longitude": -47.148075,
-        "cep": 13056500,
+        "cep": "13056500",
         "pais": "Brasil"
     },
     {
         "id": 1278,
-        "nome": "Camila lemos 💚",
+        "nome": "Camila lemos ",
         "cidade": "Campinas",
         "estado": "SP",
         "latitude": -22.9287637,
         "longitude": -47.0917284,
-        "cep": 13050464,
+        "cep": "13050464",
         "pais": "Brasil"
     },
     {
@@ -12790,7 +12790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.924254,
         "longitude": -47.0931708,
-        "cep": 13050413,
+        "cep": "13050413",
         "pais": "Brasil"
     },
     {
@@ -12800,7 +12800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8649625,
         "longitude": -47.2109388,
-        "cep": 13184290,
+        "cep": "13184290",
         "pais": "Brasil"
     },
     {
@@ -12810,7 +12810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8489573,
         "longitude": -47.1343198,
-        "cep": 13069096,
+        "cep": "13069096",
         "pais": "Brasil"
     },
     {
@@ -12820,7 +12820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8713705,
         "longitude": -47.0248074,
-        "cep": 13091561,
+        "cep": "13091561",
         "pais": "Brasil"
     },
     {
@@ -12830,7 +12830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9184401,
         "longitude": -47.102031,
-        "cep": 13060072,
+        "cep": "13060072",
         "pais": "Brasil"
     },
     {
@@ -12840,7 +12840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.418595,
         "longitude": -47.5718754,
-        "cep": 13503390,
+        "cep": "13503390",
         "pais": "Brasil"
     },
     {
@@ -12850,7 +12850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180622,
+        "cep": "13180622",
         "pais": "Brasil"
     },
     {
@@ -12860,7 +12860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6626372,
         "longitude": -46.9730439,
-        "cep": 13914680,
+        "cep": "13914680",
         "pais": "Brasil"
     },
     {
@@ -12870,7 +12870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9601582,
         "longitude": -46.9828451,
-        "cep": 13274280,
+        "cep": "13274280",
         "pais": "Brasil"
     },
     {
@@ -12880,7 +12880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9198788,
         "longitude": -47.1020805,
-        "cep": 13060856,
+        "cep": "13060856",
         "pais": "Brasil"
     },
     {
@@ -12890,7 +12890,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -21.9759554,
         "longitude": -44.6036637,
-        "cep": 37450000,
+        "cep": "37450000",
         "pais": NaN
     },
     {
@@ -12900,7 +12900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053081,
+        "cep": "13053081",
         "pais": "Brasil"
     },
     {
@@ -12910,7 +12910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2065634,
         "longitude": -46.8492222,
-        "cep": 13220025,
+        "cep": "13220025",
         "pais": "Brasil"
     },
     {
@@ -12920,7 +12920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9333917,
         "longitude": -47.1096348,
-        "cep": 13060413,
+        "cep": "13060413",
         "pais": "Brasil"
     },
     {
@@ -12930,7 +12930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8262668,
         "longitude": -47.1680157,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -12940,7 +12940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8442453,
         "longitude": -47.1259645,
-        "cep": 13082572,
+        "cep": "13082572",
         "pais": "Brasil"
     },
     {
@@ -12950,7 +12950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6872181,
         "longitude": -46.9848889,
-        "cep": 13912490,
+        "cep": "13912490",
         "pais": "Brasil"
     },
     {
@@ -12960,7 +12960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7074034,
         "longitude": -46.8144541,
-        "cep": 13905670,
+        "cep": "13905670",
         "pais": "Brasil"
     },
     {
@@ -12970,7 +12970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7336573,
         "longitude": -47.3065352,
-        "cep": 13477120,
+        "cep": "13477120",
         "pais": "Brasil"
     },
     {
@@ -12980,7 +12980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9096919,
         "longitude": -47.0589796,
-        "cep": 13013001,
+        "cep": "13013001",
         "pais": "Brasil"
     },
     {
@@ -12990,7 +12990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9697001,
         "longitude": -47.1282903,
-        "cep": 13054130,
+        "cep": "13054130",
         "pais": "Brasil"
     },
     {
@@ -13000,7 +13000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9201723,
         "longitude": -47.0681957,
-        "cep": 13036265,
+        "cep": "13036265",
         "pais": "Brasil"
     },
     {
@@ -13010,7 +13010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13198416,
+        "cep": "13198416",
         "pais": "Brasil"
     },
     {
@@ -13020,7 +13020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -13030,7 +13030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6025233,
         "longitude": -47.4054079,
-        "cep": 13481104,
+        "cep": "13481104",
         "pais": "Brasil"
     },
     {
@@ -13040,7 +13040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8171025,
         "longitude": -47.1677444,
-        "cep": 13179331,
+        "cep": "13179331",
         "pais": "Brasil"
     },
     {
@@ -13050,7 +13050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9084795,
         "longitude": -47.1179068,
-        "cep": 13061337,
+        "cep": "13061337",
         "pais": "Brasil"
     },
     {
@@ -13060,7 +13060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9221519,
         "longitude": -47.0171721,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -13070,17 +13070,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179054,
+        "cep": "13179054",
         "pais": "Brasil"
     },
     {
         "id": 1308,
         "nome": "Gustavo Camargo",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -22.3163911,
         "longitude": -49.0727239,
-        "cep": 18274170,
+        "cep": "18274170",
         "pais": NaN
     },
     {
@@ -13090,7 +13090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8951011,
         "longitude": -47.1486293,
-        "cep": 13064370,
+        "cep": "13064370",
         "pais": "Brasil"
     },
     {
@@ -13100,7 +13100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9425803,
         "longitude": -47.1323324,
-        "cep": 13059666,
+        "cep": "13059666",
         "pais": "Brasil"
     },
     {
@@ -13110,7 +13110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1929522,
         "longitude": -46.7470021,
-        "cep": 13990000,
+        "cep": "13990000",
         "pais": "Brasil"
     },
     {
@@ -13120,7 +13120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9045526,
         "longitude": -47.1805166,
-        "cep": 13185352,
+        "cep": "13185352",
         "pais": "Brasil"
     },
     {
@@ -13130,7 +13130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8902356,
         "longitude": -47.2256269,
-        "cep": 13187156,
+        "cep": "13187156",
         "pais": "Brasil"
     },
     {
@@ -13140,7 +13140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9002998,
         "longitude": -47.0952734,
-        "cep": 13033615,
+        "cep": "13033615",
         "pais": "Brasil"
     },
     {
@@ -13150,7 +13150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7876524,
         "longitude": -47.2930413,
-        "cep": 13385076,
+        "cep": "13385076",
         "pais": "Brasil"
     },
     {
@@ -13160,17 +13160,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9686408,
         "longitude": -47.11434,
-        "cep": 13052213,
+        "cep": "13052213",
         "pais": "Brasil"
     },
     {
         "id": 1317,
         "nome": "Alexandre Ferreira",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.3047487,
         "longitude": -44.873158,
-        "cep": 13487276,
+        "cep": "13487276",
         "pais": NaN
     },
     {
@@ -13180,7 +13180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9472317,
         "longitude": -47.1116166,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
@@ -13190,17 +13190,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9458983,
         "longitude": -47.1007743,
-        "cep": 13050545,
+        "cep": "13050545",
         "pais": "Brasil"
     },
     {
         "id": 1320,
         "nome": "Luan Lins",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -21.7269314,
         "longitude": -49.3566725,
-        "cep": 13212564,
+        "cep": "13212564",
         "pais": NaN
     },
     {
@@ -13210,7 +13210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13330260,
+        "cep": "13330260",
         "pais": "Brasil"
     },
     {
@@ -13220,7 +13220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9737709,
         "longitude": -47.1459868,
-        "cep": 13056464,
+        "cep": "13056464",
         "pais": "Brasil"
     },
     {
@@ -13230,7 +13230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2624238,
         "longitude": -47.6720659,
-        "cep": 18558024,
+        "cep": "18558024",
         "pais": "Brasil"
     },
     {
@@ -13240,7 +13240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8468609,
         "longitude": -47.2165424,
-        "cep": 13183864,
+        "cep": "13183864",
         "pais": "Brasil"
     },
     {
@@ -13250,7 +13250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7536285,
         "longitude": -47.174988,
-        "cep": 13145063,
+        "cep": "13145063",
         "pais": "Brasil"
     },
     {
@@ -13260,7 +13260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8811616,
         "longitude": -47.0250687,
-        "cep": 13091410,
+        "cep": "13091410",
         "pais": "Brasil"
     },
     {
@@ -13270,7 +13270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9360252,
         "longitude": -47.1078278,
-        "cep": 13060516,
+        "cep": "13060516",
         "pais": "Brasil"
     },
     {
@@ -13280,7 +13280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9168214,
         "longitude": -47.0445426,
-        "cep": 13026140,
+        "cep": "13026140",
         "pais": "Brasil"
     },
     {
@@ -13290,7 +13290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1021438,
         "longitude": -47.2178124,
-        "cep": 13345411,
+        "cep": "13345411",
         "pais": "Brasil"
     },
     {
@@ -13300,7 +13300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9271396,
         "longitude": -47.0991229,
-        "cep": 13060020,
+        "cep": "13060020",
         "pais": "Brasil"
     },
     {
@@ -13310,7 +13310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7526677,
         "longitude": -47.355973,
-        "cep": 13468510,
+        "cep": "13468510",
         "pais": "Brasil"
     },
     {
@@ -13320,7 +13320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9244596,
         "longitude": -47.0741589,
-        "cep": 13030530,
+        "cep": "13030530",
         "pais": "Brasil"
     },
     {
@@ -13330,7 +13330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181779,
+        "cep": "13181779",
         "pais": "Brasil"
     },
     {
@@ -13340,7 +13340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.973196,
         "longitude": -47.1311294,
-        "cep": 13054023,
+        "cep": "13054023",
         "pais": "Brasil"
     },
     {
@@ -13350,7 +13350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7403712,
         "longitude": -47.6359036,
-        "cep": 13417660,
+        "cep": "13417660",
         "pais": "Brasil"
     },
     {
@@ -13360,7 +13360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9395498,
         "longitude": -47.1183973,
-        "cep": 13060494,
+        "cep": "13060494",
         "pais": "Brasil"
     },
     {
@@ -13370,7 +13370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034670,
+        "cep": "13034670",
         "pais": "Brasil"
     },
     {
@@ -13380,7 +13380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9650134,
         "longitude": -47.1642426,
-        "cep": 13057166,
+        "cep": "13057166",
         "pais": "Brasil"
     },
     {
@@ -13390,7 +13390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7933755,
         "longitude": -47.0876757,
-        "cep": 13085260,
+        "cep": "13085260",
         "pais": "Brasil"
     },
     {
@@ -13400,7 +13400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001054,
         "longitude": -47.1941955,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -13410,7 +13410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9785959,
         "longitude": -47.1306582,
-        "cep": 13054664,
+        "cep": "13054664",
         "pais": "Brasil"
     },
     {
@@ -13420,7 +13420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9588961,
         "longitude": -46.9878188,
-        "cep": 13272000,
+        "cep": "13272000",
         "pais": "Brasil"
     },
     {
@@ -13430,7 +13430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.619702,
         "longitude": -47.4099028,
-        "cep": 13481775,
+        "cep": "13481775",
         "pais": "Brasil"
     },
     {
@@ -13440,7 +13440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.714759,
         "longitude": -47.2916274,
-        "cep": 13474040,
+        "cep": "13474040",
         "pais": "Brasil"
     },
     {
@@ -13450,7 +13450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9682522,
         "longitude": -47.1673234,
-        "cep": 13057195,
+        "cep": "13057195",
         "pais": "Brasil"
     },
     {
@@ -13460,7 +13460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181720,
+        "cep": "13181720",
         "pais": "Brasil"
     },
     {
@@ -13470,7 +13470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450197,
+        "cep": "13450197",
         "pais": "Brasil"
     },
     {
@@ -13478,9 +13478,9 @@ const usuarios = [
         "nome": "Ana Nicole Boscolo Santos",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360049,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360049",
         "pais": "Brasil"
     },
     {
@@ -13490,7 +13490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9221947,
         "longitude": -47.0437229,
-        "cep": 13100420,
+        "cep": "13100420",
         "pais": "Brasil"
     },
     {
@@ -13500,7 +13500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8608108,
         "longitude": -47.0482164,
-        "cep": 13087430,
+        "cep": "13087430",
         "pais": "Brasil"
     },
     {
@@ -13510,7 +13510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.738838,
         "longitude": -47.6229821,
-        "cep": 13420665,
+        "cep": "13420665",
         "pais": "Brasil"
     },
     {
@@ -13520,7 +13520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450028,
+        "cep": "13450028",
         "pais": "Brasil"
     },
     {
@@ -13530,7 +13530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -13540,7 +13540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4416112,
         "longitude": -46.9832846,
-        "cep": 13800513,
+        "cep": "13800513",
         "pais": "Brasil"
     },
     {
@@ -13550,7 +13550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034710,
+        "cep": "13034710",
         "pais": "Brasil"
     },
     {
@@ -13560,7 +13560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9278694,
         "longitude": -47.0734159,
-        "cep": 13030120,
+        "cep": "13030120",
         "pais": "Brasil"
     },
     {
@@ -13570,7 +13570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8292704,
         "longitude": -47.2189548,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -13580,7 +13580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9065228,
         "longitude": -47.1172128,
-        "cep": 13061100,
+        "cep": "13061100",
         "pais": "Brasil"
     },
     {
@@ -13590,7 +13590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5460756,
         "longitude": -47.3931396,
-        "cep": 13485078,
+        "cep": "13485078",
         "pais": "Brasil"
     },
     {
@@ -13600,7 +13600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064769,
+        "cep": "13064769",
         "pais": "Brasil"
     },
     {
@@ -13610,7 +13610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7961712,
         "longitude": -47.000448,
-        "cep": 13098750,
+        "cep": "13098750",
         "pais": "Brasil"
     },
     {
@@ -13620,7 +13620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13385520,
+        "cep": "13385520",
         "pais": "Brasil"
     },
     {
@@ -13630,7 +13630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9458341,
         "longitude": -46.9995278,
-        "cep": 13272799,
+        "cep": "13272799",
         "pais": "Brasil"
     },
     {
@@ -13640,7 +13640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455500,
+        "cep": "13455500",
         "pais": "Brasil"
     },
     {
@@ -13650,7 +13650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9469941,
         "longitude": -47.0910613,
-        "cep": 13050077,
+        "cep": "13050077",
         "pais": "Brasil"
     },
     {
@@ -13660,7 +13660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9561695,
         "longitude": -47.0777791,
-        "cep": 13051419,
+        "cep": "13051419",
         "pais": "Brasil"
     },
     {
@@ -13670,7 +13670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8965193,
         "longitude": -47.0627827,
-        "cep": 13023020,
+        "cep": "13023020",
         "pais": "Brasil"
     },
     {
@@ -13680,7 +13680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235396,
         "longitude": -47.0155691,
-        "cep": 13101361,
+        "cep": "13101361",
         "pais": "Brasil"
     },
     {
@@ -13690,7 +13690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8171025,
         "longitude": -47.1677444,
-        "cep": 13179331,
+        "cep": "13179331",
         "pais": "Brasil"
     },
     {
@@ -13700,7 +13700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3675999,
         "longitude": -47.5707512,
-        "cep": 13505225,
+        "cep": "13505225",
         "pais": "Brasil"
     },
     {
@@ -13710,7 +13710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9462774,
         "longitude": -47.0916038,
-        "cep": 13050078,
+        "cep": "13050078",
         "pais": "Brasil"
     },
     {
@@ -13720,7 +13720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9310064,
         "longitude": -47.1589881,
-        "cep": 13059422,
+        "cep": "13059422",
         "pais": "Brasil"
     },
     {
@@ -13730,7 +13730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8851776,
         "longitude": -46.9817505,
-        "cep": 13105040,
+        "cep": "13105040",
         "pais": "Brasil"
     },
     {
@@ -13740,7 +13740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8676322,
         "longitude": -47.2166746,
-        "cep": 13184280,
+        "cep": "13184280",
         "pais": "Brasil"
     },
     {
@@ -13750,7 +13750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.921373,
         "longitude": -47.0290688,
-        "cep": 13100372,
+        "cep": "13100372",
         "pais": "Brasil"
     },
     {
@@ -13760,7 +13760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7656008,
         "longitude": -47.3372422,
-        "cep": 13467180,
+        "cep": "13467180",
         "pais": "Brasil"
     },
     {
@@ -13770,7 +13770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5717899,
         "longitude": -47.4514292,
-        "cep": 13482754,
+        "cep": "13482754",
         "pais": "Brasil"
     },
     {
@@ -13780,7 +13780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13096321,
+        "cep": "13096321",
         "pais": "Brasil"
     },
     {
@@ -13790,7 +13790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8536208,
         "longitude": -47.1086764,
-        "cep": 13082140,
+        "cep": "13082140",
         "pais": "Brasil"
     },
     {
@@ -13800,7 +13800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9353917,
         "longitude": -47.09251,
-        "cep": 13050063,
+        "cep": "13050063",
         "pais": "Brasil"
     },
     {
@@ -13810,7 +13810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9466673,
         "longitude": -47.1207725,
-        "cep": 13060773,
+        "cep": "13060773",
         "pais": "Brasil"
     },
     {
@@ -13820,7 +13820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7629286,
         "longitude": -47.1925808,
-        "cep": 13144675,
+        "cep": "13144675",
         "pais": "Brasil"
     },
     {
@@ -13830,7 +13830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7724914,
         "longitude": -47.1573899,
-        "cep": 13140504,
+        "cep": "13140504",
         "pais": "Brasil"
     },
     {
@@ -13840,7 +13840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7526909,
         "longitude": -47.0526454,
-        "cep": 13085733,
+        "cep": "13085733",
         "pais": "Brasil"
     },
     {
@@ -13850,7 +13850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8175445,
         "longitude": -47.246918,
-        "cep": 13175505,
+        "cep": "13175505",
         "pais": "Brasil"
     },
     {
@@ -13860,7 +13860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243791,
         "longitude": -47.3331376,
-        "cep": 13471255,
+        "cep": "13471255",
         "pais": "Brasil"
     },
     {
@@ -13870,7 +13870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7930839,
         "longitude": -47.2822762,
-        "cep": 13173282,
+        "cep": "13173282",
         "pais": "Brasil"
     },
     {
@@ -13880,7 +13880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.943989,
         "longitude": -47.1162235,
-        "cep": 13060489,
+        "cep": "13060489",
         "pais": "Brasil"
     },
     {
@@ -13890,7 +13890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1963091,
         "longitude": -47.3936397,
-        "cep": 13610499,
+        "cep": "13610499",
         "pais": "Brasil"
     },
     {
@@ -13900,7 +13900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9827393,
         "longitude": -47.1274007,
-        "cep": 13054594,
+        "cep": "13054594",
         "pais": "Brasil"
     },
     {
@@ -13910,7 +13910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1035100,
+        "cep": "01035100",
         "pais": "Brasil"
     },
     {
@@ -13920,7 +13920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8608108,
         "longitude": -47.0482164,
-        "cep": 13087430,
+        "cep": "13087430",
         "pais": "Brasil"
     },
     {
@@ -13930,7 +13930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8255792,
         "longitude": -47.1617399,
-        "cep": 13179214,
+        "cep": "13179214",
         "pais": "Brasil"
     },
     {
@@ -13940,7 +13940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9861959,
         "longitude": -47.1417865,
-        "cep": 13056175,
+        "cep": "13056175",
         "pais": "Brasil"
     },
     {
@@ -13950,7 +13950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9170392,
         "longitude": -47.0478053,
-        "cep": 13026480,
+        "cep": "13026480",
         "pais": "Brasil"
     },
     {
@@ -13960,7 +13960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454186,
+        "cep": "13454186",
         "pais": "Brasil"
     },
     {
@@ -13970,7 +13970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5476954,
         "longitude": -47.3907644,
-        "cep": 13485053,
+        "cep": "13485053",
         "pais": "Brasil"
     },
     {
@@ -13980,7 +13980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9350331,
         "longitude": -47.1152797,
-        "cep": 13060465,
+        "cep": "13060465",
         "pais": "Brasil"
     },
     {
@@ -13990,7 +13990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323020,
+        "cep": "13323020",
         "pais": "Brasil"
     },
     {
@@ -14000,7 +14000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8989685,
         "longitude": -47.0383286,
-        "cep": 13092481,
+        "cep": "13092481",
         "pais": "Brasil"
     },
     {
@@ -14010,7 +14010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180180,
+        "cep": "13180180",
         "pais": "Brasil"
     },
     {
@@ -14020,7 +14020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322180,
+        "cep": "13322180",
         "pais": "Brasil"
     },
     {
@@ -14030,7 +14030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.901631,
         "longitude": -47.1712049,
-        "cep": 13185375,
+        "cep": "13185375",
         "pais": "Brasil"
     },
     {
@@ -14040,7 +14040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7229906,
         "longitude": -47.3137309,
-        "cep": 13472290,
+        "cep": "13472290",
         "pais": "Brasil"
     },
     {
@@ -14050,7 +14050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.725093,
         "longitude": -47.3387357,
-        "cep": 13471680,
+        "cep": "13471680",
         "pais": "Brasil"
     },
     {
@@ -14060,7 +14060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9490031,
         "longitude": -47.1176039,
-        "cep": 13060663,
+        "cep": "13060663",
         "pais": "Brasil"
     },
     {
@@ -14070,7 +14070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9476803,
         "longitude": -47.1576175,
-        "cep": 13059107,
+        "cep": "13059107",
         "pais": "Brasil"
     },
     {
@@ -14080,7 +14080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9701567,
         "longitude": -47.0112455,
-        "cep": 13271405,
+        "cep": "13271405",
         "pais": "Brasil"
     },
     {
@@ -14090,7 +14090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7536285,
         "longitude": -47.174988,
-        "cep": 13145063,
+        "cep": "13145063",
         "pais": "Brasil"
     },
     {
@@ -14100,7 +14100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9367394,
         "longitude": -47.1151418,
-        "cep": 13060496,
+        "cep": "13060496",
         "pais": "Brasil"
     },
     {
@@ -14110,7 +14110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9489756,
         "longitude": -47.1822852,
-        "cep": 13058434,
+        "cep": "13058434",
         "pais": "Brasil"
     },
     {
@@ -14120,7 +14120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9861426,
         "longitude": -47.0958294,
-        "cep": 13052573,
+        "cep": "13052573",
         "pais": "Brasil"
     },
     {
@@ -14130,7 +14130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9318733,
         "longitude": -47.0660104,
-        "cep": 13040103,
+        "cep": "13040103",
         "pais": "Brasil"
     },
     {
@@ -14140,7 +14140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9756069,
         "longitude": -47.1233439,
-        "cep": 13054213,
+        "cep": "13054213",
         "pais": "Brasil"
     },
     {
@@ -14150,7 +14150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -14160,7 +14160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035395,
         "longitude": -47.1727544,
-        "cep": 13185490,
+        "cep": "13185490",
         "pais": "Brasil"
     },
     {
@@ -14170,7 +14170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13280296,
+        "cep": "13280296",
         "pais": "Brasil"
     },
     {
@@ -14180,7 +14180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13092072,
+        "cep": "13092072",
         "pais": "Brasil"
     },
     {
@@ -14190,7 +14190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8779278,
         "longitude": -47.2049167,
-        "cep": 13186012,
+        "cep": "13186012",
         "pais": "Brasil"
     },
     {
@@ -14200,7 +14200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9591964,
         "longitude": -47.2020273,
-        "cep": 13058133,
+        "cep": "13058133",
         "pais": "Brasil"
     },
     {
@@ -14210,7 +14210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13330350,
+        "cep": "13330350",
         "pais": "Brasil"
     },
     {
@@ -14220,7 +14220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9531227,
         "longitude": -47.2141827,
-        "cep": 13058772,
+        "cep": "13058772",
         "pais": "Brasil"
     },
     {
@@ -14230,7 +14230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9288428,
         "longitude": -47.0736526,
-        "cep": 13030117,
+        "cep": "13030117",
         "pais": "Brasil"
     },
     {
@@ -14240,7 +14240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9905634,
         "longitude": -47.1551757,
-        "cep": 13056213,
+        "cep": "13056213",
         "pais": "Brasil"
     },
     {
@@ -14250,7 +14250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9778664,
         "longitude": -47.1435873,
-        "cep": 13056400,
+        "cep": "13056400",
         "pais": "Brasil"
     },
     {
@@ -14260,7 +14260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7180724,
         "longitude": -47.3461116,
-        "cep": 13470310,
+        "cep": "13470310",
         "pais": "Brasil"
     },
     {
@@ -14270,7 +14270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001054,
         "longitude": -47.1941955,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -14280,7 +14280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180180,
+        "cep": "13180180",
         "pais": "Brasil"
     },
     {
@@ -14290,7 +14290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8671408,
         "longitude": -47.2186137,
-        "cep": 13184235,
+        "cep": "13184235",
         "pais": "Brasil"
     },
     {
@@ -14300,7 +14300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7119411,
         "longitude": -47.2927869,
-        "cep": 13474200,
+        "cep": "13474200",
         "pais": "Brasil"
     },
     {
@@ -14310,7 +14310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.819135,
         "longitude": -47.2607465,
-        "cep": 13174540,
+        "cep": "13174540",
         "pais": "Brasil"
     },
     {
@@ -14320,7 +14320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9473898,
         "longitude": -47.1025874,
-        "cep": 13050726,
+        "cep": "13050726",
         "pais": "Brasil"
     },
     {
@@ -14330,7 +14330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9370143,
         "longitude": -47.013035,
-        "cep": 13046445,
+        "cep": "13046445",
         "pais": "Brasil"
     },
     {
@@ -14340,7 +14340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227909,
         "longitude": -47.2767933,
-        "cep": 13170027,
+        "cep": "13170027",
         "pais": "Brasil"
     },
     {
@@ -14350,7 +14350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7703084,
         "longitude": -47.3397774,
-        "cep": 13467441,
+        "cep": "13467441",
         "pais": "Brasil"
     },
     {
@@ -14360,7 +14360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.812475,
         "longitude": -47.2206274,
-        "cep": 13177905,
+        "cep": "13177905",
         "pais": "Brasil"
     },
     {
@@ -14370,7 +14370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9148391,
         "longitude": -47.0456566,
-        "cep": 13026180,
+        "cep": "13026180",
         "pais": "Brasil"
     },
     {
@@ -14380,7 +14380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.952695,
         "longitude": -47.1610875,
-        "cep": 13059585,
+        "cep": "13059585",
         "pais": "Brasil"
     },
     {
@@ -14390,7 +14390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283046,
+        "cep": "13283046",
         "pais": "Brasil"
     },
     {
@@ -14400,7 +14400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4485328,
         "longitude": -47.4755033,
-        "cep": 18077640,
+        "cep": "18077640",
         "pais": "Brasil"
     },
     {
@@ -14410,17 +14410,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9482757,
         "longitude": -47.1978878,
-        "cep": 13058822,
+        "cep": "13058822",
         "pais": "Brasil"
     },
     {
         "id": 1442,
         "nome": "Gustavo Kennedy",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.7229782,
         "longitude": -45.4315567,
-        "cep": 18211000,
+        "cep": "18211000",
         "pais": NaN
     },
     {
@@ -14430,7 +14430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7928171,
         "longitude": -47.19722,
-        "cep": 13178352,
+        "cep": "13178352",
         "pais": "Brasil"
     },
     {
@@ -14440,7 +14440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8936515,
         "longitude": -47.2496321,
-        "cep": 13188235,
+        "cep": "13188235",
         "pais": "Brasil"
     },
     {
@@ -14450,7 +14450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455480,
+        "cep": "13455480",
         "pais": "Brasil"
     },
     {
@@ -14460,7 +14460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9480159,
         "longitude": -47.1353974,
-        "cep": 13059721,
+        "cep": "13059721",
         "pais": "Brasil"
     },
     {
@@ -14470,7 +14470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9783806,
         "longitude": -46.9972553,
-        "cep": 13276080,
+        "cep": "13276080",
         "pais": "Brasil"
     },
     {
@@ -14480,7 +14480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069429,
+        "cep": "13069429",
         "pais": "Brasil"
     },
     {
@@ -14490,7 +14490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9482757,
         "longitude": -47.1978878,
-        "cep": 13058822,
+        "cep": "13058822",
         "pais": "Brasil"
     },
     {
@@ -14500,7 +14500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9252203,
         "longitude": -47.0207386,
-        "cep": 13101132,
+        "cep": "13101132",
         "pais": "Brasil"
     },
     {
@@ -14510,7 +14510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9793997,
         "longitude": -46.9886198,
-        "cep": 13275400,
+        "cep": "13275400",
         "pais": "Brasil"
     },
     {
@@ -14520,7 +14520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.949011,
         "longitude": -46.9831948,
-        "cep": 13273116,
+        "cep": "13273116",
         "pais": "Brasil"
     },
     {
@@ -14530,7 +14530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9041546,
         "longitude": -47.1966163,
-        "cep": 13186546,
+        "cep": "13186546",
         "pais": "Brasil"
     },
     {
@@ -14540,7 +14540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1431689,
         "longitude": -47.8151088,
-        "cep": 14060168,
+        "cep": "14060168",
         "pais": "Brasil"
     },
     {
@@ -14550,7 +14550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2222888,
         "longitude": -46.8566306,
-        "cep": 13203554,
+        "cep": "13203554",
         "pais": "Brasil"
     },
     {
@@ -14560,7 +14560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9474148,
         "longitude": -47.0887232,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -14570,7 +14570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9252203,
         "longitude": -47.0207386,
-        "cep": 13101132,
+        "cep": "13101132",
         "pais": "Brasil"
     },
     {
@@ -14580,7 +14580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -14590,7 +14590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -14600,7 +14600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7512255,
         "longitude": -47.1727501,
-        "cep": 13145123,
+        "cep": "13145123",
         "pais": "Brasil"
     },
     {
@@ -14610,7 +14610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741347,
         "longitude": -46.894846,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -14620,7 +14620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7333959,
         "longitude": -47.3508702,
-        "cep": 13469360,
+        "cep": "13469360",
         "pais": "Brasil"
     },
     {
@@ -14630,7 +14630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8262668,
         "longitude": -47.1680157,
-        "cep": 13179515,
+        "cep": "13179515",
         "pais": "Brasil"
     },
     {
@@ -14640,7 +14640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8640792,
         "longitude": -47.0646202,
-        "cep": 13087380,
+        "cep": "13087380",
         "pais": "Brasil"
     },
     {
@@ -14650,7 +14650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9174737,
         "longitude": -47.0524993,
-        "cep": 13041620,
+        "cep": "13041620",
         "pais": "Brasil"
     },
     {
@@ -14660,7 +14660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9115815,
         "longitude": -47.119288,
-        "cep": 13061371,
+        "cep": "13061371",
         "pais": "Brasil"
     },
     {
@@ -14670,7 +14670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9162729,
         "longitude": -47.2589746,
-        "cep": 13199190,
+        "cep": "13199190",
         "pais": "Brasil"
     },
     {
@@ -14680,7 +14680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9880115,
         "longitude": -46.985358,
-        "cep": 13275443,
+        "cep": "13275443",
         "pais": "Brasil"
     },
     {
@@ -14690,7 +14690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8967577,
         "longitude": -47.0689745,
-        "cep": 13020210,
+        "cep": "13020210",
         "pais": "Brasil"
     },
     {
@@ -14700,7 +14700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9290171,
         "longitude": -47.0893095,
-        "cep": 13050471,
+        "cep": "13050471",
         "pais": "Brasil"
     },
     {
@@ -14710,7 +14710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8536502,
         "longitude": -47.1057887,
-        "cep": 13082145,
+        "cep": "13082145",
         "pais": "Brasil"
     },
     {
@@ -14720,7 +14720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0366211,
         "longitude": -47.1118869,
-        "cep": 13053217,
+        "cep": "13053217",
         "pais": "Brasil"
     },
     {
@@ -14730,7 +14730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8962324,
         "longitude": -47.0846688,
-        "cep": 13070120,
+        "cep": "13070120",
         "pais": "Brasil"
     },
     {
@@ -14740,7 +14740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9916002,
         "longitude": -47.0066473,
-        "cep": 13278327,
+        "cep": "13278327",
         "pais": "Brasil"
     },
     {
@@ -14750,7 +14750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9284948,
         "longitude": -47.1265197,
-        "cep": 13060820,
+        "cep": "13060820",
         "pais": "Brasil"
     },
     {
@@ -14760,7 +14760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.976729,
         "longitude": -47.0037593,
-        "cep": 13270362,
+        "cep": "13270362",
         "pais": "Brasil"
     },
     {
@@ -14770,7 +14770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.897276,
         "longitude": -47.0792943,
-        "cep": 13070760,
+        "cep": "13070760",
         "pais": "Brasil"
     },
     {
@@ -14780,7 +14780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9315627,
         "longitude": -47.1519631,
-        "cep": 13059591,
+        "cep": "13059591",
         "pais": "Brasil"
     },
     {
@@ -14790,7 +14790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -14800,7 +14800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180370,
+        "cep": "13180370",
         "pais": "Brasil"
     },
     {
@@ -14810,7 +14810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9013204,
         "longitude": -47.1012544,
-        "cep": 13033485,
+        "cep": "13033485",
         "pais": "Brasil"
     },
     {
@@ -14820,7 +14820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1929522,
         "longitude": -46.7470021,
-        "cep": 13990000,
+        "cep": "13990000",
         "pais": "Brasil"
     },
     {
@@ -14830,7 +14830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8063182,
         "longitude": -47.1912331,
-        "cep": 13178385,
+        "cep": "13178385",
         "pais": "Brasil"
     },
     {
@@ -14840,7 +14840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456420,
+        "cep": "13456420",
         "pais": "Brasil"
     },
     {
@@ -14850,7 +14850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8755663,
         "longitude": -47.2317179,
-        "cep": 13189205,
+        "cep": "13189205",
         "pais": "Brasil"
     },
     {
@@ -14860,7 +14860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1662027,
         "longitude": -46.9145886,
-        "cep": 13214523,
+        "cep": "13214523",
         "pais": "Brasil"
     },
     {
@@ -14870,7 +14870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7645037,
         "longitude": -47.3254864,
-        "cep": 13467273,
+        "cep": "13467273",
         "pais": "Brasil"
     },
     {
@@ -14880,7 +14880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8682138,
         "longitude": -47.2085975,
-        "cep": 13184390,
+        "cep": "13184390",
         "pais": "Brasil"
     },
     {
@@ -14890,7 +14890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450712,
+        "cep": "13450712",
         "pais": "Brasil"
     },
     {
@@ -14900,7 +14900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -14910,7 +14910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7212651,
         "longitude": -47.358756,
-        "cep": 13469600,
+        "cep": "13469600",
         "pais": "Brasil"
     },
     {
@@ -14920,7 +14920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7205608,
         "longitude": -47.3045652,
-        "cep": 13473400,
+        "cep": "13473400",
         "pais": "Brasil"
     },
     {
@@ -14930,7 +14930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8251046,
         "longitude": -47.235804,
-        "cep": 13175668,
+        "cep": "13175668",
         "pais": "Brasil"
     },
     {
@@ -14940,7 +14940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8854833,
         "longitude": -47.0637998,
-        "cep": 13073010,
+        "cep": "13073010",
         "pais": "Brasil"
     },
     {
@@ -14950,7 +14950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8908185,
         "longitude": -47.0447117,
-        "cep": 13090713,
+        "cep": "13090713",
         "pais": "Brasil"
     },
     {
@@ -14960,7 +14960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212994,
         "longitude": -47.0337415,
-        "cep": 13100473,
+        "cep": "13100473",
         "pais": "Brasil"
     },
     {
@@ -14970,7 +14970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9839281,
         "longitude": -47.1151903,
-        "cep": 13054423,
+        "cep": "13054423",
         "pais": "Brasil"
     },
     {
@@ -14980,7 +14980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6103741,
         "longitude": -47.409144,
-        "cep": 13481807,
+        "cep": "13481807",
         "pais": "Brasil"
     },
     {
@@ -14990,7 +14990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9670684,
         "longitude": -47.1324155,
-        "cep": 13054021,
+        "cep": "13054021",
         "pais": "Brasil"
     },
     {
@@ -15000,7 +15000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9817232,
         "longitude": -47.1186262,
-        "cep": 13054506,
+        "cep": "13054506",
         "pais": "Brasil"
     },
     {
@@ -15010,7 +15010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8359241,
         "longitude": -47.6146879,
-        "cep": 13395060,
+        "cep": "13395060",
         "pais": "Brasil"
     },
     {
@@ -15020,7 +15020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9460931,
         "longitude": -47.1234351,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -15030,7 +15030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.930903,
         "longitude": -47.0824778,
-        "cep": 13050004,
+        "cep": "13050004",
         "pais": "Brasil"
     },
     {
@@ -15040,7 +15040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9075334,
         "longitude": -47.0535593,
-        "cep": 13015191,
+        "cep": "13015191",
         "pais": "Brasil"
     },
     {
@@ -15050,7 +15050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13280350,
+        "cep": "13280350",
         "pais": "Brasil"
     },
     {
@@ -15060,7 +15060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9865638,
         "longitude": -47.1314132,
-        "cep": 13056858,
+        "cep": "13056858",
         "pais": "Brasil"
     },
     {
@@ -15070,7 +15070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8928504,
         "longitude": -47.0625847,
-        "cep": 13023220,
+        "cep": "13023220",
         "pais": "Brasil"
     },
     {
@@ -15080,7 +15080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1049835,
         "longitude": -47.2051137,
-        "cep": 13343821,
+        "cep": "13343821",
         "pais": "Brasil"
     },
     {
@@ -15090,7 +15090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9654999,
         "longitude": -47.1475294,
-        "cep": 13056531,
+        "cep": "13056531",
         "pais": "Brasil"
     },
     {
@@ -15100,7 +15100,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -19.8404089,
         "longitude": -44.6196724,
-        "cep": 35660213,
+        "cep": "35660213",
         "pais": NaN
     },
     {
@@ -15110,7 +15110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310200,
+        "cep": "13310200",
         "pais": "Brasil"
     },
     {
@@ -15120,7 +15120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8004167,
         "longitude": -47.2676745,
-        "cep": 13173423,
+        "cep": "13173423",
         "pais": "Brasil"
     },
     {
@@ -15130,7 +15130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9736336,
         "longitude": -47.1711701,
-        "cep": 13057400,
+        "cep": "13057400",
         "pais": "Brasil"
     },
     {
@@ -15140,7 +15140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8924833,
         "longitude": -47.1635379,
-        "cep": 13185485,
+        "cep": "13185485",
         "pais": "Brasil"
     },
     {
@@ -15150,7 +15150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9629186,
         "longitude": -47.1996218,
-        "cep": 13058229,
+        "cep": "13058229",
         "pais": "Brasil"
     },
     {
@@ -15160,7 +15160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9785244,
         "longitude": -47.0760852,
-        "cep": 13049493,
+        "cep": "13049493",
         "pais": "Brasil"
     },
     {
@@ -15170,7 +15170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9650669,
         "longitude": -47.0437078,
-        "cep": 13042550,
+        "cep": "13042550",
         "pais": "Brasil"
     },
     {
@@ -15180,7 +15180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5568841,
         "longitude": -47.152972,
-        "cep": 13165172,
+        "cep": "13165172",
         "pais": "Brasil"
     },
     {
@@ -15190,7 +15190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5747366,
         "longitude": -47.393793,
-        "cep": 13480290,
+        "cep": "13480290",
         "pais": "Brasil"
     },
     {
@@ -15200,7 +15200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3952192,
         "longitude": -47.3671981,
-        "cep": 18105330,
+        "cep": "18105330",
         "pais": "Brasil"
     },
     {
@@ -15210,7 +15210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13175590,
+        "cep": "13175590",
         "pais": "Brasil"
     },
     {
@@ -15220,7 +15220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9204494,
         "longitude": -47.0745462,
-        "cep": 13030430,
+        "cep": "13030430",
         "pais": "Brasil"
     },
     {
@@ -15230,7 +15230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9463633,
         "longitude": -47.1235093,
-        "cep": 13060774,
+        "cep": "13060774",
         "pais": "Brasil"
     },
     {
@@ -15240,7 +15240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5989841,
         "longitude": -46.5917089,
-        "cep": 4224010,
+        "cep": "04224010",
         "pais": "Brasil"
     },
     {
@@ -15250,7 +15250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310335,
+        "cep": "13310335",
         "pais": "Brasil"
     },
     {
@@ -15260,7 +15260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9629186,
         "longitude": -47.1996218,
-        "cep": 13058229,
+        "cep": "13058229",
         "pais": "Brasil"
     },
     {
@@ -15270,7 +15270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9432128,
         "longitude": -47.1327814,
-        "cep": 13059673,
+        "cep": "13059673",
         "pais": "Brasil"
     },
     {
@@ -15280,7 +15280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9527774,
         "longitude": -47.185877,
-        "cep": 13058368,
+        "cep": "13058368",
         "pais": "Brasil"
     },
     {
@@ -15290,7 +15290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0085066,
         "longitude": -47.0128202,
-        "cep": 13278110,
+        "cep": "13278110",
         "pais": "Brasil"
     },
     {
@@ -15300,7 +15300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9791675,
         "longitude": -46.9933991,
-        "cep": 13276485,
+        "cep": "13276485",
         "pais": "Brasil"
     },
     {
@@ -15310,7 +15310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9501234,
         "longitude": -46.974103,
-        "cep": 13273552,
+        "cep": "13273552",
         "pais": "Brasil"
     },
     {
@@ -15320,7 +15320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0280311,
         "longitude": -47.1167608,
-        "cep": 13053121,
+        "cep": "13053121",
         "pais": "Brasil"
     },
     {
@@ -15330,7 +15330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8621035,
         "longitude": -47.2070952,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -15340,7 +15340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9333145,
         "longitude": -47.1262206,
-        "cep": 13060715,
+        "cep": "13060715",
         "pais": "Brasil"
     },
     {
@@ -15350,7 +15350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13309580,
+        "cep": "13309580",
         "pais": "Brasil"
     },
     {
@@ -15360,7 +15360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9841935,
         "longitude": -46.9805303,
-        "cep": 13275616,
+        "cep": "13275616",
         "pais": "Brasil"
     },
     {
@@ -15370,7 +15370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9650669,
         "longitude": -47.0437078,
-        "cep": 13042550,
+        "cep": "13042550",
         "pais": "Brasil"
     },
     {
@@ -15380,7 +15380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4247748,
         "longitude": -47.4171691,
-        "cep": 18103757,
+        "cep": "18103757",
         "pais": "Brasil"
     },
     {
@@ -15390,7 +15390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8904866,
         "longitude": -47.1633268,
-        "cep": 13185402,
+        "cep": "13185402",
         "pais": "Brasil"
     },
     {
@@ -15400,7 +15400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520619,
         "longitude": -47.0268035,
-        "cep": 13044503,
+        "cep": "13044503",
         "pais": "Brasil"
     },
     {
@@ -15410,7 +15410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8584143,
         "longitude": -47.1985495,
-        "cep": 13183310,
+        "cep": "13183310",
         "pais": "Brasil"
     },
     {
@@ -15420,7 +15420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7614734,
         "longitude": -47.3350362,
-        "cep": 13467080,
+        "cep": "13467080",
         "pais": "Brasil"
     },
     {
@@ -15430,7 +15430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8811714,
         "longitude": -46.9852534,
-        "cep": 13105122,
+        "cep": "13105122",
         "pais": "Brasil"
     },
     {
@@ -15440,7 +15440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9443416,
         "longitude": -47.0406979,
-        "cep": 13044440,
+        "cep": "13044440",
         "pais": "Brasil"
     },
     {
@@ -15450,7 +15450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6869747,
         "longitude": -47.7032132,
-        "cep": 13406010,
+        "cep": "13406010",
         "pais": "Brasil"
     },
     {
@@ -15460,7 +15460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040082,
+        "cep": "13040082",
         "pais": "Brasil"
     },
     {
@@ -15470,7 +15470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8491141,
         "longitude": -47.1102964,
-        "cep": 13082075,
+        "cep": "13082075",
         "pais": "Brasil"
     },
     {
@@ -15480,7 +15480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8138632,
         "longitude": -47.2900561,
-        "cep": 13172674,
+        "cep": "13172674",
         "pais": "Brasil"
     },
     {
@@ -15490,7 +15490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180510,
+        "cep": "13180510",
         "pais": "Brasil"
     },
     {
@@ -15500,7 +15500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13197198,
+        "cep": "13197198",
         "pais": "Brasil"
     },
     {
@@ -15510,7 +15510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9668893,
         "longitude": -47.0416001,
-        "cep": 13042760,
+        "cep": "13042760",
         "pais": "Brasil"
     },
     {
@@ -15520,7 +15520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9101065,
         "longitude": -47.088587,
-        "cep": 13032400,
+        "cep": "13032400",
         "pais": "Brasil"
     },
     {
@@ -15530,17 +15530,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9785586,
         "longitude": -47.1322812,
-        "cep": 13054622,
+        "cep": "13054622",
         "pais": "Brasil"
     },
     {
         "id": 1554,
         "nome": "LUIZ",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -19.9346314,
         "longitude": -44.1198402,
-        "cep": 15940000,
+        "cep": "15940000",
         "pais": NaN
     },
     {
@@ -15550,7 +15550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450017,
+        "cep": "13450017",
         "pais": "Brasil"
     },
     {
@@ -15560,7 +15560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450029,
+        "cep": "13450029",
         "pais": "Brasil"
     },
     {
@@ -15570,7 +15570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9273958,
         "longitude": -46.9723192,
-        "cep": 13273264,
+        "cep": "13273264",
         "pais": "Brasil"
     },
     {
@@ -15580,7 +15580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9015865,
         "longitude": -47.0439702,
-        "cep": 13092132,
+        "cep": "13092132",
         "pais": "Brasil"
     },
     {
@@ -15590,7 +15590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6164458,
         "longitude": -47.428497,
-        "cep": 13481257,
+        "cep": "13481257",
         "pais": "Brasil"
     },
     {
@@ -15600,7 +15600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9474148,
         "longitude": -47.0887232,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -15610,7 +15610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9609613,
         "longitude": -47.1813138,
-        "cep": 13058370,
+        "cep": "13058370",
         "pais": "Brasil"
     },
     {
@@ -15620,7 +15620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9724084,
         "longitude": -47.070199,
-        "cep": 13049440,
+        "cep": "13049440",
         "pais": "Brasil"
     },
     {
@@ -15630,7 +15630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180290,
+        "cep": "13180290",
         "pais": "Brasil"
     },
     {
@@ -15640,7 +15640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9389858,
         "longitude": -47.002703,
-        "cep": 13272702,
+        "cep": "13272702",
         "pais": "Brasil"
     },
     {
@@ -15650,7 +15650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9839481,
         "longitude": -46.9992857,
-        "cep": 13277030,
+        "cep": "13277030",
         "pais": "Brasil"
     },
     {
@@ -15660,7 +15660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9224804,
         "longitude": -47.0200028,
-        "cep": 13101320,
+        "cep": "13101320",
         "pais": "Brasil"
     },
     {
@@ -15670,7 +15670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13479080,
+        "cep": "13479080",
         "pais": "Brasil"
     },
     {
@@ -15680,7 +15680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8933048,
         "longitude": -47.1671159,
-        "cep": 13185539,
+        "cep": "13185539",
         "pais": "Brasil"
     },
     {
@@ -15690,7 +15690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8904623,
         "longitude": -47.0598982,
-        "cep": 13023011,
+        "cep": "13023011",
         "pais": "Brasil"
     },
     {
@@ -15700,7 +15700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009068,
         "longitude": -47.0984607,
-        "cep": 13033530,
+        "cep": "13033530",
         "pais": "Brasil"
     },
     {
@@ -15710,7 +15710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040565,
+        "cep": "13040565",
         "pais": "Brasil"
     },
     {
@@ -15720,7 +15720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7110261,
         "longitude": -47.3589889,
-        "cep": 13470473,
+        "cep": "13470473",
         "pais": "Brasil"
     },
     {
@@ -15730,7 +15730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9217259,
         "longitude": -47.0727854,
-        "cep": 13030290,
+        "cep": "13030290",
         "pais": "Brasil"
     },
     {
@@ -15740,7 +15740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7062632,
         "longitude": -47.2946826,
-        "cep": 13474358,
+        "cep": "13474358",
         "pais": "Brasil"
     },
     {
@@ -15750,7 +15750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8642036,
         "longitude": -47.0348681,
-        "cep": 13088110,
+        "cep": "13088110",
         "pais": "Brasil"
     },
     {
@@ -15760,7 +15760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9221769,
         "longitude": -47.0343546,
-        "cep": 13100486,
+        "cep": "13100486",
         "pais": "Brasil"
     },
     {
@@ -15770,7 +15770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7703084,
         "longitude": -47.3397774,
-        "cep": 13467441,
+        "cep": "13467441",
         "pais": "Brasil"
     },
     {
@@ -15780,7 +15780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174462,
+        "cep": "13174462",
         "pais": "Brasil"
     },
     {
@@ -15790,7 +15790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7729871,
         "longitude": -47.3468576,
-        "cep": 13467204,
+        "cep": "13467204",
         "pais": "Brasil"
     },
     {
@@ -15800,7 +15800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9536276,
         "longitude": -47.1152277,
-        "cep": 13060671,
+        "cep": "13060671",
         "pais": "Brasil"
     },
     {
@@ -15810,7 +15810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8037128,
         "longitude": -47.2986675,
-        "cep": 13385756,
+        "cep": "13385756",
         "pais": "Brasil"
     },
     {
@@ -15820,7 +15820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7062632,
         "longitude": -47.2946826,
-        "cep": 13474358,
+        "cep": "13474358",
         "pais": "Brasil"
     },
     {
@@ -15830,7 +15830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13198524,
+        "cep": "13198524",
         "pais": "Brasil"
     },
     {
@@ -15840,7 +15840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9650669,
         "longitude": -47.0437078,
-        "cep": 13042550,
+        "cep": "13042550",
         "pais": "Brasil"
     },
     {
@@ -15850,7 +15850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13331490,
+        "cep": "13331490",
         "pais": "Brasil"
     },
     {
@@ -15860,7 +15860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7294051,
         "longitude": -47.1782814,
-        "cep": 13145702,
+        "cep": "13145702",
         "pais": "Brasil"
     },
     {
@@ -15870,7 +15870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455440,
+        "cep": "13455440",
         "pais": "Brasil"
     },
     {
@@ -15880,7 +15880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7242042,
         "longitude": -47.3492341,
-        "cep": 13470070,
+        "cep": "13470070",
         "pais": "Brasil"
     },
     {
@@ -15890,7 +15890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7062632,
         "longitude": -47.2946826,
-        "cep": 13474358,
+        "cep": "13474358",
         "pais": "Brasil"
     },
     {
@@ -15900,7 +15900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8086625,
         "longitude": -47.2040194,
-        "cep": 13178321,
+        "cep": "13178321",
         "pais": "Brasil"
     },
     {
@@ -15910,7 +15910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3917221,
         "longitude": -47.5868598,
-        "cep": 13504420,
+        "cep": "13504420",
         "pais": "Brasil"
     },
     {
@@ -15920,7 +15920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310245,
+        "cep": "13310245",
         "pais": "Brasil"
     },
     {
@@ -15930,7 +15930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5581488,
         "longitude": -47.4544625,
-        "cep": 13483527,
+        "cep": "13483527",
         "pais": "Brasil"
     },
     {
@@ -15940,7 +15940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9058631,
         "longitude": -47.1769534,
-        "cep": 13185343,
+        "cep": "13185343",
         "pais": "Brasil"
     },
     {
@@ -15950,7 +15950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13477160,
+        "cep": "13477160",
         "pais": "Brasil"
     },
     {
@@ -15960,7 +15960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8890749,
         "longitude": -47.1067592,
-        "cep": 13063570,
+        "cep": "13063570",
         "pais": "Brasil"
     },
     {
@@ -15970,7 +15970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9196544,
         "longitude": -47.0364725,
-        "cep": 13100474,
+        "cep": "13100474",
         "pais": "Brasil"
     },
     {
@@ -15980,7 +15980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.77454,
         "longitude": -47.1694351,
-        "cep": 13142458,
+        "cep": "13142458",
         "pais": "Brasil"
     },
     {
@@ -15990,7 +15990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9281385,
         "longitude": -47.0373443,
-        "cep": 13045603,
+        "cep": "13045603",
         "pais": "Brasil"
     },
     {
@@ -16000,7 +16000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9937746,
         "longitude": -46.9933092,
-        "cep": 13277501,
+        "cep": "13277501",
         "pais": "Brasil"
     },
     {
@@ -16010,7 +16010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8001054,
         "longitude": -47.1941955,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -16020,7 +16020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938899,
         "longitude": -47.1228027,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -16030,7 +16030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9034868,
         "longitude": -47.2445655,
-        "cep": 13188180,
+        "cep": "13188180",
         "pais": "Brasil"
     },
     {
@@ -16040,7 +16040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8851776,
         "longitude": -46.9817505,
-        "cep": 13105040,
+        "cep": "13105040",
         "pais": "Brasil"
     },
     {
@@ -16050,7 +16050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049099,
+        "cep": "13049099",
         "pais": "Brasil"
     },
     {
@@ -16060,7 +16060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9923858,
         "longitude": -47.1198777,
-        "cep": 13054765,
+        "cep": "13054765",
         "pais": "Brasil"
     },
     {
@@ -16070,7 +16070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9234695,
         "longitude": -47.0779726,
-        "cep": 13030710,
+        "cep": "13030710",
         "pais": "Brasil"
     },
     {
@@ -16080,7 +16080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450019,
+        "cep": "13450019",
         "pais": "Brasil"
     },
     {
@@ -16090,7 +16090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.855787,
         "longitude": -47.0357702,
-        "cep": 13088565,
+        "cep": "13088565",
         "pais": "Brasil"
     },
     {
@@ -16100,7 +16100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323711,
+        "cep": "13323711",
         "pais": "Brasil"
     },
     {
@@ -16110,7 +16110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6460503,
         "longitude": -47.1967533,
-        "cep": 13150027,
+        "cep": "13150027",
         "pais": "Brasil"
     },
     {
@@ -16120,7 +16120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3713048,
         "longitude": -47.5414614,
-        "cep": 13506181,
+        "cep": "13506181",
         "pais": "Brasil"
     },
     {
@@ -16130,7 +16130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064786,
+        "cep": "13064786",
         "pais": "Brasil"
     },
     {
@@ -16140,7 +16140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13321300,
+        "cep": "13321300",
         "pais": "Brasil"
     },
     {
@@ -16150,17 +16150,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.986828,
         "longitude": -47.1364219,
-        "cep": 13056117,
+        "cep": "13056117",
         "pais": "Brasil"
     },
     {
         "id": 1616,
         "nome": "Giovani Cruz",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.6359864,
         "longitude": -46.5700777,
-        "cep": 13483220,
+        "cep": "13483220",
         "pais": NaN
     },
     {
@@ -16170,7 +16170,7 @@ const usuarios = [
         "estado": "SC",
         "latitude": -26.4885262,
         "longitude": -49.0804786,
-        "cep": 89251610,
+        "cep": "89251610",
         "pais": NaN
     },
     {
@@ -16180,7 +16180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.943596,
         "longitude": -47.0988427,
-        "cep": 13050551,
+        "cep": "13050551",
         "pais": "Brasil"
     },
     {
@@ -16190,7 +16190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9690516,
         "longitude": -47.0034947,
-        "cep": 13271130,
+        "cep": "13271130",
         "pais": "Brasil"
     },
     {
@@ -16200,7 +16200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9533413,
         "longitude": -47.1638821,
-        "cep": 13059193,
+        "cep": "13059193",
         "pais": "Brasil"
     },
     {
@@ -16210,7 +16210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -16220,7 +16220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.863488,
         "longitude": -47.065931,
-        "cep": 13087210,
+        "cep": "13087210",
         "pais": "Brasil"
     },
     {
@@ -16230,7 +16230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9061384,
         "longitude": -47.065405,
-        "cep": 13010111,
+        "cep": "13010111",
         "pais": "Brasil"
     },
     {
@@ -16240,7 +16240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.925776,
         "longitude": -47.1134394,
-        "cep": 13060325,
+        "cep": "13060325",
         "pais": "Brasil"
     },
     {
@@ -16250,7 +16250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.86777,
         "longitude": -47.0639194,
-        "cep": 13087330,
+        "cep": "13087330",
         "pais": "Brasil"
     },
     {
@@ -16260,7 +16260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0401762,
         "longitude": -47.1013725,
-        "cep": 13053310,
+        "cep": "13053310",
         "pais": "Brasil"
     },
     {
@@ -16270,7 +16270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8794004,
         "longitude": -47.2045346,
-        "cep": 13186013,
+        "cep": "13186013",
         "pais": "Brasil"
     },
     {
@@ -16280,7 +16280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9307354,
         "longitude": -47.1661866,
-        "cep": 13059620,
+        "cep": "13059620",
         "pais": "Brasil"
     },
     {
@@ -16290,7 +16290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9102001,
         "longitude": -47.0569478,
-        "cep": 13026501,
+        "cep": "13026501",
         "pais": "Brasil"
     },
     {
@@ -16300,7 +16300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7115774,
         "longitude": -46.8060358,
-        "cep": 13905475,
+        "cep": "13905475",
         "pais": "Brasil"
     },
     {
@@ -16310,7 +16310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.558595,
         "longitude": -47.4450119,
-        "cep": 13483280,
+        "cep": "13483280",
         "pais": "Brasil"
     },
     {
@@ -16320,7 +16320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -16330,7 +16330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9634657,
         "longitude": -47.0463135,
-        "cep": 13042620,
+        "cep": "13042620",
         "pais": "Brasil"
     },
     {
@@ -16340,7 +16340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4413641,
         "longitude": -47.5801167,
-        "cep": 13502470,
+        "cep": "13502470",
         "pais": "Brasil"
     },
     {
@@ -16350,17 +16350,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8681566,
         "longitude": -47.148235,
-        "cep": 13067843,
+        "cep": "13067843",
         "pais": "Brasil"
     },
     {
         "id": 1636,
         "nome": "Soares Alemao",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.9921507,
         "longitude": -49.4455477,
-        "cep": 12947768,
+        "cep": "12947768",
         "pais": NaN
     },
     {
@@ -16370,7 +16370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9318935,
         "longitude": -47.1674807,
-        "cep": 13059625,
+        "cep": "13059625",
         "pais": "Brasil"
     },
     {
@@ -16380,7 +16380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174340,
+        "cep": "13174340",
         "pais": "Brasil"
     },
     {
@@ -16390,7 +16390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9915434,
         "longitude": -47.1177449,
-        "cep": 13054787,
+        "cep": "13054787",
         "pais": "Brasil"
     },
     {
@@ -16400,7 +16400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035395,
         "longitude": -47.1727544,
-        "cep": 13185490,
+        "cep": "13185490",
         "pais": "Brasil"
     },
     {
@@ -16410,7 +16410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8850213,
         "longitude": -47.0402042,
-        "cep": 13090763,
+        "cep": "13090763",
         "pais": "Brasil"
     },
     {
@@ -16420,7 +16420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9116699,
         "longitude": -47.0589214,
-        "cep": 13026510,
+        "cep": "13026510",
         "pais": "Brasil"
     },
     {
@@ -16430,7 +16430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9016112,
         "longitude": -47.0658474,
-        "cep": 13020160,
+        "cep": "13020160",
         "pais": "Brasil"
     },
     {
@@ -16440,7 +16440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8970575,
         "longitude": -47.1949315,
-        "cep": 13186503,
+        "cep": "13186503",
         "pais": "Brasil"
     },
     {
@@ -16450,7 +16450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8676748,
         "longitude": -47.0356225,
-        "cep": 13088032,
+        "cep": "13088032",
         "pais": "Brasil"
     },
     {
@@ -16460,7 +16460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0983608,
         "longitude": -47.2339132,
-        "cep": 13348882,
+        "cep": "13348882",
         "pais": "Brasil"
     },
     {
@@ -16470,7 +16470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178381,
+        "cep": "13178381",
         "pais": "Brasil"
     },
     {
@@ -16480,7 +16480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9667595,
         "longitude": -46.9921142,
-        "cep": 13274000,
+        "cep": "13274000",
         "pais": "Brasil"
     },
     {
@@ -16490,7 +16490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -16500,7 +16500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178230,
+        "cep": "13178230",
         "pais": "Brasil"
     },
     {
@@ -16510,7 +16510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1030302,
         "longitude": -47.7147937,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -16520,7 +16520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9327628,
         "longitude": -47.2483287,
-        "cep": 13197392,
+        "cep": "13197392",
         "pais": "Brasil"
     },
     {
@@ -16530,7 +16530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9342815,
         "longitude": -47.1022507,
-        "cep": 13060130,
+        "cep": "13060130",
         "pais": "Brasil"
     },
     {
@@ -16540,7 +16540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053368,
+        "cep": "13053368",
         "pais": "Brasil"
     },
     {
@@ -16550,7 +16550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4004357,
         "longitude": -47.5612899,
-        "cep": 13500142,
+        "cep": "13500142",
         "pais": "Brasil"
     },
     {
@@ -16560,7 +16560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9493623,
         "longitude": -47.3056789,
-        "cep": 13190184,
+        "cep": "13190184",
         "pais": "Brasil"
     },
     {
@@ -16570,7 +16570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5707057,
         "longitude": -47.4185559,
-        "cep": 13482832,
+        "cep": "13482832",
         "pais": "Brasil"
     },
     {
@@ -16580,7 +16580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9708165,
         "longitude": -47.0386659,
-        "cep": 13042610,
+        "cep": "13042610",
         "pais": "Brasil"
     },
     {
@@ -16590,7 +16590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9871565,
         "longitude": -47.1378783,
-        "cep": 13056174,
+        "cep": "13056174",
         "pais": "Brasil"
     },
     {
@@ -16600,7 +16600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7735736,
         "longitude": -47.3042812,
-        "cep": 13380410,
+        "cep": "13380410",
         "pais": "Brasil"
     },
     {
@@ -16610,7 +16610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7485631,
         "longitude": -47.3265487,
-        "cep": 13466300,
+        "cep": "13466300",
         "pais": "Brasil"
     },
     {
@@ -16620,7 +16620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455450,
+        "cep": "13455450",
         "pais": "Brasil"
     },
     {
@@ -16630,7 +16630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099492,
         "longitude": -47.0800599,
-        "cep": 13035100,
+        "cep": "13035100",
         "pais": "Brasil"
     },
     {
@@ -16640,17 +16640,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7220502,
         "longitude": -46.8445472,
-        "cep": 13908221,
+        "cep": "13908221",
         "pais": "Brasil"
     },
     {
         "id": 1665,
         "nome": "Ismar",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.9921507,
         "longitude": -49.4455477,
-        "cep": 12482333,
+        "cep": "12482333",
         "pais": NaN
     },
     {
@@ -16660,7 +16660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5984737,
         "longitude": -47.4330099,
-        "cep": 13482333,
+        "cep": "13482333",
         "pais": "Brasil"
     },
     {
@@ -16670,7 +16670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.736368,
         "longitude": -47.1957059,
-        "cep": 13145537,
+        "cep": "13145537",
         "pais": "Brasil"
     },
     {
@@ -16680,7 +16680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9378558,
         "longitude": -47.1157379,
-        "cep": 13060468,
+        "cep": "13060468",
         "pais": "Brasil"
     },
     {
@@ -16690,7 +16690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8462842,
         "longitude": -47.0269523,
-        "cep": 13097105,
+        "cep": "13097105",
         "pais": "Brasil"
     },
     {
@@ -16700,7 +16700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -16710,17 +16710,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8455801,
         "longitude": -47.1127125,
-        "cep": 13082612,
+        "cep": "13082612",
         "pais": "Brasil"
     },
     {
         "id": 1672,
         "nome": "Gabriel Dias",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -23.5998936,
         "longitude": -46.6184804,
-        "cep": 13363592,
+        "cep": "13363592",
         "pais": NaN
     },
     {
@@ -16730,7 +16730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9426792,
         "longitude": -46.9946431,
-        "cep": 13272819,
+        "cep": "13272819",
         "pais": "Brasil"
     },
     {
@@ -16740,7 +16740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9911957,
         "longitude": -48.8987111,
-        "cep": 18407220,
+        "cep": "18407220",
         "pais": "Brasil"
     },
     {
@@ -16750,7 +16750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13260000,
+        "cep": "13260000",
         "pais": "Brasil"
     },
     {
@@ -16760,7 +16760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9721304,
         "longitude": -47.0007934,
-        "cep": 13270260,
+        "cep": "13270260",
         "pais": "Brasil"
     },
     {
@@ -16770,7 +16770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8817118,
         "longitude": -47.0538727,
-        "cep": 13076903,
+        "cep": "13076903",
         "pais": "Brasil"
     },
     {
@@ -16780,7 +16780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8850695,
         "longitude": -47.1112027,
-        "cep": 13063240,
+        "cep": "13063240",
         "pais": "Brasil"
     },
     {
@@ -16790,7 +16790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8501781,
         "longitude": -47.10881,
-        "cep": 13082200,
+        "cep": "13082200",
         "pais": "Brasil"
     },
     {
@@ -16800,7 +16800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.185099,
         "longitude": -46.8665759,
-        "cep": 13218335,
+        "cep": "13218335",
         "pais": "Brasil"
     },
     {
@@ -16810,7 +16810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13331080,
+        "cep": "13331080",
         "pais": "Brasil"
     },
     {
@@ -16820,7 +16820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7945563,
         "longitude": -47.2809264,
-        "cep": 13173275,
+        "cep": "13173275",
         "pais": "Brasil"
     },
     {
@@ -16830,7 +16830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9221519,
         "longitude": -47.0171721,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -16840,7 +16840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8143133,
         "longitude": -47.2460176,
-        "cep": 13175561,
+        "cep": "13175561",
         "pais": "Brasil"
     },
     {
@@ -16850,7 +16850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7750192,
         "longitude": -47.163603,
-        "cep": 13140526,
+        "cep": "13140526",
         "pais": "Brasil"
     },
     {
@@ -16860,7 +16860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7950805,
         "longitude": -47.2960728,
-        "cep": 13385340,
+        "cep": "13385340",
         "pais": "Brasil"
     },
     {
@@ -16870,7 +16870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8947249,
         "longitude": -47.2322159,
-        "cep": 13188010,
+        "cep": "13188010",
         "pais": "Brasil"
     },
     {
@@ -16880,7 +16880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9059432,
         "longitude": -47.2187708,
-        "cep": 13187074,
+        "cep": "13187074",
         "pais": "Brasil"
     },
     {
@@ -16890,7 +16890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9086352,
         "longitude": -47.094081,
-        "cep": 13033050,
+        "cep": "13033050",
         "pais": "Brasil"
     },
     {
@@ -16900,17 +16900,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9175599,
         "longitude": -47.0514273,
-        "cep": 13041500,
+        "cep": "13041500",
         "pais": "Brasil"
     },
     {
         "id": 1691,
         "nome": "Daniel Urbano",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -18.9921507,
         "longitude": -49.4455477,
-        "cep": 23440078,
+        "cep": "23440078",
         "pais": NaN
     },
     {
@@ -16920,7 +16920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9800891,
         "longitude": -47.1340573,
-        "cep": 13056147,
+        "cep": "13056147",
         "pais": "Brasil"
     },
     {
@@ -16930,7 +16930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13332189,
+        "cep": "13332189",
         "pais": "Brasil"
     },
     {
@@ -16940,7 +16940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7256874,
         "longitude": -47.3175073,
-        "cep": 13472390,
+        "cep": "13472390",
         "pais": "Brasil"
     },
     {
@@ -16950,7 +16950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9352201,
         "longitude": -47.0890098,
-        "cep": 13050030,
+        "cep": "13050030",
         "pais": "Brasil"
     },
     {
@@ -16960,7 +16960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9287637,
         "longitude": -47.0917284,
-        "cep": 13050464,
+        "cep": "13050464",
         "pais": "Brasil"
     },
     {
@@ -16970,7 +16970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396666,
         "longitude": -46.9738752,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -16980,7 +16980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9025519,
         "longitude": -47.1623466,
-        "cep": 13064845,
+        "cep": "13064845",
         "pais": "Brasil"
     },
     {
@@ -16990,7 +16990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1089391,
         "longitude": -47.2322751,
-        "cep": 13345794,
+        "cep": "13345794",
         "pais": "Brasil"
     },
     {
@@ -17000,7 +17000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9486907,
         "longitude": -47.1610542,
-        "cep": 13059116,
+        "cep": "13059116",
         "pais": "Brasil"
     },
     {
@@ -17010,7 +17010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9572055,
         "longitude": -47.1832674,
-        "cep": 13058377,
+        "cep": "13058377",
         "pais": "Brasil"
     },
     {
@@ -17020,7 +17020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.4902852,
         "longitude": -47.4207641,
-        "cep": 14407551,
+        "cep": "14407551",
         "pais": "Brasil"
     },
     {
@@ -17030,7 +17030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9147031,
         "longitude": -47.0371305,
-        "cep": 13100152,
+        "cep": "13100152",
         "pais": "Brasil"
     },
     {
@@ -17040,7 +17040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9400663,
         "longitude": -47.1125194,
-        "cep": 13060797,
+        "cep": "13060797",
         "pais": "Brasil"
     },
     {
@@ -17050,18 +17050,18 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9472317,
         "longitude": -47.1116166,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
         "id": 1706,
-        "nome": "Victor Renan",
-        "cidade": "Campinas",
-        "estado": "SP",
-        "latitude": -22.9109054,
-        "longitude": -47.0521818,
-        "cep": 13026001,
-        "pais": "Brasil"
+        "nome": "Victor ReINDEFINIDOCampinas",
+        "cidade": "SP",
+        "estado": "-22.9109054",
+        "latitude": -47.0521818,
+        "longitude": 13026001.0,
+        "cep": "Brasil",
+        "pais": NaN
     },
     {
         "id": 1707,
@@ -17070,7 +17070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7747422,
         "longitude": -47.6588304,
-        "cep": 13401630,
+        "cep": "13401630",
         "pais": "Brasil"
     },
     {
@@ -17080,7 +17080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9398505,
         "longitude": -47.1152194,
-        "cep": 13060484,
+        "cep": "13060484",
         "pais": "Brasil"
     },
     {
@@ -17090,7 +17090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9466111,
         "longitude": -47.104521,
-        "cep": 13050724,
+        "cep": "13050724",
         "pais": "Brasil"
     },
     {
@@ -17100,7 +17100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1013887,
         "longitude": -47.2238299,
-        "cep": 13345683,
+        "cep": "13345683",
         "pais": "Brasil"
     },
     {
@@ -17110,7 +17110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9634908,
         "longitude": -47.0443996,
-        "cep": 13042430,
+        "cep": "13042430",
         "pais": "Brasil"
     },
     {
@@ -17120,7 +17120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.767063,
         "longitude": -47.3384793,
-        "cep": 13467197,
+        "cep": "13467197",
         "pais": "Brasil"
     },
     {
@@ -17130,7 +17130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.987456,
         "longitude": -47.1032272,
-        "cep": 13052610,
+        "cep": "13052610",
         "pais": "Brasil"
     },
     {
@@ -17140,7 +17140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3947749,
         "longitude": -47.5695092,
-        "cep": 13504130,
+        "cep": "13504130",
         "pais": "Brasil"
     },
     {
@@ -17150,7 +17150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893977,
         "longitude": -47.1000521,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -17160,7 +17160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7221973,
         "longitude": -47.2986907,
-        "cep": 13473560,
+        "cep": "13473560",
         "pais": "Brasil"
     },
     {
@@ -17170,7 +17170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455385,
+        "cep": "13455385",
         "pais": "Brasil"
     },
     {
@@ -17180,7 +17180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8889394,
         "longitude": -47.1761717,
-        "cep": 13185050,
+        "cep": "13185050",
         "pais": "Brasil"
     },
     {
@@ -17190,7 +17190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.911026,
         "longitude": -47.0496409,
-        "cep": 13026020,
+        "cep": "13026020",
         "pais": "Brasil"
     },
     {
@@ -17200,7 +17200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3570047,
         "longitude": -47.337069,
-        "cep": 13606224,
+        "cep": "13606224",
         "pais": "Brasil"
     },
     {
@@ -17210,7 +17210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7319442,
         "longitude": -47.3415276,
-        "cep": 13471030,
+        "cep": "13471030",
         "pais": "Brasil"
     },
     {
@@ -17220,7 +17220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9210497,
         "longitude": -47.0221049,
-        "cep": 13101322,
+        "cep": "13101322",
         "pais": "Brasil"
     },
     {
@@ -17230,7 +17230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13330700,
+        "cep": "13330700",
         "pais": "Brasil"
     },
     {
@@ -17240,17 +17240,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9085531,
         "longitude": -47.0560834,
-        "cep": 13015081,
+        "cep": "13015081",
         "pais": "Brasil"
     },
     {
         "id": 1725,
         "nome": "Marília",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -22.2172002,
         "longitude": -49.9500061,
-        "cep": 18117610,
+        "cep": "18117610",
         "pais": NaN
     },
     {
@@ -17260,7 +17260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5737605,
         "longitude": -47.4074707,
-        "cep": 13480624,
+        "cep": "13480624",
         "pais": "Brasil"
     },
     {
@@ -17270,7 +17270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7435477,
         "longitude": -47.2923081,
-        "cep": 13477700,
+        "cep": "13477700",
         "pais": "Brasil"
     },
     {
@@ -17280,7 +17280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6460503,
         "longitude": -47.1967533,
-        "cep": 13150027,
+        "cep": "13150027",
         "pais": "Brasil"
     },
     {
@@ -17290,7 +17290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2112714,
         "longitude": -46.8689086,
-        "cep": 13202170,
+        "cep": "13202170",
         "pais": "Brasil"
     },
     {
@@ -17300,7 +17300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9412107,
         "longitude": -47.1247262,
-        "cep": 13060763,
+        "cep": "13060763",
         "pais": "Brasil"
     },
     {
@@ -17310,7 +17310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13041081,
+        "cep": "13041081",
         "pais": "Brasil"
     },
     {
@@ -17320,7 +17320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9194566,
         "longitude": -47.1076718,
-        "cep": 13060090,
+        "cep": "13060090",
         "pais": "Brasil"
     },
     {
@@ -17330,7 +17330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4034405,
         "longitude": -47.5482869,
-        "cep": 13506765,
+        "cep": "13506765",
         "pais": "Brasil"
     },
     {
@@ -17340,7 +17340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9673362,
         "longitude": -47.0012135,
-        "cep": 13271140,
+        "cep": "13271140",
         "pais": "Brasil"
     },
     {
@@ -17350,7 +17350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8683133,
         "longitude": -47.2057372,
-        "cep": 13184340,
+        "cep": "13184340",
         "pais": "Brasil"
     },
     {
@@ -17360,7 +17360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7200051,
         "longitude": -47.6299563,
-        "cep": 13418190,
+        "cep": "13418190",
         "pais": "Brasil"
     },
     {
@@ -17370,7 +17370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9954104,
         "longitude": -47.143007,
-        "cep": 13056040,
+        "cep": "13056040",
         "pais": "Brasil"
     },
     {
@@ -17380,7 +17380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9333431,
         "longitude": -47.1665329,
-        "cep": 13059624,
+        "cep": "13059624",
         "pais": "Brasil"
     },
     {
@@ -17390,7 +17390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8777189,
         "longitude": -47.200128,
-        "cep": 13186032,
+        "cep": "13186032",
         "pais": "Brasil"
     },
     {
@@ -17400,7 +17400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5865682,
         "longitude": -47.4210353,
-        "cep": 13482095,
+        "cep": "13482095",
         "pais": "Brasil"
     },
     {
@@ -17410,7 +17410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9433891,
         "longitude": -47.1001393,
-        "cep": 13050553,
+        "cep": "13050553",
         "pais": "Brasil"
     },
     {
@@ -17420,7 +17420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9454368,
         "longitude": -47.0853294,
-        "cep": 13051038,
+        "cep": "13051038",
         "pais": "Brasil"
     },
     {
@@ -17430,7 +17430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9014211,
         "longitude": -47.0681175,
-        "cep": 13020060,
+        "cep": "13020060",
         "pais": "Brasil"
     },
     {
@@ -17440,7 +17440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9218782,
         "longitude": -47.0978917,
-        "cep": 13060007,
+        "cep": "13060007",
         "pais": "Brasil"
     },
     {
@@ -17450,7 +17450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8251046,
         "longitude": -47.235804,
-        "cep": 13175668,
+        "cep": "13175668",
         "pais": "Brasil"
     },
     {
@@ -17460,7 +17460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8885949,
         "longitude": -47.0384356,
-        "cep": 13090714,
+        "cep": "13090714",
         "pais": "Brasil"
     },
     {
@@ -17470,7 +17470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.684319,
         "longitude": -47.7086254,
-        "cep": 13406332,
+        "cep": "13406332",
         "pais": "Brasil"
     },
     {
@@ -17480,7 +17480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064860,
+        "cep": "13064860",
         "pais": "Brasil"
     },
     {
@@ -17490,7 +17490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9031228,
         "longitude": -47.2468119,
-        "cep": 13188191,
+        "cep": "13188191",
         "pais": "Brasil"
     },
     {
@@ -17500,7 +17500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9060547,
         "longitude": -47.1775411,
-        "cep": 13185344,
+        "cep": "13185344",
         "pais": "Brasil"
     },
     {
@@ -17510,7 +17510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9433891,
         "longitude": -47.1001393,
-        "cep": 13050553,
+        "cep": "13050553",
         "pais": "Brasil"
     },
     {
@@ -17520,7 +17520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6666664,
         "longitude": -46.9850449,
-        "cep": 13914552,
+        "cep": "13914552",
         "pais": "Brasil"
     },
     {
@@ -17530,7 +17530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1215142,
         "longitude": -47.2489216,
-        "cep": 13349756,
+        "cep": "13349756",
         "pais": "Brasil"
     },
     {
@@ -17540,7 +17540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3775292,
         "longitude": -47.5818228,
-        "cep": 13505494,
+        "cep": "13505494",
         "pais": "Brasil"
     },
     {
@@ -17550,7 +17550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.744648,
         "longitude": -47.2848812,
-        "cep": 13477754,
+        "cep": "13477754",
         "pais": "Brasil"
     },
     {
@@ -17560,7 +17560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7062632,
         "longitude": -47.2946826,
-        "cep": 13474358,
+        "cep": "13474358",
         "pais": "Brasil"
     },
     {
@@ -17570,7 +17570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9462025,
         "longitude": -47.0199387,
-        "cep": 13045050,
+        "cep": "13045050",
         "pais": "Brasil"
     },
     {
@@ -17580,17 +17580,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13045590,
+        "cep": "13045590",
         "pais": "Brasil"
     },
     {
         "id": 1759,
         "nome": "Édson Inácio Silva",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -21.3560687,
         "longitude": -51.8511364,
-        "cep": 18559899,
+        "cep": "18559899",
         "pais": NaN
     },
     {
@@ -17600,7 +17600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7380687,
         "longitude": -47.6095282,
-        "cep": 13420823,
+        "cep": "13420823",
         "pais": "Brasil"
     },
     {
@@ -17610,7 +17610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9412046,
         "longitude": -47.0943086,
-        "cep": 13050133,
+        "cep": "13050133",
         "pais": "Brasil"
     },
     {
@@ -17620,7 +17620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181751,
+        "cep": "13181751",
         "pais": "Brasil"
     },
     {
@@ -17630,7 +17630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1064178,
         "longitude": -47.2771032,
-        "cep": 13349059,
+        "cep": "13349059",
         "pais": "Brasil"
     },
     {
@@ -17640,7 +17640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.951943,
         "longitude": -47.1825292,
-        "cep": 13058413,
+        "cep": "13058413",
         "pais": "Brasil"
     },
     {
@@ -17650,7 +17650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9421519,
         "longitude": -47.0230088,
-        "cep": 13045260,
+        "cep": "13045260",
         "pais": "Brasil"
     },
     {
@@ -17660,7 +17660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7772809,
         "longitude": -47.1456412,
-        "cep": 13140693,
+        "cep": "13140693",
         "pais": "Brasil"
     },
     {
@@ -17670,7 +17670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181570,
+        "cep": "13181570",
         "pais": "Brasil"
     },
     {
@@ -17680,7 +17680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7378053,
         "longitude": -47.1958891,
-        "cep": 13145530,
+        "cep": "13145530",
         "pais": "Brasil"
     },
     {
@@ -17690,7 +17690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9523497,
         "longitude": -47.0864146,
-        "cep": 13051125,
+        "cep": "13051125",
         "pais": "Brasil"
     },
     {
@@ -17700,7 +17700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9907268,
         "longitude": -47.1440784,
-        "cep": 13056053,
+        "cep": "13056053",
         "pais": "Brasil"
     },
     {
@@ -17710,7 +17710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7040596,
         "longitude": -46.9890522,
-        "cep": 13910003,
+        "cep": "13910003",
         "pais": "Brasil"
     },
     {
@@ -17720,7 +17720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7472488,
         "longitude": -47.172511,
-        "cep": 13145153,
+        "cep": "13145153",
         "pais": "Brasil"
     },
     {
@@ -17730,7 +17730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454002,
+        "cep": "13454002",
         "pais": "Brasil"
     },
     {
@@ -17740,7 +17740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5463993,
         "longitude": -47.399753,
-        "cep": 13485090,
+        "cep": "13485090",
         "pais": "Brasil"
     },
     {
@@ -17750,7 +17750,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.0693412,
         "longitude": -46.5707584,
-        "cep": 37795000,
+        "cep": "37795000",
         "pais": NaN
     },
     {
@@ -17760,7 +17760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8924661,
         "longitude": -47.2362143,
-        "cep": 13188064,
+        "cep": "13188064",
         "pais": "Brasil"
     },
     {
@@ -17770,7 +17770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9208409,
         "longitude": -47.020468,
-        "cep": 13101340,
+        "cep": "13101340",
         "pais": "Brasil"
     },
     {
@@ -17780,7 +17780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8131696,
         "longitude": -47.1681053,
-        "cep": 13179430,
+        "cep": "13179430",
         "pais": "Brasil"
     },
     {
@@ -17790,7 +17790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.763119,
         "longitude": -47.3493909,
-        "cep": 13468866,
+        "cep": "13468866",
         "pais": "Brasil"
     },
     {
@@ -17800,7 +17800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9207661,
         "longitude": -47.0896009,
-        "cep": 13031835,
+        "cep": "13031835",
         "pais": "Brasil"
     },
     {
@@ -17810,7 +17810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7277342,
         "longitude": -47.3432013,
-        "cep": 13471710,
+        "cep": "13471710",
         "pais": "Brasil"
     },
     {
@@ -17820,17 +17820,17 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8705726,
         "longitude": -46.9712451,
-        "cep": 13104002,
+        "cep": "13104002",
         "pais": "Brasil"
     },
     {
         "id": 1783,
         "nome": "Marilde",
-        "cidade": NaN,
-        "estado": NaN,
+        "cidade": "INDEFINIDO",
+        "estado": "INDEFINIDO",
         "latitude": -22.7271731,
         "longitude": -47.3259323,
-        "cep": 12927040,
+        "cep": "12927040",
         "pais": NaN
     },
     {
@@ -17840,7 +17840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1322305,
         "longitude": -47.2402056,
-        "cep": 13348170,
+        "cep": "13348170",
         "pais": "Brasil"
     },
     {
@@ -17850,7 +17850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5444953,
         "longitude": -47.4289242,
-        "cep": 13484676,
+        "cep": "13484676",
         "pais": "Brasil"
     },
     {
@@ -17860,7 +17860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5770011,
         "longitude": -47.4227394,
-        "cep": 13482250,
+        "cep": "13482250",
         "pais": "Brasil"
     },
     {
@@ -17870,7 +17870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1286709,
         "longitude": -47.2424757,
-        "cep": 13348220,
+        "cep": "13348220",
         "pais": "Brasil"
     },
     {
@@ -17880,7 +17880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7896044,
         "longitude": -47.0753252,
-        "cep": 13085335,
+        "cep": "13085335",
         "pais": "Brasil"
     },
     {
@@ -17890,7 +17890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9199006,
         "longitude": -47.0724035,
-        "cep": 13030280,
+        "cep": "13030280",
         "pais": "Brasil"
     },
     {
@@ -17900,7 +17900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9458341,
         "longitude": -46.9995278,
-        "cep": 13272799,
+        "cep": "13272799",
         "pais": "Brasil"
     },
     {
@@ -17910,7 +17910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.986828,
         "longitude": -47.1364219,
-        "cep": 13056117,
+        "cep": "13056117",
         "pais": "Brasil"
     },
     {
@@ -17920,7 +17920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9223074,
         "longitude": -47.0706007,
-        "cep": 13030270,
+        "cep": "13030270",
         "pais": "Brasil"
     },
     {
@@ -17930,7 +17930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9293324,
         "longitude": -47.0572737,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -17940,7 +17940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054656,
+        "cep": "13054656",
         "pais": "Brasil"
     },
     {
@@ -17950,7 +17950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8874374,
         "longitude": -47.0873805,
-        "cep": 13070070,
+        "cep": "13070070",
         "pais": "Brasil"
     },
     {
@@ -17960,7 +17960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9528792,
         "longitude": -47.188596,
-        "cep": 13058364,
+        "cep": "13058364",
         "pais": "Brasil"
     },
     {
@@ -17970,7 +17970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9662736,
         "longitude": -47.2010341,
-        "cep": 13058176,
+        "cep": "13058176",
         "pais": "Brasil"
     },
     {
@@ -17980,7 +17980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7807638,
         "longitude": -47.1677234,
-        "cep": 13142328,
+        "cep": "13142328",
         "pais": "Brasil"
     },
     {
@@ -17990,7 +17990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7962477,
         "longitude": -47.2738116,
-        "cep": 13173425,
+        "cep": "13173425",
         "pais": "Brasil"
     },
     {
@@ -18000,7 +18000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456703,
+        "cep": "13456703",
         "pais": "Brasil"
     },
     {
@@ -18010,7 +18010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8899773,
         "longitude": -46.9784981,
-        "cep": 13105796,
+        "cep": "13105796",
         "pais": "Brasil"
     },
     {
@@ -18020,7 +18020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9238406,
         "longitude": -46.9698433,
-        "cep": 13273271,
+        "cep": "13273271",
         "pais": "Brasil"
     },
     {
@@ -18030,7 +18030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9551029,
         "longitude": -46.9999161,
-        "cep": 13272300,
+        "cep": "13272300",
         "pais": "Brasil"
     },
     {
@@ -18040,7 +18040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4367757,
         "longitude": -47.5831376,
-        "cep": 13502270,
+        "cep": "13502270",
         "pais": "Brasil"
     },
     {
@@ -18050,7 +18050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9361297,
         "longitude": -47.0503207,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -18060,7 +18060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9546438,
         "longitude": -47.0833799,
-        "cep": 13051433,
+        "cep": "13051433",
         "pais": "Brasil"
     },
     {
@@ -18070,7 +18070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7645037,
         "longitude": -47.3254864,
-        "cep": 13467273,
+        "cep": "13467273",
         "pais": "Brasil"
     },
     {
@@ -18080,7 +18080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9414884,
         "longitude": -47.1915637,
-        "cep": 13058573,
+        "cep": "13058573",
         "pais": "Brasil"
     },
     {
@@ -18090,7 +18090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8929736,
         "longitude": -47.2176174,
-        "cep": 13187167,
+        "cep": "13187167",
         "pais": "Brasil"
     },
     {
@@ -18100,7 +18100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 4331020,
+        "cep": "04331020",
         "pais": "Brasil"
     },
     {
@@ -18110,7 +18110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8423799,
         "longitude": -47.1549432,
-        "cep": 13069099,
+        "cep": "13069099",
         "pais": "Brasil"
     },
     {
@@ -18120,7 +18120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9143702,
         "longitude": -47.0847401,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -18130,7 +18130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5615331,
         "longitude": -47.4129799,
-        "cep": 13480743,
+        "cep": "13480743",
         "pais": "Brasil"
     },
     {
@@ -18140,7 +18140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9359799,
         "longitude": -47.0401471,
-        "cep": 13043750,
+        "cep": "13043750",
         "pais": "Brasil"
     },
     {
@@ -18150,7 +18150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13457089,
+        "cep": "13457089",
         "pais": "Brasil"
     },
     {
@@ -18160,7 +18160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8304947,
         "longitude": -47.2753039,
-        "cep": 13171822,
+        "cep": "13171822",
         "pais": "Brasil"
     },
     {
@@ -18170,7 +18170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4152458,
         "longitude": -47.5558917,
-        "cep": 13500330,
+        "cep": "13500330",
         "pais": "Brasil"
     },
     {
@@ -18180,7 +18180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.85482,
         "longitude": -47.0514736,
-        "cep": 13087460,
+        "cep": "13087460",
         "pais": "Brasil"
     },
     {
@@ -18190,7 +18190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6063302,
         "longitude": -46.9308319,
-        "cep": 13833072,
+        "cep": "13833072",
         "pais": "Brasil"
     },
     {
@@ -18200,7 +18200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8648598,
         "longitude": -47.2014883,
-        "cep": 13184677,
+        "cep": "13184677",
         "pais": "Brasil"
     },
     {
@@ -18210,7 +18210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9635541,
         "longitude": -46.9182003,
-        "cep": 13274751,
+        "cep": "13274751",
         "pais": "Brasil"
     },
     {
@@ -18220,7 +18220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8118681,
         "longitude": -47.0302948,
-        "cep": 13098401,
+        "cep": "13098401",
         "pais": "Brasil"
     },
     {
@@ -18230,7 +18230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8974924,
         "longitude": -47.2313591,
-        "cep": 13188002,
+        "cep": "13188002",
         "pais": "Brasil"
     },
     {
@@ -18240,7 +18240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13327467,
+        "cep": "13327467",
         "pais": "Brasil"
     },
     {
@@ -18250,7 +18250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9115815,
         "longitude": -47.119288,
-        "cep": 13061371,
+        "cep": "13061371",
         "pais": "Brasil"
     },
     {
@@ -18260,7 +18260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7304311,
         "longitude": -46.8887659,
-        "cep": 13920001,
+        "cep": "13920001",
         "pais": "Brasil"
     },
     {
@@ -18270,7 +18270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065650,
+        "cep": "13065650",
         "pais": "Brasil"
     },
     {
@@ -18280,7 +18280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9229731,
         "longitude": -47.1033242,
-        "cep": 13060903,
+        "cep": "13060903",
         "pais": "Brasil"
     },
     {
@@ -18290,7 +18290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8980637,
         "longitude": -47.0675449,
-        "cep": 13020110,
+        "cep": "13020110",
         "pais": "Brasil"
     },
     {
@@ -18300,7 +18300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9040693,
         "longitude": -47.0356015,
-        "cep": 13092490,
+        "cep": "13092490",
         "pais": "Brasil"
     },
     {
@@ -18310,7 +18310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6931,
         "longitude": -46.9926,
-        "cep": 13911062,
+        "cep": "13911062",
         "pais": "Brasil"
     },
     {
@@ -18320,7 +18320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13067356,
+        "cep": "13067356",
         "pais": "Brasil"
     },
     {
@@ -18330,7 +18330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13473040,
+        "cep": "13473040",
         "pais": "Brasil"
     },
     {
@@ -18340,7 +18340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272026,
+        "cep": "13272026",
         "pais": "Brasil"
     },
     {
@@ -18350,7 +18350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13172794,
+        "cep": "13172794",
         "pais": "Brasil"
     },
     {
@@ -18360,7 +18360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13026001,
+        "cep": "13026001",
         "pais": "Brasil"
     },
     {
@@ -18370,7 +18370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054353,
+        "cep": "13054353",
         "pais": "Brasil"
     },
     {
@@ -18380,7 +18380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13045135,
+        "cep": "13045135",
         "pais": "Brasil"
     },
     {
@@ -18390,7 +18390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13346480,
+        "cep": "13346480",
         "pais": "Brasil"
     },
     {
@@ -18400,7 +18400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13340385,
+        "cep": "13340385",
         "pais": "Brasil"
     },
     {
@@ -18410,7 +18410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181062,
+        "cep": "13181062",
         "pais": "Brasil"
     },
     {
@@ -18420,7 +18420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060571,
+        "cep": "13060571",
         "pais": "Brasil"
     },
     {
@@ -18430,7 +18430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185844,
+        "cep": "13185844",
         "pais": "Brasil"
     },
     {
@@ -18440,7 +18440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.91316749236776,
         "longitude": -47.07963243743357,
-        "cep": 13051492,
+        "cep": "13051492",
         "pais": "Brasil"
     },
     {
@@ -18450,7 +18450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.53826467077191,
         "longitude": -46.6479614818176,
-        "cep": 1000001,
+        "cep": "01000001",
         "pais": "Brasil"
     },
     {
@@ -18460,7 +18460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13282370,
+        "cep": "13282370",
         "pais": "Brasil"
     },
     {
@@ -18470,7 +18470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173433,
+        "cep": "13173433",
         "pais": "Brasil"
     },
     {
@@ -18480,7 +18480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13145702,
+        "cep": "13145702",
         "pais": "Brasil"
     },
     {
@@ -18490,7 +18490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.921570529580944,
         "longitude": -47.05897775294636,
-        "cep": 13045165,
+        "cep": "13045165",
         "pais": "Brasil"
     },
     {
@@ -18500,7 +18500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042710,
+        "cep": "13042710",
         "pais": "Brasil"
     },
     {
@@ -18510,7 +18510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186521,
+        "cep": "13186521",
         "pais": "Brasil"
     },
     {
@@ -18520,7 +18520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470220,
+        "cep": "13470220",
         "pais": "Brasil"
     },
     {
@@ -18530,7 +18530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.853355792365377,
         "longitude": -47.04343542697509,
-        "cep": 13186170,
+        "cep": "13186170",
         "pais": "Brasil"
     },
     {
@@ -18540,7 +18540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060367,
+        "cep": "13060367",
         "pais": "Brasil"
     },
     {
@@ -18550,7 +18550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13105672,
+        "cep": "13105672",
         "pais": "Brasil"
     },
     {
@@ -18560,7 +18560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13106004,
+        "cep": "13106004",
         "pais": "Brasil"
     },
     {
@@ -18570,7 +18570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186013,
+        "cep": "13186013",
         "pais": "Brasil"
     },
     {
@@ -18580,7 +18580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.904554059189262,
         "longitude": -47.05082799564008,
-        "cep": 13040089,
+        "cep": "13040089",
         "pais": "Brasil"
     },
     {
@@ -18590,7 +18590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059194,
+        "cep": "13059194",
         "pais": "Brasil"
     },
     {
@@ -18600,7 +18600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030540,
+        "cep": "13030540",
         "pais": "Brasil"
     },
     {
@@ -18610,7 +18610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13020330,
+        "cep": "13020330",
         "pais": "Brasil"
     },
     {
@@ -18620,7 +18620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042104,
+        "cep": "13042104",
         "pais": "Brasil"
     },
     {
@@ -18630,7 +18630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040725,
+        "cep": "13040725",
         "pais": "Brasil"
     },
     {
@@ -18640,7 +18640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.870568610502325,
         "longitude": -46.612576651988014,
-        "cep": 13481274,
+        "cep": "13481274",
         "pais": "Brasil"
     },
     {
@@ -18650,7 +18650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056400,
+        "cep": "13056400",
         "pais": "Brasil"
     },
     {
@@ -18660,7 +18660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064832,
+        "cep": "13064832",
         "pais": "Brasil"
     },
     {
@@ -18670,7 +18670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065270,
+        "cep": "13065270",
         "pais": "Brasil"
     },
     {
@@ -18680,7 +18680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13067645,
+        "cep": "13067645",
         "pais": "Brasil"
     },
     {
@@ -18690,7 +18690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13020110,
+        "cep": "13020110",
         "pais": "Brasil"
     },
     {
@@ -18700,7 +18700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13451190,
+        "cep": "13451190",
         "pais": "Brasil"
     },
     {
@@ -18710,7 +18710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.86850028640066,
         "longitude": -47.04590779087308,
-        "cep": 13483506,
+        "cep": "13483506",
         "pais": "Brasil"
     },
     {
@@ -18720,7 +18720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -18730,7 +18730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13188191,
+        "cep": "13188191",
         "pais": "Brasil"
     },
     {
@@ -18740,7 +18740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186020,
+        "cep": "13186020",
         "pais": "Brasil"
     },
     {
@@ -18750,7 +18750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13177292,
+        "cep": "13177292",
         "pais": "Brasil"
     },
     {
@@ -18760,7 +18760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057201,
+        "cep": "13057201",
         "pais": "Brasil"
     },
     {
@@ -18770,7 +18770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060773,
+        "cep": "13060773",
         "pais": "Brasil"
     },
     {
@@ -18780,7 +18780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -18790,7 +18790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186330,
+        "cep": "13186330",
         "pais": "Brasil"
     },
     {
@@ -18800,7 +18800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.85502461467706,
         "longitude": -46.62181819819583,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -18810,7 +18810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057082,
+        "cep": "13057082",
         "pais": "Brasil"
     },
     {
@@ -18820,7 +18820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.902609452910266,
         "longitude": -47.06766034514024,
-        "cep": 13058485,
+        "cep": "13058485",
         "pais": "Brasil"
     },
     {
@@ -18830,7 +18830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051410,
+        "cep": "13051410",
         "pais": "Brasil"
     },
     {
@@ -18840,7 +18840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -18850,7 +18850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054541,
+        "cep": "13054541",
         "pais": "Brasil"
     },
     {
@@ -18860,7 +18860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060740,
+        "cep": "13060740",
         "pais": "Brasil"
     },
     {
@@ -18870,7 +18870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13076869,
+        "cep": "13076869",
         "pais": "Brasil"
     },
     {
@@ -18880,7 +18880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13278210,
+        "cep": "13278210",
         "pais": "Brasil"
     },
     {
@@ -18890,7 +18890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284488,
+        "cep": "13284488",
         "pais": "Brasil"
     },
     {
@@ -18900,7 +18900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13348896,
+        "cep": "13348896",
         "pais": "Brasil"
     },
     {
@@ -18910,7 +18910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13475010,
+        "cep": "13475010",
         "pais": "Brasil"
     },
     {
@@ -18920,7 +18920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.90081703879639,
         "longitude": -47.04655064592943,
-        "cep": 13033740,
+        "cep": "13033740",
         "pais": "Brasil"
     },
     {
@@ -18930,7 +18930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13338229,
+        "cep": "13338229",
         "pais": "Brasil"
     },
     {
@@ -18940,7 +18940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273300,
+        "cep": "13273300",
         "pais": "Brasil"
     },
     {
@@ -18950,7 +18950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13091012,
+        "cep": "13091012",
         "pais": "Brasil"
     },
     {
@@ -18960,7 +18960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13015122,
+        "cep": "13015122",
         "pais": "Brasil"
     },
     {
@@ -18970,7 +18970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13026064,
+        "cep": "13026064",
         "pais": "Brasil"
     },
     {
@@ -18980,7 +18980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061100,
+        "cep": "13061100",
         "pais": "Brasil"
     },
     {
@@ -18990,7 +18990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.920406992385686,
         "longitude": -47.04321289257495,
-        "cep": 13034670,
+        "cep": "13034670",
         "pais": "Brasil"
     },
     {
@@ -19000,7 +19000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058358,
+        "cep": "13058358",
         "pais": "Brasil"
     },
     {
@@ -19010,7 +19010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058017,
+        "cep": "13058017",
         "pais": "Brasil"
     },
     {
@@ -19020,7 +19020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -19030,7 +19030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173482,
+        "cep": "13173482",
         "pais": "Brasil"
     },
     {
@@ -19040,7 +19040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13087320,
+        "cep": "13087320",
         "pais": "Brasil"
     },
     {
@@ -19050,7 +19050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179322,
+        "cep": "13179322",
         "pais": "Brasil"
     },
     {
@@ -19060,7 +19060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453833,
+        "cep": "13453833",
         "pais": "Brasil"
     },
     {
@@ -19070,7 +19070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -19080,7 +19080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056430,
+        "cep": "13056430",
         "pais": "Brasil"
     },
     {
@@ -19090,7 +19090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178353,
+        "cep": "13178353",
         "pais": "Brasil"
     },
     {
@@ -19100,7 +19100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060073,
+        "cep": "13060073",
         "pais": "Brasil"
     },
     {
@@ -19110,7 +19110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13100430,
+        "cep": "13100430",
         "pais": "Brasil"
     },
     {
@@ -19120,7 +19120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178321,
+        "cep": "13178321",
         "pais": "Brasil"
     },
     {
@@ -19130,7 +19130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057400,
+        "cep": "13057400",
         "pais": "Brasil"
     },
     {
@@ -19140,7 +19140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13291066,
+        "cep": "13291066",
         "pais": "Brasil"
     },
     {
@@ -19150,7 +19150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272700,
+        "cep": "13272700",
         "pais": "Brasil"
     },
     {
@@ -19160,7 +19160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054024,
+        "cep": "13054024",
         "pais": "Brasil"
     },
     {
@@ -19170,7 +19170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274560,
+        "cep": "13274560",
         "pais": "Brasil"
     },
     {
@@ -19180,7 +19180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274702,
+        "cep": "13274702",
         "pais": "Brasil"
     },
     {
@@ -19190,7 +19190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179202,
+        "cep": "13179202",
         "pais": "Brasil"
     },
     {
@@ -19200,7 +19200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056425,
+        "cep": "13056425",
         "pais": "Brasil"
     },
     {
@@ -19210,7 +19210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273649,
+        "cep": "13273649",
         "pais": "Brasil"
     },
     {
@@ -19220,7 +19220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181180,
+        "cep": "13181180",
         "pais": "Brasil"
     },
     {
@@ -19230,7 +19230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058381,
+        "cep": "13058381",
         "pais": "Brasil"
     },
     {
@@ -19240,7 +19240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273601,
+        "cep": "13273601",
         "pais": "Brasil"
     },
     {
@@ -19250,7 +19250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060061,
+        "cep": "13060061",
         "pais": "Brasil"
     },
     {
@@ -19260,7 +19260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185270,
+        "cep": "13185270",
         "pais": "Brasil"
     },
     {
@@ -19270,7 +19270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185340,
+        "cep": "13185340",
         "pais": "Brasil"
     },
     {
@@ -19280,7 +19280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13474580,
+        "cep": "13474580",
         "pais": "Brasil"
     },
     {
@@ -19290,7 +19290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181580,
+        "cep": "13181580",
         "pais": "Brasil"
     },
     {
@@ -19300,7 +19300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069072,
+        "cep": "13069072",
         "pais": "Brasil"
     },
     {
@@ -19310,7 +19310,7 @@ const usuarios = [
         "estado": "GO",
         "latitude": -16.68739088041772,
         "longitude": -49.27120809542918,
-        "cep": 18274170,
+        "cep": "18274170",
         "pais": "Brasil"
     },
     {
@@ -19320,7 +19320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064370,
+        "cep": "13064370",
         "pais": "Brasil"
     },
     {
@@ -19330,7 +19330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13031220,
+        "cep": "13031220",
         "pais": "Brasil"
     },
     {
@@ -19340,7 +19340,7 @@ const usuarios = [
         "estado": "RS",
         "latitude": -30.042688983197383,
         "longitude": -51.21057452974829,
-        "cep": 13605508,
+        "cep": "13605508",
         "pais": "Brasil"
     },
     {
@@ -19350,7 +19350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059666,
+        "cep": "13059666",
         "pais": "Brasil"
     },
     {
@@ -19360,7 +19360,7 @@ const usuarios = [
         "estado": "BA",
         "latitude": -24.1980404,
         "longitude": -65.3050033,
-        "cep": 37901602,
+        "cep": "37901602",
         "pais": "Brasil"
     },
     {
@@ -19370,7 +19370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.877693088516164,
         "longitude": -47.05439016957013,
-        "cep": 13990000,
+        "cep": "13990000",
         "pais": "Brasil"
     },
     {
@@ -19380,7 +19380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185352,
+        "cep": "13185352",
         "pais": "Brasil"
     },
     {
@@ -19390,7 +19390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053618,
+        "cep": "13053618",
         "pais": "Brasil"
     },
     {
@@ -19400,7 +19400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13187156,
+        "cep": "13187156",
         "pais": "Brasil"
     },
     {
@@ -19410,7 +19410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13033615,
+        "cep": "13033615",
         "pais": "Brasil"
     },
     {
@@ -19420,7 +19420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13385076,
+        "cep": "13385076",
         "pais": "Brasil"
     },
     {
@@ -19430,7 +19430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052213,
+        "cep": "13052213",
         "pais": "Brasil"
     },
     {
@@ -19440,7 +19440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.574367671309275,
         "longitude": -47.39286657785146,
-        "cep": 13486062,
+        "cep": "13486062",
         "pais": "Brasil"
     },
     {
@@ -19450,7 +19450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.860255954167684,
         "longitude": -47.21762637185634,
-        "cep": 13487276,
+        "cep": "13487276",
         "pais": "Brasil"
     },
     {
@@ -19460,7 +19460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
@@ -19470,7 +19470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13198012,
+        "cep": "13198012",
         "pais": "Brasil"
     },
     {
@@ -19480,7 +19480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050545,
+        "cep": "13050545",
         "pais": "Brasil"
     },
     {
@@ -19490,7 +19490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.863007856801826,
         "longitude": -46.6086072336069,
-        "cep": 13212564,
+        "cep": "13212564",
         "pais": "Brasil"
     },
     {
@@ -19500,7 +19500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13330260,
+        "cep": "13330260",
         "pais": "Brasil"
     },
     {
@@ -19510,7 +19510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030580,
+        "cep": "13030580",
         "pais": "Brasil"
     },
     {
@@ -19520,7 +19520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056464,
+        "cep": "13056464",
         "pais": "Brasil"
     },
     {
@@ -19530,7 +19530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323766,
+        "cep": "13323766",
         "pais": "Brasil"
     },
     {
@@ -19540,7 +19540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.573711153009107,
         "longitude": -47.39782762758725,
-        "cep": 18558024,
+        "cep": "18558024",
         "pais": "Brasil"
     },
     {
@@ -19550,7 +19550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183864,
+        "cep": "13183864",
         "pais": "Brasil"
     },
     {
@@ -19560,7 +19560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13145063,
+        "cep": "13145063",
         "pais": "Brasil"
     },
     {
@@ -19570,7 +19570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13091410,
+        "cep": "13091410",
         "pais": "Brasil"
     },
     {
@@ -19580,7 +19580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178585,
+        "cep": "13178585",
         "pais": "Brasil"
     },
     {
@@ -19590,7 +19590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060516,
+        "cep": "13060516",
         "pais": "Brasil"
     },
     {
@@ -19600,7 +19600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13026140,
+        "cep": "13026140",
         "pais": "Brasil"
     },
     {
@@ -19610,7 +19610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184040,
+        "cep": "13184040",
         "pais": "Brasil"
     },
     {
@@ -19620,7 +19620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13013001,
+        "cep": "13013001",
         "pais": "Brasil"
     },
     {
@@ -19630,7 +19630,7 @@ const usuarios = [
         "estado": "ES",
         "latitude": -20.324142139412697,
         "longitude": -40.318168033083005,
-        "cep": 13481216,
+        "cep": "13481216",
         "pais": "Brasil"
     },
     {
@@ -19640,7 +19640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184450,
+        "cep": "13184450",
         "pais": "Brasil"
     },
     {
@@ -19650,7 +19650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13190049,
+        "cep": "13190049",
         "pais": "Brasil"
     },
     {
@@ -19660,7 +19660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13345411,
+        "cep": "13345411",
         "pais": "Brasil"
     },
     {
@@ -19670,7 +19670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060020,
+        "cep": "13060020",
         "pais": "Brasil"
     },
     {
@@ -19680,7 +19680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13468510,
+        "cep": "13468510",
         "pais": "Brasil"
     },
     {
@@ -19690,7 +19690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030530,
+        "cep": "13030530",
         "pais": "Brasil"
     },
     {
@@ -19700,7 +19700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181779,
+        "cep": "13181779",
         "pais": "Brasil"
     },
     {
@@ -19710,7 +19710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13046130,
+        "cep": "13046130",
         "pais": "Brasil"
     },
     {
@@ -19720,7 +19720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060494,
+        "cep": "13060494",
         "pais": "Brasil"
     },
     {
@@ -19730,7 +19730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181701,
+        "cep": "13181701",
         "pais": "Brasil"
     },
     {
@@ -19740,7 +19740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034670,
+        "cep": "13034670",
         "pais": "Brasil"
     },
     {
@@ -19750,7 +19750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057166,
+        "cep": "13057166",
         "pais": "Brasil"
     },
     {
@@ -19760,7 +19760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13337145,
+        "cep": "13337145",
         "pais": "Brasil"
     },
     {
@@ -19770,7 +19770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13085260,
+        "cep": "13085260",
         "pais": "Brasil"
     },
     {
@@ -19780,7 +19780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -19790,7 +19790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184750,
+        "cep": "13184750",
         "pais": "Brasil"
     },
     {
@@ -19800,7 +19800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054664,
+        "cep": "13054664",
         "pais": "Brasil"
     },
     {
@@ -19810,7 +19810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272000,
+        "cep": "13272000",
         "pais": "Brasil"
     },
     {
@@ -19820,7 +19820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059701,
+        "cep": "13059701",
         "pais": "Brasil"
     },
     {
@@ -19830,7 +19830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.91137644731988,
         "longitude": -47.06558913641309,
-        "cep": 13481775,
+        "cep": "13481775",
         "pais": "Brasil"
     },
     {
@@ -19840,7 +19840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13474040,
+        "cep": "13474040",
         "pais": "Brasil"
     },
     {
@@ -19850,7 +19850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057195,
+        "cep": "13057195",
         "pais": "Brasil"
     },
     {
@@ -19860,7 +19860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.406747831428685,
         "longitude": -47.55687622183616,
-        "cep": 36730000,
+        "cep": "36730000",
         "pais": "Brasil"
     },
     {
@@ -19870,7 +19870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181720,
+        "cep": "13181720",
         "pais": "Brasil"
     },
     {
@@ -19880,7 +19880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450197,
+        "cep": "13450197",
         "pais": "Brasil"
     },
     {
@@ -19888,9 +19888,9 @@ const usuarios = [
         "nome": "Ana Nicole Boscolo Santos ",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360049,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360049",
         "pais": "Brasil"
     },
     {
@@ -19900,7 +19900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13100420,
+        "cep": "13100420",
         "pais": "Brasil"
     },
     {
@@ -19910,7 +19910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13087430,
+        "cep": "13087430",
         "pais": "Brasil"
     },
     {
@@ -19920,7 +19920,7 @@ const usuarios = [
         "estado": "GO",
         "latitude": -16.688249175468403,
         "longitude": -49.2660087077102,
-        "cep": 13420665,
+        "cep": "13420665",
         "pais": "Brasil"
     },
     {
@@ -19930,7 +19930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065820,
+        "cep": "13065820",
         "pais": "Brasil"
     },
     {
@@ -19940,7 +19940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450028,
+        "cep": "13450028",
         "pais": "Brasil"
     },
     {
@@ -19950,7 +19950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -19960,7 +19960,7 @@ const usuarios = [
         "estado": "RS",
         "latitude": -30.03922485356282,
         "longitude": -51.22745942411705,
-        "cep": 13800513,
+        "cep": "13800513",
         "pais": "Brasil"
     },
     {
@@ -19970,7 +19970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034710,
+        "cep": "13034710",
         "pais": "Brasil"
     },
     {
@@ -19980,7 +19980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6931,
         "longitude": -46.9926,
-        "cep": 13914018,
+        "cep": "13914018",
         "pais": "Brasil"
     },
     {
@@ -19990,7 +19990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030120,
+        "cep": "13030120",
         "pais": "Brasil"
     },
     {
@@ -20000,7 +20000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -20010,7 +20010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13286013,
+        "cep": "13286013",
         "pais": "Brasil"
     },
     {
@@ -20020,7 +20020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061100,
+        "cep": "13061100",
         "pais": "Brasil"
     },
     {
@@ -20030,7 +20030,7 @@ const usuarios = [
         "estado": "GO",
         "latitude": -16.686835023681258,
         "longitude": -49.2604588007866,
-        "cep": 13485078,
+        "cep": "13485078",
         "pais": "Brasil"
     },
     {
@@ -20040,7 +20040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064769,
+        "cep": "13064769",
         "pais": "Brasil"
     },
     {
@@ -20050,7 +20050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13385520,
+        "cep": "13385520",
         "pais": "Brasil"
     },
     {
@@ -20060,7 +20060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13199202,
+        "cep": "13199202",
         "pais": "Brasil"
     },
     {
@@ -20070,7 +20070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272799,
+        "cep": "13272799",
         "pais": "Brasil"
     },
     {
@@ -20080,7 +20080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13477718,
+        "cep": "13477718",
         "pais": "Brasil"
     },
     {
@@ -20090,7 +20090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455500,
+        "cep": "13455500",
         "pais": "Brasil"
     },
     {
@@ -20100,7 +20100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050077,
+        "cep": "13050077",
         "pais": "Brasil"
     },
     {
@@ -20110,7 +20110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.914924742371056,
         "longitude": -47.05486574984473,
-        "cep": 13052222,
+        "cep": "13052222",
         "pais": "Brasil"
     },
     {
@@ -20120,7 +20120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051419,
+        "cep": "13051419",
         "pais": "Brasil"
     },
     {
@@ -20130,7 +20130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13023020,
+        "cep": "13023020",
         "pais": "Brasil"
     },
     {
@@ -20140,7 +20140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13101361,
+        "cep": "13101361",
         "pais": "Brasil"
     },
     {
@@ -20150,7 +20150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179214,
+        "cep": "13179214",
         "pais": "Brasil"
     },
     {
@@ -20160,7 +20160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13187215,
+        "cep": "13187215",
         "pais": "Brasil"
     },
     {
@@ -20170,7 +20170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179331,
+        "cep": "13179331",
         "pais": "Brasil"
     },
     {
@@ -20180,7 +20180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.53731030478567,
         "longitude": -46.7907773995335,
-        "cep": 13505225,
+        "cep": "13505225",
         "pais": "Brasil"
     },
     {
@@ -20190,7 +20190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050078,
+        "cep": "13050078",
         "pais": "Brasil"
     },
     {
@@ -20200,7 +20200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059422,
+        "cep": "13059422",
         "pais": "Brasil"
     },
     {
@@ -20210,7 +20210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184280,
+        "cep": "13184280",
         "pais": "Brasil"
     },
     {
@@ -20220,7 +20220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056430,
+        "cep": "13056430",
         "pais": "Brasil"
     },
     {
@@ -20230,7 +20230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13100372,
+        "cep": "13100372",
         "pais": "Brasil"
     },
     {
@@ -20240,7 +20240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13033202,
+        "cep": "13033202",
         "pais": "Brasil"
     },
     {
@@ -20250,7 +20250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054774,
+        "cep": "13054774",
         "pais": "Brasil"
     },
     {
@@ -20260,7 +20260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050670,
+        "cep": "13050670",
         "pais": "Brasil"
     },
     {
@@ -20270,7 +20270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.89755959656365,
         "longitude": -47.0587704666905,
-        "cep": 13483212,
+        "cep": "13483212",
         "pais": "Brasil"
     },
     {
@@ -20280,7 +20280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049003,
+        "cep": "13049003",
         "pais": "Brasil"
     },
     {
@@ -20288,9 +20288,9 @@ const usuarios = [
         "nome": "Kaike Peressin",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360350,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360350",
         "pais": "Brasil"
     },
     {
@@ -20300,7 +20300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.87526417091656,
         "longitude": -47.043978841124094,
-        "cep": 13482754,
+        "cep": "13482754",
         "pais": "Brasil"
     },
     {
@@ -20310,7 +20310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050670,
+        "cep": "13050670",
         "pais": "Brasil"
     },
     {
@@ -20320,7 +20320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.546415799726223,
         "longitude": -46.77002809931802,
-        "cep": 13483212,
+        "cep": "13483212",
         "pais": "Brasil"
     },
     {
@@ -20330,7 +20330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049003,
+        "cep": "13049003",
         "pais": "Brasil"
     },
     {
@@ -20338,9 +20338,9 @@ const usuarios = [
         "nome": "Kaike Peressin",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360350,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360350",
         "pais": "Brasil"
     },
     {
@@ -20350,7 +20350,7 @@ const usuarios = [
         "estado": "PA",
         "latitude": -1.4501112733613577,
         "longitude": -48.487281073031234,
-        "cep": 13482754,
+        "cep": "13482754",
         "pais": "Brasil"
     },
     {
@@ -20360,7 +20360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13096321,
+        "cep": "13096321",
         "pais": "Brasil"
     },
     {
@@ -20370,7 +20370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13082140,
+        "cep": "13082140",
         "pais": "Brasil"
     },
     {
@@ -20380,7 +20380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.912241822135755,
         "longitude": -47.06088274966096,
-        "cep": 13050063,
+        "cep": "13050063",
         "pais": "Brasil"
     },
     {
@@ -20390,7 +20390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042860,
+        "cep": "13042860",
         "pais": "Brasil"
     },
     {
@@ -20400,7 +20400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.52163133395098,
         "longitude": -46.778756399624925,
-        "cep": 18542308,
+        "cep": "18542308",
         "pais": "Brasil"
     },
     {
@@ -20410,7 +20410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053254,
+        "cep": "13053254",
         "pais": "Brasil"
     },
     {
@@ -20420,7 +20420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053254,
+        "cep": "13053254",
         "pais": "Brasil"
     },
     {
@@ -20430,7 +20430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060773,
+        "cep": "13060773",
         "pais": "Brasil"
     },
     {
@@ -20440,7 +20440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13144675,
+        "cep": "13144675",
         "pais": "Brasil"
     },
     {
@@ -20450,7 +20450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13140504,
+        "cep": "13140504",
         "pais": "Brasil"
     },
     {
@@ -20460,7 +20460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13085733,
+        "cep": "13085733",
         "pais": "Brasil"
     },
     {
@@ -20470,7 +20470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13175505,
+        "cep": "13175505",
         "pais": "Brasil"
     },
     {
@@ -20480,7 +20480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13471255,
+        "cep": "13471255",
         "pais": "Brasil"
     },
     {
@@ -20490,7 +20490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173282,
+        "cep": "13173282",
         "pais": "Brasil"
     },
     {
@@ -20500,7 +20500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060489,
+        "cep": "13060489",
         "pais": "Brasil"
     },
     {
@@ -20510,7 +20510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179022,
+        "cep": "13179022",
         "pais": "Brasil"
     },
     {
@@ -20520,7 +20520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.853223746892297,
         "longitude": -47.22914853939718,
-        "cep": 13610499,
+        "cep": "13610499",
         "pais": "Brasil"
     },
     {
@@ -20530,7 +20530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054594,
+        "cep": "13054594",
         "pais": "Brasil"
     },
     {
@@ -20540,7 +20540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.88316404926545,
         "longitude": -47.05391350598489,
-        "cep": 13165320,
+        "cep": "13165320",
         "pais": "Brasil"
     },
     {
@@ -20550,7 +20550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1035100,
+        "cep": "01035100",
         "pais": "Brasil"
     },
     {
@@ -20560,7 +20560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185188,
+        "cep": "13185188",
         "pais": "Brasil"
     },
     {
@@ -20570,7 +20570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13087430,
+        "cep": "13087430",
         "pais": "Brasil"
     },
     {
@@ -20580,7 +20580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179214,
+        "cep": "13179214",
         "pais": "Brasil"
     },
     {
@@ -20590,7 +20590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056175,
+        "cep": "13056175",
         "pais": "Brasil"
     },
     {
@@ -20600,7 +20600,7 @@ const usuarios = [
         "estado": "RS",
         "latitude": -30.036147429647087,
         "longitude": -51.2129636167058,
-        "cep": 13481230,
+        "cep": "13481230",
         "pais": "Brasil"
     },
     {
@@ -20610,7 +20610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.86716300374178,
         "longitude": -47.045108733544346,
-        "cep": 18547164,
+        "cep": "18547164",
         "pais": "Brasil"
     },
     {
@@ -20620,7 +20620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040145,
+        "cep": "13040145",
         "pais": "Brasil"
     },
     {
@@ -20630,7 +20630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13043340,
+        "cep": "13043340",
         "pais": "Brasil"
     },
     {
@@ -20640,7 +20640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13026480,
+        "cep": "13026480",
         "pais": "Brasil"
     },
     {
@@ -20650,7 +20650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456721,
+        "cep": "13456721",
         "pais": "Brasil"
     },
     {
@@ -20660,7 +20660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454186,
+        "cep": "13454186",
         "pais": "Brasil"
     },
     {
@@ -20670,7 +20670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.648721278923365,
         "longitude": -46.53515899037519,
-        "cep": 13485053,
+        "cep": "13485053",
         "pais": "Brasil"
     },
     {
@@ -20680,7 +20680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060465,
+        "cep": "13060465",
         "pais": "Brasil"
     },
     {
@@ -20690,7 +20690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323020,
+        "cep": "13323020",
         "pais": "Brasil"
     },
     {
@@ -20700,7 +20700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13092481,
+        "cep": "13092481",
         "pais": "Brasil"
     },
     {
@@ -20710,7 +20710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180180,
+        "cep": "13180180",
         "pais": "Brasil"
     },
     {
@@ -20720,7 +20720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322180,
+        "cep": "13322180",
         "pais": "Brasil"
     },
     {
@@ -20730,7 +20730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185375,
+        "cep": "13185375",
         "pais": "Brasil"
     },
     {
@@ -20740,7 +20740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13471680,
+        "cep": "13471680",
         "pais": "Brasil"
     },
     {
@@ -20750,7 +20750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450399,
+        "cep": "13450399",
         "pais": "Brasil"
     },
     {
@@ -20760,7 +20760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8971290892396,
         "longitude": -47.05639401755042,
-        "cep": 13060663,
+        "cep": "13060663",
         "pais": "Brasil"
     },
     {
@@ -20770,7 +20770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052222,
+        "cep": "13052222",
         "pais": "Brasil"
     },
     {
@@ -20780,7 +20780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 4638090,
+        "cep": "04638090",
         "pais": "Brasil"
     },
     {
@@ -20790,7 +20790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.91210078992732,
         "longitude": -47.06963746058928,
-        "cep": 13059107,
+        "cep": "13059107",
         "pais": "Brasil"
     },
     {
@@ -20800,7 +20800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13271405,
+        "cep": "13271405",
         "pais": "Brasil"
     },
     {
@@ -20810,7 +20810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13145063,
+        "cep": "13145063",
         "pais": "Brasil"
     },
     {
@@ -20820,7 +20820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059107,
+        "cep": "13059107",
         "pais": "Brasil"
     },
     {
@@ -20830,7 +20830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13077056,
+        "cep": "13077056",
         "pais": "Brasil"
     },
     {
@@ -20840,7 +20840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.907084606793184,
         "longitude": -47.05936256959472,
-        "cep": 13060496,
+        "cep": "13060496",
         "pais": "Brasil"
     },
     {
@@ -20850,7 +20850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058434,
+        "cep": "13058434",
         "pais": "Brasil"
     },
     {
@@ -20860,7 +20860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052573,
+        "cep": "13052573",
         "pais": "Brasil"
     },
     {
@@ -20870,7 +20870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060645,
+        "cep": "13060645",
         "pais": "Brasil"
     },
     {
@@ -20880,7 +20880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040103,
+        "cep": "13040103",
         "pais": "Brasil"
     },
     {
@@ -20890,7 +20890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057504,
+        "cep": "13057504",
         "pais": "Brasil"
     },
     {
@@ -20900,7 +20900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054213,
+        "cep": "13054213",
         "pais": "Brasil"
     },
     {
@@ -20910,7 +20910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13473717,
+        "cep": "13473717",
         "pais": "Brasil"
     },
     {
@@ -20920,7 +20920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -20930,7 +20930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13096720,
+        "cep": "13096720",
         "pais": "Brasil"
     },
     {
@@ -20940,7 +20940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185490,
+        "cep": "13185490",
         "pais": "Brasil"
     },
     {
@@ -20950,7 +20950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13280296,
+        "cep": "13280296",
         "pais": "Brasil"
     },
     {
@@ -20960,7 +20960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13092072,
+        "cep": "13092072",
         "pais": "Brasil"
     },
     {
@@ -20970,7 +20970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186012,
+        "cep": "13186012",
         "pais": "Brasil"
     },
     {
@@ -20980,7 +20980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058133,
+        "cep": "13058133",
         "pais": "Brasil"
     },
     {
@@ -20990,7 +20990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053254,
+        "cep": "13053254",
         "pais": "Brasil"
     },
     {
@@ -21000,7 +21000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13330350,
+        "cep": "13330350",
         "pais": "Brasil"
     },
     {
@@ -21010,7 +21010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13035270,
+        "cep": "13035270",
         "pais": "Brasil"
     },
     {
@@ -21020,7 +21020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058772,
+        "cep": "13058772",
         "pais": "Brasil"
     },
     {
@@ -21030,7 +21030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13275400,
+        "cep": "13275400",
         "pais": "Brasil"
     },
     {
@@ -21040,7 +21040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13198412,
+        "cep": "13198412",
         "pais": "Brasil"
     },
     {
@@ -21050,7 +21050,7 @@ const usuarios = [
         "estado": "BA",
         "latitude": -24.242848,
         "longitude": -64.8659606,
-        "cep": 13154270,
+        "cep": "13154270",
         "pais": "Brasil"
     },
     {
@@ -21060,7 +21060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030117,
+        "cep": "13030117",
         "pais": "Brasil"
     },
     {
@@ -21070,7 +21070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056213,
+        "cep": "13056213",
         "pais": "Brasil"
     },
     {
@@ -21080,7 +21080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13045760,
+        "cep": "13045760",
         "pais": "Brasil"
     },
     {
@@ -21090,7 +21090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056400,
+        "cep": "13056400",
         "pais": "Brasil"
     },
     {
@@ -21100,7 +21100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470310,
+        "cep": "13470310",
         "pais": "Brasil"
     },
     {
@@ -21110,7 +21110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -21120,7 +21120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180180,
+        "cep": "13180180",
         "pais": "Brasil"
     },
     {
@@ -21130,7 +21130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184235,
+        "cep": "13184235",
         "pais": "Brasil"
     },
     {
@@ -21140,7 +21140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13472500,
+        "cep": "13472500",
         "pais": "Brasil"
     },
     {
@@ -21150,7 +21150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13474200,
+        "cep": "13474200",
         "pais": "Brasil"
     },
     {
@@ -21160,7 +21160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180959,
+        "cep": "13180959",
         "pais": "Brasil"
     },
     {
@@ -21170,7 +21170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051215,
+        "cep": "13051215",
         "pais": "Brasil"
     },
     {
@@ -21180,7 +21180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174540,
+        "cep": "13174540",
         "pais": "Brasil"
     },
     {
@@ -21190,7 +21190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050726,
+        "cep": "13050726",
         "pais": "Brasil"
     },
     {
@@ -21200,7 +21200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273606,
+        "cep": "13273606",
         "pais": "Brasil"
     },
     {
@@ -21210,7 +21210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13046445,
+        "cep": "13046445",
         "pais": "Brasil"
     },
     {
@@ -21220,7 +21220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13170027,
+        "cep": "13170027",
         "pais": "Brasil"
     },
     {
@@ -21230,7 +21230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13177905,
+        "cep": "13177905",
         "pais": "Brasil"
     },
     {
@@ -21240,7 +21240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13026180,
+        "cep": "13026180",
         "pais": "Brasil"
     },
     {
@@ -21250,7 +21250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059585,
+        "cep": "13059585",
         "pais": "Brasil"
     },
     {
@@ -21260,7 +21260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283046,
+        "cep": "13283046",
         "pais": "Brasil"
     },
     {
@@ -21270,7 +21270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470734,
+        "cep": "13470734",
         "pais": "Brasil"
     },
     {
@@ -21280,7 +21280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069429,
+        "cep": "13069429",
         "pais": "Brasil"
     },
     {
@@ -21290,7 +21290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.679971869942666,
         "longitude": -46.88890901168633,
-        "cep": 18077640,
+        "cep": "18077640",
         "pais": "Brasil"
     },
     {
@@ -21300,7 +21300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058822,
+        "cep": "13058822",
         "pais": "Brasil"
     },
     {
@@ -21310,7 +21310,7 @@ const usuarios = [
         "estado": "PE",
         "latitude": -7.5617238,
         "longitude": -34.9952357,
-        "cep": 18211000,
+        "cep": "18211000",
         "pais": "Brasil"
     },
     {
@@ -21320,7 +21320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178352,
+        "cep": "13178352",
         "pais": "Brasil"
     },
     {
@@ -21330,7 +21330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -21340,7 +21340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13188235,
+        "cep": "13188235",
         "pais": "Brasil"
     },
     {
@@ -21350,7 +21350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455480,
+        "cep": "13455480",
         "pais": "Brasil"
     },
     {
@@ -21360,7 +21360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13295000,
+        "cep": "13295000",
         "pais": "Brasil"
     },
     {
@@ -21370,7 +21370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059721,
+        "cep": "13059721",
         "pais": "Brasil"
     },
     {
@@ -21380,7 +21380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13276080,
+        "cep": "13276080",
         "pais": "Brasil"
     },
     {
@@ -21390,7 +21390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069429,
+        "cep": "13069429",
         "pais": "Brasil"
     },
     {
@@ -21400,7 +21400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058822,
+        "cep": "13058822",
         "pais": "Brasil"
     },
     {
@@ -21410,7 +21410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13101132,
+        "cep": "13101132",
         "pais": "Brasil"
     },
     {
@@ -21420,7 +21420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13275400,
+        "cep": "13275400",
         "pais": "Brasil"
     },
     {
@@ -21430,7 +21430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273116,
+        "cep": "13273116",
         "pais": "Brasil"
     },
     {
@@ -21440,7 +21440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186546,
+        "cep": "13186546",
         "pais": "Brasil"
     },
     {
@@ -21450,7 +21450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.653405403427968,
         "longitude": -46.5489676454456,
-        "cep": 14060168,
+        "cep": "14060168",
         "pais": "Brasil"
     },
     {
@@ -21460,7 +21460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.73075985549469,
         "longitude": -47.636940790571565,
-        "cep": 13203554,
+        "cep": "13203554",
         "pais": "Brasil"
     },
     {
@@ -21470,7 +21470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178101,
+        "cep": "13178101",
         "pais": "Brasil"
     },
     {
@@ -21480,7 +21480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -21490,7 +21490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13101132,
+        "cep": "13101132",
         "pais": "Brasil"
     },
     {
@@ -21500,7 +21500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -21510,7 +21510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -21520,7 +21520,7 @@ const usuarios = [
         "estado": "MA",
         "latitude": -2.5262752233922594,
         "longitude": -44.31734076083794,
-        "cep": 14302236,
+        "cep": "14302236",
         "pais": "Brasil"
     },
     {
@@ -21530,7 +21530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13145123,
+        "cep": "13145123",
         "pais": "Brasil"
     },
     {
@@ -21540,7 +21540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.71978058458994,
         "longitude": -47.64664062622442,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -21550,7 +21550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13469360,
+        "cep": "13469360",
         "pais": "Brasil"
     },
     {
@@ -21560,7 +21560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174340,
+        "cep": "13174340",
         "pais": "Brasil"
     },
     {
@@ -21570,7 +21570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179515,
+        "cep": "13179515",
         "pais": "Brasil"
     },
     {
@@ -21580,7 +21580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13087380,
+        "cep": "13087380",
         "pais": "Brasil"
     },
     {
@@ -21590,7 +21590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13041620,
+        "cep": "13041620",
         "pais": "Brasil"
     },
     {
@@ -21600,7 +21600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6931,
         "longitude": -46.9926,
-        "cep": 13914128,
+        "cep": "13914128",
         "pais": "Brasil"
     },
     {
@@ -21610,7 +21610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061371,
+        "cep": "13061371",
         "pais": "Brasil"
     },
     {
@@ -21620,7 +21620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 4812250,
+        "cep": "04812250",
         "pais": "Brasil"
     },
     {
@@ -21630,7 +21630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13199190,
+        "cep": "13199190",
         "pais": "Brasil"
     },
     {
@@ -21640,7 +21640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13275443,
+        "cep": "13275443",
         "pais": "Brasil"
     },
     {
@@ -21650,7 +21650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13020210,
+        "cep": "13020210",
         "pais": "Brasil"
     },
     {
@@ -21660,7 +21660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272181,
+        "cep": "13272181",
         "pais": "Brasil"
     },
     {
@@ -21670,7 +21670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13190029,
+        "cep": "13190029",
         "pais": "Brasil"
     },
     {
@@ -21680,7 +21680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050471,
+        "cep": "13050471",
         "pais": "Brasil"
     },
     {
@@ -21690,7 +21690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13082145,
+        "cep": "13082145",
         "pais": "Brasil"
     },
     {
@@ -21700,7 +21700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.92256328314404,
         "longitude": -47.075494478727286,
-        "cep": 13426470,
+        "cep": "13426470",
         "pais": "Brasil"
     },
     {
@@ -21710,7 +21710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053217,
+        "cep": "13053217",
         "pais": "Brasil"
     },
     {
@@ -21720,7 +21720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13070120,
+        "cep": "13070120",
         "pais": "Brasil"
     },
     {
@@ -21730,7 +21730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13278327,
+        "cep": "13278327",
         "pais": "Brasil"
     },
     {
@@ -21740,7 +21740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.211055099566053,
         "longitude": -46.85189366864623,
-        "cep": 13923210,
+        "cep": "13923210",
         "pais": "Brasil"
     },
     {
@@ -21750,7 +21750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272181,
+        "cep": "13272181",
         "pais": "Brasil"
     },
     {
@@ -21760,7 +21760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060820,
+        "cep": "13060820",
         "pais": "Brasil"
     },
     {
@@ -21770,7 +21770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13270362,
+        "cep": "13270362",
         "pais": "Brasil"
     },
     {
@@ -21780,7 +21780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13387774,
+        "cep": "13387774",
         "pais": "Brasil"
     },
     {
@@ -21790,7 +21790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13070760,
+        "cep": "13070760",
         "pais": "Brasil"
     },
     {
@@ -21800,7 +21800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059591,
+        "cep": "13059591",
         "pais": "Brasil"
     },
     {
@@ -21810,7 +21810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272181,
+        "cep": "13272181",
         "pais": "Brasil"
     },
     {
@@ -21820,7 +21820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060820,
+        "cep": "13060820",
         "pais": "Brasil"
     },
     {
@@ -21830,7 +21830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13270362,
+        "cep": "13270362",
         "pais": "Brasil"
     },
     {
@@ -21840,7 +21840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13387774,
+        "cep": "13387774",
         "pais": "Brasil"
     },
     {
@@ -21850,7 +21850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13070760,
+        "cep": "13070760",
         "pais": "Brasil"
     },
     {
@@ -21860,7 +21860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059591,
+        "cep": "13059591",
         "pais": "Brasil"
     },
     {
@@ -21870,7 +21870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -21880,7 +21880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186686,
+        "cep": "13186686",
         "pais": "Brasil"
     },
     {
@@ -21890,7 +21890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184580,
+        "cep": "13184580",
         "pais": "Brasil"
     },
     {
@@ -21900,7 +21900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180370,
+        "cep": "13180370",
         "pais": "Brasil"
     },
     {
@@ -21910,7 +21910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.53167514887703,
         "longitude": -46.78836692436827,
-        "cep": 181950,
+        "cep": "00181950",
         "pais": "Brasil"
     },
     {
@@ -21920,7 +21920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13033485,
+        "cep": "13033485",
         "pais": "Brasil"
     },
     {
@@ -21930,7 +21930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456540,
+        "cep": "13456540",
         "pais": "Brasil"
     },
     {
@@ -21940,7 +21940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.47781262526462,
         "longitude": -46.55590209335903,
-        "cep": 13990000,
+        "cep": "13990000",
         "pais": "Brasil"
     },
     {
@@ -21950,7 +21950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13044750,
+        "cep": "13044750",
         "pais": "Brasil"
     },
     {
@@ -21960,7 +21960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178385,
+        "cep": "13178385",
         "pais": "Brasil"
     },
     {
@@ -21970,7 +21970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456420,
+        "cep": "13456420",
         "pais": "Brasil"
     },
     {
@@ -21980,7 +21980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13189205,
+        "cep": "13189205",
         "pais": "Brasil"
     },
     {
@@ -21990,7 +21990,7 @@ const usuarios = [
         "estado": "PR",
         "latitude": -25.43698151234292,
         "longitude": -49.28187583188251,
-        "cep": 13214523,
+        "cep": "13214523",
         "pais": "Brasil"
     },
     {
@@ -22000,7 +22000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13467273,
+        "cep": "13467273",
         "pais": "Brasil"
     },
     {
@@ -22010,7 +22010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184390,
+        "cep": "13184390",
         "pais": "Brasil"
     },
     {
@@ -22020,7 +22020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450712,
+        "cep": "13450712",
         "pais": "Brasil"
     },
     {
@@ -22030,7 +22030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -22040,7 +22040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13469600,
+        "cep": "13469600",
         "pais": "Brasil"
     },
     {
@@ -22050,7 +22050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179386,
+        "cep": "13179386",
         "pais": "Brasil"
     },
     {
@@ -22060,7 +22060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13473400,
+        "cep": "13473400",
         "pais": "Brasil"
     },
     {
@@ -22070,7 +22070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13175668,
+        "cep": "13175668",
         "pais": "Brasil"
     },
     {
@@ -22080,7 +22080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323111,
+        "cep": "13323111",
         "pais": "Brasil"
     },
     {
@@ -22090,7 +22090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13073010,
+        "cep": "13073010",
         "pais": "Brasil"
     },
     {
@@ -22100,7 +22100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13090713,
+        "cep": "13090713",
         "pais": "Brasil"
     },
     {
@@ -22110,7 +22110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13100473,
+        "cep": "13100473",
         "pais": "Brasil"
     },
     {
@@ -22120,7 +22120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058289,
+        "cep": "13058289",
         "pais": "Brasil"
     },
     {
@@ -22130,7 +22130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13285426,
+        "cep": "13285426",
         "pais": "Brasil"
     },
     {
@@ -22140,7 +22140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054423,
+        "cep": "13054423",
         "pais": "Brasil"
     },
     {
@@ -22150,7 +22150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272828,
+        "cep": "13272828",
         "pais": "Brasil"
     },
     {
@@ -22160,7 +22160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.46993287625706,
         "longitude": -46.52735012619401,
-        "cep": 13481807,
+        "cep": "13481807",
         "pais": "Brasil"
     },
     {
@@ -22170,7 +22170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054021,
+        "cep": "13054021",
         "pais": "Brasil"
     },
     {
@@ -22180,7 +22180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054506,
+        "cep": "13054506",
         "pais": "Brasil"
     },
     {
@@ -22190,7 +22190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.922883686589056,
         "longitude": -47.06171814533083,
-        "cep": 13395060,
+        "cep": "13395060",
         "pais": "Brasil"
     },
     {
@@ -22200,7 +22200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -22210,7 +22210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050004,
+        "cep": "13050004",
         "pais": "Brasil"
     },
     {
@@ -22220,7 +22220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453833,
+        "cep": "13453833",
         "pais": "Brasil"
     },
     {
@@ -22230,7 +22230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13280350,
+        "cep": "13280350",
         "pais": "Brasil"
     },
     {
@@ -22240,7 +22240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056858,
+        "cep": "13056858",
         "pais": "Brasil"
     },
     {
@@ -22250,7 +22250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050003,
+        "cep": "13050003",
         "pais": "Brasil"
     },
     {
@@ -22260,7 +22260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060236,
+        "cep": "13060236",
         "pais": "Brasil"
     },
     {
@@ -22270,7 +22270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13023220,
+        "cep": "13023220",
         "pais": "Brasil"
     },
     {
@@ -22280,7 +22280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13190029,
+        "cep": "13190029",
         "pais": "Brasil"
     },
     {
@@ -22290,7 +22290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13343821,
+        "cep": "13343821",
         "pais": "Brasil"
     },
     {
@@ -22300,7 +22300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056531,
+        "cep": "13056531",
         "pais": "Brasil"
     },
     {
@@ -22310,7 +22310,7 @@ const usuarios = [
         "estado": "AL",
         "latitude": -9.6111682,
         "longitude": -35.7376344,
-        "cep": 35660213,
+        "cep": "35660213",
         "pais": "Brasil"
     },
     {
@@ -22320,7 +22320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310200,
+        "cep": "13310200",
         "pais": "Brasil"
     },
     {
@@ -22330,7 +22330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173423,
+        "cep": "13173423",
         "pais": "Brasil"
     },
     {
@@ -22340,7 +22340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057400,
+        "cep": "13057400",
         "pais": "Brasil"
     },
     {
@@ -22350,7 +22350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185485,
+        "cep": "13185485",
         "pais": "Brasil"
     },
     {
@@ -22360,7 +22360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051037,
+        "cep": "13051037",
         "pais": "Brasil"
     },
     {
@@ -22370,7 +22370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058229,
+        "cep": "13058229",
         "pais": "Brasil"
     },
     {
@@ -22380,7 +22380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049493,
+        "cep": "13049493",
         "pais": "Brasil"
     },
     {
@@ -22390,7 +22390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042550,
+        "cep": "13042550",
         "pais": "Brasil"
     },
     {
@@ -22400,7 +22400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042210,
+        "cep": "13042210",
         "pais": "Brasil"
     },
     {
@@ -22410,7 +22410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13253523,
+        "cep": "13253523",
         "pais": "Brasil"
     },
     {
@@ -22420,7 +22420,7 @@ const usuarios = [
         "estado": "CE",
         "latitude": -3.7454000694015392,
         "longitude": -38.515471812796335,
-        "cep": 13165172,
+        "cep": "13165172",
         "pais": "Brasil"
     },
     {
@@ -22430,7 +22430,7 @@ const usuarios = [
         "estado": "BA",
         "latitude": -24.242848,
         "longitude": -64.8659606,
-        "cep": 13480290,
+        "cep": "13480290",
         "pais": "Brasil"
     },
     {
@@ -22440,7 +22440,7 @@ const usuarios = [
         "estado": "MA",
         "latitude": -2.5432757518623204,
         "longitude": -44.31950469092173,
-        "cep": 18105330,
+        "cep": "18105330",
         "pais": "Brasil"
     },
     {
@@ -22450,7 +22450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13044115,
+        "cep": "13044115",
         "pais": "Brasil"
     },
     {
@@ -22460,7 +22460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13175590,
+        "cep": "13175590",
         "pais": "Brasil"
     },
     {
@@ -22470,7 +22470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.204528811198387,
         "longitude": -46.83747199597439,
-        "cep": 13190000,
+        "cep": "13190000",
         "pais": "Brasil"
     },
     {
@@ -22480,7 +22480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13086708,
+        "cep": "13086708",
         "pais": "Brasil"
     },
     {
@@ -22490,7 +22490,7 @@ const usuarios = [
         "estado": "PE",
         "latitude": -7.5617238,
         "longitude": -34.9952357,
-        "cep": 13631601,
+        "cep": "13631601",
         "pais": "Brasil"
     },
     {
@@ -22500,7 +22500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030430,
+        "cep": "13030430",
         "pais": "Brasil"
     },
     {
@@ -22510,7 +22510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060774,
+        "cep": "13060774",
         "pais": "Brasil"
     },
     {
@@ -22520,7 +22520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 4224010,
+        "cep": "04224010",
         "pais": "Brasil"
     },
     {
@@ -22530,7 +22530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13262018,
+        "cep": "13262018",
         "pais": "Brasil"
     },
     {
@@ -22540,7 +22540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056392,
+        "cep": "13056392",
         "pais": "Brasil"
     },
     {
@@ -22550,7 +22550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.909912336894426,
         "longitude": -47.06952950852313,
-        "cep": 13482375,
+        "cep": "13482375",
         "pais": "Brasil"
     },
     {
@@ -22560,7 +22560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310335,
+        "cep": "13310335",
         "pais": "Brasil"
     },
     {
@@ -22570,7 +22570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051205,
+        "cep": "13051205",
         "pais": "Brasil"
     },
     {
@@ -22580,7 +22580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058229,
+        "cep": "13058229",
         "pais": "Brasil"
     },
     {
@@ -22590,7 +22590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13251683,
+        "cep": "13251683",
         "pais": "Brasil"
     },
     {
@@ -22600,7 +22600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322290,
+        "cep": "13322290",
         "pais": "Brasil"
     },
     {
@@ -22610,7 +22610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059673,
+        "cep": "13059673",
         "pais": "Brasil"
     },
     {
@@ -22620,7 +22620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13477674,
+        "cep": "13477674",
         "pais": "Brasil"
     },
     {
@@ -22630,7 +22630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058368,
+        "cep": "13058368",
         "pais": "Brasil"
     },
     {
@@ -22640,7 +22640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13088691,
+        "cep": "13088691",
         "pais": "Brasil"
     },
     {
@@ -22650,7 +22650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13278110,
+        "cep": "13278110",
         "pais": "Brasil"
     },
     {
@@ -22660,7 +22660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13276485,
+        "cep": "13276485",
         "pais": "Brasil"
     },
     {
@@ -22670,7 +22670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273552,
+        "cep": "13273552",
         "pais": "Brasil"
     },
     {
@@ -22680,7 +22680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053121,
+        "cep": "13053121",
         "pais": "Brasil"
     },
     {
@@ -22690,7 +22690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -22700,7 +22700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060715,
+        "cep": "13060715",
         "pais": "Brasil"
     },
     {
@@ -22710,7 +22710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13309580,
+        "cep": "13309580",
         "pais": "Brasil"
     },
     {
@@ -22720,7 +22720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13275616,
+        "cep": "13275616",
         "pais": "Brasil"
     },
     {
@@ -22730,7 +22730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042550,
+        "cep": "13042550",
         "pais": "Brasil"
     },
     {
@@ -22740,7 +22740,7 @@ const usuarios = [
         "estado": "PE",
         "latitude": -7.5617238,
         "longitude": -34.9952357,
-        "cep": 18103757,
+        "cep": "18103757",
         "pais": "Brasil"
     },
     {
@@ -22750,7 +22750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185402,
+        "cep": "13185402",
         "pais": "Brasil"
     },
     {
@@ -22760,7 +22760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1301500,
+        "cep": "01301500",
         "pais": "Brasil"
     },
     {
@@ -22770,7 +22770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13044503,
+        "cep": "13044503",
         "pais": "Brasil"
     },
     {
@@ -22780,7 +22780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13183310,
+        "cep": "13183310",
         "pais": "Brasil"
     },
     {
@@ -22790,7 +22790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13467080,
+        "cep": "13467080",
         "pais": "Brasil"
     },
     {
@@ -22800,7 +22800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13105122,
+        "cep": "13105122",
         "pais": "Brasil"
     },
     {
@@ -22810,7 +22810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13031380,
+        "cep": "13031380",
         "pais": "Brasil"
     },
     {
@@ -22820,7 +22820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13044440,
+        "cep": "13044440",
         "pais": "Brasil"
     },
     {
@@ -22830,7 +22830,7 @@ const usuarios = [
         "estado": "SC",
         "latitude": -27.599606679345424,
         "longitude": -48.53319386304901,
-        "cep": 13406010,
+        "cep": "13406010",
         "pais": "Brasil"
     },
     {
@@ -22840,7 +22840,7 @@ const usuarios = [
         "estado": "GO",
         "latitude": -16.703173198990907,
         "longitude": -49.277805681858666,
-        "cep": 13154090,
+        "cep": "13154090",
         "pais": "Brasil"
     },
     {
@@ -22850,7 +22850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040082,
+        "cep": "13040082",
         "pais": "Brasil"
     },
     {
@@ -22860,7 +22860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13179386,
+        "cep": "13179386",
         "pais": "Brasil"
     },
     {
@@ -22870,7 +22870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13082075,
+        "cep": "13082075",
         "pais": "Brasil"
     },
     {
@@ -22880,7 +22880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13142106,
+        "cep": "13142106",
         "pais": "Brasil"
     },
     {
@@ -22890,7 +22890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13172674,
+        "cep": "13172674",
         "pais": "Brasil"
     },
     {
@@ -22900,7 +22900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180510,
+        "cep": "13180510",
         "pais": "Brasil"
     },
     {
@@ -22910,7 +22910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053514,
+        "cep": "13053514",
         "pais": "Brasil"
     },
     {
@@ -22920,7 +22920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13053303,
+        "cep": "13053303",
         "pais": "Brasil"
     },
     {
@@ -22930,7 +22930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13197198,
+        "cep": "13197198",
         "pais": "Brasil"
     },
     {
@@ -22940,7 +22940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042760,
+        "cep": "13042760",
         "pais": "Brasil"
     },
     {
@@ -22950,7 +22950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13032400,
+        "cep": "13032400",
         "pais": "Brasil"
     },
     {
@@ -22960,7 +22960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13054622,
+        "cep": "13054622",
         "pais": "Brasil"
     },
     {
@@ -22970,7 +22970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450017,
+        "cep": "13450017",
         "pais": "Brasil"
     },
     {
@@ -22980,7 +22980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450029,
+        "cep": "13450029",
         "pais": "Brasil"
     },
     {
@@ -22990,7 +22990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056764,
+        "cep": "13056764",
         "pais": "Brasil"
     },
     {
@@ -23000,7 +23000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13273264,
+        "cep": "13273264",
         "pais": "Brasil"
     },
     {
@@ -23010,7 +23010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453403,
+        "cep": "13453403",
         "pais": "Brasil"
     },
     {
@@ -23020,7 +23020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13092132,
+        "cep": "13092132",
         "pais": "Brasil"
     },
     {
@@ -23030,7 +23030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.910273543676585,
         "longitude": -47.09124375139076,
-        "cep": 13481257,
+        "cep": "13481257",
         "pais": "Brasil"
     },
     {
@@ -23040,7 +23040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186561,
+        "cep": "13186561",
         "pais": "Brasil"
     },
     {
@@ -23050,7 +23050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -23060,7 +23060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058370,
+        "cep": "13058370",
         "pais": "Brasil"
     },
     {
@@ -23070,7 +23070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049440,
+        "cep": "13049440",
         "pais": "Brasil"
     },
     {
@@ -23080,7 +23080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180290,
+        "cep": "13180290",
         "pais": "Brasil"
     },
     {
@@ -23090,7 +23090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272702,
+        "cep": "13272702",
         "pais": "Brasil"
     },
     {
@@ -23100,7 +23100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13277030,
+        "cep": "13277030",
         "pais": "Brasil"
     },
     {
@@ -23110,7 +23110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13101320,
+        "cep": "13101320",
         "pais": "Brasil"
     },
     {
@@ -23120,7 +23120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13479080,
+        "cep": "13479080",
         "pais": "Brasil"
     },
     {
@@ -23130,7 +23130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185539,
+        "cep": "13185539",
         "pais": "Brasil"
     },
     {
@@ -23140,7 +23140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13023011,
+        "cep": "13023011",
         "pais": "Brasil"
     },
     {
@@ -23150,7 +23150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13033530,
+        "cep": "13033530",
         "pais": "Brasil"
     },
     {
@@ -23160,7 +23160,7 @@ const usuarios = [
         "estado": "RS",
         "latitude": -30.05438699647424,
         "longitude": -51.202460895232896,
-        "cep": 13847022,
+        "cep": "13847022",
         "pais": "Brasil"
     },
     {
@@ -23170,7 +23170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13478779,
+        "cep": "13478779",
         "pais": "Brasil"
     },
     {
@@ -23180,7 +23180,7 @@ const usuarios = [
         "estado": "MA",
         "latitude": -2.5365558531221497,
         "longitude": -44.29687438358095,
-        "cep": 13350000,
+        "cep": "13350000",
         "pais": "Brasil"
     },
     {
@@ -23190,7 +23190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040565,
+        "cep": "13040565",
         "pais": "Brasil"
     },
     {
@@ -23200,7 +23200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470473,
+        "cep": "13470473",
         "pais": "Brasil"
     },
     {
@@ -23210,7 +23210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.67383298573272,
         "longitude": -46.53869866799016,
-        "cep": 37135080,
+        "cep": "37135080",
         "pais": "Brasil"
     },
     {
@@ -23220,7 +23220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034040,
+        "cep": "13034040",
         "pais": "Brasil"
     },
     {
@@ -23230,7 +23230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13030290,
+        "cep": "13030290",
         "pais": "Brasil"
     },
     {
@@ -23240,7 +23240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13474358,
+        "cep": "13474358",
         "pais": "Brasil"
     },
     {
@@ -23250,7 +23250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13060840,
+        "cep": "13060840",
         "pais": "Brasil"
     },
     {
@@ -23260,7 +23260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13088110,
+        "cep": "13088110",
         "pais": "Brasil"
     },
     {
@@ -23270,7 +23270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13100486,
+        "cep": "13100486",
         "pais": "Brasil"
     },
     {
@@ -23280,7 +23280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178185,
+        "cep": "13178185",
         "pais": "Brasil"
     },
     {
@@ -23290,7 +23290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13197168,
+        "cep": "13197168",
         "pais": "Brasil"
     },
     {
@@ -23300,7 +23300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13467441,
+        "cep": "13467441",
         "pais": "Brasil"
     },
     {
@@ -23310,7 +23310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13013095,
+        "cep": "13013095",
         "pais": "Brasil"
     },
     {
@@ -23320,7 +23320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9290739,
         "longitude": -47.1192671,
-        "cep": 13060566,
+        "cep": "13060566",
         "pais": "Brasil"
     },
     {
@@ -23330,7 +23330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064862,
+        "cep": "13064862",
         "pais": "Brasil"
     },
     {
@@ -23340,7 +23340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185844,
+        "cep": "13185844",
         "pais": "Brasil"
     },
     {
@@ -23350,7 +23350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173433,
+        "cep": "13173433",
         "pais": "Brasil"
     },
     {
@@ -23360,7 +23360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7294051,
         "longitude": -47.1782814,
-        "cep": 13145702,
+        "cep": "13145702",
         "pais": "Brasil"
     },
     {
@@ -23370,7 +23370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8927256,
         "longitude": -47.1609362,
-        "cep": 13064832,
+        "cep": "13064832",
         "pais": "Brasil"
     },
     {
@@ -23380,7 +23380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0975412,
         "longitude": -47.2336124,
-        "cep": 13348896,
+        "cep": "13348896",
         "pais": "Brasil"
     },
     {
@@ -23390,7 +23390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13173482,
+        "cep": "13173482",
         "pais": "Brasil"
     },
     {
@@ -23400,7 +23400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9688262,
         "longitude": -47.1331664,
-        "cep": 13054024,
+        "cep": "13054024",
         "pais": "Brasil"
     },
     {
@@ -23410,7 +23410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274560,
+        "cep": "13274560",
         "pais": "Brasil"
     },
     {
@@ -23420,7 +23420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.89747,
         "longitude": -47.1686573,
-        "cep": 13185270,
+        "cep": "13185270",
         "pais": "Brasil"
     },
     {
@@ -23430,7 +23430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8398244,
         "longitude": -47.1530462,
-        "cep": 13069072,
+        "cep": "13069072",
         "pais": "Brasil"
     },
     {
@@ -23440,7 +23440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057036,
+        "cep": "13057036",
         "pais": "Brasil"
     },
     {
@@ -23450,7 +23450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13299096,
+        "cep": "13299096",
         "pais": "Brasil"
     },
     {
@@ -23460,7 +23460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9389858,
         "longitude": -47.002703,
-        "cep": 13272702,
+        "cep": "13272702",
         "pais": "Brasil"
     },
     {
@@ -23470,7 +23470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -23480,7 +23480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061342,
+        "cep": "13061342",
         "pais": "Brasil"
     },
     {
@@ -23490,7 +23490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051172,
+        "cep": "13051172",
         "pais": "Brasil"
     },
     {
@@ -23500,7 +23500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9867786,
         "longitude": -47.1503712,
-        "cep": 13056706,
+        "cep": "13056706",
         "pais": "Brasil"
     },
     {
@@ -23510,7 +23510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064841,
+        "cep": "13064841",
         "pais": "Brasil"
     },
     {
@@ -23520,7 +23520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0899,
         "longitude": -47.219,
-        "cep": 13349341,
+        "cep": "13349341",
         "pais": "Brasil"
     },
     {
@@ -23530,7 +23530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040215,
+        "cep": "13040215",
         "pais": "Brasil"
     },
     {
@@ -23540,7 +23540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13067312,
+        "cep": "13067312",
         "pais": "Brasil"
     },
     {
@@ -23550,7 +23550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.741347,
         "longitude": -46.894846,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -23560,7 +23560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13065190,
+        "cep": "13065190",
         "pais": "Brasil"
     },
     {
@@ -23570,7 +23570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13188042,
+        "cep": "13188042",
         "pais": "Brasil"
     },
     {
@@ -23580,7 +23580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9392976,
         "longitude": -46.9721956,
-        "cep": 13273220,
+        "cep": "13273220",
         "pais": "Brasil"
     },
     {
@@ -23590,7 +23590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4376255,
         "longitude": -46.9719668,
-        "cep": 13800460,
+        "cep": "13800460",
         "pais": "Brasil"
     },
     {
@@ -23600,7 +23600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9659142,
         "longitude": -47.1248407,
-        "cep": 13054123,
+        "cep": "13054123",
         "pais": "Brasil"
     },
     {
@@ -23610,7 +23610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8136892,
         "longitude": -47.2296625,
-        "cep": 13177292,
+        "cep": "13177292",
         "pais": "Brasil"
     },
     {
@@ -23620,7 +23620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9221519,
         "longitude": -47.0171721,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -23630,7 +23630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13106760,
+        "cep": "13106760",
         "pais": "Brasil"
     },
     {
@@ -23640,7 +23640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13035555,
+        "cep": "13035555",
         "pais": "Brasil"
     },
     {
@@ -23650,7 +23650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9493623,
         "longitude": -47.3056789,
-        "cep": 13190184,
+        "cep": "13190184",
         "pais": "Brasil"
     },
     {
@@ -23660,7 +23660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184664,
+        "cep": "13184664",
         "pais": "Brasil"
     },
     {
@@ -23670,7 +23670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 8141001,
+        "cep": "08141001",
         "pais": "Brasil"
     },
     {
@@ -23680,7 +23680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.1133656,
         "longitude": -34.9212345,
-        "cep": 13165498,
+        "cep": "13165498",
         "pais": "Brasil"
     },
     {
@@ -23690,7 +23690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8347992,
         "longitude": -47.2721892,
-        "cep": 13171300,
+        "cep": "13171300",
         "pais": "Brasil"
     },
     {
@@ -23700,7 +23700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.826892,
         "longitude": -47.1640159,
-        "cep": 13179216,
+        "cep": "13179216",
         "pais": "Brasil"
     },
     {
@@ -23710,7 +23710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034200,
+        "cep": "13034200",
         "pais": "Brasil"
     },
     {
@@ -23720,7 +23720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13171660,
+        "cep": "13171660",
         "pais": "Brasil"
     },
     {
@@ -23728,9 +23728,9 @@ const usuarios = [
         "nome": "Alexandre Assis",
         "cidade": "Elias Fausto",
         "estado": "SP",
-        "latitude": NaN,
-        "longitude": NaN,
-        "cep": 13360431,
+        "latitude": -23.0234,
+        "longitude": -47.2226,
+        "cep": "13360431",
         "pais": "Brasil"
     },
     {
@@ -23740,7 +23740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9372956,
         "longitude": -47.1611976,
-        "cep": 13059030,
+        "cep": "13059030",
         "pais": "Brasil"
     },
     {
@@ -23750,7 +23750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049103,
+        "cep": "13049103",
         "pais": "Brasil"
     },
     {
@@ -23760,7 +23760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064844,
+        "cep": "13064844",
         "pais": "Brasil"
     },
     {
@@ -23770,7 +23770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034655,
+        "cep": "13034655",
         "pais": "Brasil"
     },
     {
@@ -23780,7 +23780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13057504,
+        "cep": "13057504",
         "pais": "Brasil"
     },
     {
@@ -23790,7 +23790,7 @@ const usuarios = [
         "estado": "SC",
         "latitude": -26.3446602,
         "longitude": -49.9070187,
-        "cep": 89340000,
+        "cep": "89340000",
         "pais": NaN
     },
     {
@@ -23800,7 +23800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.953252,
         "longitude": -47.0371895,
-        "cep": 13044590,
+        "cep": "13044590",
         "pais": "Brasil"
     },
     {
@@ -23810,7 +23810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.5103737,
         "longitude": -49.3268427,
-        "cep": 34800000,
+        "cep": "34800000",
         "pais": "Brasil"
     },
     {
@@ -23820,7 +23820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9061384,
         "longitude": -47.065405,
-        "cep": 13010111,
+        "cep": "13010111",
         "pais": "Brasil"
     },
     {
@@ -23830,7 +23830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8262668,
         "longitude": -47.1680157,
-        "cep": 13179515,
+        "cep": "13179515",
         "pais": "Brasil"
     },
     {
@@ -23840,7 +23840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13088683,
+        "cep": "13088683",
         "pais": "Brasil"
     },
     {
@@ -23850,7 +23850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2109304,
         "longitude": -45.9100107,
-        "cep": 13218114,
+        "cep": "13218114",
         "pais": "Brasil"
     },
     {
@@ -23860,7 +23860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8501781,
         "longitude": -47.10881,
-        "cep": 13082200,
+        "cep": "13082200",
         "pais": "Brasil"
     },
     {
@@ -23870,7 +23870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13050436,
+        "cep": "13050436",
         "pais": "Brasil"
     },
     {
@@ -23880,7 +23880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450866,
+        "cep": "13450866",
         "pais": "Brasil"
     },
     {
@@ -23890,7 +23890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185560,
+        "cep": "13185560",
         "pais": "Brasil"
     },
     {
@@ -23900,7 +23900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8544619,
         "longitude": -47.2269395,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -23910,7 +23910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052200,
+        "cep": "13052200",
         "pais": "Brasil"
     },
     {
@@ -23920,7 +23920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7778729,
         "longitude": -47.3493699,
-        "cep": 13467560,
+        "cep": "13467560",
         "pais": "Brasil"
     },
     {
@@ -23930,7 +23930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9235396,
         "longitude": -47.0155691,
-        "cep": 13101361,
+        "cep": "13101361",
         "pais": "Brasil"
     },
     {
@@ -23940,7 +23940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5571965,
         "longitude": -47.3772316,
-        "cep": 13486333,
+        "cep": "13486333",
         "pais": "Brasil"
     },
     {
@@ -23950,7 +23950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5907673,
         "longitude": -47.1674091,
-        "cep": 13825000,
+        "cep": "13825000",
         "pais": "Brasil"
     },
     {
@@ -23960,7 +23960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187179,
+        "cep": "13187179",
         "pais": "Brasil"
     },
     {
@@ -23970,7 +23970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042340,
+        "cep": "13042340",
         "pais": "Brasil"
     },
     {
@@ -23980,7 +23980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3549801,
         "longitude": -46.9400536,
-        "cep": 13847118,
+        "cep": "13847118",
         "pais": "Brasil"
     },
     {
@@ -23990,7 +23990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7777932,
         "longitude": -47.1777857,
-        "cep": 13142540,
+        "cep": "13142540",
         "pais": "Brasil"
     },
     {
@@ -24000,7 +24000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9597951,
         "longitude": -47.0658409,
-        "cep": 13049334,
+        "cep": "13049334",
         "pais": "Brasil"
     },
     {
@@ -24010,7 +24010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.812844,
         "longitude": -47.1977835,
-        "cep": 13178417,
+        "cep": "13178417",
         "pais": "Brasil"
     },
     {
@@ -24020,7 +24020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9350484,
         "longitude": -47.061358,
-        "cep": 13040108,
+        "cep": "13040108",
         "pais": "Brasil"
     },
     {
@@ -24030,7 +24030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5957416,
         "longitude": -47.3980338,
-        "cep": 13481381,
+        "cep": "13481381",
         "pais": "Brasil"
     },
     {
@@ -24040,7 +24040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058305,
+        "cep": "13058305",
         "pais": "Brasil"
     },
     {
@@ -24050,7 +24050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9173119,
         "longitude": -47.080056,
-        "cep": 13031385,
+        "cep": "13031385",
         "pais": "Brasil"
     },
     {
@@ -24060,7 +24060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064841,
+        "cep": "13064841",
         "pais": "Brasil"
     },
     {
@@ -24070,7 +24070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.9174514,
         "longitude": -48.6688154,
-        "cep": 13497192,
+        "cep": "13497192",
         "pais": "Brasil"
     },
     {
@@ -24080,7 +24080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4834798,
         "longitude": -46.6099892,
-        "cep": 2303080,
+        "cep": "02303080",
         "pais": "Brasil"
     },
     {
@@ -24090,7 +24090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.809755,
         "longitude": -47.248204,
-        "cep": 13175115,
+        "cep": "13175115",
         "pais": "Brasil"
     },
     {
@@ -24100,7 +24100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13059768,
+        "cep": "13059768",
         "pais": "Brasil"
     },
     {
@@ -24110,7 +24110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040725,
+        "cep": "13040725",
         "pais": "Brasil"
     },
     {
@@ -24120,7 +24120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470486,
+        "cep": "13470486",
         "pais": "Brasil"
     },
     {
@@ -24130,7 +24130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9493214,
         "longitude": -47.0773656,
-        "cep": 13051068,
+        "cep": "13051068",
         "pais": "Brasil"
     },
     {
@@ -24140,7 +24140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064000,
+        "cep": "13064000",
         "pais": "Brasil"
     },
     {
@@ -24150,7 +24150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8840901,
         "longitude": -47.1782626,
-        "cep": 13185143,
+        "cep": "13185143",
         "pais": "Brasil"
     },
     {
@@ -24160,7 +24160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9537942,
         "longitude": -47.0111981,
-        "cep": 13272513,
+        "cep": "13272513",
         "pais": "Brasil"
     },
     {
@@ -24170,7 +24170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7735736,
         "longitude": -47.3042812,
-        "cep": 13380410,
+        "cep": "13380410",
         "pais": "Brasil"
     },
     {
@@ -24180,7 +24180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8165897,
         "longitude": -47.0959936,
-        "cep": 13084609,
+        "cep": "13084609",
         "pais": "Brasil"
     },
     {
@@ -24190,7 +24190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9110182,
         "longitude": -47.0669952,
-        "cep": 13035270,
+        "cep": "13035270",
         "pais": "Brasil"
     },
     {
@@ -24200,7 +24200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8974924,
         "longitude": -47.2313591,
-        "cep": 13188002,
+        "cep": "13188002",
         "pais": "Brasil"
     },
     {
@@ -24210,7 +24210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13467120,
+        "cep": "13467120",
         "pais": "Brasil"
     },
     {
@@ -24220,7 +24220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13182630,
+        "cep": "13182630",
         "pais": "Brasil"
     },
     {
@@ -24230,7 +24230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6029061,
         "longitude": -47.3877314,
-        "cep": 13481467,
+        "cep": "13481467",
         "pais": "Brasil"
     },
     {
@@ -24240,7 +24240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181640,
+        "cep": "13181640",
         "pais": "Brasil"
     },
     {
@@ -24250,7 +24250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051069,
+        "cep": "13051069",
         "pais": "Brasil"
     },
     {
@@ -24260,7 +24260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13049107,
+        "cep": "13049107",
         "pais": "Brasil"
     },
     {
@@ -24270,7 +24270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8548107,
         "longitude": -47.2209659,
-        "cep": 13183080,
+        "cep": "13183080",
         "pais": "Brasil"
     },
     {
@@ -24280,7 +24280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9604886,
         "longitude": -46.9997919,
-        "cep": 13272106,
+        "cep": "13272106",
         "pais": "Brasil"
     },
     {
@@ -24290,7 +24290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034830,
+        "cep": "13034830",
         "pais": "Brasil"
     },
     {
@@ -24300,7 +24300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470487,
+        "cep": "13470487",
         "pais": "Brasil"
     },
     {
@@ -24310,7 +24310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13178559,
+        "cep": "13178559",
         "pais": "Brasil"
     },
     {
@@ -24320,7 +24320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8180025,
         "longitude": -47.232043,
-        "cep": 13175685,
+        "cep": "13175685",
         "pais": "Brasil"
     },
     {
@@ -24330,7 +24330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7758,
         "longitude": -47.2917,
-        "cep": 13386078,
+        "cep": "13386078",
         "pais": "Brasil"
     },
     {
@@ -24340,7 +24340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13085415,
+        "cep": "13085415",
         "pais": "Brasil"
     },
     {
@@ -24350,7 +24350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3928251,
         "longitude": -47.5846342,
-        "cep": 13504364,
+        "cep": "13504364",
         "pais": "Brasil"
     },
     {
@@ -24360,7 +24360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0017945,
         "longitude": -47.8970978,
-        "cep": 13566583,
+        "cep": "13566583",
         "pais": "Brasil"
     },
     {
@@ -24370,7 +24370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13185148,
+        "cep": "13185148",
         "pais": "Brasil"
     },
     {
@@ -24380,7 +24380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13186524,
+        "cep": "13186524",
         "pais": "Brasil"
     },
     {
@@ -24390,7 +24390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.452834,
         "longitude": -44.2662032,
-        "cep": 39300000,
+        "cep": "39300000",
         "pais": "Brasil"
     },
     {
@@ -24400,7 +24400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13327331,
+        "cep": "13327331",
         "pais": "Brasil"
     },
     {
@@ -24410,7 +24410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13069426,
+        "cep": "13069426",
         "pais": "Brasil"
     },
     {
@@ -24420,7 +24420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9858092,
         "longitude": -47.1492686,
-        "cep": 13056283,
+        "cep": "13056283",
         "pais": "Brasil"
     },
     {
@@ -24430,7 +24430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8788811,
         "longitude": -43.5249968,
-        "cep": 17260000,
+        "cep": "17260000",
         "pais": "Brasil"
     },
     {
@@ -24440,7 +24440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13042370,
+        "cep": "13042370",
         "pais": "Brasil"
     },
     {
@@ -24450,7 +24450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13190029,
+        "cep": "13190029",
         "pais": "Brasil"
     },
     {
@@ -24460,7 +24460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8964874,
         "longitude": -47.2200955,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -24470,7 +24470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9673281,
         "longitude": -46.9919056,
-        "cep": 13274125,
+        "cep": "13274125",
         "pais": "Brasil"
     },
     {
@@ -24480,7 +24480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.098218,
         "longitude": -47.2250135,
-        "cep": 13345705,
+        "cep": "13345705",
         "pais": "Brasil"
     },
     {
@@ -24490,7 +24490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13031680,
+        "cep": "13031680",
         "pais": "Brasil"
     },
     {
@@ -24500,7 +24500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -24510,7 +24510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13277021,
+        "cep": "13277021",
         "pais": "Brasil"
     },
     {
@@ -24520,7 +24520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9362308,
         "longitude": -47.0470814,
-        "cep": 13044290,
+        "cep": "13044290",
         "pais": "Brasil"
     },
     {
@@ -24530,7 +24530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9817836,
         "longitude": -47.1364429,
-        "cep": 13056137,
+        "cep": "13056137",
         "pais": "Brasil"
     },
     {
@@ -24540,7 +24540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8178586,
         "longitude": -47.007948,
-        "cep": 13098011,
+        "cep": "13098011",
         "pais": "Brasil"
     },
     {
@@ -24550,7 +24550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8288463,
         "longitude": -47.101936,
-        "cep": 13082754,
+        "cep": "13082754",
         "pais": "Brasil"
     },
     {
@@ -24560,7 +24560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13176205,
+        "cep": "13176205",
         "pais": "Brasil"
     },
     {
@@ -24570,7 +24570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13044491,
+        "cep": "13044491",
         "pais": "Brasil"
     },
     {
@@ -24580,7 +24580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9184401,
         "longitude": -47.102031,
-        "cep": 13060072,
+        "cep": "13060072",
         "pais": "Brasil"
     },
     {
@@ -24590,7 +24590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7767128,
         "longitude": -46.7108179,
-        "cep": 13506670,
+        "cep": "13506670",
         "pais": "Brasil"
     },
     {
@@ -24600,7 +24600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9893977,
         "longitude": -47.1000521,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -24610,7 +24610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1305103,
+        "cep": "01305103",
         "pais": "Brasil"
     },
     {
@@ -24620,7 +24620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1305800,
+        "cep": "01305800",
         "pais": "Brasil"
     },
     {
@@ -24630,7 +24630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2840884,
         "longitude": -48.1267265,
-        "cep": 17380000,
+        "cep": "17380000",
         "pais": "Brasil"
     },
     {
@@ -24640,7 +24640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8559199,
         "longitude": -47.1069223,
-        "cep": 13082045,
+        "cep": "13082045",
         "pais": "Brasil"
     },
     {
@@ -24650,7 +24650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13172440,
+        "cep": "13172440",
         "pais": "Brasil"
     },
     {
@@ -24660,7 +24660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2177862,
         "longitude": -46.8756955,
-        "cep": 13206270,
+        "cep": "13206270",
         "pais": "Brasil"
     },
     {
@@ -24670,7 +24670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9352346,
         "longitude": -47.1247193,
-        "cep": 13060722,
+        "cep": "13060722",
         "pais": "Brasil"
     },
     {
@@ -24680,7 +24680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8938096,
         "longitude": -47.1982623,
-        "cep": 13186472,
+        "cep": "13186472",
         "pais": "Brasil"
     },
     {
@@ -24690,7 +24690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6774413,
         "longitude": -47.7072728,
-        "cep": 13409016,
+        "cep": "13409016",
         "pais": "Brasil"
     },
     {
@@ -24700,7 +24700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056803,
+        "cep": "13056803",
         "pais": "Brasil"
     },
     {
@@ -24710,7 +24710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7601,
         "longitude": -47.1645,
-        "cep": 13142370,
+        "cep": "13142370",
         "pais": "Brasil"
     },
     {
@@ -24720,7 +24720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9342631,
         "longitude": -47.0132435,
-        "cep": 13046395,
+        "cep": "13046395",
         "pais": "Brasil"
     },
     {
@@ -24730,7 +24730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9421422,
         "longitude": -47.1911058,
-        "cep": 13058514,
+        "cep": "13058514",
         "pais": "Brasil"
     },
     {
@@ -24740,7 +24740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.863488,
         "longitude": -47.065931,
-        "cep": 13087210,
+        "cep": "13087210",
         "pais": "Brasil"
     },
     {
@@ -24750,7 +24750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3754989,
         "longitude": -47.5538247,
-        "cep": 13506410,
+        "cep": "13506410",
         "pais": "Brasil"
     },
     {
@@ -24760,7 +24760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8568461,
         "longitude": -47.0630115,
-        "cep": 13080450,
+        "cep": "13080450",
         "pais": "Brasil"
     },
     {
@@ -24770,7 +24770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9175599,
         "longitude": -47.0514273,
-        "cep": 13041500,
+        "cep": "13041500",
         "pais": "Brasil"
     },
     {
@@ -24780,7 +24780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13046020,
+        "cep": "13046020",
         "pais": "Brasil"
     },
     {
@@ -24790,7 +24790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7388,
         "longitude": -47.3359,
-        "cep": 13470749,
+        "cep": "13470749",
         "pais": "Brasil"
     },
     {
@@ -24800,7 +24800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6931,
         "longitude": -46.9926,
-        "cep": 13914553,
+        "cep": "13914553",
         "pais": "Brasil"
     },
     {
@@ -24810,7 +24810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13299035,
+        "cep": "13299035",
         "pais": "Brasil"
     },
     {
@@ -24820,7 +24820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13184896,
+        "cep": "13184896",
         "pais": "Brasil"
     },
     {
@@ -24830,7 +24830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9271709,
         "longitude": -47.1622098,
-        "cep": 13059226,
+        "cep": "13059226",
         "pais": "Brasil"
     },
     {
@@ -24840,7 +24840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7701045,
         "longitude": -47.1593841,
-        "cep": 13140388,
+        "cep": "13140388",
         "pais": "Brasil"
     },
     {
@@ -24850,7 +24850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 6150270,
+        "cep": "06150270",
         "pais": "Brasil"
     },
     {
@@ -24860,7 +24860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9743682,
         "longitude": -47.1189477,
-        "cep": 13054211,
+        "cep": "13054211",
         "pais": "Brasil"
     },
     {
@@ -24870,7 +24870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.738573,
         "longitude": -47.2901763,
-        "cep": 13477708,
+        "cep": "13477708",
         "pais": "Brasil"
     },
     {
@@ -24880,7 +24880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.929151,
         "longitude": -47.1127621,
-        "cep": 13060852,
+        "cep": "13060852",
         "pais": "Brasil"
     },
     {
@@ -24890,7 +24890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8538327,
         "longitude": -47.0658026,
-        "cep": 13080340,
+        "cep": "13080340",
         "pais": "Brasil"
     },
     {
@@ -24900,7 +24900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1982652,
         "longitude": -46.8839977,
-        "cep": 13207210,
+        "cep": "13207210",
         "pais": "Brasil"
     },
     {
@@ -24910,7 +24910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1021221,
         "longitude": -47.2197624,
-        "cep": 13345443,
+        "cep": "13345443",
         "pais": "Brasil"
     },
     {
@@ -24920,7 +24920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5398323,
         "longitude": -46.7162843,
-        "cep": 17393048,
+        "cep": "17393048",
         "pais": "Brasil"
     },
     {
@@ -24930,7 +24930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.863488,
         "longitude": -47.065931,
-        "cep": 13087210,
+        "cep": "13087210",
         "pais": "Brasil"
     },
     {
@@ -24940,7 +24940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8904964,
         "longitude": -47.181811,
-        "cep": 13185010,
+        "cep": "13185010",
         "pais": "Brasil"
     },
     {
@@ -24950,7 +24950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454038,
+        "cep": "13454038",
         "pais": "Brasil"
     },
     {
@@ -24960,7 +24960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274440,
+        "cep": "13274440",
         "pais": "Brasil"
     },
     {
@@ -24970,7 +24970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.182082,
         "longitude": -47.7643348,
-        "cep": 14092100,
+        "cep": "14092100",
         "pais": "Brasil"
     },
     {
@@ -24980,7 +24980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13315000,
+        "cep": "13315000",
         "pais": "Brasil"
     },
     {
@@ -24990,7 +24990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13040656,
+        "cep": "13040656",
         "pais": "Brasil"
     },
     {
@@ -25000,7 +25000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7933755,
         "longitude": -47.0876757,
-        "cep": 13085260,
+        "cep": "13085260",
         "pais": "Brasil"
     },
     {
@@ -25010,7 +25010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8299317,
         "longitude": -47.2612781,
-        "cep": 13171030,
+        "cep": "13171030",
         "pais": "Brasil"
     },
     {
@@ -25020,7 +25020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453882,
+        "cep": "13453882",
         "pais": "Brasil"
     },
     {
@@ -25030,7 +25030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.7118986,
         "longitude": -53.7571737,
-        "cep": 13825000,
+        "cep": "13825000",
         "pais": "Brasil"
     },
     {
@@ -25040,7 +25040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272725,
+        "cep": "13272725",
         "pais": "Brasil"
     },
     {
@@ -25050,7 +25050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.69933,
         "longitude": -47.023628,
-        "cep": 13917662,
+        "cep": "13917662",
         "pais": "Brasil"
     },
     {
@@ -25060,7 +25060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13056382,
+        "cep": "13056382",
         "pais": "Brasil"
     },
     {
@@ -25070,7 +25070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13034205,
+        "cep": "13034205",
         "pais": "Brasil"
     },
     {
@@ -25080,7 +25080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174462,
+        "cep": "13174462",
         "pais": "Brasil"
     },
     {
@@ -25090,7 +25090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13474358,
+        "cep": "13474358",
         "pais": "Brasil"
     },
     {
@@ -25100,7 +25100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1571801,
         "longitude": -47.0410543,
-        "cep": 13198524,
+        "cep": "13198524",
         "pais": "Brasil"
     },
     {
@@ -25110,7 +25110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13331490,
+        "cep": "13331490",
         "pais": "Brasil"
     },
     {
@@ -25120,7 +25120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13348359,
+        "cep": "13348359",
         "pais": "Brasil"
     },
     {
@@ -25130,7 +25130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13483527,
+        "cep": "13483527",
         "pais": "Brasil"
     },
     {
@@ -25140,7 +25140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9703322,
         "longitude": -47.1042317,
-        "cep": 13477160,
+        "cep": "13477160",
         "pais": "Brasil"
     },
     {
@@ -25150,7 +25150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13282530,
+        "cep": "13282530",
         "pais": "Brasil"
     },
     {
@@ -25160,7 +25160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2293465,
         "longitude": -49.6409981,
-        "cep": 13063570,
+        "cep": "13063570",
         "pais": "Brasil"
     },
     {
@@ -25170,7 +25170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1223262,
         "longitude": -46.5531514,
-        "cep": 13100474,
+        "cep": "13100474",
         "pais": "Brasil"
     },
     {
@@ -25180,7 +25180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7742755,
         "longitude": -47.1689074,
-        "cep": 13142458,
+        "cep": "13142458",
         "pais": "Brasil"
     },
     {
@@ -25190,7 +25190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -31.8443734,
         "longitude": -59.0061253,
-        "cep": 13052573,
+        "cep": "13052573",
         "pais": "Brasil"
     },
     {
@@ -25200,7 +25200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.807578,
         "longitude": -38.6324501,
-        "cep": 13045603,
+        "cep": "13045603",
         "pais": "Brasil"
     },
     {
@@ -25210,7 +25210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0990561,
         "longitude": -47.1994076,
-        "cep": 13277501,
+        "cep": "13277501",
         "pais": "Brasil"
     },
     {
@@ -25220,7 +25220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -2.4511749,
         "longitude": -46.039127,
-        "cep": 13030270,
+        "cep": "13030270",
         "pais": "Brasil"
     },
     {
@@ -25230,7 +25230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9685086,
         "longitude": -47.1497464,
-        "cep": 13056502,
+        "cep": "13056502",
         "pais": "Brasil"
     },
     {
@@ -25240,7 +25240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7995666,
         "longitude": -47.1948595,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -25250,7 +25250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.944483,
         "longitude": -47.1227975,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -25260,7 +25260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7000036,
         "longitude": -46.692328,
-        "cep": 13188180,
+        "cep": "13188180",
         "pais": "Brasil"
     },
     {
@@ -25270,7 +25270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.6513178,
         "longitude": -69.8880851,
-        "cep": 13049099,
+        "cep": "13049099",
         "pais": "Brasil"
     },
     {
@@ -25280,7 +25280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1431341,
         "longitude": -46.9837362,
-        "cep": 13030710,
+        "cep": "13030710",
         "pais": "Brasil"
     },
     {
@@ -25290,7 +25290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323711,
+        "cep": "13323711",
         "pais": "Brasil"
     },
     {
@@ -25300,7 +25300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3978737,
         "longitude": -51.9800357,
-        "cep": 13077003,
+        "cep": "13077003",
         "pais": "Brasil"
     },
     {
@@ -25310,7 +25310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8674924,
         "longitude": -43.2361404,
-        "cep": 13064786,
+        "cep": "13064786",
         "pais": "Brasil"
     },
     {
@@ -25320,7 +25320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.80321,
         "longitude": -55.740151,
-        "cep": 13056117,
+        "cep": "13056117",
         "pais": "Brasil"
     },
     {
@@ -25330,7 +25330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6359864,
         "longitude": -46.5700777,
-        "cep": 13483220,
+        "cep": "13483220",
         "pais": "Brasil"
     },
     {
@@ -25340,7 +25340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7392373,
         "longitude": -43.4769892,
-        "cep": 13050551,
+        "cep": "13050551",
         "pais": "Brasil"
     },
     {
@@ -25350,7 +25350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13271130,
+        "cep": "13271130",
         "pais": "Brasil"
     },
     {
@@ -25360,7 +25360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5498368,
         "longitude": -47.9942415,
-        "cep": 13059193,
+        "cep": "13059193",
         "pais": "Brasil"
     },
     {
@@ -25370,7 +25370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13187115,
+        "cep": "13187115",
         "pais": "Brasil"
     },
     {
@@ -25380,7 +25380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7227951,
         "longitude": -46.6945268,
-        "cep": 13087210,
+        "cep": "13087210",
         "pais": "Brasil"
     },
     {
@@ -25390,7 +25390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8092793,
         "longitude": -43.1673698,
-        "cep": 13053310,
+        "cep": "13053310",
         "pais": "Brasil"
     },
     {
@@ -25400,7 +25400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.9269125,
         "longitude": -44.0666707,
-        "cep": 13186013,
+        "cep": "13186013",
         "pais": "Brasil"
     },
     {
@@ -25410,7 +25410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0051984,
         "longitude": -47.5333876,
-        "cep": 13370000,
+        "cep": "13370000",
         "pais": "Brasil"
     },
     {
@@ -25420,7 +25420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7109597,
         "longitude": -46.8056419,
-        "cep": 13905475,
+        "cep": "13905475",
         "pais": "Brasil"
     },
     {
@@ -25430,7 +25430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4660108,
         "longitude": -47.4920323,
-        "cep": 18071450,
+        "cep": "18071450",
         "pais": "Brasil"
     },
     {
@@ -25440,7 +25440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13483280,
+        "cep": "13483280",
         "pais": "Brasil"
     },
     {
@@ -25450,7 +25450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4459457,
         "longitude": -46.3959202,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -25460,7 +25460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2756166,
         "longitude": -51.4998698,
-        "cep": 13042620,
+        "cep": "13042620",
         "pais": "Brasil"
     },
     {
@@ -25470,7 +25470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13502470,
+        "cep": "13502470",
         "pais": "Brasil"
     },
     {
@@ -25480,7 +25480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1604764,
         "longitude": -46.584771,
-        "cep": 12947768,
+        "cep": "12947768",
         "pais": "Brasil"
     },
     {
@@ -25490,7 +25490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7895225,
         "longitude": -43.9678355,
-        "cep": 13059625,
+        "cep": "13059625",
         "pais": "Brasil"
     },
     {
@@ -25500,7 +25500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8067985,
         "longitude": -47.9227347,
-        "cep": 13174340,
+        "cep": "13174340",
         "pais": "Brasil"
     },
     {
@@ -25510,7 +25510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -28.6500006,
         "longitude": -53.595459,
-        "cep": 13058016,
+        "cep": "13058016",
         "pais": "Brasil"
     },
     {
@@ -25520,7 +25520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.9459268,
         "longitude": -44.1826816,
-        "cep": 13054787,
+        "cep": "13054787",
         "pais": "Brasil"
     },
     {
@@ -25530,7 +25530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.460712,
         "longitude": -47.5093137,
-        "cep": 13185490,
+        "cep": "13185490",
         "pais": "Brasil"
     },
     {
@@ -25540,7 +25540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9118244,
         "longitude": -47.0575696,
-        "cep": 13026510,
+        "cep": "13026510",
         "pais": "Brasil"
     },
     {
@@ -25550,7 +25550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.2235188,
         "longitude": -38.2872554,
-        "cep": 13020160,
+        "cep": "13020160",
         "pais": "Brasil"
     },
     {
@@ -25560,7 +25560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.6176328,
         "longitude": -57.4882639,
-        "cep": 13053005,
+        "cep": "13053005",
         "pais": "Brasil"
     },
     {
@@ -25570,7 +25570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5590412,
         "longitude": -48.0277532,
-        "cep": 13348882,
+        "cep": "13348882",
         "pais": "Brasil"
     },
     {
@@ -25580,7 +25580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2019948,
         "longitude": -54.7969748,
-        "cep": 13051227,
+        "cep": "13051227",
         "pais": "Brasil"
     },
     {
@@ -25590,7 +25590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5625301,
         "longitude": -47.4379781,
-        "cep": 13178381,
+        "cep": "13178381",
         "pais": "Brasil"
     },
     {
@@ -25600,7 +25600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7974393,
         "longitude": -45.1928982,
-        "cep": 13274000,
+        "cep": "13274000",
         "pais": "Brasil"
     },
     {
@@ -25610,7 +25610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.3955525,
         "longitude": -49.3438677,
-        "cep": 13178230,
+        "cep": "13178230",
         "pais": "Brasil"
     },
     {
@@ -25620,7 +25620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0984704,
         "longitude": -47.7194738,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -25630,7 +25630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.0965399,
         "longitude": -45.0938799,
-        "cep": 13053368,
+        "cep": "13053368",
         "pais": "Brasil"
     },
     {
@@ -25640,7 +25640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455450,
+        "cep": "13455450",
         "pais": "Brasil"
     },
     {
@@ -25650,7 +25650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1305014,
+        "cep": "01305014",
         "pais": "Brasil"
     },
     {
@@ -25660,7 +25660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9181007,
         "longitude": -47.1012263,
-        "cep": 13044160,
+        "cep": "13044160",
         "pais": "Brasil"
     },
     {
@@ -25670,7 +25670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.916789,
         "longitude": -38.4429063,
-        "cep": 12482333,
+        "cep": "12482333",
         "pais": "Brasil"
     },
     {
@@ -25680,7 +25680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7755587,
         "longitude": -47.6645326,
-        "cep": 13145537,
+        "cep": "13145537",
         "pais": "Brasil"
     },
     {
@@ -25690,7 +25690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0714616,
         "longitude": -51.1112738,
-        "cep": 13040735,
+        "cep": "13040735",
         "pais": "Brasil"
     },
     {
@@ -25700,7 +25700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -15.5998689,
         "longitude": -56.089386,
-        "cep": 13082612,
+        "cep": "13082612",
         "pais": "Brasil"
     },
     {
@@ -25710,7 +25710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4468592,
         "longitude": -46.7463907,
-        "cep": 13363592,
+        "cep": "13363592",
         "pais": "Brasil"
     },
     {
@@ -25720,7 +25720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1531345,
         "longitude": -47.0607508,
-        "cep": 13272819,
+        "cep": "13272819",
         "pais": "Brasil"
     },
     {
@@ -25730,7 +25730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13260000,
+        "cep": "13260000",
         "pais": "Brasil"
     },
     {
@@ -25740,7 +25740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8500599,
         "longitude": -47.1090414,
-        "cep": 13082200,
+        "cep": "13082200",
         "pais": "Brasil"
     },
     {
@@ -25750,7 +25750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13218335,
+        "cep": "13218335",
         "pais": "Brasil"
     },
     {
@@ -25760,7 +25760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -25770,7 +25770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1191704,
         "longitude": -48.3220619,
-        "cep": 13175561,
+        "cep": "13175561",
         "pais": "Brasil"
     },
     {
@@ -25780,7 +25780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.4363687,
         "longitude": -50.0759487,
-        "cep": 13140526,
+        "cep": "13140526",
         "pais": "Brasil"
     },
     {
@@ -25790,7 +25790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6401735,
         "longitude": -46.7481685,
-        "cep": 13188010,
+        "cep": "13188010",
         "pais": "Brasil"
     },
     {
@@ -25800,7 +25800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4853147,
         "longitude": -46.4597075,
-        "cep": 13187074,
+        "cep": "13187074",
         "pais": "Brasil"
     },
     {
@@ -25810,7 +25810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.331441,
         "longitude": -48.8344356,
-        "cep": 23440078,
+        "cep": "23440078",
         "pais": "Brasil"
     },
     {
@@ -25820,7 +25820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.1740877,
         "longitude": -53.3643899,
-        "cep": 13056147,
+        "cep": "13056147",
         "pais": "Brasil"
     },
     {
@@ -25830,7 +25830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.5908753,
         "longitude": -46.9146403,
-        "cep": 13050464,
+        "cep": "13050464",
         "pais": "Brasil"
     },
     {
@@ -25840,7 +25840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.4719953,
         "longitude": -53.4726164,
-        "cep": 13064845,
+        "cep": "13064845",
         "pais": "Brasil"
     },
     {
@@ -25850,7 +25850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -11.5057202,
         "longitude": -54.8763166,
-        "cep": 13198416,
+        "cep": "13198416",
         "pais": "Brasil"
     },
     {
@@ -25860,7 +25860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13345794,
+        "cep": "13345794",
         "pais": "Brasil"
     },
     {
@@ -25870,7 +25870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243995,
         "longitude": -47.0097048,
-        "cep": 13915001,
+        "cep": "13915001",
         "pais": "Brasil"
     },
     {
@@ -25880,7 +25880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.2003311,
         "longitude": -43.7936146,
-        "cep": 13058377,
+        "cep": "13058377",
         "pais": "Brasil"
     },
     {
@@ -25890,18 +25890,18 @@ const usuarios = [
         "estado": "SP",
         "latitude": -0.6973043,
         "longitude": -48.5187103,
-        "cep": 13100152,
+        "cep": "13100152",
         "pais": "Brasil"
     },
     {
         "id": 2590,
-        "nome": "Victor Renan",
-        "cidade": "Campinas",
-        "estado": "SP",
-        "latitude": -22.9104511,
-        "longitude": -47.0517111,
-        "cep": 13026001,
-        "pais": "Brasil"
+        "nome": "Victor ReINDEFINIDOCampinas",
+        "cidade": "SP",
+        "estado": "-22.9104511",
+        "latitude": -47.0517111,
+        "longitude": 13026001.0,
+        "cep": "Brasil",
+        "pais": NaN
     },
     {
         "id": 2591,
@@ -25910,7 +25910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7698192,
         "longitude": -47.6535785,
-        "cep": 13401630,
+        "cep": "13401630",
         "pais": "Brasil"
     },
     {
@@ -25920,7 +25920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9396172,
         "longitude": -47.1150178,
-        "cep": 13060484,
+        "cep": "13060484",
         "pais": "Brasil"
     },
     {
@@ -25930,7 +25930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6053539,
         "longitude": -41.9991862,
-        "cep": 13042330,
+        "cep": "13042330",
         "pais": "Brasil"
     },
     {
@@ -25940,7 +25940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.970904,
         "longitude": -46.3247715,
-        "cep": 11045540,
+        "cep": "11045540",
         "pais": "Brasil"
     },
     {
@@ -25950,7 +25950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13467197,
+        "cep": "13467197",
         "pais": "Brasil"
     },
     {
@@ -25960,7 +25960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6783761,
         "longitude": -46.6821382,
-        "cep": 13052610,
+        "cep": "13052610",
         "pais": "Brasil"
     },
     {
@@ -25970,7 +25970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13504130,
+        "cep": "13504130",
         "pais": "Brasil"
     },
     {
@@ -25980,7 +25980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9882031,
         "longitude": -47.0993484,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -25990,7 +25990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4134148,
         "longitude": -47.3957784,
-        "cep": 13606224,
+        "cep": "13606224",
         "pais": "Brasil"
     },
     {
@@ -26000,7 +26000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0873449,
         "longitude": -47.2256845,
-        "cep": 13471030,
+        "cep": "13471030",
         "pais": "Brasil"
     },
     {
@@ -26010,7 +26010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0414458,
         "longitude": -44.2142956,
-        "cep": 13101322,
+        "cep": "13101322",
         "pais": "Brasil"
     },
     {
@@ -26020,7 +26020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2172002,
         "longitude": -49.9500061,
-        "cep": 18117610,
+        "cep": "18117610",
         "pais": "Brasil"
     },
     {
@@ -26030,7 +26030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.9534651,
         "longitude": -48.2355103,
-        "cep": 13053172,
+        "cep": "13053172",
         "pais": "Brasil"
     },
     {
@@ -26040,7 +26040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7435786,
         "longitude": -47.2935323,
-        "cep": 13477700,
+        "cep": "13477700",
         "pais": "Brasil"
     },
     {
@@ -26050,7 +26050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.2563086,
         "longitude": -35.944466,
-        "cep": 13150027,
+        "cep": "13150027",
         "pais": "Brasil"
     },
     {
@@ -26060,7 +26060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.846832,
         "longitude": -41.9353248,
-        "cep": 13041081,
+        "cep": "13041081",
         "pais": "Brasil"
     },
     {
@@ -26070,7 +26070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9191988,
         "longitude": -47.1070112,
-        "cep": 13060090,
+        "cep": "13060090",
         "pais": "Brasil"
     },
     {
@@ -26080,7 +26080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0617993,
         "longitude": -44.2313244,
-        "cep": 13186032,
+        "cep": "13186032",
         "pais": "Brasil"
     },
     {
@@ -26090,7 +26090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482095,
+        "cep": "13482095",
         "pais": "Brasil"
     },
     {
@@ -26100,7 +26100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.1054698,
         "longitude": -49.8679641,
-        "cep": 13050553,
+        "cep": "13050553",
         "pais": "Brasil"
     },
     {
@@ -26110,7 +26110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5795007,
         "longitude": -46.7667974,
-        "cep": 13051038,
+        "cep": "13051038",
         "pais": "Brasil"
     },
     {
@@ -26120,7 +26120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1616485,
         "longitude": -45.8909546,
-        "cep": 13090714,
+        "cep": "13090714",
         "pais": "Brasil"
     },
     {
@@ -26130,7 +26130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5475464,
         "longitude": -46.8006971,
-        "cep": 13064860,
+        "cep": "13064860",
         "pais": "Brasil"
     },
     {
@@ -26140,7 +26140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.8339327,
         "longitude": -48.4799742,
-        "cep": 13188191,
+        "cep": "13188191",
         "pais": "Brasil"
     },
     {
@@ -26150,7 +26150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6117413,
         "longitude": -47.432672,
-        "cep": 13185344,
+        "cep": "13185344",
         "pais": "Brasil"
     },
     {
@@ -26160,7 +26160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5945696,
         "longitude": -46.5102249,
-        "cep": 13505494,
+        "cep": "13505494",
         "pais": "Brasil"
     },
     {
@@ -26170,7 +26170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2020453,
         "longitude": -45.95775,
-        "cep": 13045050,
+        "cep": "13045050",
         "pais": "Brasil"
     },
     {
@@ -26180,7 +26180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7841551,
         "longitude": -41.3148769,
-        "cep": 13045590,
+        "cep": "13045590",
         "pais": "Brasil"
     },
     {
@@ -26190,7 +26190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.3560687,
         "longitude": -51.8511364,
-        "cep": 18559899,
+        "cep": "18559899",
         "pais": "Brasil"
     },
     {
@@ -26200,7 +26200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7356539,
         "longitude": -47.6065049,
-        "cep": 13420823,
+        "cep": "13420823",
         "pais": "Brasil"
     },
     {
@@ -26210,7 +26210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5933542,
         "longitude": -47.8645445,
-        "cep": 13050133,
+        "cep": "13050133",
         "pais": "Brasil"
     },
     {
@@ -26220,7 +26220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9858334,
         "longitude": -47.5107032,
-        "cep": 13360000,
+        "cep": "13360000",
         "pais": "Brasil"
     },
     {
@@ -26230,7 +26230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -16.1615388,
         "longitude": -42.2816483,
-        "cep": 13058413,
+        "cep": "13058413",
         "pais": "Brasil"
     },
     {
@@ -26240,7 +26240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.437368,
         "longitude": -43.6041187,
-        "cep": 13045260,
+        "cep": "13045260",
         "pais": "Brasil"
     },
     {
@@ -26250,7 +26250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8883795,
         "longitude": -47.0582397,
-        "cep": 13140693,
+        "cep": "13140693",
         "pais": "Brasil"
     },
     {
@@ -26260,7 +26260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181570,
+        "cep": "13181570",
         "pais": "Brasil"
     },
     {
@@ -26270,7 +26270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.7292165,
         "longitude": -57.0482981,
-        "cep": 13051125,
+        "cep": "13051125",
         "pais": "Brasil"
     },
     {
@@ -26280,7 +26280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.0542687,
         "longitude": -50.1039598,
-        "cep": 13910003,
+        "cep": "13910003",
         "pais": "Brasil"
     },
     {
@@ -26290,7 +26290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7514141,
         "longitude": -47.1635881,
-        "cep": 13145153,
+        "cep": "13145153",
         "pais": "Brasil"
     },
     {
@@ -26300,7 +26300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454002,
+        "cep": "13454002",
         "pais": "Brasil"
     },
     {
@@ -26310,7 +26310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5033122,
         "longitude": -47.4338921,
-        "cep": 37795000,
+        "cep": "37795000",
         "pais": "Brasil"
     },
     {
@@ -26320,7 +26320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5974094,
         "longitude": -46.7328819,
-        "cep": 13188064,
+        "cep": "13188064",
         "pais": "Brasil"
     },
     {
@@ -26330,7 +26330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7691355,
         "longitude": -46.6942497,
-        "cep": 13101340,
+        "cep": "13101340",
         "pais": "Brasil"
     },
     {
@@ -26340,7 +26340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13179430,
+        "cep": "13179430",
         "pais": "Brasil"
     },
     {
@@ -26350,7 +26350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13468866,
+        "cep": "13468866",
         "pais": "Brasil"
     },
     {
@@ -26360,7 +26360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13178400,
+        "cep": "13178400",
         "pais": "Brasil"
     },
     {
@@ -26370,7 +26370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7271731,
         "longitude": -47.3259323,
-        "cep": 12927040,
+        "cep": "12927040",
         "pais": "Brasil"
     },
     {
@@ -26380,7 +26380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1294245,
         "longitude": -47.2408588,
-        "cep": 13348220,
+        "cep": "13348220",
         "pais": "Brasil"
     },
     {
@@ -26390,7 +26390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6301142,
         "longitude": -46.9412969,
-        "cep": 13056117,
+        "cep": "13056117",
         "pais": "Brasil"
     },
     {
@@ -26400,7 +26400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2809997,
         "longitude": -45.9635855,
-        "cep": 13054656,
+        "cep": "13054656",
         "pais": "Brasil"
     },
     {
@@ -26410,7 +26410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8895241,
         "longitude": -47.0790029,
-        "cep": 13070070,
+        "cep": "13070070",
         "pais": "Brasil"
     },
     {
@@ -26420,7 +26420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5492601,
         "longitude": -46.4395229,
-        "cep": 13058176,
+        "cep": "13058176",
         "pais": "Brasil"
     },
     {
@@ -26430,7 +26430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9541662,
         "longitude": -47.0852444,
-        "cep": 13173425,
+        "cep": "13173425",
         "pais": "Brasil"
     },
     {
@@ -26440,7 +26440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456703,
+        "cep": "13456703",
         "pais": "Brasil"
     },
     {
@@ -26450,7 +26450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7005224,
         "longitude": -44.8228911,
-        "cep": 13273271,
+        "cep": "13273271",
         "pais": "Brasil"
     },
     {
@@ -26460,7 +26460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0283855,
         "longitude": -44.2232131,
-        "cep": 13272300,
+        "cep": "13272300",
         "pais": "Brasil"
     },
     {
@@ -26470,7 +26470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.437247,
         "longitude": -47.583958,
-        "cep": 13502270,
+        "cep": "13502270",
         "pais": "Brasil"
     },
     {
@@ -26480,7 +26480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6750227,
         "longitude": -50.4077152,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -26490,7 +26490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.210948,
         "longitude": -47.5212331,
-        "cep": 13467273,
+        "cep": "13467273",
         "pais": "Brasil"
     },
     {
@@ -26500,7 +26500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.829794,
         "longitude": -46.3207023,
-        "cep": 13187167,
+        "cep": "13187167",
         "pais": "Brasil"
     },
     {
@@ -26510,7 +26510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.1658847,
         "longitude": -44.8687238,
-        "cep": 4331020,
+        "cep": "04331020",
         "pais": "Brasil"
     },
     {
@@ -26520,7 +26520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8407756,
         "longitude": -47.1560695,
-        "cep": 13069099,
+        "cep": "13069099",
         "pais": "Brasil"
     },
     {
@@ -26530,7 +26530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2748208,
         "longitude": -48.1399057,
-        "cep": 13070,
+        "cep": "00013070",
         "pais": "Brasil"
     },
     {
@@ -26540,7 +26540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9125144,
         "longitude": -47.0847192,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -26550,7 +26550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5615254,
         "longitude": -47.4113865,
-        "cep": 13480743,
+        "cep": "13480743",
         "pais": "Brasil"
     },
     {
@@ -26560,7 +26560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13457089,
+        "cep": "13457089",
         "pais": "Brasil"
     },
     {
@@ -26570,7 +26570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4178494,
         "longitude": -47.5637816,
-        "cep": 13500330,
+        "cep": "13500330",
         "pais": "Brasil"
     },
     {
@@ -26580,7 +26580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8538627,
         "longitude": -47.0532376,
-        "cep": 13087460,
+        "cep": "13087460",
         "pais": "Brasil"
     },
     {
@@ -26590,7 +26590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7768955,
         "longitude": -45.1866901,
-        "cep": 13833072,
+        "cep": "13833072",
         "pais": "Brasil"
     },
     {
@@ -26600,7 +26600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13188002,
+        "cep": "13188002",
         "pais": "Brasil"
     },
     {
@@ -26610,7 +26610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13327467,
+        "cep": "13327467",
         "pais": "Brasil"
     },
     {
@@ -26620,7 +26620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5456442,
         "longitude": -47.4581354,
-        "cep": 13061371,
+        "cep": "13061371",
         "pais": "Brasil"
     },
     {
@@ -26630,7 +26630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2441316,
         "longitude": -45.8999923,
-        "cep": 13065650,
+        "cep": "13065650",
         "pais": "Brasil"
     },
     {
@@ -26640,7 +26640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8976455,
         "longitude": -47.0675819,
-        "cep": 13020110,
+        "cep": "13020110",
         "pais": "Brasil"
     },
     {
@@ -26650,7 +26650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7946935,
         "longitude": -47.9764867,
-        "cep": 13183661,
+        "cep": "13183661",
         "pais": "Brasil"
     },
     {
@@ -26660,7 +26660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1788255,
         "longitude": -46.9841903,
-        "cep": 13075490,
+        "cep": "13075490",
         "pais": "Brasil"
     },
     {
@@ -26670,7 +26670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.001899,
         "longitude": -48.360081,
-        "cep": 13030580,
+        "cep": "13030580",
         "pais": "Brasil"
     },
     {
@@ -26680,7 +26680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9190931,
         "longitude": -47.10287,
-        "cep": 13060072,
+        "cep": "13060072",
         "pais": "Brasil"
     },
     {
@@ -26690,7 +26690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1542938,
         "longitude": -51.3871465,
-        "cep": 13186472,
+        "cep": "13186472",
         "pais": "Brasil"
     },
     {
@@ -26700,7 +26700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5398178,
         "longitude": -46.6698493,
-        "cep": 5013001,
+        "cep": "05013001",
         "pais": "Brasil"
     },
     {
@@ -26710,7 +26710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9071877,
         "longitude": -47.0849617,
-        "cep": 13032385,
+        "cep": "13032385",
         "pais": "Brasil"
     },
     {
@@ -26720,7 +26720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7201256,
         "longitude": -47.1700682,
-        "cep": 13145828,
+        "cep": "13145828",
         "pais": "Brasil"
     },
     {
@@ -26730,7 +26730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.7198319,
         "longitude": -42.913866,
-        "cep": 13064210,
+        "cep": "13064210",
         "pais": "Brasil"
     },
     {
@@ -26740,7 +26740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.6831552,
         "longitude": -51.0716337,
-        "cep": 17800000,
+        "cep": "17800000",
         "pais": "Brasil"
     },
     {
@@ -26750,7 +26750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13467520,
+        "cep": "13467520",
         "pais": "Brasil"
     },
     {
@@ -26760,7 +26760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9412004,
         "longitude": -47.1862493,
-        "cep": 13058533,
+        "cep": "13058533",
         "pais": "Brasil"
     },
     {
@@ -26770,7 +26770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7965676,
         "longitude": -47.1047335,
-        "cep": 13186012,
+        "cep": "13186012",
         "pais": "Brasil"
     },
     {
@@ -26780,7 +26780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.2977518,
         "longitude": -46.6943032,
-        "cep": 13183310,
+        "cep": "13183310",
         "pais": "Brasil"
     },
     {
@@ -26790,7 +26790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181502,
+        "cep": "13181502",
         "pais": "Brasil"
     },
     {
@@ -26800,7 +26800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4670936,
         "longitude": -47.3985609,
-        "cep": 13493292,
+        "cep": "13493292",
         "pais": "Brasil"
     },
     {
@@ -26810,7 +26810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.206264,
         "longitude": -46.9022089,
-        "cep": 13090715,
+        "cep": "13090715",
         "pais": "Brasil"
     },
     {
@@ -26820,7 +26820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1889725,
         "longitude": -47.3917896,
-        "cep": 13178373,
+        "cep": "13178373",
         "pais": "Brasil"
     },
     {
@@ -26830,7 +26830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9138081,
         "longitude": -50.7342843,
-        "cep": 17690000,
+        "cep": "17690000",
         "pais": "Brasil"
     },
     {
@@ -26840,7 +26840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9666855,
         "longitude": -47.9416419,
-        "cep": 13175660,
+        "cep": "13175660",
         "pais": "Brasil"
     },
     {
@@ -26850,7 +26850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.1851926,
         "longitude": -37.3628456,
-        "cep": 13054374,
+        "cep": "13054374",
         "pais": "Brasil"
     },
     {
@@ -26860,7 +26860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4381969,
         "longitude": -47.3678352,
-        "cep": 18087730,
+        "cep": "18087730",
         "pais": "Brasil"
     },
     {
@@ -26870,7 +26870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9437007,
         "longitude": -46.3794581,
-        "cep": 13486882,
+        "cep": "13486882",
         "pais": "Brasil"
     },
     {
@@ -26880,7 +26880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1317344,
+        "cep": "01317344",
         "pais": "Brasil"
     },
     {
@@ -26890,7 +26890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9763385,
         "longitude": -46.9906485,
-        "cep": 13050622,
+        "cep": "13050622",
         "pais": "Brasil"
     },
     {
@@ -26900,7 +26900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.531352,
         "longitude": -48.3930497,
-        "cep": 13045640,
+        "cep": "13045640",
         "pais": "Brasil"
     },
     {
@@ -26910,7 +26910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4990706,
         "longitude": -46.4842712,
-        "cep": 13483292,
+        "cep": "13483292",
         "pais": "Brasil"
     },
     {
@@ -26920,7 +26920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13451086,
+        "cep": "13451086",
         "pais": "Brasil"
     },
     {
@@ -26930,7 +26930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6091329,
         "longitude": -46.7454077,
-        "cep": 89240364,
+        "cep": "89240364",
         "pais": "Brasil"
     },
     {
@@ -26940,7 +26940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13476060,
+        "cep": "13476060",
         "pais": "Brasil"
     },
     {
@@ -26950,7 +26950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7280731,
         "longitude": -45.5985574,
-        "cep": 13034652,
+        "cep": "13034652",
         "pais": "Brasil"
     },
     {
@@ -26960,7 +26960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4207423,
         "longitude": -51.8832288,
-        "cep": 13185843,
+        "cep": "13185843",
         "pais": "Brasil"
     },
     {
@@ -26970,7 +26970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13299144,
+        "cep": "13299144",
         "pais": "Brasil"
     },
     {
@@ -26980,7 +26980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.019141,
         "longitude": -46.4891377,
-        "cep": 13059705,
+        "cep": "13059705",
         "pais": "Brasil"
     },
     {
@@ -26990,7 +26990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0051984,
         "longitude": -47.5333876,
-        "cep": 13370000,
+        "cep": "13370000",
         "pais": "Brasil"
     },
     {
@@ -27000,7 +27000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.098568,
         "longitude": -51.4150621,
-        "cep": 13474040,
+        "cep": "13474040",
         "pais": "Brasil"
     },
     {
@@ -27010,7 +27010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9436475,
         "longitude": -43.3625903,
-        "cep": 13053195,
+        "cep": "13053195",
         "pais": "Brasil"
     },
     {
@@ -27020,7 +27020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13273553,
+        "cep": "13273553",
         "pais": "Brasil"
     },
     {
@@ -27030,7 +27030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.903993,
         "longitude": -47.055736,
-        "cep": 13010050,
+        "cep": "13010050",
         "pais": "Brasil"
     },
     {
@@ -27040,7 +27040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1054237,
         "longitude": -47.2090081,
-        "cep": 13343810,
+        "cep": "13343810",
         "pais": "Brasil"
     },
     {
@@ -27050,7 +27050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13295650,
+        "cep": "13295650",
         "pais": "Brasil"
     },
     {
@@ -27060,7 +27060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.47952,
         "longitude": -46.6584524,
-        "cep": 13141059,
+        "cep": "13141059",
         "pais": "Brasil"
     },
     {
@@ -27070,7 +27070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13502140,
+        "cep": "13502140",
         "pais": "Brasil"
     },
     {
@@ -27080,7 +27080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9051877,
         "longitude": -43.1865673,
-        "cep": 13054613,
+        "cep": "13054613",
         "pais": "Brasil"
     },
     {
@@ -27090,7 +27090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5957992,
         "longitude": -47.0189726,
-        "cep": 13064783,
+        "cep": "13064783",
         "pais": "Brasil"
     },
     {
@@ -27100,7 +27100,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -23.4771819,
         "longitude": -46.5466793,
-        "cep": 37517000,
+        "cep": "37517000",
         "pais": NaN
     },
     {
@@ -27110,7 +27110,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -23.4771819,
         "longitude": -46.5466793,
-        "cep": 37517000,
+        "cep": "37517000",
         "pais": NaN
     },
     {
@@ -27120,7 +27120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9191988,
         "longitude": -47.1070112,
-        "cep": 13060090,
+        "cep": "13060090",
         "pais": "Brasil"
     },
     {
@@ -27130,7 +27130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.0971427,
         "longitude": -34.9442007,
-        "cep": 13031730,
+        "cep": "13031730",
         "pais": "Brasil"
     },
     {
@@ -27140,7 +27140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -27150,7 +27150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.4938027,
         "longitude": -47.8473698,
-        "cep": 13057190,
+        "cep": "13057190",
         "pais": "Brasil"
     },
     {
@@ -27160,7 +27160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7738231,
         "longitude": -47.1726411,
-        "cep": 13142472,
+        "cep": "13142472",
         "pais": "Brasil"
     },
     {
@@ -27170,7 +27170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.94859,
         "longitude": -47.1125392,
-        "cep": 13060628,
+        "cep": "13060628",
         "pais": "Brasil"
     },
     {
@@ -27180,7 +27180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6341539,
         "longitude": -46.5446803,
-        "cep": 14490000,
+        "cep": "14490000",
         "pais": "Brasil"
     },
     {
@@ -27190,7 +27190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4216018,
         "longitude": -46.525885,
-        "cep": 13486588,
+        "cep": "13486588",
         "pais": "Brasil"
     },
     {
@@ -27200,7 +27200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.88681,
         "longitude": -47.0316063,
-        "cep": 13091140,
+        "cep": "13091140",
         "pais": "Brasil"
     },
     {
@@ -27210,7 +27210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13348110,
+        "cep": "13348110",
         "pais": "Brasil"
     },
     {
@@ -27220,7 +27220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.980061,
         "longitude": -47.1583004,
-        "cep": 13206650,
+        "cep": "13206650",
         "pais": "Brasil"
     },
     {
@@ -27230,7 +27230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7991325,
         "longitude": -49.4274939,
-        "cep": 13173344,
+        "cep": "13173344",
         "pais": "Brasil"
     },
     {
@@ -27240,7 +27240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4893968,
         "longitude": -49.3359761,
-        "cep": 13050570,
+        "cep": "13050570",
         "pais": "Brasil"
     },
     {
@@ -27250,7 +27250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.7474918,
         "longitude": -38.5112785,
-        "cep": 13070733,
+        "cep": "13070733",
         "pais": "Brasil"
     },
     {
@@ -27260,7 +27260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13335520,
+        "cep": "13335520",
         "pais": "Brasil"
     },
     {
@@ -27270,7 +27270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9031347,
         "longitude": -47.0992825,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -27280,7 +27280,7 @@ const usuarios = [
         "estado": "MS",
         "latitude": -20.4494839,
         "longitude": -54.6081159,
-        "cep": 79023300,
+        "cep": "79023300",
         "pais": NaN
     },
     {
@@ -27290,7 +27290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13183223,
+        "cep": "13183223",
         "pais": "Brasil"
     },
     {
@@ -27300,7 +27300,7 @@ const usuarios = [
         "estado": "SE",
         "latitude": -10.3662375,
         "longitude": -37.7032601,
-        "cep": 49550000,
+        "cep": "49550000",
         "pais": NaN
     },
     {
@@ -27310,7 +27310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520532,
         "longitude": -47.0223554,
-        "cep": 13272588,
+        "cep": "13272588",
         "pais": "Brasil"
     },
     {
@@ -27320,7 +27320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13506590,
+        "cep": "13506590",
         "pais": "Brasil"
     },
     {
@@ -27330,7 +27330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13183500,
+        "cep": "13183500",
         "pais": "Brasil"
     },
     {
@@ -27340,7 +27340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4940289,
         "longitude": -46.4000322,
-        "cep": 13409016,
+        "cep": "13409016",
         "pais": "Brasil"
     },
     {
@@ -27350,7 +27350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13185542,
+        "cep": "13185542",
         "pais": "Brasil"
     },
     {
@@ -27360,7 +27360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.851223,
         "longitude": -47.0727458,
-        "cep": 13080080,
+        "cep": "13080080",
         "pais": "Brasil"
     },
     {
@@ -27370,7 +27370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9567998,
         "longitude": -47.0098573,
-        "cep": 13272350,
+        "cep": "13272350",
         "pais": "Brasil"
     },
     {
@@ -27380,7 +27380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -13.3757655,
         "longitude": -42.5166514,
-        "cep": 13084185,
+        "cep": "13084185",
         "pais": "Brasil"
     },
     {
@@ -27390,7 +27390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13308044,
+        "cep": "13308044",
         "pais": "Brasil"
     },
     {
@@ -27400,7 +27400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8724062,
         "longitude": -43.1075437,
-        "cep": 13060702,
+        "cep": "13060702",
         "pais": "Brasil"
     },
     {
@@ -27410,7 +27410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5392159,
         "longitude": -46.1804613,
-        "cep": 13056430,
+        "cep": "13056430",
         "pais": "Brasil"
     },
     {
@@ -27420,7 +27420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.856851,
         "longitude": -44.0365852,
-        "cep": 13188210,
+        "cep": "13188210",
         "pais": "Brasil"
     },
     {
@@ -27430,7 +27430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13277540,
+        "cep": "13277540",
         "pais": "Brasil"
     },
     {
@@ -27440,7 +27440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8811072,
         "longitude": -47.2302215,
-        "cep": 13184210,
+        "cep": "13184210",
         "pais": "Brasil"
     },
     {
@@ -27450,7 +27450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0898543,
         "longitude": -51.0949179,
-        "cep": 13058005,
+        "cep": "13058005",
         "pais": "Brasil"
     },
     {
@@ -27460,7 +27460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13480620,
+        "cep": "13480620",
         "pais": "Brasil"
     },
     {
@@ -27470,7 +27470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.5752593,
         "longitude": -46.9225122,
-        "cep": 13184505,
+        "cep": "13184505",
         "pais": "Brasil"
     },
     {
@@ -27480,7 +27480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482783,
+        "cep": "13482783",
         "pais": "Brasil"
     },
     {
@@ -27490,7 +27490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13474444,
+        "cep": "13474444",
         "pais": "Brasil"
     },
     {
@@ -27500,18 +27500,18 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.2431345,
         "longitude": -50.6525462,
-        "cep": 18103540,
+        "cep": "18103540",
         "pais": "Brasil"
     },
     {
         "id": 2751,
-        "nome": "Renan",
-        "cidade": "Americana",
-        "estado": "SP",
-        "latitude": -22.7167917,
-        "longitude": -47.2941442,
-        "cep": 13467441,
-        "pais": "Brasil"
+        "nome": "ReINDEFINIDOAmericana",
+        "cidade": "SP",
+        "estado": "-22.7167917",
+        "latitude": -47.2941442,
+        "longitude": 13467441.0,
+        "cep": "Brasil",
+        "pais": NaN
     },
     {
         "id": 2752,
@@ -27520,7 +27520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8157972,
         "longitude": -43.3587935,
-        "cep": 13044491,
+        "cep": "13044491",
         "pais": "Brasil"
     },
     {
@@ -27530,7 +27530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1508772,
         "longitude": -51.4245342,
-        "cep": 13348500,
+        "cep": "13348500",
         "pais": "Brasil"
     },
     {
@@ -27540,7 +27540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4444855,
         "longitude": -46.5747487,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -27550,7 +27550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7153268,
         "longitude": -46.8097957,
-        "cep": 13905612,
+        "cep": "13905612",
         "pais": "Brasil"
     },
     {
@@ -27560,7 +27560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.0722114,
         "longitude": -53.8445443,
-        "cep": 13370000,
+        "cep": "13370000",
         "pais": "Brasil"
     },
     {
@@ -27570,7 +27570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8560778,
         "longitude": -47.0662175,
-        "cep": 13080470,
+        "cep": "13080470",
         "pais": "Brasil"
     },
     {
@@ -27580,7 +27580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6943316,
         "longitude": -46.6471048,
-        "cep": 12260000,
+        "cep": "12260000",
         "pais": "Brasil"
     },
     {
@@ -27590,7 +27590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9511772,
         "longitude": -47.008893,
-        "cep": 13272503,
+        "cep": "13272503",
         "pais": "Brasil"
     },
     {
@@ -27600,7 +27600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3787587,
         "longitude": -46.9539611,
-        "cep": 13846115,
+        "cep": "13846115",
         "pais": "Brasil"
     },
     {
@@ -27610,7 +27610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.007842,
         "longitude": -45.587945,
-        "cep": 13052412,
+        "cep": "13052412",
         "pais": "Brasil"
     },
     {
@@ -27620,7 +27620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1929016,
         "longitude": -46.9561476,
-        "cep": 13211771,
+        "cep": "13211771",
         "pais": "Brasil"
     },
     {
@@ -27630,7 +27630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 3.0250964,
         "longitude": -61.3486863,
-        "cep": 13064806,
+        "cep": "13064806",
         "pais": "Brasil"
     },
     {
@@ -27640,7 +27640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.993173,
         "longitude": -47.3333435,
-        "cep": 13423332,
+        "cep": "13423332",
         "pais": "Brasil"
     },
     {
@@ -27650,7 +27650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13285076,
+        "cep": "13285076",
         "pais": "Brasil"
     },
     {
@@ -27660,7 +27660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7394946,
         "longitude": -47.1822998,
-        "cep": 13068010,
+        "cep": "13068010",
         "pais": "Brasil"
     },
     {
@@ -27670,7 +27670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7667731,
         "longitude": -47.9388533,
-        "cep": 13830088,
+        "cep": "13830088",
         "pais": "Brasil"
     },
     {
@@ -27680,7 +27680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9483288,
         "longitude": -47.0866581,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -27690,7 +27690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13052555,
+        "cep": "13052555",
         "pais": "Brasil"
     },
     {
@@ -27700,7 +27700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3787587,
         "longitude": -46.9539611,
-        "cep": 13848887,
+        "cep": "13848887",
         "pais": "Brasil"
     },
     {
@@ -27710,7 +27710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13185404,
+        "cep": "13185404",
         "pais": "Brasil"
     },
     {
@@ -27720,7 +27720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13184481,
+        "cep": "13184481",
         "pais": "Brasil"
     },
     {
@@ -27730,7 +27730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9064329,
         "longitude": -47.6193704,
-        "cep": 13690000,
+        "cep": "13690000",
         "pais": "Brasil"
     },
     {
@@ -27740,7 +27740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.993173,
         "longitude": -47.3333435,
-        "cep": 13424030,
+        "cep": "13424030",
         "pais": "Brasil"
     },
     {
@@ -27750,7 +27750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.53703,
         "longitude": -46.9197969,
-        "cep": 13076540,
+        "cep": "13076540",
         "pais": "Brasil"
     },
     {
@@ -27760,7 +27760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482330,
+        "cep": "13482330",
         "pais": "Brasil"
     },
     {
@@ -27770,7 +27770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -33.3585121,
         "longitude": -70.7449584,
-        "cep": 13088028,
+        "cep": "13088028",
         "pais": "Brasil"
     },
     {
@@ -27780,7 +27780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.3888278,
         "longitude": -49.2893235,
-        "cep": 13054045,
+        "cep": "13054045",
         "pais": "Brasil"
     },
     {
@@ -27790,7 +27790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8821792,
         "longitude": -47.0671926,
-        "cep": 13073090,
+        "cep": "13073090",
         "pais": "Brasil"
     },
     {
@@ -27800,7 +27800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1940243,
         "longitude": -45.8829899,
-        "cep": 13807499,
+        "cep": "13807499",
         "pais": "Brasil"
     },
     {
@@ -27810,7 +27810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13202340,
+        "cep": "13202340",
         "pais": "Brasil"
     },
     {
@@ -27820,7 +27820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5362584,
         "longitude": -47.3596228,
-        "cep": 13184837,
+        "cep": "13184837",
         "pais": "Brasil"
     },
     {
@@ -27830,7 +27830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9076346,
         "longitude": -43.0533652,
-        "cep": 13054213,
+        "cep": "13054213",
         "pais": "Brasil"
     },
     {
@@ -27840,7 +27840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13260000,
+        "cep": "13260000",
         "pais": "Brasil"
     },
     {
@@ -27850,7 +27850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13188171,
+        "cep": "13188171",
         "pais": "Brasil"
     },
     {
@@ -27860,7 +27860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.682808,
         "longitude": -46.6020132,
-        "cep": 13481894,
+        "cep": "13481894",
         "pais": "Brasil"
     },
     {
@@ -27870,7 +27870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0760033,
         "longitude": -51.4740405,
-        "cep": 13276500,
+        "cep": "13276500",
         "pais": "Brasil"
     },
     {
@@ -27880,7 +27880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8977568,
         "longitude": -47.0629739,
-        "cep": 13023040,
+        "cep": "13023040",
         "pais": "Brasil"
     },
     {
@@ -27890,7 +27890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.103982,
         "longitude": -50.1673702,
-        "cep": 13058662,
+        "cep": "13058662",
         "pais": "Brasil"
     },
     {
@@ -27900,7 +27900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -13.8643915,
         "longitude": -40.0753357,
-        "cep": 13060019,
+        "cep": "13060019",
         "pais": "Brasil"
     },
     {
@@ -27910,7 +27910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7775042,
         "longitude": -47.2913289,
-        "cep": 13385764,
+        "cep": "13385764",
         "pais": "Brasil"
     },
     {
@@ -27920,7 +27920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8328139,
         "longitude": -47.5946019,
-        "cep": 13171450,
+        "cep": "13171450",
         "pais": "Brasil"
     },
     {
@@ -27930,7 +27930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -27940,7 +27940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7670027,
         "longitude": -47.9838441,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -27950,7 +27950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1311292,
         "longitude": -47.829261,
-        "cep": 13142128,
+        "cep": "13142128",
         "pais": "Brasil"
     },
     {
@@ -27960,7 +27960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4480126,
         "longitude": -46.8098036,
-        "cep": 13973198,
+        "cep": "13973198",
         "pais": "Brasil"
     },
     {
@@ -27970,7 +27970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8477816,
         "longitude": -47.0875689,
-        "cep": 13080655,
+        "cep": "13080655",
         "pais": "Brasil"
     },
     {
@@ -27980,7 +27980,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -20.1856329,
         "longitude": -44.9146375,
-        "cep": 35567000,
+        "cep": "35567000",
         "pais": NaN
     },
     {
@@ -27990,7 +27990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8636333,
         "longitude": -47.1536023,
-        "cep": 13068219,
+        "cep": "13068219",
         "pais": "Brasil"
     },
     {
@@ -28000,7 +28000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6718463,
         "longitude": -46.6517795,
-        "cep": 13902160,
+        "cep": "13902160",
         "pais": "Brasil"
     },
     {
@@ -28010,7 +28010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.3307254,
         "longitude": -48.8211495,
-        "cep": 13056701,
+        "cep": "13056701",
         "pais": "Brasil"
     },
     {
@@ -28020,7 +28020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5531283,
         "longitude": -47.4455747,
-        "cep": 13483332,
+        "cep": "13483332",
         "pais": "Brasil"
     },
     {
@@ -28030,7 +28030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9573853,
         "longitude": -46.4137641,
-        "cep": 13345414,
+        "cep": "13345414",
         "pais": "Brasil"
     },
     {
@@ -28040,7 +28040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.1592696,
         "longitude": -44.1987397,
-        "cep": 13086120,
+        "cep": "13086120",
         "pais": "Brasil"
     },
     {
@@ -28050,7 +28050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1520338,
         "longitude": -47.9829594,
-        "cep": 13059852,
+        "cep": "13059852",
         "pais": "Brasil"
     },
     {
@@ -28060,7 +28060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9193041,
         "longitude": -47.1038519,
-        "cep": 13060073,
+        "cep": "13060073",
         "pais": "Brasil"
     },
     {
@@ -28070,7 +28070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2267393,
         "longitude": -49.9173946,
-        "cep": 13091320,
+        "cep": "13091320",
         "pais": "Brasil"
     },
     {
@@ -28080,7 +28080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0984704,
         "longitude": -47.7194738,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -28090,7 +28090,7 @@ const usuarios = [
         "estado": "ES",
         "latitude": -20.3715088,
         "longitude": -40.3031397,
-        "cep": 29102010,
+        "cep": "29102010",
         "pais": NaN
     },
     {
@@ -28100,7 +28100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.796554,
         "longitude": -47.9691134,
-        "cep": 13041190,
+        "cep": "13041190",
         "pais": "Brasil"
     },
     {
@@ -28110,7 +28110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -28120,7 +28120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.1616749,
         "longitude": -49.5859552,
-        "cep": 13023010,
+        "cep": "13023010",
         "pais": "Brasil"
     },
     {
@@ -28130,7 +28130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6171079,
         "longitude": -47.4110269,
-        "cep": 13015311,
+        "cep": "13015311",
         "pais": "Brasil"
     },
     {
@@ -28140,7 +28140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9882031,
         "longitude": -47.0993484,
-        "cep": 13052691,
+        "cep": "13052691",
         "pais": "Brasil"
     },
     {
@@ -28150,7 +28150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7336068,
         "longitude": -47.331719,
-        "cep": 13471200,
+        "cep": "13471200",
         "pais": "Brasil"
     },
     {
@@ -28160,7 +28160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5516688,
         "longitude": -47.4142602,
-        "cep": 13484270,
+        "cep": "13484270",
         "pais": "Brasil"
     },
     {
@@ -28170,7 +28170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9204468,
         "longitude": -47.1059521,
-        "cep": 13060078,
+        "cep": "13060078",
         "pais": "Brasil"
     },
     {
@@ -28180,7 +28180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4202067,
         "longitude": -45.4498396,
-        "cep": 13468580,
+        "cep": "13468580",
         "pais": "Brasil"
     },
     {
@@ -28190,7 +28190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13467353,
+        "cep": "13467353",
         "pais": "Brasil"
     },
     {
@@ -28200,7 +28200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.851223,
         "longitude": -47.0727458,
-        "cep": 13080080,
+        "cep": "13080080",
         "pais": "Brasil"
     },
     {
@@ -28210,7 +28210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9226714,
         "longitude": -45.3459606,
-        "cep": 13020160,
+        "cep": "13020160",
         "pais": "Brasil"
     },
     {
@@ -28220,7 +28220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9322216,
         "longitude": -46.9815892,
-        "cep": 13273701,
+        "cep": "13273701",
         "pais": "Brasil"
     },
     {
@@ -28230,7 +28230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.3217777,
         "longitude": -46.9998593,
-        "cep": 13150302,
+        "cep": "13150302",
         "pais": "Brasil"
     },
     {
@@ -28240,7 +28240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13337144,
+        "cep": "13337144",
         "pais": "Brasil"
     },
     {
@@ -28250,7 +28250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.0261026,
         "longitude": -40.5369854,
-        "cep": 13031900,
+        "cep": "13031900",
         "pais": "Brasil"
     },
     {
@@ -28260,7 +28260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6034455,
         "longitude": -46.5982516,
-        "cep": 13184885,
+        "cep": "13184885",
         "pais": "Brasil"
     },
     {
@@ -28270,7 +28270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.1889764,
         "longitude": -42.7398546,
-        "cep": 18560000,
+        "cep": "18560000",
         "pais": "Brasil"
     },
     {
@@ -28280,7 +28280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.2941929,
         "longitude": -40.7476044,
-        "cep": 13050112,
+        "cep": "13050112",
         "pais": "Brasil"
     },
     {
@@ -28290,7 +28290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.1419496,
         "longitude": -51.1148611,
-        "cep": 13099007,
+        "cep": "13099007",
         "pais": "Brasil"
     },
     {
@@ -28300,7 +28300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.9263424,
         "longitude": -44.0926447,
-        "cep": 14810534,
+        "cep": "14810534",
         "pais": "Brasil"
     },
     {
@@ -28310,7 +28310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13178465,
+        "cep": "13178465",
         "pais": "Brasil"
     },
     {
@@ -28320,7 +28320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7920435,
         "longitude": -43.9820863,
-        "cep": 13026515,
+        "cep": "13026515",
         "pais": "Brasil"
     },
     {
@@ -28330,7 +28330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5399634,
         "longitude": -46.89761,
-        "cep": 13473220,
+        "cep": "13473220",
         "pais": "Brasil"
     },
     {
@@ -28340,7 +28340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6164881,
         "longitude": -46.7245821,
-        "cep": 13163336,
+        "cep": "13163336",
         "pais": "Brasil"
     },
     {
@@ -28350,7 +28350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8023528,
         "longitude": -47.2174334,
-        "cep": 13170586,
+        "cep": "13170586",
         "pais": "Brasil"
     },
     {
@@ -28360,7 +28360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.4720269,
         "longitude": -52.4664638,
-        "cep": 13054240,
+        "cep": "13054240",
         "pais": "Brasil"
     },
     {
@@ -28370,7 +28370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7526776,
         "longitude": -48.1577166,
-        "cep": 13914456,
+        "cep": "13914456",
         "pais": "Brasil"
     },
     {
@@ -28380,7 +28380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180570,
+        "cep": "13180570",
         "pais": "Brasil"
     },
     {
@@ -28390,7 +28390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13296060,
+        "cep": "13296060",
         "pais": "Brasil"
     },
     {
@@ -28400,7 +28400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13254434,
+        "cep": "13254434",
         "pais": "Brasil"
     },
     {
@@ -28410,7 +28410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6116469,
         "longitude": -46.5161837,
-        "cep": 13060110,
+        "cep": "13060110",
         "pais": "Brasil"
     },
     {
@@ -28420,7 +28420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -27.0988552,
         "longitude": -52.6797339,
-        "cep": 13042720,
+        "cep": "13042720",
         "pais": "Brasil"
     },
     {
@@ -28430,7 +28430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13468150,
+        "cep": "13468150",
         "pais": "Brasil"
     },
     {
@@ -28440,7 +28440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4549364,
         "longitude": -46.9810832,
-        "cep": 13803235,
+        "cep": "13803235",
         "pais": "Brasil"
     },
     {
@@ -28450,7 +28450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13289464,
+        "cep": "13289464",
         "pais": "Brasil"
     },
     {
@@ -28460,7 +28460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8893663,
         "longitude": -47.0758084,
-        "cep": 13060073,
+        "cep": "13060073",
         "pais": "Brasil"
     },
     {
@@ -28470,7 +28470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453717,
+        "cep": "13453717",
         "pais": "Brasil"
     },
     {
@@ -28480,7 +28480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4144493,
         "longitude": -46.8331331,
-        "cep": 13026210,
+        "cep": "13026210",
         "pais": "Brasil"
     },
     {
@@ -28490,7 +28490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5628264,
         "longitude": -47.1669774,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -28500,7 +28500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8961898,
         "longitude": -47.1569898,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -28510,7 +28510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.8833738,
         "longitude": -38.4285788,
-        "cep": 13034730,
+        "cep": "13034730",
         "pais": "Brasil"
     },
     {
@@ -28520,7 +28520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322224,
+        "cep": "13322224",
         "pais": "Brasil"
     },
     {
@@ -28530,7 +28530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5498368,
         "longitude": -47.9942415,
-        "cep": 37795000,
+        "cep": "37795000",
         "pais": "Brasil"
     },
     {
@@ -28540,7 +28540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9471579,
         "longitude": -47.1585812,
-        "cep": 13059107,
+        "cep": "13059107",
         "pais": "Brasil"
     },
     {
@@ -28550,7 +28550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1808752,
         "longitude": -50.6594015,
-        "cep": 13031500,
+        "cep": "13031500",
         "pais": "Brasil"
     },
     {
@@ -28560,7 +28560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.7130818,
         "longitude": -47.5642212,
-        "cep": 11920000,
+        "cep": "11920000",
         "pais": "Brasil"
     },
     {
@@ -28570,7 +28570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243995,
         "longitude": -47.0097048,
-        "cep": 13913372,
+        "cep": "13913372",
         "pais": "Brasil"
     },
     {
@@ -28580,7 +28580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.686123,
         "longitude": -46.4113644,
-        "cep": 13183210,
+        "cep": "13183210",
         "pais": "Brasil"
     },
     {
@@ -28590,7 +28590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13184505,
+        "cep": "13184505",
         "pais": "Brasil"
     },
     {
@@ -28600,7 +28600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8452269,
         "longitude": -47.1554264,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -28610,7 +28610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7809686,
         "longitude": -47.1767623,
-        "cep": 13142300,
+        "cep": "13142300",
         "pais": "Brasil"
     },
     {
@@ -28620,7 +28620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7576335,
         "longitude": -47.1521675,
-        "cep": 13140113,
+        "cep": "13140113",
         "pais": "Brasil"
     },
     {
@@ -28630,7 +28630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7791653,
         "longitude": -47.1601718,
-        "cep": 13140538,
+        "cep": "13140538",
         "pais": "Brasil"
     },
     {
@@ -28640,7 +28640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5530241,
         "longitude": -47.447796,
-        "cep": 13483286,
+        "cep": "13483286",
         "pais": "Brasil"
     },
     {
@@ -28650,7 +28650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.8235598,
         "longitude": -38.4625481,
-        "cep": 13031810,
+        "cep": "13031810",
         "pais": "Brasil"
     },
     {
@@ -28660,7 +28660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13061160,
+        "cep": "13061160",
         "pais": "Brasil"
     },
     {
@@ -28670,7 +28670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8764982,
         "longitude": -47.032842,
-        "cep": 13091020,
+        "cep": "13091020",
         "pais": "Brasil"
     },
     {
@@ -28680,7 +28680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -28690,7 +28690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13276250,
+        "cep": "13276250",
         "pais": "Brasil"
     },
     {
@@ -28700,7 +28700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13186371,
+        "cep": "13186371",
         "pais": "Brasil"
     },
     {
@@ -28710,7 +28710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322221,
+        "cep": "13322221",
         "pais": "Brasil"
     },
     {
@@ -28720,7 +28720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5147694,
         "longitude": -47.4858937,
-        "cep": 18045180,
+        "cep": "18045180",
         "pais": "Brasil"
     },
     {
@@ -28730,7 +28730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.544015,
         "longitude": -46.6893863,
-        "cep": 13271751,
+        "cep": "13271751",
         "pais": "Brasil"
     },
     {
@@ -28740,7 +28740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.336521,
         "longitude": -46.9501645,
-        "cep": 13846137,
+        "cep": "13846137",
         "pais": "Brasil"
     },
     {
@@ -28750,7 +28750,7 @@ const usuarios = [
         "estado": "GO",
         "latitude": -16.7637069,
         "longitude": -49.0996897,
-        "cep": 75264006,
+        "cep": "75264006",
         "pais": NaN
     },
     {
@@ -28760,7 +28760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8821792,
         "longitude": -47.0671926,
-        "cep": 13073090,
+        "cep": "13073090",
         "pais": "Brasil"
     },
     {
@@ -28770,7 +28770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8851866,
         "longitude": -47.0640884,
-        "cep": 13073010,
+        "cep": "13073010",
         "pais": "Brasil"
     },
     {
@@ -28780,7 +28780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8418692,
         "longitude": -47.6770455,
-        "cep": 13483516,
+        "cep": "13483516",
         "pais": "Brasil"
     },
     {
@@ -28790,7 +28790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13272419,
+        "cep": "13272419",
         "pais": "Brasil"
     },
     {
@@ -28800,7 +28800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13184665,
+        "cep": "13184665",
         "pais": "Brasil"
     },
     {
@@ -28810,7 +28810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13174570,
+        "cep": "13174570",
         "pais": "Brasil"
     },
     {
@@ -28820,7 +28820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6186733,
         "longitude": -46.6325169,
-        "cep": 13101134,
+        "cep": "13101134",
         "pais": "Brasil"
     },
     {
@@ -28830,7 +28830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8406697,
         "longitude": -44.0146552,
-        "cep": 13175583,
+        "cep": "13175583",
         "pais": "Brasil"
     },
     {
@@ -28840,7 +28840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2122215,
         "longitude": -46.6991259,
-        "cep": 13040108,
+        "cep": "13040108",
         "pais": "Brasil"
     },
     {
@@ -28850,7 +28850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6214411,
         "longitude": -45.4306098,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -28860,7 +28860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4134148,
         "longitude": -47.3957784,
-        "cep": 13601441,
+        "cep": "13601441",
         "pais": "Brasil"
     },
     {
@@ -28870,7 +28870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8813769,
         "longitude": -47.0500259,
-        "cep": 13076008,
+        "cep": "13076008",
         "pais": "Brasil"
     },
     {
@@ -28880,7 +28880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9238007,
         "longitude": -47.1189263,
-        "cep": 13060562,
+        "cep": "13060562",
         "pais": "Brasil"
     },
     {
@@ -28890,7 +28890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938725,
         "longitude": -47.0509288,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -28900,7 +28900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.4632078,
         "longitude": -49.1192466,
-        "cep": 13052400,
+        "cep": "13052400",
         "pais": "Brasil"
     },
     {
@@ -28910,7 +28910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.4301875,
         "longitude": -50.5611161,
-        "cep": 13520000,
+        "cep": "13520000",
         "pais": "Brasil"
     },
     {
@@ -28920,7 +28920,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.4318167,
         "longitude": -46.5727673,
-        "cep": 37580000,
+        "cep": "37580000",
         "pais": NaN
     },
     {
@@ -28930,7 +28930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.8792369,
         "longitude": -36.4924636,
-        "cep": 13053034,
+        "cep": "13053034",
         "pais": "Brasil"
     },
     {
@@ -28940,7 +28940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13185250,
+        "cep": "13185250",
         "pais": "Brasil"
     },
     {
@@ -28950,7 +28950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9543916,
         "longitude": -43.1697002,
-        "cep": 13010200,
+        "cep": "13010200",
         "pais": "Brasil"
     },
     {
@@ -28960,7 +28960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6776904,
         "longitude": -45.0070672,
-        "cep": 13054107,
+        "cep": "13054107",
         "pais": "Brasil"
     },
     {
@@ -28970,7 +28970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.9904457,
         "longitude": -47.1414648,
-        "cep": 13054566,
+        "cep": "13054566",
         "pais": "Brasil"
     },
     {
@@ -28980,7 +28980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8541244,
         "longitude": -47.0472805,
-        "cep": 13087500,
+        "cep": "13087500",
         "pais": "Brasil"
     },
     {
@@ -28990,7 +28990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13278072,
+        "cep": "13278072",
         "pais": "Brasil"
     },
     {
@@ -29000,7 +29000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938725,
         "longitude": -47.0509288,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -29010,7 +29010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.2631631,
         "longitude": -48.5099094,
-        "cep": 14840000,
+        "cep": "14840000",
         "pais": "Brasil"
     },
     {
@@ -29020,7 +29020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243995,
         "longitude": -47.0097048,
-        "cep": 13915001,
+        "cep": "13915001",
         "pais": "Brasil"
     },
     {
@@ -29030,7 +29030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7743983,
         "longitude": -47.143757,
-        "cep": 13145370,
+        "cep": "13145370",
         "pais": "Brasil"
     },
     {
@@ -29040,7 +29040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180080,
+        "cep": "13180080",
         "pais": "Brasil"
     },
     {
@@ -29050,7 +29050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8533012,
         "longitude": -43.345696,
-        "cep": 13041030,
+        "cep": "13041030",
         "pais": "Brasil"
     },
     {
@@ -29060,7 +29060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7743983,
         "longitude": -47.143757,
-        "cep": 13140400,
+        "cep": "13140400",
         "pais": "Brasil"
     },
     {
@@ -29070,7 +29070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5044131,
         "longitude": -47.4895886,
-        "cep": 18055200,
+        "cep": "18055200",
         "pais": "Brasil"
     },
     {
@@ -29080,7 +29080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1361747,
         "longitude": -47.0800067,
-        "cep": 13087540,
+        "cep": "13087540",
         "pais": "Brasil"
     },
     {
@@ -29090,7 +29090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13273062,
+        "cep": "13273062",
         "pais": "Brasil"
     },
     {
@@ -29100,7 +29100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 9.9353192,
         "longitude": -84.2230945,
-        "cep": 13060,
+        "cep": "00013060",
         "pais": "Brasil"
     },
     {
@@ -29110,7 +29110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8283538,
         "longitude": -44.6070791,
-        "cep": 13197560,
+        "cep": "13197560",
         "pais": "Brasil"
     },
     {
@@ -29120,7 +29120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7797599,
         "longitude": -47.1691783,
-        "cep": 13142334,
+        "cep": "13142334",
         "pais": "Brasil"
     },
     {
@@ -29130,7 +29130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9802586,
         "longitude": -46.98642,
-        "cep": 13274600,
+        "cep": "13274600",
         "pais": "Brasil"
     },
     {
@@ -29140,7 +29140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.2905916,
         "longitude": -40.7883233,
-        "cep": 13375000,
+        "cep": "13375000",
         "pais": "Brasil"
     },
     {
@@ -29150,7 +29150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7169632,
         "longitude": -45.0245003,
-        "cep": 13053341,
+        "cep": "13053341",
         "pais": "Brasil"
     },
     {
@@ -29160,7 +29160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.2027578,
         "longitude": -49.3477832,
-        "cep": 13051553,
+        "cep": "13051553",
         "pais": "Brasil"
     },
     {
@@ -29170,7 +29170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5372043,
         "longitude": -47.4446515,
-        "cep": 13068201,
+        "cep": "13068201",
         "pais": "Brasil"
     },
     {
@@ -29180,7 +29180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482411,
+        "cep": "13482411",
         "pais": "Brasil"
     },
     {
@@ -29190,7 +29190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7995666,
         "longitude": -47.1948595,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -29200,7 +29200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2014073,
         "longitude": -47.3975133,
-        "cep": 13610310,
+        "cep": "13610310",
         "pais": "Brasil"
     },
     {
@@ -29210,7 +29210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -29220,7 +29220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2764488,
         "longitude": -51.4986715,
-        "cep": 13274465,
+        "cep": "13274465",
         "pais": "Brasil"
     },
     {
@@ -29230,7 +29230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 8568700,
+        "cep": "08568700",
         "pais": "Brasil"
     },
     {
@@ -29240,7 +29240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -27.5042631,
         "longitude": -48.4910696,
-        "cep": 13059050,
+        "cep": "13059050",
         "pais": "Brasil"
     },
     {
@@ -29250,7 +29250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4952647,
         "longitude": -47.4183004,
-        "cep": 18017000,
+        "cep": "18017000",
         "pais": "Brasil"
     },
     {
@@ -29260,7 +29260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9790145,
         "longitude": -46.9884675,
-        "cep": 13275400,
+        "cep": "13275400",
         "pais": "Brasil"
     },
     {
@@ -29270,7 +29270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5284871,
         "longitude": -46.5754241,
-        "cep": 3081003,
+        "cep": "03081003",
         "pais": "Brasil"
     },
     {
@@ -29280,7 +29280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2633602,
         "longitude": -47.2925144,
-        "cep": 13348383,
+        "cep": "13348383",
         "pais": "Brasil"
     },
     {
@@ -29290,7 +29290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1013477,
         "longitude": -47.1774708,
-        "cep": 13340350,
+        "cep": "13340350",
         "pais": "Brasil"
     },
     {
@@ -29300,7 +29300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13219120,
+        "cep": "13219120",
         "pais": "Brasil"
     },
     {
@@ -29310,7 +29310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.0279021,
         "longitude": -60.013276,
-        "cep": 13750316,
+        "cep": "13750316",
         "pais": "Brasil"
     },
     {
@@ -29320,7 +29320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13187031,
+        "cep": "13187031",
         "pais": "Brasil"
     },
     {
@@ -29330,7 +29330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4207899,
         "longitude": -47.5806691,
-        "cep": 13503538,
+        "cep": "13503538",
         "pais": "Brasil"
     },
     {
@@ -29340,7 +29340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323420,
+        "cep": "13323420",
         "pais": "Brasil"
     },
     {
@@ -29350,7 +29350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9504475,
         "longitude": -46.3666085,
-        "cep": 37795000,
+        "cep": "37795000",
         "pais": "Brasil"
     },
     {
@@ -29360,7 +29360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.1143306,
         "longitude": -39.256077,
-        "cep": 13031885,
+        "cep": "13031885",
         "pais": "Brasil"
     },
     {
@@ -29370,7 +29370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8092793,
         "longitude": -43.1673698,
-        "cep": 13057504,
+        "cep": "13057504",
         "pais": "Brasil"
     },
     {
@@ -29380,7 +29380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458184,
+        "cep": "13458184",
         "pais": "Brasil"
     },
     {
@@ -29390,7 +29390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4323192,
         "longitude": -47.5822904,
-        "cep": 13502100,
+        "cep": "13502100",
         "pais": "Brasil"
     },
     {
@@ -29400,7 +29400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5233431,
         "longitude": -47.4534201,
-        "cep": 18031310,
+        "cep": "18031310",
         "pais": "Brasil"
     },
     {
@@ -29410,7 +29410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.5403116,
         "longitude": -42.6445506,
-        "cep": 13051065,
+        "cep": "13051065",
         "pais": "Brasil"
     },
     {
@@ -29420,7 +29420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.5955933,
         "longitude": -48.8162579,
-        "cep": 14900000,
+        "cep": "14900000",
         "pais": "Brasil"
     },
     {
@@ -29430,7 +29430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.131677,
         "longitude": -47.850246,
-        "cep": 13056809,
+        "cep": "13056809",
         "pais": "Brasil"
     },
     {
@@ -29440,7 +29440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0132731,
         "longitude": -49.897143,
-        "cep": 13026410,
+        "cep": "13026410",
         "pais": "Brasil"
     },
     {
@@ -29450,7 +29450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.2549618,
         "longitude": -53.6447293,
-        "cep": 12056343,
+        "cep": "12056343",
         "pais": "Brasil"
     },
     {
@@ -29460,7 +29460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13506650,
+        "cep": "13506650",
         "pais": "Brasil"
     },
     {
@@ -29470,7 +29470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13280288,
+        "cep": "13280288",
         "pais": "Brasil"
     },
     {
@@ -29480,7 +29480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7474656,
         "longitude": -49.4128808,
-        "cep": 13101310,
+        "cep": "13101310",
         "pais": "Brasil"
     },
     {
@@ -29490,7 +29490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13184677,
+        "cep": "13184677",
         "pais": "Brasil"
     },
     {
@@ -29500,7 +29500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9567998,
         "longitude": -47.0098573,
-        "cep": 13272350,
+        "cep": "13272350",
         "pais": "Brasil"
     },
     {
@@ -29510,7 +29510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9567998,
         "longitude": -47.0098573,
-        "cep": 13272350,
+        "cep": "13272350",
         "pais": "Brasil"
     },
     {
@@ -29520,7 +29520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13452030,
+        "cep": "13452030",
         "pais": "Brasil"
     },
     {
@@ -29530,7 +29530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9627739,
         "longitude": -43.6902455,
-        "cep": 13920000,
+        "cep": "13920000",
         "pais": "Brasil"
     },
     {
@@ -29540,7 +29540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13276240,
+        "cep": "13276240",
         "pais": "Brasil"
     },
     {
@@ -29550,7 +29550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -33.0185953,
         "longitude": -60.6260373,
-        "cep": 13050422,
+        "cep": "13050422",
         "pais": "Brasil"
     },
     {
@@ -29560,7 +29560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4414556,
         "longitude": -46.5050258,
-        "cep": 13183580,
+        "cep": "13183580",
         "pais": "Brasil"
     },
     {
@@ -29570,7 +29570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -11.0101591,
         "longitude": -40.5784321,
-        "cep": 12157394,
+        "cep": "12157394",
         "pais": "Brasil"
     },
     {
@@ -29580,7 +29580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2161921,
         "longitude": -46.8655529,
-        "cep": 13209201,
+        "cep": "13209201",
         "pais": "Brasil"
     },
     {
@@ -29590,7 +29590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8611336,
         "longitude": -51.4944355,
-        "cep": 13058297,
+        "cep": "13058297",
         "pais": "Brasil"
     },
     {
@@ -29600,7 +29600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1880815,
         "longitude": -46.860936,
-        "cep": 13218233,
+        "cep": "13218233",
         "pais": "Brasil"
     },
     {
@@ -29610,7 +29610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13175667,
+        "cep": "13175667",
         "pais": "Brasil"
     },
     {
@@ -29620,7 +29620,7 @@ const usuarios = [
         "estado": "MS",
         "latitude": -18.5445641,
         "longitude": -53.1266282,
-        "cep": 79550000,
+        "cep": "79550000",
         "pais": NaN
     },
     {
@@ -29630,7 +29630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.993173,
         "longitude": -47.3333435,
-        "cep": 13636201,
+        "cep": "13636201",
         "pais": "Brasil"
     },
     {
@@ -29640,7 +29640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7740401,
         "longitude": -47.30475,
-        "cep": 13382550,
+        "cep": "13382550",
         "pais": "Brasil"
     },
     {
@@ -29650,7 +29650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5835725,
         "longitude": -46.5218194,
-        "cep": 13469710,
+        "cep": "13469710",
         "pais": "Brasil"
     },
     {
@@ -29660,7 +29660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5458236,
         "longitude": -46.9118161,
-        "cep": 13186360,
+        "cep": "13186360",
         "pais": "Brasil"
     },
     {
@@ -29670,7 +29670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.2420379,
         "longitude": -45.2157209,
-        "cep": 13187094,
+        "cep": "13187094",
         "pais": "Brasil"
     },
     {
@@ -29680,7 +29680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482785,
+        "cep": "13482785",
         "pais": "Brasil"
     },
     {
@@ -29690,7 +29690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13506870,
+        "cep": "13506870",
         "pais": "Brasil"
     },
     {
@@ -29700,7 +29700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9727765,
         "longitude": -46.9998054,
-        "cep": 13270180,
+        "cep": "13270180",
         "pais": "Brasil"
     },
     {
@@ -29710,7 +29710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.8796294,
         "longitude": -41.9735914,
-        "cep": 13054521,
+        "cep": "13054521",
         "pais": "Brasil"
     },
     {
@@ -29720,7 +29720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.653751,
         "longitude": -47.1601161,
-        "cep": 13051103,
+        "cep": "13051103",
         "pais": "Brasil"
     },
     {
@@ -29730,7 +29730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13304275,
+        "cep": "13304275",
         "pais": "Brasil"
     },
     {
@@ -29740,7 +29740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.831416,
         "longitude": -47.2201138,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -29750,7 +29750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13506685,
+        "cep": "13506685",
         "pais": "Brasil"
     },
     {
@@ -29760,7 +29760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7155433,
         "longitude": -46.653776,
-        "cep": 13928430,
+        "cep": "13928430",
         "pais": "Brasil"
     },
     {
@@ -29770,7 +29770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181664,
+        "cep": "13181664",
         "pais": "Brasil"
     },
     {
@@ -29780,7 +29780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3063032,
         "longitude": -49.0966828,
-        "cep": 13101310,
+        "cep": "13101310",
         "pais": "Brasil"
     },
     {
@@ -29790,7 +29790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6198792,
         "longitude": -46.6797115,
-        "cep": 13040061,
+        "cep": "13040061",
         "pais": "Brasil"
     },
     {
@@ -29800,7 +29800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13255701,
+        "cep": "13255701",
         "pais": "Brasil"
     },
     {
@@ -29810,7 +29810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7189265,
         "longitude": -47.9441304,
-        "cep": 13042520,
+        "cep": "13042520",
         "pais": "Brasil"
     },
     {
@@ -29820,7 +29820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0984704,
         "longitude": -47.7194738,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -29830,7 +29830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13175590,
+        "cep": "13175590",
         "pais": "Brasil"
     },
     {
@@ -29840,7 +29840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938725,
         "longitude": -47.0509288,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -29850,7 +29850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13214755,
+        "cep": "13214755",
         "pais": "Brasil"
     },
     {
@@ -29860,7 +29860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13179041,
+        "cep": "13179041",
         "pais": "Brasil"
     },
     {
@@ -29870,7 +29870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9761546,
         "longitude": -46.9884262,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -29880,7 +29880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7410412,
         "longitude": -50.7889659,
-        "cep": 13107230,
+        "cep": "13107230",
         "pais": "Brasil"
     },
     {
@@ -29890,7 +29890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8143826,
         "longitude": -49.4941968,
-        "cep": 13098797,
+        "cep": "13098797",
         "pais": "Brasil"
     },
     {
@@ -29900,7 +29900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4449599,
         "longitude": -46.7156122,
-        "cep": 13059856,
+        "cep": "13059856",
         "pais": "Brasil"
     },
     {
@@ -29910,7 +29910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5230729,
         "longitude": -46.4414142,
-        "cep": 13270393,
+        "cep": "13270393",
         "pais": "Brasil"
     },
     {
@@ -29920,7 +29920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.1225923,
         "longitude": -40.480671,
-        "cep": 13044380,
+        "cep": "13044380",
         "pais": "Brasil"
     },
     {
@@ -29930,7 +29930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.802321,
         "longitude": -43.931343,
-        "cep": 13107228,
+        "cep": "13107228",
         "pais": "Brasil"
     },
     {
@@ -29940,7 +29940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8855223,
         "longitude": -47.1765502,
-        "cep": 13185153,
+        "cep": "13185153",
         "pais": "Brasil"
     },
     {
@@ -29950,7 +29950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1318500,
+        "cep": "01318500",
         "pais": "Brasil"
     },
     {
@@ -29960,7 +29960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13309091,
+        "cep": "13309091",
         "pais": "Brasil"
     },
     {
@@ -29970,7 +29970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.5486883,
         "longitude": -65.2083267,
-        "cep": 13050126,
+        "cep": "13050126",
         "pais": "Brasil"
     },
     {
@@ -29980,7 +29980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181643,
+        "cep": "13181643",
         "pais": "Brasil"
     },
     {
@@ -29990,7 +29990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13177365,
+        "cep": "13177365",
         "pais": "Brasil"
     },
     {
@@ -30000,7 +30000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -2.591762,
         "longitude": -42.7056037,
-        "cep": 13067364,
+        "cep": "13067364",
         "pais": "Brasil"
     },
     {
@@ -30010,7 +30010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13294140,
+        "cep": "13294140",
         "pais": "Brasil"
     },
     {
@@ -30020,7 +30020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.4378801,
         "longitude": -50.0950556,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -30030,7 +30030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13178582,
+        "cep": "13178582",
         "pais": "Brasil"
     },
     {
@@ -30040,7 +30040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.8248662,
         "longitude": -47.7077144,
-        "cep": 13346250,
+        "cep": "13346250",
         "pais": "Brasil"
     },
     {
@@ -30050,7 +30050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174119,
+        "cep": "13174119",
         "pais": "Brasil"
     },
     {
@@ -30060,7 +30060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.9269125,
         "longitude": -44.0666707,
-        "cep": 13279700,
+        "cep": "13279700",
         "pais": "Brasil"
     },
     {
@@ -30070,7 +30070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13046400,
+        "cep": "13046400",
         "pais": "Brasil"
     },
     {
@@ -30080,7 +30080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243995,
         "longitude": -47.0097048,
-        "cep": 13914464,
+        "cep": "13914464",
         "pais": "Brasil"
     },
     {
@@ -30090,7 +30090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.4210709,
         "longitude": -49.9581522,
-        "cep": 13053037,
+        "cep": "13053037",
         "pais": "Brasil"
     },
     {
@@ -30100,7 +30100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.564493,
         "longitude": -46.5434978,
-        "cep": 13179903,
+        "cep": "13179903",
         "pais": "Brasil"
     },
     {
@@ -30110,7 +30110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13487133,
+        "cep": "13487133",
         "pais": "Brasil"
     },
     {
@@ -30120,7 +30120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13185052,
+        "cep": "13185052",
         "pais": "Brasil"
     },
     {
@@ -30130,7 +30130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5450133,
         "longitude": -51.4095074,
-        "cep": 13082140,
+        "cep": "13082140",
         "pais": "Brasil"
     },
     {
@@ -30140,7 +30140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8493653,
         "longitude": -47.0731354,
-        "cep": 13082205,
+        "cep": "13082205",
         "pais": "Brasil"
     },
     {
@@ -30150,7 +30150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6446004,
         "longitude": -46.7425567,
-        "cep": 13403338,
+        "cep": "13403338",
         "pais": "Brasil"
     },
     {
@@ -30160,7 +30160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.4719953,
         "longitude": -53.4726164,
-        "cep": 13045650,
+        "cep": "13045650",
         "pais": "Brasil"
     },
     {
@@ -30170,7 +30170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.313614,
         "longitude": -46.0492411,
-        "cep": 13059739,
+        "cep": "13059739",
         "pais": "Brasil"
     },
     {
@@ -30180,7 +30180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7966307,
         "longitude": -47.1539027,
-        "cep": 13145536,
+        "cep": "13145536",
         "pais": "Brasil"
     },
     {
@@ -30190,7 +30190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0968166,
         "longitude": -51.0400659,
-        "cep": 13940000,
+        "cep": "13940000",
         "pais": "Brasil"
     },
     {
@@ -30200,7 +30200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.531463,
         "longitude": -47.387017,
-        "cep": 13185475,
+        "cep": "13185475",
         "pais": "Brasil"
     },
     {
@@ -30210,7 +30210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1159627,
         "longitude": -48.0285602,
-        "cep": 13179231,
+        "cep": "13179231",
         "pais": "Brasil"
     },
     {
@@ -30220,7 +30220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13300090,
+        "cep": "13300090",
         "pais": "Brasil"
     },
     {
@@ -30230,7 +30230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1391844,
         "longitude": -48.9905425,
-        "cep": 13084012,
+        "cep": "13084012",
         "pais": "Brasil"
     },
     {
@@ -30240,7 +30240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7591803,
         "longitude": -47.1837186,
-        "cep": 13144725,
+        "cep": "13144725",
         "pais": "Brasil"
     },
     {
@@ -30250,7 +30250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -16.472472,
         "longitude": -49.731525,
-        "cep": 13050175,
+        "cep": "13050175",
         "pais": "Brasil"
     },
     {
@@ -30260,7 +30260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13313112,
+        "cep": "13313112",
         "pais": "Brasil"
     },
     {
@@ -30270,7 +30270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181701,
+        "cep": "13181701",
         "pais": "Brasil"
     },
     {
@@ -30280,7 +30280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283312,
+        "cep": "13283312",
         "pais": "Brasil"
     },
     {
@@ -30290,7 +30290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.2082045,
         "longitude": -34.9204647,
-        "cep": 13013040,
+        "cep": "13013040",
         "pais": "Brasil"
     },
     {
@@ -30300,7 +30300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.8345679,
         "longitude": -46.8995898,
-        "cep": 13880000,
+        "cep": "13880000",
         "pais": "Brasil"
     },
     {
@@ -30310,7 +30310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454074,
+        "cep": "13454074",
         "pais": "Brasil"
     },
     {
@@ -30320,7 +30320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181580,
+        "cep": "13181580",
         "pais": "Brasil"
     },
     {
@@ -30330,7 +30330,7 @@ const usuarios = [
         "estado": "RS",
         "latitude": -28.0587422,
         "longitude": -53.0680698,
-        "cep": 99530000,
+        "cep": "99530000",
         "pais": NaN
     },
     {
@@ -30340,7 +30340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -16.7468825,
         "longitude": -48.5055046,
-        "cep": 13101282,
+        "cep": "13101282",
         "pais": "Brasil"
     },
     {
@@ -30350,7 +30350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5185092,
         "longitude": -46.3668778,
-        "cep": 13056506,
+        "cep": "13056506",
         "pais": "Brasil"
     },
     {
@@ -30360,7 +30360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9267097,
         "longitude": -47.0891757,
-        "cep": 13050440,
+        "cep": "13050440",
         "pais": "Brasil"
     },
     {
@@ -30370,7 +30370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4848852,
         "longitude": -46.9782805,
-        "cep": 13807687,
+        "cep": "13807687",
         "pais": "Brasil"
     },
     {
@@ -30380,7 +30380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4929192,
         "longitude": -46.4596133,
-        "cep": 13058000,
+        "cep": "13058000",
         "pais": "Brasil"
     },
     {
@@ -30390,7 +30390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5468704,
         "longitude": -46.6738817,
-        "cep": 13188101,
+        "cep": "13188101",
         "pais": "Brasil"
     },
     {
@@ -30400,7 +30400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.9154896,
         "longitude": -48.2311239,
-        "cep": 13061210,
+        "cep": "13061210",
         "pais": "Brasil"
     },
     {
@@ -30410,7 +30410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13178473,
+        "cep": "13178473",
         "pais": "Brasil"
     },
     {
@@ -30420,7 +30420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13086907,
+        "cep": "13086907",
         "pais": "Brasil"
     },
     {
@@ -30430,7 +30430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.5558785,
         "longitude": -55.7070371,
-        "cep": 12046145,
+        "cep": "12046145",
         "pais": "Brasil"
     },
     {
@@ -30440,7 +30440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181740,
+        "cep": "13181740",
         "pais": "Brasil"
     },
     {
@@ -30450,7 +30450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456625,
+        "cep": "13456625",
         "pais": "Brasil"
     },
     {
@@ -30460,7 +30460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.8167187,
         "longitude": -61.291068,
-        "cep": 13087440,
+        "cep": "13087440",
         "pais": "Brasil"
     },
     {
@@ -30470,7 +30470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3659863,
         "longitude": -46.9559579,
-        "cep": 13843227,
+        "cep": "13843227",
         "pais": "Brasil"
     },
     {
@@ -30480,7 +30480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.3164126,
         "longitude": -48.6494928,
-        "cep": 13054552,
+        "cep": "13054552",
         "pais": "Brasil"
     },
     {
@@ -30490,7 +30490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8177949,
         "longitude": -47.2848393,
-        "cep": 13172560,
+        "cep": "13172560",
         "pais": "Brasil"
     },
     {
@@ -30500,7 +30500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.445392,
         "longitude": -46.975711,
-        "cep": 13800207,
+        "cep": "13800207",
         "pais": "Brasil"
     },
     {
@@ -30510,7 +30510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9185612,
         "longitude": -47.0487015,
-        "cep": 13026285,
+        "cep": "13026285",
         "pais": "Brasil"
     },
     {
@@ -30520,7 +30520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9185612,
         "longitude": -47.0487015,
-        "cep": 13026285,
+        "cep": "13026285",
         "pais": "Brasil"
     },
     {
@@ -30530,7 +30530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9185612,
         "longitude": -47.0487015,
-        "cep": 13026285,
+        "cep": "13026285",
         "pais": "Brasil"
     },
     {
@@ -30540,7 +30540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -16.4681135,
         "longitude": -54.679494,
-        "cep": 13044005,
+        "cep": "13044005",
         "pais": "Brasil"
     },
     {
@@ -30550,7 +30550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7309965,
         "longitude": -43.0380548,
-        "cep": 13068429,
+        "cep": "13068429",
         "pais": "Brasil"
     },
     {
@@ -30560,7 +30560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.14252,
         "longitude": -41.1391487,
-        "cep": 13043770,
+        "cep": "13043770",
         "pais": "Brasil"
     },
     {
@@ -30570,7 +30570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8636333,
         "longitude": -47.1536023,
-        "cep": 13068219,
+        "cep": "13068219",
         "pais": "Brasil"
     },
     {
@@ -30580,7 +30580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13274768,
+        "cep": "13274768",
         "pais": "Brasil"
     },
     {
@@ -30590,7 +30590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8679868,
         "longitude": -47.0378732,
-        "cep": 13088038,
+        "cep": "13088038",
         "pais": "Brasil"
     },
     {
@@ -30600,7 +30600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0597221,
         "longitude": -47.18133,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -30610,7 +30610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.6677038,
         "longitude": -36.6013476,
-        "cep": 13053614,
+        "cep": "13053614",
         "pais": "Brasil"
     },
     {
@@ -30620,7 +30620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0714616,
         "longitude": -51.1112738,
-        "cep": 13034060,
+        "cep": "13034060",
         "pais": "Brasil"
     },
     {
@@ -30630,7 +30630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13187179,
+        "cep": "13187179",
         "pais": "Brasil"
     },
     {
@@ -30640,7 +30640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0146975,
         "longitude": -49.8853846,
-        "cep": 13187047,
+        "cep": "13187047",
         "pais": "Brasil"
     },
     {
@@ -30650,7 +30650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2683917,
         "longitude": -45.9367719,
-        "cep": 13060779,
+        "cep": "13060779",
         "pais": "Brasil"
     },
     {
@@ -30660,7 +30660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9531008,
         "longitude": -47.0906109,
-        "cep": 13051105,
+        "cep": "13051105",
         "pais": "Brasil"
     },
     {
@@ -30670,7 +30670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13329350,
+        "cep": "13329350",
         "pais": "Brasil"
     },
     {
@@ -30680,7 +30680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0012823,
         "longitude": -47.0123861,
-        "cep": 13278137,
+        "cep": "13278137",
         "pais": "Brasil"
     },
     {
@@ -30690,7 +30690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5446727,
         "longitude": -46.7642246,
-        "cep": 13179272,
+        "cep": "13179272",
         "pais": "Brasil"
     },
     {
@@ -30700,7 +30700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.400774,
         "longitude": -47.3823505,
-        "cep": 13069079,
+        "cep": "13069079",
         "pais": "Brasil"
     },
     {
@@ -30710,7 +30710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1730136,
         "longitude": -46.9259108,
-        "cep": 13209430,
+        "cep": "13209430",
         "pais": "Brasil"
     },
     {
@@ -30720,7 +30720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5405965,
         "longitude": -46.9213921,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -30730,7 +30730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4756322,
         "longitude": -51.8074854,
-        "cep": 13050420,
+        "cep": "13050420",
         "pais": "Brasil"
     },
     {
@@ -30740,7 +30740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.600831,
         "longitude": -47.4000191,
-        "cep": 13486852,
+        "cep": "13486852",
         "pais": "Brasil"
     },
     {
@@ -30750,7 +30750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13346410,
+        "cep": "13346410",
         "pais": "Brasil"
     },
     {
@@ -30760,7 +30760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7591418,
         "longitude": -49.3890778,
-        "cep": 13059758,
+        "cep": "13059758",
         "pais": "Brasil"
     },
     {
@@ -30770,7 +30770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9567998,
         "longitude": -47.0098573,
-        "cep": 13272350,
+        "cep": "13272350",
         "pais": "Brasil"
     },
     {
@@ -30780,7 +30780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13271500,
+        "cep": "13271500",
         "pais": "Brasil"
     },
     {
@@ -30790,7 +30790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8092793,
         "longitude": -43.1673698,
-        "cep": 13193212,
+        "cep": "13193212",
         "pais": "Brasil"
     },
     {
@@ -30800,7 +30800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8525261,
         "longitude": -47.1075621,
-        "cep": 13082125,
+        "cep": "13082125",
         "pais": "Brasil"
     },
     {
@@ -30810,7 +30810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7557125,
         "longitude": -47.191493,
-        "cep": 13069400,
+        "cep": "13069400",
         "pais": "Brasil"
     },
     {
@@ -30820,7 +30820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6802766,
         "longitude": -45.456387,
-        "cep": 13178370,
+        "cep": "13178370",
         "pais": "Brasil"
     },
     {
@@ -30830,7 +30830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5796924,
         "longitude": -47.3995654,
-        "cep": 13480410,
+        "cep": "13480410",
         "pais": "Brasil"
     },
     {
@@ -30840,7 +30840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3670755,
         "longitude": -49.0294107,
-        "cep": 13067390,
+        "cep": "13067390",
         "pais": "Brasil"
     },
     {
@@ -30850,7 +30850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7959035,
         "longitude": -50.8821712,
-        "cep": 17700000,
+        "cep": "17700000",
         "pais": "Brasil"
     },
     {
@@ -30860,7 +30860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.4083838,
         "longitude": -49.9769098,
-        "cep": 15503409,
+        "cep": "15503409",
         "pais": "Brasil"
     },
     {
@@ -30870,7 +30870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4670936,
         "longitude": -47.3985609,
-        "cep": 13491190,
+        "cep": "13491190",
         "pais": "Brasil"
     },
     {
@@ -30880,7 +30880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.4928115,
         "longitude": -47.4268001,
-        "cep": 13064845,
+        "cep": "13064845",
         "pais": "Brasil"
     },
     {
@@ -30890,7 +30890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5031311,
         "longitude": -47.4341778,
-        "cep": 13010041,
+        "cep": "13010041",
         "pais": "Brasil"
     },
     {
@@ -30900,7 +30900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.7623193,
         "longitude": -38.581697,
-        "cep": 13031365,
+        "cep": "13031365",
         "pais": "Brasil"
     },
     {
@@ -30910,7 +30910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.5499582,
         "longitude": -37.5388116,
-        "cep": 18240000,
+        "cep": "18240000",
         "pais": "Brasil"
     },
     {
@@ -30920,7 +30920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13275724,
+        "cep": "13275724",
         "pais": "Brasil"
     },
     {
@@ -30930,7 +30930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5702302,
         "longitude": -47.3899706,
-        "cep": 13486062,
+        "cep": "13486062",
         "pais": "Brasil"
     },
     {
@@ -30940,7 +30940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8936543,
         "longitude": -49.3429133,
-        "cep": 13069404,
+        "cep": "13069404",
         "pais": "Brasil"
     },
     {
@@ -30950,7 +30950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4129891,
         "longitude": -47.3966899,
-        "cep": 13604174,
+        "cep": "13604174",
         "pais": "Brasil"
     },
     {
@@ -30960,7 +30960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8934463,
         "longitude": -47.0788816,
-        "cep": 13070030,
+        "cep": "13070030",
         "pais": "Brasil"
     },
     {
@@ -30970,7 +30970,7 @@ const usuarios = [
         "estado": "RJ",
         "latitude": -22.315998,
         "longitude": -49.0934504,
-        "cep": 23595009,
+        "cep": "23595009",
         "pais": NaN
     },
     {
@@ -30980,7 +30980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 6753030,
+        "cep": "06753030",
         "pais": "Brasil"
     },
     {
@@ -30990,7 +30990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5179561,
         "longitude": -46.5418779,
-        "cep": 13061085,
+        "cep": "13061085",
         "pais": "Brasil"
     },
     {
@@ -31000,7 +31000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1506864,
         "longitude": -47.0088791,
-        "cep": 18210340,
+        "cep": "18210340",
         "pais": "Brasil"
     },
     {
@@ -31010,7 +31010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2809997,
         "longitude": -45.9635855,
-        "cep": 13177432,
+        "cep": "13177432",
         "pais": "Brasil"
     },
     {
@@ -31020,7 +31020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13186490,
+        "cep": "13186490",
         "pais": "Brasil"
     },
     {
@@ -31030,7 +31030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13468460,
+        "cep": "13468460",
         "pais": "Brasil"
     },
     {
@@ -31040,7 +31040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.9387472,
         "longitude": -40.7478967,
-        "cep": 15895000,
+        "cep": "15895000",
         "pais": "Brasil"
     },
     {
@@ -31050,7 +31050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0641534,
         "longitude": -46.991699,
-        "cep": 13070030,
+        "cep": "13070030",
         "pais": "Brasil"
     },
     {
@@ -31060,7 +31060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3922908,
         "longitude": -47.5838707,
-        "cep": 13504363,
+        "cep": "13504363",
         "pais": "Brasil"
     },
     {
@@ -31070,7 +31070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -15.6026816,
         "longitude": -56.085007,
-        "cep": 13088112,
+        "cep": "13088112",
         "pais": "Brasil"
     },
     {
@@ -31080,7 +31080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5814157,
         "longitude": -48.5701688,
-        "cep": 13042390,
+        "cep": "13042390",
         "pais": "Brasil"
     },
     {
@@ -31090,7 +31090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454335,
+        "cep": "13454335",
         "pais": "Brasil"
     },
     {
@@ -31100,7 +31100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4552334,
         "longitude": -51.9390053,
-        "cep": 13060721,
+        "cep": "13060721",
         "pais": "Brasil"
     },
     {
@@ -31110,7 +31110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13336351,
+        "cep": "13336351",
         "pais": "Brasil"
     },
     {
@@ -31120,7 +31120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6497963,
         "longitude": -47.327506,
-        "cep": 13480970,
+        "cep": "13480970",
         "pais": "Brasil"
     },
     {
@@ -31130,7 +31130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.0789754,
         "longitude": -44.359311,
-        "cep": 13045529,
+        "cep": "13045529",
         "pais": "Brasil"
     },
     {
@@ -31140,7 +31140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13481849,
+        "cep": "13481849",
         "pais": "Brasil"
     },
     {
@@ -31150,7 +31150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.5306326,
         "longitude": -40.3007833,
-        "cep": 13054648,
+        "cep": "13054648",
         "pais": "Brasil"
     },
     {
@@ -31160,7 +31160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1554095,
         "longitude": -48.9837277,
-        "cep": 13054363,
+        "cep": "13054363",
         "pais": "Brasil"
     },
     {
@@ -31170,7 +31170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7982146,
         "longitude": -49.4349986,
-        "cep": 13183270,
+        "cep": "13183270",
         "pais": "Brasil"
     },
     {
@@ -31180,7 +31180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4159941,
         "longitude": -45.4585254,
-        "cep": 13380025,
+        "cep": "13380025",
         "pais": "Brasil"
     },
     {
@@ -31190,7 +31190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13309521,
+        "cep": "13309521",
         "pais": "Brasil"
     },
     {
@@ -31200,7 +31200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5822672,
         "longitude": -46.7981284,
-        "cep": 13188002,
+        "cep": "13188002",
         "pais": "Brasil"
     },
     {
@@ -31210,7 +31210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5643569,
         "longitude": -47.3904673,
-        "cep": 13486083,
+        "cep": "13486083",
         "pais": "Brasil"
     },
     {
@@ -31220,7 +31220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3201332,
         "longitude": -48.9962814,
-        "cep": 13054370,
+        "cep": "13054370",
         "pais": "Brasil"
     },
     {
@@ -31230,7 +31230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.606932,
         "longitude": -46.698003,
-        "cep": 13930000,
+        "cep": "13930000",
         "pais": "Brasil"
     },
     {
@@ -31240,7 +31240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.94859,
         "longitude": -47.1125392,
-        "cep": 13060628,
+        "cep": "13060628",
         "pais": "Brasil"
     },
     {
@@ -31250,7 +31250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7336016,
         "longitude": -46.7966769,
-        "cep": 13343300,
+        "cep": "13343300",
         "pais": "Brasil"
     },
     {
@@ -31260,7 +31260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6173058,
         "longitude": -48.0614681,
-        "cep": 13212576,
+        "cep": "13212576",
         "pais": "Brasil"
     },
     {
@@ -31270,7 +31270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4671547,
         "longitude": -49.2647982,
-        "cep": 17471404,
+        "cep": "17471404",
         "pais": "Brasil"
     },
     {
@@ -31280,7 +31280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1300573,
         "longitude": -49.0141835,
-        "cep": 13051103,
+        "cep": "13051103",
         "pais": "Brasil"
     },
     {
@@ -31290,7 +31290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.2689133,
         "longitude": -46.3056567,
-        "cep": 13052570,
+        "cep": "13052570",
         "pais": "Brasil"
     },
     {
@@ -31300,7 +31300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7213531,
         "longitude": -47.1787136,
-        "cep": 13145770,
+        "cep": "13145770",
         "pais": "Brasil"
     },
     {
@@ -31310,7 +31310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13170290,
+        "cep": "13170290",
         "pais": "Brasil"
     },
     {
@@ -31320,7 +31320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181060,
+        "cep": "13181060",
         "pais": "Brasil"
     },
     {
@@ -31330,7 +31330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.807621,
         "longitude": -47.2206023,
-        "cep": 13179314,
+        "cep": "13179314",
         "pais": "Brasil"
     },
     {
@@ -31340,7 +31340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13310036,
+        "cep": "13310036",
         "pais": "Brasil"
     },
     {
@@ -31350,7 +31350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5404408,
         "longitude": -47.3646491,
-        "cep": 13083510,
+        "cep": "13083510",
         "pais": "Brasil"
     },
     {
@@ -31360,7 +31360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9419726,
         "longitude": -47.1830092,
-        "cep": 13058543,
+        "cep": "13058543",
         "pais": "Brasil"
     },
     {
@@ -31370,7 +31370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -1.1668189,
         "longitude": -62.5270572,
-        "cep": 13054024,
+        "cep": "13054024",
         "pais": "Brasil"
     },
     {
@@ -31380,7 +31380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 0.5840111,
         "longitude": -50.161125,
-        "cep": 13060023,
+        "cep": "13060023",
         "pais": "Brasil"
     },
     {
@@ -31390,7 +31390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.9095759,
         "longitude": -48.2817182,
-        "cep": 13042340,
+        "cep": "13042340",
         "pais": "Brasil"
     },
     {
@@ -31400,7 +31400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.939028,
         "longitude": -47.1929695,
-        "cep": 13058581,
+        "cep": "13058581",
         "pais": "Brasil"
     },
     {
@@ -31410,7 +31410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1711007,
+        "cep": "01711007",
         "pais": "Brasil"
     },
     {
@@ -31420,7 +31420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6716743,
         "longitude": -46.513144,
-        "cep": 13040093,
+        "cep": "13040093",
         "pais": "Brasil"
     },
     {
@@ -31430,7 +31430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9065187,
         "longitude": -46.1368919,
-        "cep": 13212321,
+        "cep": "13212321",
         "pais": "Brasil"
     },
     {
@@ -31440,7 +31440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8636333,
         "longitude": -47.1536023,
-        "cep": 13068219,
+        "cep": "13068219",
         "pais": "Brasil"
     },
     {
@@ -31450,7 +31450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5538799,
         "longitude": -47.448977,
-        "cep": 13042340,
+        "cep": "13042340",
         "pais": "Brasil"
     },
     {
@@ -31460,7 +31460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035085,
         "longitude": -47.0605903,
-        "cep": 13010151,
+        "cep": "13010151",
         "pais": "Brasil"
     },
     {
@@ -31470,7 +31470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -17.8175352,
         "longitude": -50.9557023,
-        "cep": 13053171,
+        "cep": "13053171",
         "pais": "Brasil"
     },
     {
@@ -31480,7 +31480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7644687,
         "longitude": -43.3291471,
-        "cep": 13060478,
+        "cep": "13060478",
         "pais": "Brasil"
     },
     {
@@ -31490,7 +31490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7435677,
         "longitude": -45.5988601,
-        "cep": 13058490,
+        "cep": "13058490",
         "pais": "Brasil"
     },
     {
@@ -31500,7 +31500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13096155,
+        "cep": "13096155",
         "pais": "Brasil"
     },
     {
@@ -31510,7 +31510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13183255,
+        "cep": "13183255",
         "pais": "Brasil"
     },
     {
@@ -31520,7 +31520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9112361,
         "longitude": -47.0815398,
-        "cep": 13035000,
+        "cep": "13035000",
         "pais": "Brasil"
     },
     {
@@ -31530,7 +31530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.2689133,
         "longitude": -46.3056567,
-        "cep": 13087723,
+        "cep": "13087723",
         "pais": "Brasil"
     },
     {
@@ -31540,7 +31540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -4.296774,
         "longitude": -45.2461648,
-        "cep": 13056040,
+        "cep": "13056040",
         "pais": "Brasil"
     },
     {
@@ -31550,7 +31550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.674478,
         "longitude": -47.2429965,
-        "cep": 13100235,
+        "cep": "13100235",
         "pais": "Brasil"
     },
     {
@@ -31560,7 +31560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180653,
+        "cep": "13180653",
         "pais": "Brasil"
     },
     {
@@ -31570,7 +31570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5702302,
         "longitude": -47.3899706,
-        "cep": 13486062,
+        "cep": "13486062",
         "pais": "Brasil"
     },
     {
@@ -31580,7 +31580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.2818593,
         "longitude": -41.1686734,
-        "cep": 13059675,
+        "cep": "13059675",
         "pais": "Brasil"
     },
     {
@@ -31590,7 +31590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -33.0185953,
         "longitude": -60.6260373,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
@@ -31600,7 +31600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6048312,
         "longitude": -46.6955109,
-        "cep": 13052572,
+        "cep": "13052572",
         "pais": "Brasil"
     },
     {
@@ -31610,7 +31610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5796988,
         "longitude": -48.05216,
-        "cep": 13487411,
+        "cep": "13487411",
         "pais": "Brasil"
     },
     {
@@ -31620,7 +31620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.5548493,
         "longitude": -48.6026175,
-        "cep": 13031885,
+        "cep": "13031885",
         "pais": "Brasil"
     },
     {
@@ -31630,7 +31630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6199967,
         "longitude": -46.5164781,
-        "cep": 13060611,
+        "cep": "13060611",
         "pais": "Brasil"
     },
     {
@@ -31640,7 +31640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0225426,
         "longitude": -51.1143078,
-        "cep": 13044510,
+        "cep": "13044510",
         "pais": "Brasil"
     },
     {
@@ -31650,7 +31650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8890697,
         "longitude": -47.0727729,
-        "cep": 13070118,
+        "cep": "13070118",
         "pais": "Brasil"
     },
     {
@@ -31660,7 +31660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.6459235,
         "longitude": -43.8132627,
-        "cep": 13088118,
+        "cep": "13088118",
         "pais": "Brasil"
     },
     {
@@ -31670,7 +31670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.0297523,
         "longitude": -48.8622121,
-        "cep": 13061096,
+        "cep": "13061096",
         "pais": "Brasil"
     },
     {
@@ -31680,7 +31680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8882408,
         "longitude": -47.2370922,
-        "cep": 13185475,
+        "cep": "13185475",
         "pais": "Brasil"
     },
     {
@@ -31690,7 +31690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13474026,
+        "cep": "13474026",
         "pais": "Brasil"
     },
     {
@@ -31700,7 +31700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7576335,
         "longitude": -47.1521675,
-        "cep": 13140113,
+        "cep": "13140113",
         "pais": "Brasil"
     },
     {
@@ -31710,7 +31710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.0448023,
         "longitude": -49.3879971,
-        "cep": 13020060,
+        "cep": "13020060",
         "pais": "Brasil"
     },
     {
@@ -31720,7 +31720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.9104534,
         "longitude": -37.6014062,
-        "cep": 13045903,
+        "cep": "13045903",
         "pais": "Brasil"
     },
     {
@@ -31730,7 +31730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9459583,
         "longitude": -47.0286394,
-        "cep": 13045137,
+        "cep": "13045137",
         "pais": "Brasil"
     },
     {
@@ -31740,7 +31740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -17.2294867,
         "longitude": -46.863391,
-        "cep": 13056350,
+        "cep": "13056350",
         "pais": "Brasil"
     },
     {
@@ -31750,7 +31750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2616541,
         "longitude": -51.1600199,
-        "cep": 13051555,
+        "cep": "13051555",
         "pais": "Brasil"
     },
     {
@@ -31760,7 +31760,7 @@ const usuarios = [
         "estado": "BA",
         "latitude": -17.3786306,
         "longitude": -40.234118,
-        "cep": 45960000,
+        "cep": "45960000",
         "pais": NaN
     },
     {
@@ -31770,7 +31770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -16.8173023,
         "longitude": -49.3729311,
-        "cep": 13058900,
+        "cep": "13058900",
         "pais": "Brasil"
     },
     {
@@ -31780,7 +31780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8566233,
         "longitude": -47.1549925,
-        "cep": 13105796,
+        "cep": "13105796",
         "pais": "Brasil"
     },
     {
@@ -31790,7 +31790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9320873,
         "longitude": -47.0593693,
-        "cep": 13040108,
+        "cep": "13040108",
         "pais": "Brasil"
     },
     {
@@ -31800,7 +31800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -27.3057387,
         "longitude": -54.0622529,
-        "cep": 13190800,
+        "cep": "13190800",
         "pais": "Brasil"
     },
     {
@@ -31810,7 +31810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.92077,
         "longitude": -37.050479,
-        "cep": 13100490,
+        "cep": "13100490",
         "pais": "Brasil"
     },
     {
@@ -31820,7 +31820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5384316,
         "longitude": -46.6932829,
-        "cep": 13058485,
+        "cep": "13058485",
         "pais": "Brasil"
     },
     {
@@ -31830,7 +31830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.4622395,
         "longitude": -47.1982726,
-        "cep": 13063570,
+        "cep": "13063570",
         "pais": "Brasil"
     },
     {
@@ -31840,7 +31840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13500110,
+        "cep": "13500110",
         "pais": "Brasil"
     },
     {
@@ -31850,7 +31850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7435786,
         "longitude": -47.2935323,
-        "cep": 13477700,
+        "cep": "13477700",
         "pais": "Brasil"
     },
     {
@@ -31860,7 +31860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.869295,
         "longitude": -47.045005,
-        "cep": 13088010,
+        "cep": "13088010",
         "pais": "Brasil"
     },
     {
@@ -31870,7 +31870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8851866,
         "longitude": -47.0640884,
-        "cep": 13073010,
+        "cep": "13073010",
         "pais": "Brasil"
     },
     {
@@ -31880,7 +31880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7634875,
         "longitude": -47.9962614,
-        "cep": 13063420,
+        "cep": "13063420",
         "pais": "Brasil"
     },
     {
@@ -31890,7 +31890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13188100,
+        "cep": "13188100",
         "pais": "Brasil"
     },
     {
@@ -31900,7 +31900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.2562947,
         "longitude": -35.25197,
-        "cep": 13033204,
+        "cep": "13033204",
         "pais": "Brasil"
     },
     {
@@ -31910,7 +31910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.4787046,
         "longitude": -36.162536,
-        "cep": 13053206,
+        "cep": "13053206",
         "pais": "Brasil"
     },
     {
@@ -31920,7 +31920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.1143306,
         "longitude": -39.256077,
-        "cep": 13065201,
+        "cep": "13065201",
         "pais": "Brasil"
     },
     {
@@ -31930,7 +31930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -32.7418966,
         "longitude": -70.7177729,
-        "cep": 13101239,
+        "cep": "13101239",
         "pais": "Brasil"
     },
     {
@@ -31940,7 +31940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -31950,7 +31950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9194832,
         "longitude": -47.1041331,
-        "cep": 13060076,
+        "cep": "13060076",
         "pais": "Brasil"
     },
     {
@@ -31960,7 +31960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8864,
         "longitude": -47.0452615,
-        "cep": 13024035,
+        "cep": "13024035",
         "pais": "Brasil"
     },
     {
@@ -31970,7 +31970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.9179305,
         "longitude": -48.6933875,
-        "cep": 13088601,
+        "cep": "13088601",
         "pais": "Brasil"
     },
     {
@@ -31980,7 +31980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4862264,
         "longitude": -46.3660546,
-        "cep": 13051205,
+        "cep": "13051205",
         "pais": "Brasil"
     },
     {
@@ -31990,7 +31990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8075477,
         "longitude": -49.3386247,
-        "cep": 13467275,
+        "cep": "13467275",
         "pais": "Brasil"
     },
     {
@@ -32000,7 +32000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9483288,
         "longitude": -47.0866581,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -32010,7 +32010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -11.8113235,
         "longitude": -39.3782722,
-        "cep": 13056006,
+        "cep": "13056006",
         "pais": "Brasil"
     },
     {
@@ -32020,7 +32020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13172590,
+        "cep": "13172590",
         "pais": "Brasil"
     },
     {
@@ -32030,7 +32030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -15.6134985,
         "longitude": -56.0951531,
-        "cep": 13026515,
+        "cep": "13026515",
         "pais": "Brasil"
     },
     {
@@ -32040,7 +32040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.0085444,
         "longitude": -60.0238496,
-        "cep": 13056220,
+        "cep": "13056220",
         "pais": "Brasil"
     },
     {
@@ -32050,7 +32050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13185230,
+        "cep": "13185230",
         "pais": "Brasil"
     },
     {
@@ -32060,7 +32060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.032351,
         "longitude": -48.9456087,
-        "cep": 13070024,
+        "cep": "13070024",
         "pais": "Brasil"
     },
     {
@@ -32070,7 +32070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3732483,
         "longitude": -46.9546864,
-        "cep": 13844123,
+        "cep": "13844123",
         "pais": "Brasil"
     },
     {
@@ -32080,7 +32080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9758606,
         "longitude": -47.1364904,
-        "cep": 13054107,
+        "cep": "13054107",
         "pais": "Brasil"
     },
     {
@@ -32090,7 +32090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4848852,
         "longitude": -46.9782805,
-        "cep": 13806610,
+        "cep": "13806610",
         "pais": "Brasil"
     },
     {
@@ -32100,7 +32100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13274590,
+        "cep": "13274590",
         "pais": "Brasil"
     },
     {
@@ -32110,7 +32110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458727,
+        "cep": "13458727",
         "pais": "Brasil"
     },
     {
@@ -32120,7 +32120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.3063989,
         "longitude": -40.3191248,
-        "cep": 13042430,
+        "cep": "13042430",
         "pais": "Brasil"
     },
     {
@@ -32130,7 +32130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8431617,
         "longitude": -47.1192296,
-        "cep": 13096320,
+        "cep": "13096320",
         "pais": "Brasil"
     },
     {
@@ -32140,7 +32140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9187603,
         "longitude": -47.0998873,
-        "cep": 13060082,
+        "cep": "13060082",
         "pais": "Brasil"
     },
     {
@@ -32150,7 +32150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938725,
         "longitude": -47.0509288,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -32160,7 +32160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.881429,
         "longitude": -47.0690136,
-        "cep": 13073035,
+        "cep": "13073035",
         "pais": "Brasil"
     },
     {
@@ -32170,7 +32170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13299039,
+        "cep": "13299039",
         "pais": "Brasil"
     },
     {
@@ -32180,7 +32180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13304387,
+        "cep": "13304387",
         "pais": "Brasil"
     },
     {
@@ -32190,7 +32190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.1512319,
         "longitude": -34.836925,
-        "cep": 13058822,
+        "cep": "13058822",
         "pais": "Brasil"
     },
     {
@@ -32200,7 +32200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.850363,
         "longitude": -47.2023892,
-        "cep": 13189106,
+        "cep": "13189106",
         "pais": "Brasil"
     },
     {
@@ -32210,7 +32210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8057869,
         "longitude": -47.1170923,
-        "cep": 13148218,
+        "cep": "13148218",
         "pais": "Brasil"
     },
     {
@@ -32220,7 +32220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.7003791,
         "longitude": -48.901155,
-        "cep": 13044695,
+        "cep": "13044695",
         "pais": "Brasil"
     },
     {
@@ -32230,7 +32230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7256886,
         "longitude": -47.1793582,
-        "cep": 13145706,
+        "cep": "13145706",
         "pais": "Brasil"
     },
     {
@@ -32240,7 +32240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5665258,
         "longitude": -46.6775168,
-        "cep": 13187219,
+        "cep": "13187219",
         "pais": "Brasil"
     },
     {
@@ -32250,7 +32250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9514567,
         "longitude": -47.0257006,
-        "cep": 13044502,
+        "cep": "13044502",
         "pais": "Brasil"
     },
     {
@@ -32260,7 +32260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9776973,
         "longitude": -47.1374379,
-        "cep": 13056300,
+        "cep": "13056300",
         "pais": "Brasil"
     },
     {
@@ -32270,7 +32270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8841679,
         "longitude": -47.1506054,
-        "cep": 13041770,
+        "cep": "13041770",
         "pais": "Brasil"
     },
     {
@@ -32280,7 +32280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.881429,
         "longitude": -47.0690136,
-        "cep": 13073035,
+        "cep": "13073035",
         "pais": "Brasil"
     },
     {
@@ -32290,7 +32290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035085,
         "longitude": -47.0605903,
-        "cep": 13010151,
+        "cep": "13010151",
         "pais": "Brasil"
     },
     {
@@ -32300,7 +32300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7470964,
         "longitude": -47.3424681,
-        "cep": 13465660,
+        "cep": "13465660",
         "pais": "Brasil"
     },
     {
@@ -32310,7 +32310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456437,
+        "cep": "13456437",
         "pais": "Brasil"
     },
     {
@@ -32320,7 +32320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4171369,
         "longitude": -49.3105981,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -32330,7 +32330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13275090,
+        "cep": "13275090",
         "pais": "Brasil"
     },
     {
@@ -32340,7 +32340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9521941,
         "longitude": -47.2141886,
-        "cep": 13059700,
+        "cep": "13059700",
         "pais": "Brasil"
     },
     {
@@ -32350,7 +32350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7189265,
         "longitude": -47.9441304,
-        "cep": 13183050,
+        "cep": "13183050",
         "pais": "Brasil"
     },
     {
@@ -32360,7 +32360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.2939066,
         "longitude": -40.3088365,
-        "cep": 13091203,
+        "cep": "13091203",
         "pais": "Brasil"
     },
     {
@@ -32370,7 +32370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3169189,
         "longitude": -47.3322625,
-        "cep": 13049453,
+        "cep": "13049453",
         "pais": "Brasil"
     },
     {
@@ -32380,7 +32380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5612688,
         "longitude": -46.6423701,
-        "cep": 13571639,
+        "cep": "13571639",
         "pais": "Brasil"
     },
     {
@@ -32390,7 +32390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7966307,
         "longitude": -47.1539027,
-        "cep": 13140508,
+        "cep": "13140508",
         "pais": "Brasil"
     },
     {
@@ -32400,7 +32400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7828693,
         "longitude": -46.5927175,
-        "cep": 12995000,
+        "cep": "12995000",
         "pais": "Brasil"
     },
     {
@@ -32410,7 +32410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -32420,7 +32420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6757876,
         "longitude": -46.7794042,
-        "cep": 13050581,
+        "cep": "13050581",
         "pais": "Brasil"
     },
     {
@@ -32430,7 +32430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.0830289,
         "longitude": -34.9290062,
-        "cep": 13010111,
+        "cep": "13010111",
         "pais": "Brasil"
     },
     {
@@ -32440,7 +32440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284460,
+        "cep": "13284460",
         "pais": "Brasil"
     },
     {
@@ -32450,7 +32450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180220,
+        "cep": "13180220",
         "pais": "Brasil"
     },
     {
@@ -32460,7 +32460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6488012,
         "longitude": -46.7678031,
-        "cep": 13088606,
+        "cep": "13088606",
         "pais": "Brasil"
     },
     {
@@ -32470,7 +32470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3409224,
         "longitude": -48.7656372,
-        "cep": 13185005,
+        "cep": "13185005",
         "pais": "Brasil"
     },
     {
@@ -32480,7 +32480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -32490,7 +32490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.891854,
         "longitude": -47.0967006,
-        "cep": 13070193,
+        "cep": "13070193",
         "pais": "Brasil"
     },
     {
@@ -32500,7 +32500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2400067,
         "longitude": -45.7017467,
-        "cep": 13190800,
+        "cep": "13190800",
         "pais": "Brasil"
     },
     {
@@ -32510,7 +32510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4358208,
         "longitude": -46.9204439,
-        "cep": 13060633,
+        "cep": "13060633",
         "pais": "Brasil"
     },
     {
@@ -32520,7 +32520,7 @@ const usuarios = [
         "estado": "MT",
         "latitude": -10.8055267,
         "longitude": -55.4557306,
-        "cep": 78500000,
+        "cep": "78500000",
         "pais": NaN
     },
     {
@@ -32530,7 +32530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7259059,
         "longitude": -47.1872547,
-        "cep": 13145731,
+        "cep": "13145731",
         "pais": "Brasil"
     },
     {
@@ -32540,7 +32540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3896452,
         "longitude": -47.5822338,
-        "cep": 13504265,
+        "cep": "13504265",
         "pais": "Brasil"
     },
     {
@@ -32550,7 +32550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13178402,
+        "cep": "13178402",
         "pais": "Brasil"
     },
     {
@@ -32560,7 +32560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.9260592,
         "longitude": -42.7538968,
-        "cep": 13030640,
+        "cep": "13030640",
         "pais": "Brasil"
     },
     {
@@ -32570,7 +32570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9489505,
         "longitude": -47.1017422,
-        "cep": 13087620,
+        "cep": "13087620",
         "pais": "Brasil"
     },
     {
@@ -32580,7 +32580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9474723,
         "longitude": -47.0956299,
-        "cep": 13199310,
+        "cep": "13199310",
         "pais": "Brasil"
     },
     {
@@ -32590,7 +32590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.596487,
         "longitude": -40.3200248,
-        "cep": 13040704,
+        "cep": "13040704",
         "pais": "Brasil"
     },
     {
@@ -32600,7 +32600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.3684344,
         "longitude": -38.3364845,
-        "cep": 13059671,
+        "cep": "13059671",
         "pais": "Brasil"
     },
     {
@@ -32610,7 +32610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.1209315,
         "longitude": -34.9046174,
-        "cep": 13065320,
+        "cep": "13065320",
         "pais": "Brasil"
     },
     {
@@ -32620,7 +32620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13086069,
+        "cep": "13086069",
         "pais": "Brasil"
     },
     {
@@ -32630,7 +32630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9473563,
         "longitude": -47.0313677,
-        "cep": 13059604,
+        "cep": "13059604",
         "pais": "Brasil"
     },
     {
@@ -32640,7 +32640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4495517,
         "longitude": -47.5063453,
-        "cep": 18070862,
+        "cep": "18070862",
         "pais": "Brasil"
     },
     {
@@ -32650,7 +32650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3741311,
         "longitude": -47.6474189,
-        "cep": 18560000,
+        "cep": "18560000",
         "pais": "Brasil"
     },
     {
@@ -32660,7 +32660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5554665,
         "longitude": -46.6348312,
-        "cep": 13398006,
+        "cep": "13398006",
         "pais": "Brasil"
     },
     {
@@ -32670,7 +32670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181341,
+        "cep": "13181341",
         "pais": "Brasil"
     },
     {
@@ -32680,7 +32680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13219522,
+        "cep": "13219522",
         "pais": "Brasil"
     },
     {
@@ -32690,7 +32690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1158664,
         "longitude": -47.2236332,
-        "cep": 13346070,
+        "cep": "13346070",
         "pais": "Brasil"
     },
     {
@@ -32700,7 +32700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453721,
+        "cep": "13453721",
         "pais": "Brasil"
     },
     {
@@ -32710,7 +32710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -33.3585121,
         "longitude": -70.7449584,
-        "cep": 13050078,
+        "cep": "13050078",
         "pais": "Brasil"
     },
     {
@@ -32720,7 +32720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8285751,
         "longitude": -49.4952941,
-        "cep": 13057012,
+        "cep": "13057012",
         "pais": "Brasil"
     },
     {
@@ -32730,7 +32730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322278,
+        "cep": "13322278",
         "pais": "Brasil"
     },
     {
@@ -32740,7 +32740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.567689,
         "longitude": -47.3590093,
-        "cep": 13056473,
+        "cep": "13056473",
         "pais": "Brasil"
     },
     {
@@ -32750,7 +32750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1452561,
         "longitude": -47.0033252,
-        "cep": 13212590,
+        "cep": "13212590",
         "pais": "Brasil"
     },
     {
@@ -32760,7 +32760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13179902,
+        "cep": "13179902",
         "pais": "Brasil"
     },
     {
@@ -32770,7 +32770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9193041,
         "longitude": -47.1038519,
-        "cep": 13060073,
+        "cep": "13060073",
         "pais": "Brasil"
     },
     {
@@ -32780,7 +32780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -16.472472,
         "longitude": -49.731525,
-        "cep": 13067818,
+        "cep": "13067818",
         "pais": "Brasil"
     },
     {
@@ -32790,7 +32790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -15.6020687,
         "longitude": -56.0852123,
-        "cep": 13058208,
+        "cep": "13058208",
         "pais": "Brasil"
     },
     {
@@ -32800,7 +32800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7797599,
         "longitude": -47.1691783,
-        "cep": 13142334,
+        "cep": "13142334",
         "pais": "Brasil"
     },
     {
@@ -32810,7 +32810,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -23.9970828,
         "longitude": -48.3471353,
-        "cep": 36302539,
+        "cep": "36302539",
         "pais": NaN
     },
     {
@@ -32820,7 +32820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5138263,
         "longitude": -47.5143118,
-        "cep": 13051103,
+        "cep": "13051103",
         "pais": "Brasil"
     },
     {
@@ -32830,7 +32830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6242632,
         "longitude": -46.3159754,
-        "cep": 13917120,
+        "cep": "13917120",
         "pais": "Brasil"
     },
     {
@@ -32840,7 +32840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.845649,
         "longitude": -35.2511409,
-        "cep": 13049109,
+        "cep": "13049109",
         "pais": "Brasil"
     },
     {
@@ -32850,7 +32850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.284805,
         "longitude": -51.9088956,
-        "cep": 13197198,
+        "cep": "13197198",
         "pais": "Brasil"
     },
     {
@@ -32860,7 +32860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.6005809,
         "longitude": -35.7425278,
-        "cep": 13190800,
+        "cep": "13190800",
         "pais": "Brasil"
     },
     {
@@ -32870,7 +32870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5784123,
         "longitude": -46.6754416,
-        "cep": 13035120,
+        "cep": "13035120",
         "pais": "Brasil"
     },
     {
@@ -32880,7 +32880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -13.5782204,
         "longitude": -41.8130376,
-        "cep": 13150017,
+        "cep": "13150017",
         "pais": "Brasil"
     },
     {
@@ -32890,7 +32890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0714616,
         "longitude": -51.1112738,
-        "cep": 13190820,
+        "cep": "13190820",
         "pais": "Brasil"
     },
     {
@@ -32900,7 +32900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7211293,
         "longitude": -51.0188,
-        "cep": 18279180,
+        "cep": "18279180",
         "pais": "Brasil"
     },
     {
@@ -32910,7 +32910,7 @@ const usuarios = [
         "estado": "MS",
         "latitude": -20.8285751,
         "longitude": -49.4952941,
-        "cep": 79700000,
+        "cep": "79700000",
         "pais": NaN
     },
     {
@@ -32920,7 +32920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.606932,
         "longitude": -46.698003,
-        "cep": 13930000,
+        "cep": "13930000",
         "pais": "Brasil"
     },
     {
@@ -32930,7 +32930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13506813,
+        "cep": "13506813",
         "pais": "Brasil"
     },
     {
@@ -32940,7 +32940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453882,
+        "cep": "13453882",
         "pais": "Brasil"
     },
     {
@@ -32950,7 +32950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9858334,
         "longitude": -47.5107032,
-        "cep": 13360000,
+        "cep": "13360000",
         "pais": "Brasil"
     },
     {
@@ -32960,7 +32960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7147038,
         "longitude": -47.3622543,
-        "cep": 13469670,
+        "cep": "13469670",
         "pais": "Brasil"
     },
     {
@@ -32970,7 +32970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.420935,
         "longitude": -47.4215594,
-        "cep": 18103210,
+        "cep": "18103210",
         "pais": "Brasil"
     },
     {
@@ -32980,7 +32980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9531008,
         "longitude": -47.0906109,
-        "cep": 13051105,
+        "cep": "13051105",
         "pais": "Brasil"
     },
     {
@@ -32990,7 +32990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5777168,
         "longitude": -47.374789,
-        "cep": 13606020,
+        "cep": "13606020",
         "pais": "Brasil"
     },
     {
@@ -33000,7 +33000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5597285,
         "longitude": -47.1234935,
-        "cep": 18053080,
+        "cep": "18053080",
         "pais": "Brasil"
     },
     {
@@ -33010,7 +33010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9684348,
         "longitude": -47.0007308,
-        "cep": 13271150,
+        "cep": "13271150",
         "pais": "Brasil"
     },
     {
@@ -33020,7 +33020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3267009,
         "longitude": -48.9778745,
-        "cep": 13031390,
+        "cep": "13031390",
         "pais": "Brasil"
     },
     {
@@ -33030,7 +33030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7596726,
         "longitude": -49.3846874,
-        "cep": 13380025,
+        "cep": "13380025",
         "pais": "Brasil"
     },
     {
@@ -33040,7 +33040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8312181,
         "longitude": -47.263031,
-        "cep": 13171120,
+        "cep": "13171120",
         "pais": "Brasil"
     },
     {
@@ -33050,7 +33050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243236,
         "longitude": -47.3171261,
-        "cep": 13472360,
+        "cep": "13472360",
         "pais": "Brasil"
     },
     {
@@ -33060,7 +33060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8787927,
         "longitude": -47.0359915,
-        "cep": 13091133,
+        "cep": "13091133",
         "pais": "Brasil"
     },
     {
@@ -33070,7 +33070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8476474,
         "longitude": -47.044351,
-        "cep": 13024035,
+        "cep": "13024035",
         "pais": "Brasil"
     },
     {
@@ -33080,7 +33080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3745028,
         "longitude": -47.5512695,
-        "cep": 13506121,
+        "cep": "13506121",
         "pais": "Brasil"
     },
     {
@@ -33090,7 +33090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.565663,
         "longitude": -35.7409183,
-        "cep": 13056350,
+        "cep": "13056350",
         "pais": "Brasil"
     },
     {
@@ -33100,7 +33100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3254916,
         "longitude": -46.7214649,
-        "cep": 13044510,
+        "cep": "13044510",
         "pais": "Brasil"
     },
     {
@@ -33110,7 +33110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4335441,
         "longitude": -49.2815625,
-        "cep": 13348430,
+        "cep": "13348430",
         "pais": "Brasil"
     },
     {
@@ -33120,7 +33120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0360801,
         "longitude": -42.3816532,
-        "cep": 13054595,
+        "cep": "13054595",
         "pais": "Brasil"
     },
     {
@@ -33130,7 +33130,7 @@ const usuarios = [
         "estado": "CE",
         "latitude": -3.8118221,
         "longitude": -38.5257355,
-        "cep": 60862460,
+        "cep": "60862460",
         "pais": NaN
     },
     {
@@ -33140,7 +33140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.1477812,
         "longitude": -51.14892,
-        "cep": 13069083,
+        "cep": "13069083",
         "pais": "Brasil"
     },
     {
@@ -33150,7 +33150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.993173,
         "longitude": -47.3333435,
-        "cep": 13640403,
+        "cep": "13640403",
         "pais": "Brasil"
     },
     {
@@ -33160,7 +33160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9181988,
         "longitude": -47.1001614,
-        "cep": 13060866,
+        "cep": "13060866",
         "pais": "Brasil"
     },
     {
@@ -33170,7 +33170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5530241,
         "longitude": -47.447796,
-        "cep": 13483286,
+        "cep": "13483286",
         "pais": "Brasil"
     },
     {
@@ -33180,7 +33180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243236,
         "longitude": -47.3171261,
-        "cep": 13472360,
+        "cep": "13472360",
         "pais": "Brasil"
     },
     {
@@ -33190,7 +33190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13064324,
+        "cep": "13064324",
         "pais": "Brasil"
     },
     {
@@ -33200,7 +33200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6975383,
         "longitude": -46.9556623,
-        "cep": 13486470,
+        "cep": "13486470",
         "pais": "Brasil"
     },
     {
@@ -33210,7 +33210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8193193,
         "longitude": -43.3067275,
-        "cep": 13088095,
+        "cep": "13088095",
         "pais": "Brasil"
     },
     {
@@ -33220,7 +33220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13328010,
+        "cep": "13328010",
         "pais": "Brasil"
     },
     {
@@ -33230,7 +33230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13477460,
+        "cep": "13477460",
         "pais": "Brasil"
     },
     {
@@ -33240,7 +33240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.2440995,
         "longitude": -48.5161962,
-        "cep": 13054584,
+        "cep": "13054584",
         "pais": "Brasil"
     },
     {
@@ -33250,7 +33250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6582507,
         "longitude": -47.0531731,
-        "cep": 13916410,
+        "cep": "13916410",
         "pais": "Brasil"
     },
     {
@@ -33260,7 +33260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7207803,
         "longitude": -47.179275,
-        "cep": 13145778,
+        "cep": "13145778",
         "pais": "Brasil"
     },
     {
@@ -33270,7 +33270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13290000,
+        "cep": "13290000",
         "pais": "Brasil"
     },
     {
@@ -33280,7 +33280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.6209613,
         "longitude": -43.2206973,
-        "cep": 13059675,
+        "cep": "13059675",
         "pais": "Brasil"
     },
     {
@@ -33290,7 +33290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -28.2921083,
         "longitude": -49.9369705,
-        "cep": 13045120,
+        "cep": "13045120",
         "pais": "Brasil"
     },
     {
@@ -33300,7 +33300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.322373,
         "longitude": -46.7091115,
-        "cep": 13058005,
+        "cep": "13058005",
         "pais": "Brasil"
     },
     {
@@ -33310,7 +33310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13172691,
+        "cep": "13172691",
         "pais": "Brasil"
     },
     {
@@ -33320,7 +33320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13349060,
+        "cep": "13349060",
         "pais": "Brasil"
     },
     {
@@ -33330,7 +33330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1304185,
+        "cep": "01304185",
         "pais": "Brasil"
     },
     {
@@ -33340,7 +33340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8258987,
         "longitude": -44.0353253,
-        "cep": 13045310,
+        "cep": "13045310",
         "pais": "Brasil"
     },
     {
@@ -33350,7 +33350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 9.9353192,
         "longitude": -84.2230945,
-        "cep": 13056350,
+        "cep": "13056350",
         "pais": "Brasil"
     },
     {
@@ -33360,7 +33360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2087865,
         "longitude": -46.8000337,
-        "cep": 13184675,
+        "cep": "13184675",
         "pais": "Brasil"
     },
     {
@@ -33370,7 +33370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.9573466,
         "longitude": -50.9769902,
-        "cep": 13030640,
+        "cep": "13030640",
         "pais": "Brasil"
     },
     {
@@ -33380,7 +33380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3754424,
         "longitude": -47.3641742,
-        "cep": 13186260,
+        "cep": "13186260",
         "pais": "Brasil"
     },
     {
@@ -33390,7 +33390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6443398,
         "longitude": -46.7464551,
-        "cep": 13050072,
+        "cep": "13050072",
         "pais": "Brasil"
     },
     {
@@ -33400,7 +33400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2342137,
         "longitude": -47.5227418,
-        "cep": 18542248,
+        "cep": "18542248",
         "pais": "Brasil"
     },
     {
@@ -33410,7 +33410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8057869,
         "longitude": -47.1170923,
-        "cep": 13148218,
+        "cep": "13148218",
         "pais": "Brasil"
     },
     {
@@ -33420,7 +33420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.587345,
         "longitude": -46.925944,
-        "cep": 13473060,
+        "cep": "13473060",
         "pais": "Brasil"
     },
     {
@@ -33430,7 +33430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4147608,
         "longitude": -47.516441,
-        "cep": 18073122,
+        "cep": "18073122",
         "pais": "Brasil"
     },
     {
@@ -33440,7 +33440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.993173,
         "longitude": -47.3333435,
-        "cep": 13420440,
+        "cep": "13420440",
         "pais": "Brasil"
     },
     {
@@ -33450,7 +33450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13203240,
+        "cep": "13203240",
         "pais": "Brasil"
     },
     {
@@ -33460,7 +33460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.417179,
         "longitude": -41.7296886,
-        "cep": 13060430,
+        "cep": "13060430",
         "pais": "Brasil"
     },
     {
@@ -33470,7 +33470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13184496,
+        "cep": "13184496",
         "pais": "Brasil"
     },
     {
@@ -33480,7 +33480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13321421,
+        "cep": "13321421",
         "pais": "Brasil"
     },
     {
@@ -33490,7 +33490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.5329841,
         "longitude": -46.6415211,
-        "cep": 13770000,
+        "cep": "13770000",
         "pais": "Brasil"
     },
     {
@@ -33500,7 +33500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2239276,
         "longitude": -47.5065736,
-        "cep": 18540000,
+        "cep": "18540000",
         "pais": "Brasil"
     },
     {
@@ -33510,7 +33510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 9.9353192,
         "longitude": -84.2230945,
-        "cep": 13060536,
+        "cep": "13060536",
         "pais": "Brasil"
     },
     {
@@ -33520,7 +33520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2917412,
         "longitude": -45.9587459,
-        "cep": 13025190,
+        "cep": "13025190",
         "pais": "Brasil"
     },
     {
@@ -33530,7 +33530,7 @@ const usuarios = [
         "estado": "PI",
         "latitude": -5.0902277,
         "longitude": -42.8129529,
-        "cep": 64009187,
+        "cep": "64009187",
         "pais": NaN
     },
     {
@@ -33540,7 +33540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13339545,
+        "cep": "13339545",
         "pais": "Brasil"
     },
     {
@@ -33550,7 +33550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.558208,
         "longitude": -46.4744438,
-        "cep": 13058800,
+        "cep": "13058800",
         "pais": "Brasil"
     },
     {
@@ -33560,7 +33560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2107155,
         "longitude": -47.4033707,
-        "cep": 13610130,
+        "cep": "13610130",
         "pais": "Brasil"
     },
     {
@@ -33570,7 +33570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -27.8343291,
         "longitude": -50.3439334,
-        "cep": 13049109,
+        "cep": "13049109",
         "pais": "Brasil"
     },
     {
@@ -33580,7 +33580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -11.3411522,
         "longitude": -41.745207,
-        "cep": 13082315,
+        "cep": "13082315",
         "pais": "Brasil"
     },
     {
@@ -33590,7 +33590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13183210,
+        "cep": "13183210",
         "pais": "Brasil"
     },
     {
@@ -33600,7 +33600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0136643,
         "longitude": -46.504949,
-        "cep": 12955000,
+        "cep": "12955000",
         "pais": "Brasil"
     },
     {
@@ -33610,7 +33610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9125144,
         "longitude": -47.0847192,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -33620,7 +33620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13504460,
+        "cep": "13504460",
         "pais": "Brasil"
     },
     {
@@ -33630,7 +33630,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -20.0974711,
         "longitude": -45.2858533,
-        "cep": 37045264,
+        "cep": "37045264",
         "pais": NaN
     },
     {
@@ -33640,7 +33640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.7161091,
         "longitude": -48.0984801,
-        "cep": 18274140,
+        "cep": "18274140",
         "pais": "Brasil"
     },
     {
@@ -33650,7 +33650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1678022,
         "longitude": -50.6300994,
-        "cep": 37540000,
+        "cep": "37540000",
         "pais": "Brasil"
     },
     {
@@ -33660,7 +33660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1305667,
+        "cep": "01305667",
         "pais": "Brasil"
     },
     {
@@ -33670,7 +33670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9428935,
         "longitude": -47.1915605,
-        "cep": 13470749,
+        "cep": "13470749",
         "pais": "Brasil"
     },
     {
@@ -33680,7 +33680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13173212,
+        "cep": "13173212",
         "pais": "Brasil"
     },
     {
@@ -33690,7 +33690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8012455,
         "longitude": -47.017201,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -33700,7 +33700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9474723,
         "longitude": -47.0956299,
-        "cep": 13056116,
+        "cep": "13056116",
         "pais": "Brasil"
     },
     {
@@ -33710,7 +33710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13174383,
+        "cep": "13174383",
         "pais": "Brasil"
     },
     {
@@ -33720,7 +33720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7264063,
         "longitude": -47.1737647,
-        "cep": 13146000,
+        "cep": "13146000",
         "pais": "Brasil"
     },
     {
@@ -33730,7 +33730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.1969496,
         "longitude": -34.8663884,
-        "cep": 13015310,
+        "cep": "13015310",
         "pais": "Brasil"
     },
     {
@@ -33740,7 +33740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.9062876,
         "longitude": -38.4230744,
-        "cep": 13059001,
+        "cep": "13059001",
         "pais": "Brasil"
     },
     {
@@ -33750,7 +33750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -2.583037,
         "longitude": -44.2365569,
-        "cep": 13065705,
+        "cep": "13065705",
         "pais": "Brasil"
     },
     {
@@ -33760,7 +33760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4684198,
         "longitude": -46.6338613,
-        "cep": 13065030,
+        "cep": "13065030",
         "pais": "Brasil"
     },
     {
@@ -33770,7 +33770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.8810556,
         "longitude": -51.8413303,
-        "cep": 13476735,
+        "cep": "13476735",
         "pais": "Brasil"
     },
     {
@@ -33780,7 +33780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.72594,
         "longitude": -47.1743834,
-        "cep": 13145796,
+        "cep": "13145796",
         "pais": "Brasil"
     },
     {
@@ -33790,7 +33790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8795192,
         "longitude": -47.036527,
-        "cep": 13091150,
+        "cep": "13091150",
         "pais": "Brasil"
     },
     {
@@ -33800,7 +33800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7191088,
         "longitude": -45.5656714,
-        "cep": 13363592,
+        "cep": "13363592",
         "pais": "Brasil"
     },
     {
@@ -33810,7 +33810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8983322,
         "longitude": -47.0651844,
-        "cep": 13020440,
+        "cep": "13020440",
         "pais": "Brasil"
     },
     {
@@ -33820,7 +33820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13280000,
+        "cep": "13280000",
         "pais": "Brasil"
     },
     {
@@ -33830,7 +33830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1110264,
         "longitude": -51.4271667,
-        "cep": 13178302,
+        "cep": "13178302",
         "pais": "Brasil"
     },
     {
@@ -33840,7 +33840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5408838,
         "longitude": -47.4665201,
-        "cep": 13043710,
+        "cep": "13043710",
         "pais": "Brasil"
     },
     {
@@ -33850,7 +33850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13185040,
+        "cep": "13185040",
         "pais": "Brasil"
     },
     {
@@ -33860,7 +33860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9243528,
         "longitude": -47.044581,
-        "cep": 13041445,
+        "cep": "13041445",
         "pais": "Brasil"
     },
     {
@@ -33870,7 +33870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.1311667,
         "longitude": -45.1723987,
-        "cep": 13157574,
+        "cep": "13157574",
         "pais": "Brasil"
     },
     {
@@ -33880,7 +33880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454275,
+        "cep": "13454275",
         "pais": "Brasil"
     },
     {
@@ -33890,7 +33890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6065962,
         "longitude": -46.7556086,
-        "cep": 13100472,
+        "cep": "13100472",
         "pais": "Brasil"
     },
     {
@@ -33900,7 +33900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9190931,
         "longitude": -47.10287,
-        "cep": 13060072,
+        "cep": "13060072",
         "pais": "Brasil"
     },
     {
@@ -33910,7 +33910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9978031,
         "longitude": -44.3062735,
-        "cep": 13073221,
+        "cep": "13073221",
         "pais": "Brasil"
     },
     {
@@ -33920,7 +33920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4781034,
         "longitude": -47.5069802,
-        "cep": 18055851,
+        "cep": "18055851",
         "pais": "Brasil"
     },
     {
@@ -33930,7 +33930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.929759,
         "longitude": -47.1008085,
-        "cep": 13060864,
+        "cep": "13060864",
         "pais": "Brasil"
     },
     {
@@ -33940,7 +33940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13185411,
+        "cep": "13185411",
         "pais": "Brasil"
     },
     {
@@ -33950,7 +33950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181764,
+        "cep": "13181764",
         "pais": "Brasil"
     },
     {
@@ -33960,7 +33960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -34.6297519,
         "longitude": -68.3343967,
-        "cep": 13088840,
+        "cep": "13088840",
         "pais": "Brasil"
     },
     {
@@ -33970,7 +33970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4267089,
         "longitude": -47.4811689,
-        "cep": 18079655,
+        "cep": "18079655",
         "pais": "Brasil"
     },
     {
@@ -33980,7 +33980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5179064,
         "longitude": -46.6081582,
-        "cep": 13140113,
+        "cep": "13140113",
         "pais": "Brasil"
     },
     {
@@ -33990,7 +33990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1333017,
         "longitude": -49.9141635,
-        "cep": 13503189,
+        "cep": "13503189",
         "pais": "Brasil"
     },
     {
@@ -34000,7 +34000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8759575,
         "longitude": -47.1047892,
-        "cep": 13070115,
+        "cep": "13070115",
         "pais": "Brasil"
     },
     {
@@ -34010,7 +34010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458082,
+        "cep": "13458082",
         "pais": "Brasil"
     },
     {
@@ -34020,7 +34020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454002,
+        "cep": "13454002",
         "pais": "Brasil"
     },
     {
@@ -34030,7 +34030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.907208,
         "longitude": -47.0575521,
-        "cep": 13010001,
+        "cep": "13010001",
         "pais": "Brasil"
     },
     {
@@ -34040,7 +34040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4297892,
         "longitude": -46.9407693,
-        "cep": 13484331,
+        "cep": "13484331",
         "pais": "Brasil"
     },
     {
@@ -34050,7 +34050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6625525,
         "longitude": -47.167817,
-        "cep": 13218630,
+        "cep": "13218630",
         "pais": "Brasil"
     },
     {
@@ -34060,7 +34060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.944483,
         "longitude": -47.1227975,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -34070,7 +34070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3381557,
         "longitude": -47.8527885,
-        "cep": 18274770,
+        "cep": "18274770",
         "pais": "Brasil"
     },
     {
@@ -34080,7 +34080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13203283,
+        "cep": "13203283",
         "pais": "Brasil"
     },
     {
@@ -34090,7 +34090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4237839,
         "longitude": -47.4791888,
-        "cep": 18079663,
+        "cep": "18079663",
         "pais": "Brasil"
     },
     {
@@ -34100,7 +34100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181701,
+        "cep": "13181701",
         "pais": "Brasil"
     },
     {
@@ -34110,7 +34110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9978034,
         "longitude": -46.9941321,
-        "cep": 13277581,
+        "cep": "13277581",
         "pais": "Brasil"
     },
     {
@@ -34120,7 +34120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9978034,
         "longitude": -46.9941321,
-        "cep": 13277581,
+        "cep": "13277581",
         "pais": "Brasil"
     },
     {
@@ -34130,7 +34130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9669726,
         "longitude": -46.8111503,
-        "cep": 13872730,
+        "cep": "13872730",
         "pais": "Brasil"
     },
     {
@@ -34140,7 +34140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13505493,
+        "cep": "13505493",
         "pais": "Brasil"
     },
     {
@@ -34150,7 +34150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1227264,
         "longitude": -48.9351654,
-        "cep": 13178724,
+        "cep": "13178724",
         "pais": "Brasil"
     },
     {
@@ -34160,7 +34160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5658825,
         "longitude": -46.4194678,
-        "cep": 2566000,
+        "cep": "02566000",
         "pais": "Brasil"
     },
     {
@@ -34170,7 +34170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -34180,7 +34180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13450354,
+        "cep": "13450354",
         "pais": "Brasil"
     },
     {
@@ -34190,7 +34190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5737108,
         "longitude": -47.1729018,
-        "cep": 13165160,
+        "cep": "13165160",
         "pais": "Brasil"
     },
     {
@@ -34200,7 +34200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8966305,
         "longitude": -47.084645,
-        "cep": 13178391,
+        "cep": "13178391",
         "pais": "Brasil"
     },
     {
@@ -34210,7 +34210,7 @@ const usuarios = [
         "estado": "RN",
         "latitude": -23.5482337,
         "longitude": -46.69057,
-        "cep": 59598000,
+        "cep": "59598000",
         "pais": NaN
     },
     {
@@ -34220,7 +34220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482275,
+        "cep": "13482275",
         "pais": "Brasil"
     },
     {
@@ -34230,7 +34230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5827152,
         "longitude": -47.4201772,
-        "cep": 13482080,
+        "cep": "13482080",
         "pais": "Brasil"
     },
     {
@@ -34240,7 +34240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.817181,
         "longitude": -47.0314653,
-        "cep": 13466030,
+        "cep": "13466030",
         "pais": "Brasil"
     },
     {
@@ -34250,7 +34250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322224,
+        "cep": "13322224",
         "pais": "Brasil"
     },
     {
@@ -34260,7 +34260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7191088,
         "longitude": -45.5656714,
-        "cep": 13363240,
+        "cep": "13363240",
         "pais": "Brasil"
     },
     {
@@ -34270,7 +34270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13327550,
+        "cep": "13327550",
         "pais": "Brasil"
     },
     {
@@ -34280,7 +34280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.4787558,
         "longitude": -54.5757366,
-        "cep": 13044740,
+        "cep": "13044740",
         "pais": "Brasil"
     },
     {
@@ -34290,7 +34290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7301305,
         "longitude": -47.3029879,
-        "cep": 13473000,
+        "cep": "13473000",
         "pais": "Brasil"
     },
     {
@@ -34300,7 +34300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13183250,
+        "cep": "13183250",
         "pais": "Brasil"
     },
     {
@@ -34310,7 +34310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.881429,
         "longitude": -47.0690136,
-        "cep": 13073035,
+        "cep": "13073035",
         "pais": "Brasil"
     },
     {
@@ -34320,7 +34320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7768955,
         "longitude": -45.1866901,
-        "cep": 13057002,
+        "cep": "13057002",
         "pais": "Brasil"
     },
     {
@@ -34330,7 +34330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4952789,
         "longitude": -47.4602782,
-        "cep": 18035090,
+        "cep": "18035090",
         "pais": "Brasil"
     },
     {
@@ -34340,7 +34340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -34350,7 +34350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9243528,
         "longitude": -47.044581,
-        "cep": 13041445,
+        "cep": "13041445",
         "pais": "Brasil"
     },
     {
@@ -34360,7 +34360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13216040,
+        "cep": "13216040",
         "pais": "Brasil"
     },
     {
@@ -34370,7 +34370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4394793,
         "longitude": -46.9621143,
-        "cep": 13500145,
+        "cep": "13500145",
         "pais": "Brasil"
     },
     {
@@ -34380,7 +34380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.1876065,
         "longitude": -51.1607896,
-        "cep": 13051578,
+        "cep": "13051578",
         "pais": "Brasil"
     },
     {
@@ -34390,7 +34390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.831416,
         "longitude": -47.2201138,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -34400,7 +34400,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.2829421,
         "longitude": -46.610956,
-        "cep": 37590000,
+        "cep": "37590000",
         "pais": NaN
     },
     {
@@ -34410,7 +34410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7028843,
         "longitude": -47.2920896,
-        "cep": 13474590,
+        "cep": "13474590",
         "pais": "Brasil"
     },
     {
@@ -34420,7 +34420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13184527,
+        "cep": "13184527",
         "pais": "Brasil"
     },
     {
@@ -34430,7 +34430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4707368,
         "longitude": -47.4781296,
-        "cep": 18070410,
+        "cep": "18070410",
         "pais": "Brasil"
     },
     {
@@ -34440,7 +34440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9483288,
         "longitude": -47.0866581,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -34450,7 +34450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.548638,
         "longitude": -46.4247164,
-        "cep": 13473300,
+        "cep": "13473300",
         "pais": "Brasil"
     },
     {
@@ -34460,7 +34460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -34470,7 +34470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 3.262,
         "longitude": -61.1134283,
-        "cep": 13050903,
+        "cep": "13050903",
         "pais": "Brasil"
     },
     {
@@ -34480,7 +34480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.597812,
         "longitude": -37.6969313,
-        "cep": 13082619,
+        "cep": "13082619",
         "pais": "Brasil"
     },
     {
@@ -34490,7 +34490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4296102,
         "longitude": -49.2174253,
-        "cep": 13081220,
+        "cep": "13081220",
         "pais": "Brasil"
     },
     {
@@ -34500,7 +34500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5716175,
         "longitude": -47.4023744,
-        "cep": 13152072,
+        "cep": "13152072",
         "pais": "Brasil"
     },
     {
@@ -34510,7 +34510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7235015,
         "longitude": -47.3602774,
-        "cep": 13469305,
+        "cep": "13469305",
         "pais": "Brasil"
     },
     {
@@ -34520,7 +34520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13282104,
+        "cep": "13282104",
         "pais": "Brasil"
     },
     {
@@ -34530,7 +34530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4371558,
         "longitude": -46.977918,
-        "cep": 13800440,
+        "cep": "13800440",
         "pais": "Brasil"
     },
     {
@@ -34540,7 +34540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8904923,
         "longitude": -47.0762379,
-        "cep": 13013160,
+        "cep": "13013160",
         "pais": "Brasil"
     },
     {
@@ -34550,7 +34550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7748799,
         "longitude": -47.1725169,
-        "cep": 13142490,
+        "cep": "13142490",
         "pais": "Brasil"
     },
     {
@@ -34560,7 +34560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4345956,
         "longitude": -47.1142007,
-        "cep": 18147000,
+        "cep": "18147000",
         "pais": "Brasil"
     },
     {
@@ -34570,7 +34570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3732483,
         "longitude": -46.9546864,
-        "cep": 13848696,
+        "cep": "13848696",
         "pais": "Brasil"
     },
     {
@@ -34580,7 +34580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1935027,
         "longitude": -45.7539342,
-        "cep": 13101212,
+        "cep": "13101212",
         "pais": "Brasil"
     },
     {
@@ -34590,7 +34590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1688797,
         "longitude": -46.9660459,
-        "cep": 13212421,
+        "cep": "13212421",
         "pais": "Brasil"
     },
     {
@@ -34600,7 +34600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7591803,
         "longitude": -47.1837186,
-        "cep": 13144725,
+        "cep": "13144725",
         "pais": "Brasil"
     },
     {
@@ -34610,7 +34610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243236,
         "longitude": -47.3171261,
-        "cep": 13472360,
+        "cep": "13472360",
         "pais": "Brasil"
     },
     {
@@ -34620,7 +34620,7 @@ const usuarios = [
         "estado": "PR",
         "latitude": -23.5186691,
         "longitude": -46.6264508,
-        "cep": 83260000,
+        "cep": "83260000",
         "pais": NaN
     },
     {
@@ -34630,7 +34630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7738141,
         "longitude": -49.4190546,
-        "cep": 13148204,
+        "cep": "13148204",
         "pais": "Brasil"
     },
     {
@@ -34640,7 +34640,7 @@ const usuarios = [
         "estado": "ES",
         "latitude": -19.536156,
         "longitude": -40.6322724,
-        "cep": 29700100,
+        "cep": "29700100",
         "pais": NaN
     },
     {
@@ -34650,7 +34650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5831177,
         "longitude": -46.7905873,
-        "cep": 13476428,
+        "cep": "13476428",
         "pais": "Brasil"
     },
     {
@@ -34660,7 +34660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2134515,
         "longitude": -46.8623411,
-        "cep": 13272854,
+        "cep": "13272854",
         "pais": "Brasil"
     },
     {
@@ -34670,7 +34670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9167748,
         "longitude": -47.0880156,
-        "cep": 13060090,
+        "cep": "13060090",
         "pais": "Brasil"
     },
     {
@@ -34680,7 +34680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5849864,
         "longitude": -48.0183801,
-        "cep": 13171400,
+        "cep": "13171400",
         "pais": "Brasil"
     },
     {
@@ -34690,7 +34690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4143885,
         "longitude": -51.8478359,
-        "cep": 13173524,
+        "cep": "13173524",
         "pais": "Brasil"
     },
     {
@@ -34700,7 +34700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8910552,
         "longitude": -47.0558572,
-        "cep": 13024045,
+        "cep": "13024045",
         "pais": "Brasil"
     },
     {
@@ -34710,7 +34710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0856691,
         "longitude": -47.2764454,
-        "cep": 13485026,
+        "cep": "13485026",
         "pais": "Brasil"
     },
     {
@@ -34720,7 +34720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8815475,
         "longitude": -47.0472115,
-        "cep": 13076550,
+        "cep": "13076550",
         "pais": "Brasil"
     },
     {
@@ -34730,7 +34730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9541037,
         "longitude": -47.011927,
-        "cep": 13272514,
+        "cep": "13272514",
         "pais": "Brasil"
     },
     {
@@ -34740,7 +34740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8992863,
         "longitude": -47.0829762,
-        "cep": 13070751,
+        "cep": "13070751",
         "pais": "Brasil"
     },
     {
@@ -34750,7 +34750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13178383,
+        "cep": "13178383",
         "pais": "Brasil"
     },
     {
@@ -34760,7 +34760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13213469,
+        "cep": "13213469",
         "pais": "Brasil"
     },
     {
@@ -34770,7 +34770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9881114,
         "longitude": -51.6519255,
-        "cep": 12060123,
+        "cep": "12060123",
         "pais": "Brasil"
     },
     {
@@ -34780,7 +34780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8567529,
         "longitude": -47.0553397,
-        "cep": 13051029,
+        "cep": "13051029",
         "pais": "Brasil"
     },
     {
@@ -34790,7 +34790,7 @@ const usuarios = [
         "estado": "GO",
         "latitude": -18.1519165,
         "longitude": -47.9552694,
-        "cep": 75701818,
+        "cep": "75701818",
         "pais": NaN
     },
     {
@@ -34800,7 +34800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9004891,
         "longitude": -47.0643983,
-        "cep": 13020100,
+        "cep": "13020100",
         "pais": "Brasil"
     },
     {
@@ -34810,7 +34810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13274320,
+        "cep": "13274320",
         "pais": "Brasil"
     },
     {
@@ -34820,7 +34820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.773517,
         "longitude": -47.1731111,
-        "cep": 13142470,
+        "cep": "13142470",
         "pais": "Brasil"
     },
     {
@@ -34830,7 +34830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9253606,
         "longitude": -43.5549885,
-        "cep": 13061140,
+        "cep": "13061140",
         "pais": "Brasil"
     },
     {
@@ -34840,7 +34840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13504017,
+        "cep": "13504017",
         "pais": "Brasil"
     },
     {
@@ -34850,7 +34850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13170121,
+        "cep": "13170121",
         "pais": "Brasil"
     },
     {
@@ -34860,7 +34860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.7301047,
         "longitude": -35.2370278,
-        "cep": 13081532,
+        "cep": "13081532",
         "pais": "Brasil"
     },
     {
@@ -34870,7 +34870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4667144,
         "longitude": -48.5624279,
-        "cep": 13026370,
+        "cep": "13026370",
         "pais": "Brasil"
     },
     {
@@ -34880,7 +34880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8948261,
         "longitude": -43.6707102,
-        "cep": 13033740,
+        "cep": "13033740",
         "pais": "Brasil"
     },
     {
@@ -34890,7 +34890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9975168,
         "longitude": -43.3623889,
-        "cep": 13060746,
+        "cep": "13060746",
         "pais": "Brasil"
     },
     {
@@ -34900,7 +34900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5736877,
         "longitude": -46.7918978,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -34910,7 +34910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.799904,
         "longitude": -47.1944436,
-        "cep": 13178802,
+        "cep": "13178802",
         "pais": "Brasil"
     },
     {
@@ -34920,7 +34920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13274340,
+        "cep": "13274340",
         "pais": "Brasil"
     },
     {
@@ -34930,7 +34930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.494765,
         "longitude": -46.3970611,
-        "cep": 13045603,
+        "cep": "13045603",
         "pais": "Brasil"
     },
     {
@@ -34940,7 +34940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6066,
         "longitude": -46.9189,
-        "cep": 9972260,
+        "cep": "09972260",
         "pais": "Brasil"
     },
     {
@@ -34950,7 +34950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -13.0030351,
         "longitude": -38.5288687,
-        "cep": 13015290,
+        "cep": "13015290",
         "pais": "Brasil"
     },
     {
@@ -34960,7 +34960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13179131,
+        "cep": "13179131",
         "pais": "Brasil"
     },
     {
@@ -34970,7 +34970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8165383,
         "longitude": -49.3932931,
-        "cep": 13033170,
+        "cep": "13033170",
         "pais": "Brasil"
     },
     {
@@ -34980,7 +34980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8990224,
         "longitude": -47.0611018,
-        "cep": 13010210,
+        "cep": "13010210",
         "pais": "Brasil"
     },
     {
@@ -34990,7 +34990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5666326,
         "longitude": -48.0260656,
-        "cep": 18212140,
+        "cep": "18212140",
         "pais": "Brasil"
     },
     {
@@ -35000,7 +35000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2070135,
         "longitude": -46.8131989,
-        "cep": 13224707,
+        "cep": "13224707",
         "pais": "Brasil"
     },
     {
@@ -35010,7 +35010,7 @@ const usuarios = [
         "estado": "BA",
         "latitude": -14.2590585,
         "longitude": -43.1572231,
-        "cep": 46460000,
+        "cep": "46460000",
         "pais": NaN
     },
     {
@@ -35020,7 +35020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4487917,
         "longitude": -47.3733124,
-        "cep": 18087290,
+        "cep": "18087290",
         "pais": "Brasil"
     },
     {
@@ -35030,7 +35030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13187164,
+        "cep": "13187164",
         "pais": "Brasil"
     },
     {
@@ -35040,7 +35040,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -22.8979064,
         "longitude": -45.3719474,
-        "cep": 39100000,
+        "cep": "39100000",
         "pais": NaN
     },
     {
@@ -35050,7 +35050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5411141,
         "longitude": -46.2152749,
-        "cep": 13387774,
+        "cep": "13387774",
         "pais": "Brasil"
     },
     {
@@ -35060,7 +35060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13274610,
+        "cep": "13274610",
         "pais": "Brasil"
     },
     {
@@ -35070,7 +35070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.0340196,
         "longitude": -66.9527341,
-        "cep": 13043660,
+        "cep": "13043660",
         "pais": "Brasil"
     },
     {
@@ -35080,7 +35080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5612688,
         "longitude": -46.6423701,
-        "cep": 13186100,
+        "cep": "13186100",
         "pais": "Brasil"
     },
     {
@@ -35090,7 +35090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1963971,
         "longitude": -49.6745281,
-        "cep": 13912000,
+        "cep": "13912000",
         "pais": "Brasil"
     },
     {
@@ -35100,7 +35100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9363,
         "longitude": -47.309,
-        "cep": 13190058,
+        "cep": "13190058",
         "pais": "Brasil"
     },
     {
@@ -35110,7 +35110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1906339,
         "longitude": -46.7797241,
-        "cep": 13994104,
+        "cep": "13994104",
         "pais": "Brasil"
     },
     {
@@ -35120,7 +35120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5317528,
         "longitude": -46.6275326,
-        "cep": 13806100,
+        "cep": "13806100",
         "pais": "Brasil"
     },
     {
@@ -35130,7 +35130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9666485,
         "longitude": -49.8609283,
-        "cep": 13506899,
+        "cep": "13506899",
         "pais": "Brasil"
     },
     {
@@ -35140,7 +35140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453882,
+        "cep": "13453882",
         "pais": "Brasil"
     },
     {
@@ -35150,7 +35150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13188182,
+        "cep": "13188182",
         "pais": "Brasil"
     },
     {
@@ -35160,7 +35160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13455721,
+        "cep": "13455721",
         "pais": "Brasil"
     },
     {
@@ -35170,7 +35170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13349754,
+        "cep": "13349754",
         "pais": "Brasil"
     },
     {
@@ -35180,7 +35180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3768228,
         "longitude": -46.453423,
-        "cep": 13060483,
+        "cep": "13060483",
         "pais": "Brasil"
     },
     {
@@ -35190,7 +35190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5388084,
         "longitude": -46.8219905,
-        "cep": 13032425,
+        "cep": "13032425",
         "pais": "Brasil"
     },
     {
@@ -35200,7 +35200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4549364,
         "longitude": -46.9810832,
-        "cep": 13806679,
+        "cep": "13806679",
         "pais": "Brasil"
     },
     {
@@ -35210,7 +35210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9120763,
         "longitude": -47.0711455,
-        "cep": 13035030,
+        "cep": "13035030",
         "pais": "Brasil"
     },
     {
@@ -35220,7 +35220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0145353,
         "longitude": -48.0091201,
-        "cep": 18570000,
+        "cep": "18570000",
         "pais": "Brasil"
     },
     {
@@ -35230,7 +35230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.8271446,
         "longitude": -38.4876449,
-        "cep": 13064793,
+        "cep": "13064793",
         "pais": "Brasil"
     },
     {
@@ -35240,7 +35240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.8792369,
         "longitude": -36.4924636,
-        "cep": 13045145,
+        "cep": "13045145",
         "pais": "Brasil"
     },
     {
@@ -35250,7 +35250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13186472,
+        "cep": "13186472",
         "pais": "Brasil"
     },
     {
@@ -35260,7 +35260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.9775129,
         "longitude": -44.0019884,
-        "cep": 13010201,
+        "cep": "13010201",
         "pais": "Brasil"
     },
     {
@@ -35270,7 +35270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9310883,
         "longitude": -47.0981325,
-        "cep": 13185017,
+        "cep": "13185017",
         "pais": "Brasil"
     },
     {
@@ -35280,7 +35280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1654097,
         "longitude": -47.7350779,
-        "cep": 18526270,
+        "cep": "18526270",
         "pais": "Brasil"
     },
     {
@@ -35290,7 +35290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.724477,
         "longitude": -38.5089573,
-        "cep": 13046500,
+        "cep": "13046500",
         "pais": "Brasil"
     },
     {
@@ -35300,7 +35300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13051744,
+        "cep": "13051744",
         "pais": "Brasil"
     },
     {
@@ -35310,7 +35310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.850586,
         "longitude": -47.613858,
-        "cep": 13185650,
+        "cep": "13185650",
         "pais": "Brasil"
     },
     {
@@ -35320,7 +35320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3772169,
         "longitude": -46.4511997,
-        "cep": 13145362,
+        "cep": "13145362",
         "pais": "Brasil"
     },
     {
@@ -35330,7 +35330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13482822,
+        "cep": "13482822",
         "pais": "Brasil"
     },
     {
@@ -35340,7 +35340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6514462,
         "longitude": -47.0593832,
-        "cep": 13826032,
+        "cep": "13826032",
         "pais": "Brasil"
     },
     {
@@ -35350,7 +35350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13481343,
+        "cep": "13481343",
         "pais": "Brasil"
     },
     {
@@ -35360,7 +35360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2695281,
         "longitude": -45.9003908,
-        "cep": 13184071,
+        "cep": "13184071",
         "pais": "Brasil"
     },
     {
@@ -35370,7 +35370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.1209315,
         "longitude": -34.9046174,
-        "cep": 13091451,
+        "cep": "13091451",
         "pais": "Brasil"
     },
     {
@@ -35380,7 +35380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13286397,
+        "cep": "13286397",
         "pais": "Brasil"
     },
     {
@@ -35390,7 +35390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5075305,
         "longitude": -46.6686363,
-        "cep": 13483290,
+        "cep": "13483290",
         "pais": "Brasil"
     },
     {
@@ -35400,7 +35400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5362427,
         "longitude": -46.6005664,
-        "cep": 13188251,
+        "cep": "13188251",
         "pais": "Brasil"
     },
     {
@@ -35410,7 +35410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9212142,
         "longitude": -47.0168006,
-        "cep": 13101400,
+        "cep": "13101400",
         "pais": "Brasil"
     },
     {
@@ -35420,7 +35420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.648542,
         "longitude": -47.5889734,
-        "cep": 13346060,
+        "cep": "13346060",
         "pais": "Brasil"
     },
     {
@@ -35430,7 +35430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.722397,
         "longitude": -47.4138394,
-        "cep": 18170000,
+        "cep": "18170000",
         "pais": "Brasil"
     },
     {
@@ -35440,7 +35440,7 @@ const usuarios = [
         "estado": "CE",
         "latitude": -7.2427097,
         "longitude": -39.3368691,
-        "cep": 63030055,
+        "cep": "63030055",
         "pais": NaN
     },
     {
@@ -35450,7 +35450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284044,
+        "cep": "13284044",
         "pais": "Brasil"
     },
     {
@@ -35460,7 +35460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181492,
+        "cep": "13181492",
         "pais": "Brasil"
     },
     {
@@ -35470,7 +35470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181492,
+        "cep": "13181492",
         "pais": "Brasil"
     },
     {
@@ -35480,7 +35480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4263536,
         "longitude": -46.5549236,
-        "cep": 13107230,
+        "cep": "13107230",
         "pais": "Brasil"
     },
     {
@@ -35490,7 +35490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.496043,
         "longitude": -46.4498752,
-        "cep": 13020160,
+        "cep": "13020160",
         "pais": "Brasil"
     },
     {
@@ -35500,7 +35500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.5943379,
         "longitude": -67.9554961,
-        "cep": 13045505,
+        "cep": "13045505",
         "pais": "Brasil"
     },
     {
@@ -35510,7 +35510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.6559772,
         "longitude": -65.738451,
-        "cep": 13056430,
+        "cep": "13056430",
         "pais": "Brasil"
     },
     {
@@ -35520,7 +35520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9099,
         "longitude": -47.0626,
-        "cep": 13082007,
+        "cep": "13082007",
         "pais": "Brasil"
     },
     {
@@ -35530,7 +35530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6027383,
         "longitude": -48.8031493,
-        "cep": 18685330,
+        "cep": "18685330",
         "pais": "Brasil"
     },
     {
@@ -35540,7 +35540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13184380,
+        "cep": "13184380",
         "pais": "Brasil"
     },
     {
@@ -35550,7 +35550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9767408,
         "longitude": -47.4765062,
-        "cep": 13363532,
+        "cep": "13363532",
         "pais": "Brasil"
     },
     {
@@ -35560,7 +35560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.5058909,
         "longitude": -49.2703971,
-        "cep": 13054082,
+        "cep": "13054082",
         "pais": "Brasil"
     },
     {
@@ -35570,7 +35570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.0722114,
         "longitude": -53.8445443,
-        "cep": 13045310,
+        "cep": "13045310",
         "pais": "Brasil"
     },
     {
@@ -35580,7 +35580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -15.8078993,
         "longitude": -47.8966656,
-        "cep": 13081390,
+        "cep": "13081390",
         "pais": "Brasil"
     },
     {
@@ -35590,7 +35590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8961085,
         "longitude": -47.0829321,
-        "cep": 13070147,
+        "cep": "13070147",
         "pais": "Brasil"
     },
     {
@@ -35600,7 +35600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.819827,
         "longitude": -38.4731652,
-        "cep": 13050410,
+        "cep": "13050410",
         "pais": "Brasil"
     },
     {
@@ -35610,7 +35610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9093088,
         "longitude": -45.378967,
-        "cep": 13279031,
+        "cep": "13279031",
         "pais": "Brasil"
     },
     {
@@ -35620,7 +35620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4669893,
         "longitude": -49.2461469,
-        "cep": 13183240,
+        "cep": "13183240",
         "pais": "Brasil"
     },
     {
@@ -35630,7 +35630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5090898,
         "longitude": -46.6716148,
-        "cep": 13101280,
+        "cep": "13101280",
         "pais": "Brasil"
     },
     {
@@ -35640,7 +35640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7735736,
         "longitude": -47.3042812,
-        "cep": 13386206,
+        "cep": "13386206",
         "pais": "Brasil"
     },
     {
@@ -35650,7 +35650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.5034081,
         "longitude": -42.2282372,
-        "cep": 13101100,
+        "cep": "13101100",
         "pais": "Brasil"
     },
     {
@@ -35660,7 +35660,7 @@ const usuarios = [
         "estado": "AM",
         "latitude": -3.3003355,
         "longitude": -60.6145326,
-        "cep": 69400419,
+        "cep": "69400419",
         "pais": NaN
     },
     {
@@ -35670,7 +35670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4522436,
         "longitude": -51.9456193,
-        "cep": 13070292,
+        "cep": "13070292",
         "pais": "Brasil"
     },
     {
@@ -35680,7 +35680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1814232,
         "longitude": -46.8962348,
-        "cep": 13214206,
+        "cep": "13214206",
         "pais": "Brasil"
     },
     {
@@ -35690,7 +35690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7517023,
         "longitude": -50.3716362,
-        "cep": 13059649,
+        "cep": "13059649",
         "pais": "Brasil"
     },
     {
@@ -35700,7 +35700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9582799,
         "longitude": -45.4599702,
-        "cep": 13092587,
+        "cep": "13092587",
         "pais": "Brasil"
     },
     {
@@ -35710,7 +35710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13187515,
+        "cep": "13187515",
         "pais": "Brasil"
     },
     {
@@ -35720,7 +35720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5059592,
         "longitude": -47.4901992,
-        "cep": 18055131,
+        "cep": "18055131",
         "pais": "Brasil"
     },
     {
@@ -35730,7 +35730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.6999189,
         "longitude": -47.478268,
-        "cep": 13670000,
+        "cep": "13670000",
         "pais": "Brasil"
     },
     {
@@ -35740,7 +35740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 9.9353192,
         "longitude": -84.2230945,
-        "cep": 13645,
+        "cep": "00013645",
         "pais": "Brasil"
     },
     {
@@ -35750,7 +35750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.725243,
         "longitude": -46.6489824,
-        "cep": 13780000,
+        "cep": "13780000",
         "pais": "Brasil"
     },
     {
@@ -35760,7 +35760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13503210,
+        "cep": "13503210",
         "pais": "Brasil"
     },
     {
@@ -35770,7 +35770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13185647,
+        "cep": "13185647",
         "pais": "Brasil"
     },
     {
@@ -35780,7 +35780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13330180,
+        "cep": "13330180",
         "pais": "Brasil"
     },
     {
@@ -35790,7 +35790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13322416,
+        "cep": "13322416",
         "pais": "Brasil"
     },
     {
@@ -35800,7 +35800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.9991846,
         "longitude": -38.2961096,
-        "cep": 13050120,
+        "cep": "13050120",
         "pais": "Brasil"
     },
     {
@@ -35810,7 +35810,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -21.8471771,
         "longitude": -46.6787723,
-        "cep": 37701079,
+        "cep": "37701079",
         "pais": NaN
     },
     {
@@ -35820,7 +35820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0545065,
         "longitude": -47.8341393,
-        "cep": 13188235,
+        "cep": "13188235",
         "pais": "Brasil"
     },
     {
@@ -35830,7 +35830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -17.5226939,
         "longitude": -39.7483525,
-        "cep": 13061399,
+        "cep": "13061399",
         "pais": "Brasil"
     },
     {
@@ -35840,7 +35840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5572186,
         "longitude": -46.4777856,
-        "cep": 13059028,
+        "cep": "13059028",
         "pais": "Brasil"
     },
     {
@@ -35850,7 +35850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -11.8453736,
         "longitude": -55.5349054,
-        "cep": 13105842,
+        "cep": "13105842",
         "pais": "Brasil"
     },
     {
@@ -35860,7 +35860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13274045,
+        "cep": "13274045",
         "pais": "Brasil"
     },
     {
@@ -35870,7 +35870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13332550,
+        "cep": "13332550",
         "pais": "Brasil"
     },
     {
@@ -35880,7 +35880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.9241608,
         "longitude": -38.3555148,
-        "cep": 13054380,
+        "cep": "13054380",
         "pais": "Brasil"
     },
     {
@@ -35890,7 +35890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.7913174,
         "longitude": -36.6289921,
-        "cep": 13059193,
+        "cep": "13059193",
         "pais": "Brasil"
     },
     {
@@ -35900,7 +35900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13278073,
+        "cep": "13278073",
         "pais": "Brasil"
     },
     {
@@ -35910,7 +35910,7 @@ const usuarios = [
         "estado": "RJ",
         "latitude": -22.9085475,
         "longitude": -43.0946091,
-        "cep": 24040115,
+        "cep": "24040115",
         "pais": NaN
     },
     {
@@ -35920,7 +35920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13172570,
+        "cep": "13172570",
         "pais": "Brasil"
     },
     {
@@ -35930,7 +35930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.0686728,
         "longitude": -45.5731604,
-        "cep": 13040055,
+        "cep": "13040055",
         "pais": "Brasil"
     },
     {
@@ -35940,7 +35940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9076015,
         "longitude": -47.1931857,
-        "cep": 13186534,
+        "cep": "13186534",
         "pais": "Brasil"
     },
     {
@@ -35950,7 +35950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1785612,
         "longitude": -46.9957714,
-        "cep": 13212258,
+        "cep": "13212258",
         "pais": "Brasil"
     },
     {
@@ -35960,7 +35960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13502160,
+        "cep": "13502160",
         "pais": "Brasil"
     },
     {
@@ -35970,7 +35970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1004424,
         "longitude": -47.2108681,
-        "cep": 13343470,
+        "cep": "13343470",
         "pais": "Brasil"
     },
     {
@@ -35980,7 +35980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7595145,
         "longitude": -47.1492779,
-        "cep": 13140162,
+        "cep": "13140162",
         "pais": "Brasil"
     },
     {
@@ -35990,7 +35990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9674405,
         "longitude": -46.3577832,
-        "cep": 13466550,
+        "cep": "13466550",
         "pais": "Brasil"
     },
     {
@@ -36000,7 +36000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9883481,
         "longitude": -46.9975598,
-        "cep": 13277440,
+        "cep": "13277440",
         "pais": "Brasil"
     },
     {
@@ -36010,7 +36010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13453110,
+        "cep": "13453110",
         "pais": "Brasil"
     },
     {
@@ -36020,7 +36020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458580,
+        "cep": "13458580",
         "pais": "Brasil"
     },
     {
@@ -36030,7 +36030,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -16.1786491,
         "longitude": -40.6953355,
-        "cep": 39900000,
+        "cep": "39900000",
         "pais": NaN
     },
     {
@@ -36040,7 +36040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -29.5405637,
         "longitude": -50.0672156,
-        "cep": 13013051,
+        "cep": "13013051",
         "pais": "Brasil"
     },
     {
@@ -36050,7 +36050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5451082,
         "longitude": -46.6629404,
-        "cep": 18543532,
+        "cep": "18543532",
         "pais": "Brasil"
     },
     {
@@ -36060,7 +36060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7491085,
         "longitude": -47.6317418,
-        "cep": 13425010,
+        "cep": "13425010",
         "pais": "Brasil"
     },
     {
@@ -36070,7 +36070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.7846645,
         "longitude": -38.5944975,
-        "cep": 13154068,
+        "cep": "13154068",
         "pais": "Brasil"
     },
     {
@@ -36080,7 +36080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.4872952,
         "longitude": -56.1496269,
-        "cep": 13058460,
+        "cep": "13058460",
         "pais": "Brasil"
     },
     {
@@ -36090,7 +36090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9538704,
         "longitude": -46.1863259,
-        "cep": 13056673,
+        "cep": "13056673",
         "pais": "Brasil"
     },
     {
@@ -36100,7 +36100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13174416,
+        "cep": "13174416",
         "pais": "Brasil"
     },
     {
@@ -36110,7 +36110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13472380,
+        "cep": "13472380",
         "pais": "Brasil"
     },
     {
@@ -36120,7 +36120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5666326,
         "longitude": -48.0260656,
-        "cep": 18213674,
+        "cep": "18213674",
         "pais": "Brasil"
     },
     {
@@ -36130,7 +36130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2680134,
         "longitude": -46.9540153,
-        "cep": 13857162,
+        "cep": "13857162",
         "pais": "Brasil"
     },
     {
@@ -36140,7 +36140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4360065,
         "longitude": -49.3400188,
-        "cep": 13186521,
+        "cep": "13186521",
         "pais": "Brasil"
     },
     {
@@ -36150,7 +36150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0061947,
         "longitude": -47.4151912,
-        "cep": 13177905,
+        "cep": "13177905",
         "pais": "Brasil"
     },
     {
@@ -36160,7 +36160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5995927,
         "longitude": -47.4190604,
-        "cep": 13482896,
+        "cep": "13482896",
         "pais": "Brasil"
     },
     {
@@ -36170,7 +36170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.8783066,
         "longitude": -37.0734779,
-        "cep": 13056675,
+        "cep": "13056675",
         "pais": "Brasil"
     },
     {
@@ -36180,7 +36180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180590,
+        "cep": "13180590",
         "pais": "Brasil"
     },
     {
@@ -36190,7 +36190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.8176467,
         "longitude": -46.402721,
-        "cep": 13175380,
+        "cep": "13175380",
         "pais": "Brasil"
     },
     {
@@ -36200,7 +36200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.822171,
         "longitude": -47.2346139,
-        "cep": 13655380,
+        "cep": "13655380",
         "pais": "Brasil"
     },
     {
@@ -36210,7 +36210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9861219,
         "longitude": -46.9793975,
-        "cep": 13275600,
+        "cep": "13275600",
         "pais": "Brasil"
     },
     {
@@ -36220,7 +36220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -36230,7 +36230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7026037,
         "longitude": -47.2970659,
-        "cep": 13187219,
+        "cep": "13187219",
         "pais": "Brasil"
     },
     {
@@ -36240,7 +36240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.6078955,
         "longitude": -44.0401853,
-        "cep": 13186632,
+        "cep": "13186632",
         "pais": "Brasil"
     },
     {
@@ -36250,7 +36250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0428206,
         "longitude": -44.2600881,
-        "cep": 13183343,
+        "cep": "13183343",
         "pais": "Brasil"
     },
     {
@@ -36260,7 +36260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.995353,
         "longitude": -49.0617719,
-        "cep": 13053103,
+        "cep": "13053103",
         "pais": "Brasil"
     },
     {
@@ -36270,7 +36270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.831416,
         "longitude": -47.2201138,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -36280,7 +36280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9643721,
         "longitude": -45.5423321,
-        "cep": 13173224,
+        "cep": "13173224",
         "pais": "Brasil"
     },
     {
@@ -36290,7 +36290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.2420379,
         "longitude": -45.2157209,
-        "cep": 13487009,
+        "cep": "13487009",
         "pais": "Brasil"
     },
     {
@@ -36300,7 +36300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8208411,
         "longitude": -49.3720625,
-        "cep": 13042300,
+        "cep": "13042300",
         "pais": "Brasil"
     },
     {
@@ -36310,7 +36310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0224207,
         "longitude": -47.5279959,
-        "cep": 13370202,
+        "cep": "13370202",
         "pais": "Brasil"
     },
     {
@@ -36320,7 +36320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9901156,
         "longitude": -47.0419096,
-        "cep": 13279481,
+        "cep": "13279481",
         "pais": "Brasil"
     },
     {
@@ -36330,7 +36330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8484026,
         "longitude": -42.3692103,
-        "cep": 13054506,
+        "cep": "13054506",
         "pais": "Brasil"
     },
     {
@@ -36340,7 +36340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13273550,
+        "cep": "13273550",
         "pais": "Brasil"
     },
     {
@@ -36350,7 +36350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9761443,
         "longitude": -46.9884261,
-        "cep": 13275410,
+        "cep": "13275410",
         "pais": "Brasil"
     },
     {
@@ -36360,7 +36360,7 @@ const usuarios = [
         "estado": "RJ",
         "latitude": -22.9080777,
         "longitude": -43.1790268,
-        "cep": 21050700,
+        "cep": "21050700",
         "pais": NaN
     },
     {
@@ -36370,7 +36370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13251187,
+        "cep": "13251187",
         "pais": "Brasil"
     },
     {
@@ -36380,7 +36380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7217933,
         "longitude": -46.7036402,
-        "cep": 13056496,
+        "cep": "13056496",
         "pais": "Brasil"
     },
     {
@@ -36390,7 +36390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.3781468,
         "longitude": -43.4174862,
-        "cep": 13040702,
+        "cep": "13040702",
         "pais": "Brasil"
     },
     {
@@ -36400,7 +36400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4480126,
         "longitude": -46.8098036,
-        "cep": 13986000,
+        "cep": "13986000",
         "pais": "Brasil"
     },
     {
@@ -36410,7 +36410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.470378,
         "longitude": -46.5880143,
-        "cep": 13184551,
+        "cep": "13184551",
         "pais": "Brasil"
     },
     {
@@ -36420,7 +36420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5491704,
         "longitude": -47.4114475,
-        "cep": 13480590,
+        "cep": "13480590",
         "pais": "Brasil"
     },
     {
@@ -36430,7 +36430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13323450,
+        "cep": "13323450",
         "pais": "Brasil"
     },
     {
@@ -36440,7 +36440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.515363,
         "longitude": -47.4077468,
-        "cep": 13050023,
+        "cep": "13050023",
         "pais": "Brasil"
     },
     {
@@ -36450,7 +36450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.831416,
         "longitude": -47.2201138,
-        "cep": 13178574,
+        "cep": "13178574",
         "pais": "Brasil"
     },
     {
@@ -36460,7 +36460,7 @@ const usuarios = [
         "estado": "PR",
         "latitude": -20.795389,
         "longitude": -49.4330068,
-        "cep": 87310390,
+        "cep": "87310390",
         "pais": NaN
     },
     {
@@ -36470,7 +36470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13284466,
+        "cep": "13284466",
         "pais": "Brasil"
     },
     {
@@ -36480,7 +36480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13454214,
+        "cep": "13454214",
         "pais": "Brasil"
     },
     {
@@ -36490,7 +36490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.899823,
         "longitude": -47.0849292,
-        "cep": 2562130,
+        "cep": "02562130",
         "pais": "Brasil"
     },
     {
@@ -36500,7 +36500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1781194,
         "longitude": -50.0148965,
-        "cep": 13145887,
+        "cep": "13145887",
         "pais": "Brasil"
     },
     {
@@ -36510,7 +36510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5572882,
         "longitude": -46.6629785,
-        "cep": 13056405,
+        "cep": "13056405",
         "pais": "Brasil"
     },
     {
@@ -36520,7 +36520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5642153,
         "longitude": -47.3776019,
-        "cep": 13486460,
+        "cep": "13486460",
         "pais": "Brasil"
     },
     {
@@ -36530,7 +36530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -31.482978,
         "longitude": -68.5402388,
-        "cep": 13091030,
+        "cep": "13091030",
         "pais": "Brasil"
     },
     {
@@ -36540,7 +36540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.9449843,
         "longitude": -46.6881186,
-        "cep": 13054047,
+        "cep": "13054047",
         "pais": "Brasil"
     },
     {
@@ -36550,7 +36550,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180360,
+        "cep": "13180360",
         "pais": "Brasil"
     },
     {
@@ -36560,7 +36560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13301453,
+        "cep": "13301453",
         "pais": "Brasil"
     },
     {
@@ -36570,7 +36570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.9761982,
         "longitude": -42.5110723,
-        "cep": 13051076,
+        "cep": "13051076",
         "pais": "Brasil"
     },
     {
@@ -36580,7 +36580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.893074,
         "longitude": -47.0555618,
-        "cep": 13188182,
+        "cep": "13188182",
         "pais": "Brasil"
     },
     {
@@ -36590,7 +36590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8572379,
         "longitude": -47.0388386,
-        "cep": 13179408,
+        "cep": "13179408",
         "pais": "Brasil"
     },
     {
@@ -36600,7 +36600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3410368,
         "longitude": -46.8376444,
-        "cep": 13478700,
+        "cep": "13478700",
         "pais": "Brasil"
     },
     {
@@ -36610,7 +36610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.9260209,
         "longitude": -48.4670263,
-        "cep": 13101252,
+        "cep": "13101252",
         "pais": "Brasil"
     },
     {
@@ -36620,7 +36620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7395894,
         "longitude": -45.2461611,
-        "cep": 13056351,
+        "cep": "13056351",
         "pais": "Brasil"
     },
     {
@@ -36630,7 +36630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6824585,
         "longitude": -46.7542198,
-        "cep": 13059105,
+        "cep": "13059105",
         "pais": "Brasil"
     },
     {
@@ -36640,7 +36640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7803266,
         "longitude": -47.1744882,
-        "cep": 13142302,
+        "cep": "13142302",
         "pais": "Brasil"
     },
     {
@@ -36650,7 +36650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7596726,
         "longitude": -49.3846874,
-        "cep": 13059647,
+        "cep": "13059647",
         "pais": "Brasil"
     },
     {
@@ -36660,7 +36660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4137588,
         "longitude": -47.3924515,
-        "cep": 18104002,
+        "cep": "18104002",
         "pais": "Brasil"
     },
     {
@@ -36670,7 +36670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -24.019141,
         "longitude": -46.4891377,
-        "cep": 13065200,
+        "cep": "13065200",
         "pais": "Brasil"
     },
     {
@@ -36680,7 +36680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9320873,
         "longitude": -47.0593693,
-        "cep": 13040108,
+        "cep": "13040108",
         "pais": "Brasil"
     },
     {
@@ -36690,7 +36690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.944483,
         "longitude": -47.1227975,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -36700,7 +36700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": 45.6585443,
         "longitude": 13.0643294,
-        "cep": 13058095,
+        "cep": "13058095",
         "pais": "Brasil"
     },
     {
@@ -36710,7 +36710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.4762518,
         "longitude": -49.2096506,
-        "cep": 13058095,
+        "cep": "13058095",
         "pais": "Brasil"
     },
     {
@@ -36720,7 +36720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -10.7427133,
         "longitude": -37.7991988,
-        "cep": 13042340,
+        "cep": "13042340",
         "pais": "Brasil"
     },
     {
@@ -36730,7 +36730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6617723,
         "longitude": -47.5844853,
-        "cep": 13058343,
+        "cep": "13058343",
         "pais": "Brasil"
     },
     {
@@ -36740,7 +36740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.315996,
         "longitude": -46.7223228,
-        "cep": 13058095,
+        "cep": "13058095",
         "pais": "Brasil"
     },
     {
@@ -36750,7 +36750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7378582,
         "longitude": -47.3122737,
-        "cep": 13478620,
+        "cep": "13478620",
         "pais": "Brasil"
     },
     {
@@ -36760,7 +36760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -12.9176119,
         "longitude": -38.4813907,
-        "cep": 13065600,
+        "cep": "13065600",
         "pais": "Brasil"
     },
     {
@@ -36770,7 +36770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0633353,
         "longitude": -47.1381008,
-        "cep": 13348655,
+        "cep": "13348655",
         "pais": "Brasil"
     },
     {
@@ -36780,7 +36780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.9946167,
         "longitude": -53.145105,
-        "cep": 13272181,
+        "cep": "13272181",
         "pais": "Brasil"
     },
     {
@@ -36790,7 +36790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -7.7380283,
         "longitude": -72.6509379,
-        "cep": 13059858,
+        "cep": "13059858",
         "pais": "Brasil"
     },
     {
@@ -36800,7 +36800,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -13.0030351,
         "longitude": -38.5288687,
-        "cep": 13034653,
+        "cep": "13034653",
         "pais": "Brasil"
     },
     {
@@ -36810,7 +36810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13173212,
+        "cep": "13173212",
         "pais": "Brasil"
     },
     {
@@ -36820,7 +36820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5004994,
         "longitude": -46.7631595,
-        "cep": 13104900,
+        "cep": "13104900",
         "pais": "Brasil"
     },
     {
@@ -36830,7 +36830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6221117,
         "longitude": -46.6248483,
-        "cep": 13060748,
+        "cep": "13060748",
         "pais": "Brasil"
     },
     {
@@ -36840,7 +36840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0119344,
         "longitude": -44.0120573,
-        "cep": 13273450,
+        "cep": "13273450",
         "pais": "Brasil"
     },
     {
@@ -36850,7 +36850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7458924,
         "longitude": -47.5921808,
-        "cep": 13420834,
+        "cep": "13420834",
         "pais": "Brasil"
     },
     {
@@ -36860,7 +36860,7 @@ const usuarios = [
         "estado": "RJ",
         "latitude": -22.9509781,
         "longitude": -42.0369731,
-        "cep": 28930000,
+        "cep": "28930000",
         "pais": NaN
     },
     {
@@ -36870,7 +36870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9152367,
         "longitude": -47.0895268,
-        "cep": 13031680,
+        "cep": "13031680",
         "pais": "Brasil"
     },
     {
@@ -36880,7 +36880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7618716,
         "longitude": -47.1555415,
-        "cep": 13140320,
+        "cep": "13140320",
         "pais": "Brasil"
     },
     {
@@ -36890,7 +36890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.814566,
         "longitude": -47.2536627,
-        "cep": 13175370,
+        "cep": "13175370",
         "pais": "Brasil"
     },
     {
@@ -36900,7 +36900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9520532,
         "longitude": -47.0223554,
-        "cep": 13272588,
+        "cep": "13272588",
         "pais": "Brasil"
     },
     {
@@ -36910,7 +36910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3711546,
         "longitude": -51.1254331,
-        "cep": 13058149,
+        "cep": "13058149",
         "pais": "Brasil"
     },
     {
@@ -36920,7 +36920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13328630,
+        "cep": "13328630",
         "pais": "Brasil"
     },
     {
@@ -36930,7 +36930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0954362,
         "longitude": -47.2234235,
-        "cep": 13345040,
+        "cep": "13345040",
         "pais": "Brasil"
     },
     {
@@ -36940,7 +36940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.5161334,
         "longitude": -44.0846289,
-        "cep": 13144733,
+        "cep": "13144733",
         "pais": "Brasil"
     },
     {
@@ -36950,7 +36950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283304,
+        "cep": "13283304",
         "pais": "Brasil"
     },
     {
@@ -36960,7 +36960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -5.8481231,
         "longitude": -35.2184652,
-        "cep": 13064742,
+        "cep": "13064742",
         "pais": "Brasil"
     },
     {
@@ -36970,7 +36970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13183045,
+        "cep": "13183045",
         "pais": "Brasil"
     },
     {
@@ -36980,7 +36980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13320005,
+        "cep": "13320005",
         "pais": "Brasil"
     },
     {
@@ -36990,7 +36990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.528826,
         "longitude": -46.7416058,
-        "cep": 5311000,
+        "cep": "05311000",
         "pais": "Brasil"
     },
     {
@@ -37000,7 +37000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.577666,
         "longitude": -46.7749659,
-        "cep": 13053132,
+        "cep": "13053132",
         "pais": "Brasil"
     },
     {
@@ -37010,7 +37010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0233494,
         "longitude": -47.9114736,
-        "cep": 13185230,
+        "cep": "13185230",
         "pais": "Brasil"
     },
     {
@@ -37020,7 +37020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.3666269,
         "longitude": -49.2725056,
-        "cep": 13031390,
+        "cep": "13031390",
         "pais": "Brasil"
     },
     {
@@ -37030,7 +37030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.4134148,
         "longitude": -47.3957784,
-        "cep": 13606238,
+        "cep": "13606238",
         "pais": "Brasil"
     },
     {
@@ -37040,7 +37040,7 @@ const usuarios = [
         "estado": "PR",
         "latitude": -25.7465629,
         "longitude": -53.0590489,
-        "cep": 85660000,
+        "cep": "85660000",
         "pais": NaN
     },
     {
@@ -37050,7 +37050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.5452852,
         "longitude": -49.1565181,
-        "cep": 13064220,
+        "cep": "13064220",
         "pais": "Brasil"
     },
     {
@@ -37060,7 +37060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9768973,
         "longitude": -47.0713899,
-        "cep": 13049252,
+        "cep": "13049252",
         "pais": "Brasil"
     },
     {
@@ -37070,7 +37070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7005224,
         "longitude": -44.8228911,
-        "cep": 13046350,
+        "cep": "13046350",
         "pais": "Brasil"
     },
     {
@@ -37080,7 +37080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.2044384,
         "longitude": -44.8471557,
-        "cep": 13101403,
+        "cep": "13101403",
         "pais": "Brasil"
     },
     {
@@ -37090,7 +37090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456652,
+        "cep": "13456652",
         "pais": "Brasil"
     },
     {
@@ -37100,7 +37100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.1125903,
         "longitude": -47.2279886,
-        "cep": 13346040,
+        "cep": "13346040",
         "pais": "Brasil"
     },
     {
@@ -37110,7 +37110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7727735,
         "longitude": -47.3467651,
-        "cep": 13467590,
+        "cep": "13467590",
         "pais": "Brasil"
     },
     {
@@ -37120,7 +37120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7727735,
         "longitude": -47.3467651,
-        "cep": 13467590,
+        "cep": "13467590",
         "pais": "Brasil"
     },
     {
@@ -37130,7 +37130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -14.1067165,
         "longitude": -46.6186667,
-        "cep": 13065600,
+        "cep": "13065600",
         "pais": "Brasil"
     },
     {
@@ -37140,7 +37140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.905286,
         "longitude": -43.7045694,
-        "cep": 13054372,
+        "cep": "13054372",
         "pais": "Brasil"
     },
     {
@@ -37150,7 +37150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6170616,
         "longitude": -46.4636724,
-        "cep": 13,
+        "cep": "00000013",
         "pais": "Brasil"
     },
     {
@@ -37160,7 +37160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.7336016,
         "longitude": -46.7966769,
-        "cep": 13196054,
+        "cep": "13196054",
         "pais": "Brasil"
     },
     {
@@ -37170,7 +37170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 3054401,
+        "cep": "03054401",
         "pais": "Brasil"
     },
     {
@@ -37180,7 +37180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9649317,
         "longitude": -43.2225538,
-        "cep": 13051144,
+        "cep": "13051144",
         "pais": "Brasil"
     },
     {
@@ -37190,7 +37190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.662425,
         "longitude": -46.6536646,
-        "cep": 13173488,
+        "cep": "13173488",
         "pais": "Brasil"
     },
     {
@@ -37200,7 +37200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.809494,
         "longitude": -49.361876,
-        "cep": 13054082,
+        "cep": "13054082",
         "pais": "Brasil"
     },
     {
@@ -37210,7 +37210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458027,
+        "cep": "13458027",
         "pais": "Brasil"
     },
     {
@@ -37220,7 +37220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8147611,
         "longitude": -47.1639174,
-        "cep": 13142348,
+        "cep": "13142348",
         "pais": "Brasil"
     },
     {
@@ -37230,7 +37230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9448925,
         "longitude": -47.1230696,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -37240,7 +37240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7191088,
         "longitude": -45.5656714,
-        "cep": 13363590,
+        "cep": "13363590",
         "pais": "Brasil"
     },
     {
@@ -37250,7 +37250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9758606,
         "longitude": -47.1364904,
-        "cep": 13054107,
+        "cep": "13054107",
         "pais": "Brasil"
     },
     {
@@ -37260,7 +37260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.9204205,
         "longitude": -48.2492692,
-        "cep": 13069400,
+        "cep": "13069400",
         "pais": "Brasil"
     },
     {
@@ -37270,7 +37270,7 @@ const usuarios = [
         "estado": "RJ",
         "latitude": -22.8508551,
         "longitude": -43.3165829,
-        "cep": 21220301,
+        "cep": "21220301",
         "pais": NaN
     },
     {
@@ -37280,7 +37280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.881429,
         "longitude": -47.0690136,
-        "cep": 13073035,
+        "cep": "13073035",
         "pais": "Brasil"
     },
     {
@@ -37290,7 +37290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3921044,
         "longitude": -47.3774105,
-        "cep": 13056851,
+        "cep": "13056851",
         "pais": "Brasil"
     },
     {
@@ -37300,7 +37300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.8187038,
         "longitude": -43.9899611,
-        "cep": 13054082,
+        "cep": "13054082",
         "pais": "Brasil"
     },
     {
@@ -37310,7 +37310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7767403,
         "longitude": -47.1714194,
-        "cep": 13142500,
+        "cep": "13142500",
         "pais": "Brasil"
     },
     {
@@ -37320,7 +37320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7707874,
         "longitude": -45.8594214,
-        "cep": 13218580,
+        "cep": "13218580",
         "pais": "Brasil"
     },
     {
@@ -37330,7 +37330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0051771,
         "longitude": -47.5191771,
-        "cep": 13365738,
+        "cep": "13365738",
         "pais": "Brasil"
     },
     {
@@ -37340,7 +37340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7931517,
         "longitude": -44.0296115,
-        "cep": 13165064,
+        "cep": "13165064",
         "pais": "Brasil"
     },
     {
@@ -37350,7 +37350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.6556601,
         "longitude": -46.5724627,
-        "cep": 13845250,
+        "cep": "13845250",
         "pais": "Brasil"
     },
     {
@@ -37360,7 +37360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7664229,
         "longitude": -41.5410357,
-        "cep": 18490073,
+        "cep": "18490073",
         "pais": "Brasil"
     },
     {
@@ -37370,7 +37370,7 @@ const usuarios = [
         "estado": "MG",
         "latitude": -21.1106705,
         "longitude": -45.8321495,
-        "cep": 37165000,
+        "cep": "37165000",
         "pais": NaN
     },
     {
@@ -37380,7 +37380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13178450,
+        "cep": "13178450",
         "pais": "Brasil"
     },
     {
@@ -37390,7 +37390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0545065,
         "longitude": -47.8341393,
-        "cep": 13188100,
+        "cep": "13188100",
         "pais": "Brasil"
     },
     {
@@ -37400,7 +37400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13474381,
+        "cep": "13474381",
         "pais": "Brasil"
     },
     {
@@ -37410,7 +37410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7226967,
         "longitude": -47.6802528,
-        "cep": 13403876,
+        "cep": "13403876",
         "pais": "Brasil"
     },
     {
@@ -37420,7 +37420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.938725,
         "longitude": -47.0509288,
-        "cep": 13042105,
+        "cep": "13042105",
         "pais": "Brasil"
     },
     {
@@ -37430,7 +37430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -13.6449332,
         "longitude": -41.8398787,
-        "cep": 13057125,
+        "cep": "13057125",
         "pais": "Brasil"
     },
     {
@@ -37440,7 +37440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5638905,
         "longitude": -51.4877846,
-        "cep": 13049006,
+        "cep": "13049006",
         "pais": "Brasil"
     },
     {
@@ -37450,7 +37450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13185560,
+        "cep": "13185560",
         "pais": "Brasil"
     },
     {
@@ -37460,7 +37460,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5495375,
         "longitude": -46.6407361,
-        "cep": 13279106,
+        "cep": "13279106",
         "pais": "Brasil"
     },
     {
@@ -37470,7 +37470,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.1893277,
         "longitude": -49.9654036,
-        "cep": 13060625,
+        "cep": "13060625",
         "pais": "Brasil"
     },
     {
@@ -37480,7 +37480,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181105,
+        "cep": "13181105",
         "pais": "Brasil"
     },
     {
@@ -37490,7 +37490,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9125144,
         "longitude": -47.0847192,
-        "cep": 13035610,
+        "cep": "13035610",
         "pais": "Brasil"
     },
     {
@@ -37500,7 +37500,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -37510,7 +37510,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5197105,
         "longitude": -47.5816404,
-        "cep": 18530000,
+        "cep": "18530000",
         "pais": "Brasil"
     },
     {
@@ -37520,7 +37520,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.3699381,
         "longitude": -46.955224,
-        "cep": 13829899,
+        "cep": "13829899",
         "pais": "Brasil"
     },
     {
@@ -37530,7 +37530,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8227,
         "longitude": -47.1047,
-        "cep": 13180360,
+        "cep": "13180360",
         "pais": "Brasil"
     },
     {
@@ -37540,7 +37540,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7828693,
         "longitude": -46.5927175,
-        "cep": 12995000,
+        "cep": "12995000",
         "pais": "Brasil"
     },
     {
@@ -37550,7 +37550,7 @@ const usuarios = [
         "estado": "MA",
         "latitude": -23.6381991,
         "longitude": -46.8014246,
-        "cep": 65119730,
+        "cep": "65119730",
         "pais": NaN
     },
     {
@@ -37560,7 +37560,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9035015,
         "longitude": -47.0324487,
-        "cep": 13092340,
+        "cep": "13092340",
         "pais": "Brasil"
     },
     {
@@ -37570,7 +37570,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -9.3991839,
         "longitude": -38.2298099,
-        "cep": 13060777,
+        "cep": "13060777",
         "pais": "Brasil"
     },
     {
@@ -37580,7 +37580,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9447844,
         "longitude": -47.1078407,
-        "cep": 13050712,
+        "cep": "13050712",
         "pais": "Brasil"
     },
     {
@@ -37590,7 +37590,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7243995,
         "longitude": -47.0097048,
-        "cep": 13910270,
+        "cep": "13910270",
         "pais": "Brasil"
     },
     {
@@ -37600,7 +37600,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -8.55057,
         "longitude": -72.86406,
-        "cep": 13051053,
+        "cep": "13051053",
         "pais": "Brasil"
     },
     {
@@ -37610,7 +37610,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13253600,
+        "cep": "13253600",
         "pais": "Brasil"
     },
     {
@@ -37620,7 +37620,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -2.5609115,
         "longitude": -44.0559509,
-        "cep": 13056675,
+        "cep": "13056675",
         "pais": "Brasil"
     },
     {
@@ -37630,7 +37630,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9192807,
         "longitude": -47.0692613,
-        "cep": 13036265,
+        "cep": "13036265",
         "pais": "Brasil"
     },
     {
@@ -37640,7 +37640,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4498472,
         "longitude": -46.5220903,
-        "cep": 13165582,
+        "cep": "13165582",
         "pais": "Brasil"
     },
     {
@@ -37650,7 +37650,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.3781468,
         "longitude": -43.4174862,
-        "cep": 13060432,
+        "cep": "13060432",
         "pais": "Brasil"
     },
     {
@@ -37660,7 +37660,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13335110,
+        "cep": "13335110",
         "pais": "Brasil"
     },
     {
@@ -37670,7 +37670,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9448925,
         "longitude": -47.1230696,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -37680,7 +37680,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13472500,
+        "cep": "13472500",
         "pais": "Brasil"
     },
     {
@@ -37690,7 +37690,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.0139993,
         "longitude": -48.2369097,
-        "cep": 13057082,
+        "cep": "13057082",
         "pais": "Brasil"
     },
     {
@@ -37700,7 +37700,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9448925,
         "longitude": -47.1230696,
-        "cep": 13060766,
+        "cep": "13060766",
         "pais": "Brasil"
     },
     {
@@ -37710,7 +37710,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8047452,
         "longitude": -47.2693695,
-        "cep": 13173450,
+        "cep": "13173450",
         "pais": "Brasil"
     },
     {
@@ -37720,7 +37720,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -6.6823687,
         "longitude": -42.6168694,
-        "cep": 13150312,
+        "cep": "13150312",
         "pais": "Brasil"
     },
     {
@@ -37730,7 +37730,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2603693,
         "longitude": -48.5493849,
-        "cep": 18086350,
+        "cep": "18086350",
         "pais": "Brasil"
     },
     {
@@ -37740,7 +37740,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -2.500199,
         "longitude": -44.1837523,
-        "cep": 13056496,
+        "cep": "13056496",
         "pais": "Brasil"
     },
     {
@@ -37750,7 +37750,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13456673,
+        "cep": "13456673",
         "pais": "Brasil"
     },
     {
@@ -37760,7 +37760,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5359471,
         "longitude": -46.551026,
-        "cep": 13410470,
+        "cep": "13410470",
         "pais": "Brasil"
     },
     {
@@ -37770,7 +37770,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5624585,
         "longitude": -46.367978,
-        "cep": 12289442,
+        "cep": "12289442",
         "pais": "Brasil"
     },
     {
@@ -37780,7 +37780,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5820307,
         "longitude": -46.5491745,
-        "cep": 13065010,
+        "cep": "13065010",
         "pais": "Brasil"
     },
     {
@@ -37790,7 +37790,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9009729,
         "longitude": -47.2379472,
-        "cep": 13186160,
+        "cep": "13186160",
         "pais": "Brasil"
     },
     {
@@ -37800,7 +37800,7 @@ const usuarios = [
         "estado": "SC",
         "latitude": -26.3088023,
         "longitude": -48.8480119,
-        "cep": 89202010,
+        "cep": "89202010",
         "pais": NaN
     },
     {
@@ -37810,7 +37810,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.5569634,
         "longitude": -45.4688008,
-        "cep": 13034550,
+        "cep": "13034550",
         "pais": "Brasil"
     },
     {
@@ -37820,7 +37820,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13178556,
+        "cep": "13178556",
         "pais": "Brasil"
     },
     {
@@ -37830,7 +37830,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7192001,
         "longitude": -47.1568883,
-        "cep": 13145730,
+        "cep": "13145730",
         "pais": "Brasil"
     },
     {
@@ -37840,7 +37840,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7362293,
         "longitude": -47.3566856,
-        "cep": 13465730,
+        "cep": "13465730",
         "pais": "Brasil"
     },
     {
@@ -37850,7 +37850,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.597492,
         "longitude": -46.7405023,
-        "cep": 5520200,
+        "cep": "05520200",
         "pais": "Brasil"
     },
     {
@@ -37860,7 +37860,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7743983,
         "longitude": -47.143757,
-        "cep": 13142120,
+        "cep": "13142120",
         "pais": "Brasil"
     },
     {
@@ -37870,7 +37870,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.1297717,
         "longitude": -43.6570777,
-        "cep": 13064724,
+        "cep": "13064724",
         "pais": "Brasil"
     },
     {
@@ -37880,7 +37880,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9320873,
         "longitude": -47.0593693,
-        "cep": 13040108,
+        "cep": "13040108",
         "pais": "Brasil"
     },
     {
@@ -37890,7 +37890,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0321509,
         "longitude": -51.111377,
-        "cep": 13059566,
+        "cep": "13059566",
         "pais": "Brasil"
     },
     {
@@ -37900,7 +37900,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4988265,
         "longitude": -47.4377079,
-        "cep": 13030580,
+        "cep": "13030580",
         "pais": "Brasil"
     },
     {
@@ -37910,7 +37910,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5532306,
         "longitude": -46.5673524,
-        "cep": 13915001,
+        "cep": "13915001",
         "pais": "Brasil"
     },
     {
@@ -37920,7 +37920,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.919084,
         "longitude": -47.0852387,
-        "cep": 13031680,
+        "cep": "13031680",
         "pais": "Brasil"
     },
     {
@@ -37930,7 +37930,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458870,
+        "cep": "13458870",
         "pais": "Brasil"
     },
     {
@@ -37940,7 +37940,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.757,
         "longitude": -47.4087,
-        "cep": 13458076,
+        "cep": "13458076",
         "pais": "Brasil"
     },
     {
@@ -37950,7 +37950,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -3.8188906,
         "longitude": -38.5816792,
-        "cep": 13057201,
+        "cep": "13057201",
         "pais": "Brasil"
     },
     {
@@ -37960,7 +37960,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5168524,
         "longitude": -46.3898687,
-        "cep": 13409050,
+        "cep": "13409050",
         "pais": "Brasil"
     },
     {
@@ -37970,7 +37970,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4663485,
         "longitude": -46.0430458,
-        "cep": 13101361,
+        "cep": "13101361",
         "pais": "Brasil"
     },
     {
@@ -37980,7 +37980,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -2.5460294,
         "longitude": -44.149553,
-        "cep": 17511020,
+        "cep": "17511020",
         "pais": "Brasil"
     },
     {
@@ -37990,7 +37990,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.2740885,
         "longitude": -47.5540603,
-        "cep": 13506184,
+        "cep": "13506184",
         "pais": "Brasil"
     },
     {
@@ -38000,7 +38000,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -30.0778989,
         "longitude": -50.1656011,
-        "cep": 13040220,
+        "cep": "13040220",
         "pais": "Brasil"
     },
     {
@@ -38010,7 +38010,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9772,
         "longitude": -46.989,
-        "cep": 13309639,
+        "cep": "13309639",
         "pais": "Brasil"
     },
     {
@@ -38020,7 +38020,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13188140,
+        "cep": "13188140",
         "pais": "Brasil"
     },
     {
@@ -38030,7 +38030,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8704893,
         "longitude": -47.0633125,
-        "cep": 13087320,
+        "cep": "13087320",
         "pais": "Brasil"
     },
     {
@@ -38040,7 +38040,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4501151,
         "longitude": -46.6218285,
-        "cep": 13923214,
+        "cep": "13923214",
         "pais": "Brasil"
     },
     {
@@ -38050,7 +38050,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.4685736,
         "longitude": -47.5035002,
-        "cep": 18071350,
+        "cep": "18071350",
         "pais": "Brasil"
     },
     {
@@ -38060,7 +38060,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -25.5425853,
         "longitude": -49.3934472,
-        "cep": 13273,
+        "cep": "00013273",
         "pais": "Brasil"
     },
     {
@@ -38070,7 +38070,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7167917,
         "longitude": -47.2941442,
-        "cep": 13466060,
+        "cep": "13466060",
         "pais": "Brasil"
     },
     {
@@ -38080,7 +38080,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -26.2549618,
         "longitude": -53.6447293,
-        "cep": 186684,
+        "cep": "00186684",
         "pais": "Brasil"
     },
     {
@@ -38090,7 +38090,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.8635639,
         "longitude": -51.4968279,
-        "cep": 13185503,
+        "cep": "13185503",
         "pais": "Brasil"
     },
     {
@@ -38100,7 +38100,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.6105544,
         "longitude": -46.9114504,
-        "cep": 13832042,
+        "cep": "13832042",
         "pais": "Brasil"
     },
     {
@@ -38110,7 +38110,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13175360,
+        "cep": "13175360",
         "pais": "Brasil"
     },
     {
@@ -38120,7 +38120,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.3254132,
         "longitude": -51.3941309,
-        "cep": 13468230,
+        "cep": "13468230",
         "pais": "Brasil"
     },
     {
@@ -38130,7 +38130,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5677083,
         "longitude": -46.7718428,
-        "cep": 13183419,
+        "cep": "13183419",
         "pais": "Brasil"
     },
     {
@@ -38140,7 +38140,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.894196,
         "longitude": -47.0763182,
-        "cep": 13272799,
+        "cep": "13272799",
         "pais": "Brasil"
     },
     {
@@ -38150,7 +38150,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.4771188,
         "longitude": -45.9564888,
-        "cep": 13059097,
+        "cep": "13059097",
         "pais": "Brasil"
     },
     {
@@ -38160,7 +38160,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7554185,
         "longitude": -49.3851316,
-        "cep": 13044025,
+        "cep": "13044025",
         "pais": "Brasil"
     },
     {
@@ -38170,7 +38170,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2317673,
         "longitude": -45.858817,
-        "cep": 13101320,
+        "cep": "13101320",
         "pais": "Brasil"
     },
     {
@@ -38180,7 +38180,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -18.6629813,
         "longitude": -43.0769812,
-        "cep": 13045706,
+        "cep": "13045706",
         "pais": "Brasil"
     },
     {
@@ -38190,7 +38190,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8028171,
         "longitude": -47.0728943,
-        "cep": 13179282,
+        "cep": "13179282",
         "pais": "Brasil"
     },
     {
@@ -38200,7 +38200,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.2978923,
         "longitude": -45.9639223,
-        "cep": 13054401,
+        "cep": "13054401",
         "pais": "Brasil"
     },
     {
@@ -38210,7 +38210,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.851223,
         "longitude": -47.0727458,
-        "cep": 13080080,
+        "cep": "13080080",
         "pais": "Brasil"
     },
     {
@@ -38220,7 +38220,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13188011,
+        "cep": "13188011",
         "pais": "Brasil"
     },
     {
@@ -38230,7 +38230,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7877082,
         "longitude": -47.1836208,
-        "cep": 13142208,
+        "cep": "13142208",
         "pais": "Brasil"
     },
     {
@@ -38240,7 +38240,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.0530391,
         "longitude": -44.3137024,
-        "cep": 13343810,
+        "cep": "13343810",
         "pais": "Brasil"
     },
     {
@@ -38250,7 +38250,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1305671,
+        "cep": "01305671",
         "pais": "Brasil"
     },
     {
@@ -38260,7 +38260,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13183581,
+        "cep": "13183581",
         "pais": "Brasil"
     },
     {
@@ -38270,7 +38270,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.5505,
         "longitude": -46.6333,
-        "cep": 1306073,
+        "cep": "01306073",
         "pais": "Brasil"
     },
     {
@@ -38280,7 +38280,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -19.7870256,
         "longitude": -43.9833773,
-        "cep": 13084385,
+        "cep": "13084385",
         "pais": "Brasil"
     },
     {
@@ -38290,7 +38290,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13183641,
+        "cep": "13183641",
         "pais": "Brasil"
     },
     {
@@ -38300,7 +38300,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8601,
         "longitude": -47.2127,
-        "cep": 13181430,
+        "cep": "13181430",
         "pais": "Brasil"
     },
     {
@@ -38310,7 +38310,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.6023295,
         "longitude": -46.9206816,
-        "cep": 18560021,
+        "cep": "18560021",
         "pais": "Brasil"
     },
     {
@@ -38320,7 +38320,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.8051592,
         "longitude": -43.3546425,
-        "cep": 13056675,
+        "cep": "13056675",
         "pais": "Brasil"
     },
     {
@@ -38330,7 +38330,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0289,
         "longitude": -46.9744,
-        "cep": 13283306,
+        "cep": "13283306",
         "pais": "Brasil"
     },
     {
@@ -38340,7 +38340,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.8120964,
         "longitude": -47.2250402,
-        "cep": 13174230,
+        "cep": "13174230",
         "pais": "Brasil"
     },
     {
@@ -38350,7 +38350,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -20.7766203,
         "longitude": -49.3346262,
-        "cep": 13058100,
+        "cep": "13058100",
         "pais": "Brasil"
     },
     {
@@ -38360,7 +38360,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.944483,
         "longitude": -47.1227975,
-        "cep": 13060726,
+        "cep": "13060726",
         "pais": "Brasil"
     },
     {
@@ -38370,7 +38370,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.1365074,
         "longitude": -44.2440531,
-        "cep": 13056253,
+        "cep": "13056253",
         "pais": "Brasil"
     },
     {
@@ -38380,7 +38380,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.822814,
         "longitude": -47.1688796,
-        "cep": 13179180,
+        "cep": "13179180",
         "pais": "Brasil"
     },
     {
@@ -38390,7 +38390,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9491331,
         "longitude": -47.1159155,
-        "cep": 13470290,
+        "cep": "13470290",
         "pais": "Brasil"
     },
     {
@@ -38400,7 +38400,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9008853,
         "longitude": -47.2379747,
-        "cep": 13185887,
+        "cep": "13185887",
         "pais": "Brasil"
     },
     {
@@ -38410,7 +38410,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.0737085,
         "longitude": -46.5737268,
-        "cep": 13051433,
+        "cep": "13051433",
         "pais": "Brasil"
     },
     {
@@ -38420,7 +38420,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -23.0143366,
         "longitude": -47.0211215,
-        "cep": 13271653,
+        "cep": "13271653",
         "pais": "Brasil"
     },
     {
@@ -38430,7 +38430,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.9968933,
         "longitude": -46.9945622,
-        "cep": 13277618,
+        "cep": "13277618",
         "pais": "Brasil"
     },
     {
@@ -38440,7 +38440,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -22.7114173,
         "longitude": -43.5452744,
-        "cep": 13060123,
+        "cep": "13060123",
         "pais": "Brasil"
     },
     {
@@ -38450,7 +38450,7 @@ const usuarios = [
         "estado": "SP",
         "latitude": -21.8836119,
         "longitude": -51.8554591,
-        "cep": 13082210,
+        "cep": "13082210",
         "pais": "Brasil"
     }
 ];
