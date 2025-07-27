@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -157,7 +156,33 @@
             flex-direction: column;
             gap: 10px;
         }
+
+        .controles-mapa select {
+            background: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+            min-width: 120px;
+            font-weight: 500;
+            -webkit-appearance: none; /* Remove padrão do navegador */
+            -moz-appearance: none;    /* Remove padrão do navegador */
+            appearance: none;         /* Remove padrão do navegador */
+            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292%22%20height%3D%22292%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M287%2069L146%20208%205%2069z%22%2F%3E%3C%2Fsvg%3E'); /* Seta customizada */
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 12px;
+        }
         
+        .controles-mapa select:hover {
+            background: #f8f9fa;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
         .botao-controle {
             background: white;
             border: none;
@@ -177,39 +202,6 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
 
-        /* Estilos para o seletor de camada de mapa */
-        .mapa-camadas-container {
-            position: absolute;
-            top: 20px; /* Ajuste para não sobrepor outros controles */
-            right: 160px; /* Alinhar à direita, deixando espaço para outros botões */
-            z-index: 1000;
-            background: white;
-            padding: 8px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-        }
-
-        .mapa-camadas-container label {
-            font-size: 13px;
-            color: #333;
-            margin-right: 8px;
-            font-weight: 600;
-        }
-
-        .mapa-camadas-select {
-            padding: 6px 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 13px;
-            cursor: pointer;
-            outline: none;
-            transition: border-color 0.2s;
-        }
-
-        .mapa-camadas-select:focus {
-            border-color: #007bff;
-        }
-        
         /* Info overlay */
         .info-overlay {
             position: absolute;
@@ -276,14 +268,6 @@
                 right: 10px;
             }
 
-            .mapa-camadas-container {
-                top: 70px; /* Ajusta a posição para telas menores */
-                right: 10px;
-                left: 10px;
-                max-width: none;
-                text-align: center;
-            }
-            
             .info-overlay {
                 bottom: 10px;
                 left: 10px;
@@ -350,15 +334,11 @@
         <button class="botao-controle" onclick="obterMinhaLocalizacao()" title="Encontrar minha localização">
             📍 Minha Localização
         </button>
-    </div>
-
-    <div class="mapa-camadas-container">
-        <label for="mapa-camadas-select">Estilo do Mapa:</label>
-        <select id="mapa-camadas-select" class="mapa-camadas-select" onchange="alternarCamadaMapa()">
-            <option value="light">Padrão (Light)</option>
-            <option value="dark">Escuro (Dark)</option>
-            <option value="satellite">Satélite</option>
-            <option value="terrain">Terreno</option>
+        <select id="estiloMapa" class="botao-controle" onchange="alternarEstiloMapa()">
+            <option value="light">☀️ Light (Padrão)</option>
+            <option value="dark">🌙 Dark</option>
+            <option value="voyager">🌈 Voyager</option>
+            <option value="positron">✨ Positron</option>
         </select>
     </div>
     
@@ -402,7 +382,8 @@
         // Camadas de mapa
         let camadasMapa = {};
         let camadaAtual;
-        
+        let estiloAtual = 'light'; // Variável para controlar o estilo atual
+
         // Coordenadas aproximadas para Campinas, SP (usadas para priorizar buscas)
         const CAMPINAS_VIEWBOX = [-47.2, -23.0, -46.8, -22.7]; // [min_lon, min_lat, max_lon, max_lat]
         const BRASIL_CENTER = [-14.235, -51.925]; // Centro do Brasil
@@ -419,19 +400,23 @@
             camadasMapa = {
                 light: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
                     attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
-                    noWrap: true
+                    noWrap: true,
+                    maxZoom: 20
                 }),
                 dark: L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
                     attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
-                    noWrap: true
+                    noWrap: true,
+                    maxZoom: 20
                 }),
-                satellite: L.tileLayer('https://server.arcgisonolne.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-                    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
-                    noWrap: true
+                voyager: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                    attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
+                    noWrap: true,
+                    maxZoom: 20
                 }),
-                terrain: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-                    attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
-                    noWrap: true
+                positron: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', { // Positron é o Light sem labels, que é mais "limpo"
+                    attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
+                    noWrap: true,
+                    maxZoom: 20
                 })
             };
 
@@ -484,23 +469,23 @@
             console.log('✅ PINMAP inicializado com sucesso');
         }
         
-        function alternarCamadaMapa() {
-            const select = document.getElementById('mapa-camadas-select');
-            const novaCamadaNome = select.value;
+        // Altera a função alternarEstiloMapa para usar o novo seletor
+        function alternarEstiloMapa() {
+            const selectElement = document.getElementById('estiloMapa');
+            const novoEstilo = selectElement.value;
 
             // Remove a camada atual do mapa
             if (camadaAtual) {
                 mapa.removeLayer(camadaAtual);
             }
 
-            // Define a nova camada e a adiciona ao mapa
-            camadaAtual = camadasMapa[novaCamadaNome];
-            if (camadaAtual) {
-                camadaAtual.addTo(mapa);
-                console.log(`Cambiando para camada de mapa: ${novaCamadaNome}`);
-            } else {
-                console.error(`Camada de mapa "${novaCamadaNome}" não encontrada.`);
-            }
+            // Define a nova camada e o estilo atual
+            camadaAtual = camadasMapa[novoEstilo];
+            estiloAtual = novoEstilo; // Atualiza a variável estiloAtual
+            
+            // Adiciona a nova camada ao mapa
+            camadaAtual.addTo(mapa);
+            console.log(`Cambiando para camada de mapa: ${novoEstilo}`);
         }
 
         function carregarUsuarios() {
@@ -670,10 +655,10 @@
             }
             
             const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(termo)}` +
-                        `&format=json&limit=15&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
-                        `&countrycodes=br` + 
-                        `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + 
-                        `&bounded=0`; 
+                                `&format=json&limit=15&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
+                                `&countrycodes=br` + 
+                                `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + 
+                                `&bounded=0`; 
 
             const response = await fetch(url, {
                 headers: {
@@ -812,153 +797,114 @@
             }
             document.getElementById('busca-loading').style.display = 'none';
         }
-        
-        function extrairNome(item) {
-            return item.display_name.split(',')[0] || item.name || 'Local encontrado';
-        }
-        
-        function formatarEndereco(item) {
-            // Tenta construir um endereço mais limpo a partir dos detalhes, senão usa display_name
-            const addressParts = [];
-            if (item.address) {
-                if (item.address.road) addressParts.push(item.address.road);
-                if (item.address.house_number) addressParts.push(item.address.house_number);
-                if (item.address.suburb && item.address.suburb !== item.address.city) addressParts.push(item.address.suburb);
-                if (item.address.city) addressParts.push(item.address.city);
-                if (item.address.state) addressParts.push(item.address.state);
-                if (item.address.postcode) addressParts.push(`CEP ${item.address.postcode}`);
-            }
-            const endereco = addressParts.length > 0 ? addressParts.join(', ') : item.display_name;
-            return endereco.length > 80 ? endereco.substring(0, 80) + '...' : endereco;
-        }
-        
-        function determinarTipo(item) {
-            const classe = item.class;
-            const tipos = {
-                'highway': '🛣️ Via',
-                'amenity': '🏢 Estabelecimento',
-                'shop': '🛍️ Comércio',
-                'tourism': '🏛️ Turismo',
-                'leisure': '🎯 Lazer',
-                'place': '📍 Local',
-                'building': '🏢 Edifício',
-                'natural': '🌿 Natural',
-                'landuse': '🗺️ Área',
-                'office': '🏢 Escritório',
-                'bank': '🏦 Banco', 
-                'atm': '🏧 ATM',
-                'school': '🏫 Escola',
-                'hospital': '🏥 Hospital',
-                'pharmacy': '💊 Farmácia',
-                'restaurant': '🍽️ Restaurante',
-                'fuel': '⛽ Posto',
-                'hotel': '🏨 Hotel',
-                'supermarket': '🛒 Supermercado',
-                'parking': '🅿️ Estacionamento'
-            };
-            return tipos[classe] || '📍 Local';
-        }
-        
-        function mostrarLoading() {
-            document.getElementById('busca-loading').style.display = 'block';
-            document.getElementById('busca-resultados').style.display = 'none';
-        }
-        
-        function mostrarResultados(resultados, tipoBusca = 'default') {
+
+        function mostrarResultados(resultados, tipoBusca) {
             const container = document.getElementById('busca-resultados');
-            const loading = document.getElementById('busca-loading');
-            
-            loading.style.display = 'none';
-            container.innerHTML = ''; 
-            limparMarcadoresBuscaPoi(); 
-            
-            if (resultados.length === 0) {
-                container.innerHTML = '<div class="resultado-item">Nenhum resultado encontrado</div>';
-            } else {
-                const boundsGroup = L.featureGroup(); 
+            container.innerHTML = ''; // Limpa resultados anteriores
+            limparMarcadoresBuscaPoi(); // Limpa marcadores anteriores de POI
+
+            if (resultados.length > 0) {
+                const bounds = L.latLngBounds([]); // Para ajustar o zoom aos resultados
                 
-                resultados.forEach(resultado => {
-                    if (resultado.latitude && resultado.longitude) {
-                        let iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png'; 
-                        if (tipoBusca === 'cep') {
-                            // CORREÇÃO AQUI: Usando "violet" que é o nome correto para o roxo no CDN
-                            iconUrl = 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-violet.png'; 
-                        }
-                        
-                        const marker = L.marker([resultado.latitude, resultado.longitude], {
-                            icon: L.icon({
-                                iconUrl: iconUrl,
-                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                iconSize: [25, 41],
-                                iconAnchor: [12, 41],
-                                popupAnchor: [1, -34],
-                                shadowSize: [41, 41]
-                            })
+                resultados.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'resultado-item';
+                    div.innerHTML = `
+                        <div class="resultado-nome">${item.nome}</div>
+                        <div class="resultado-endereco">${item.endereco}</div>
+                        <div class="resultado-tipo">${item.tipo}</div>
+                    `;
+                    div.onclick = () => {
+                        marcarESaltarPara(item.latitude, item.longitude, item.bbox);
+                        ocultarResultados();
+                    };
+                    container.appendChild(div);
+
+                    // Adicionar marcador para cada resultado de busca de POI/CEP
+                    const marker = L.marker([item.latitude, item.longitude], {
+                        icon: L.icon({
+                            iconUrl: tipoBusca === 'cep' ? 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-purple.png' : 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+                            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                            iconSize: [25, 41],
+                            iconAnchor: [12, 41],
+                            popupAnchor: [1, -34],
+                            shadowSize: [41, 41]
                         })
-                        .bindPopup(`
-                            <div style="padding: 10px; min-width: 180px;">
-                                <h5 style="margin: 0 0 5px 0; color: #333;">${resultado.nome}</h5>
-                                <p style="margin: 0 0 10px 0; font-size: 12px; color: #555;">${resultado.endereco}</p>
-                                <div style="font-size: 11px; color: #777;">${resultado.tipo}</div>
-                                <button onclick="obterDirecoesPara(${resultado.latitude}, ${resultado.longitude})" 
-                                        style="margin-top: 10px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                    }).bindPopup(`
+                            <div style="padding: 10px;">
+                                <strong>${item.nome}</strong><br>
+                                <small>${item.endereco}</small><br>
+                                <small>${item.tipo}</small><br>
+                                <button onclick="obterDirecoesPara(${item.latitude}, ${item.longitude})" 
+                                        style="margin-top: 8px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
                                     🧭 Direções
                                 </button>
                             </div>
                         `);
-                        marker.addTo(marcadoresBuscaPoi);
-                        boundsGroup.addLayer(marker);
-
-                        container.innerHTML += `
-                            <div class="resultado-item" onclick="centralizarMarcadorBusca([${resultado.latitude}, ${resultado.longitude}], '${resultado.nome.replace(/'/g, "\\'")}', '${resultado.endereco.replace(/'/g, "\\'")}', '${resultado.tipo.replace(/'/g, "\\'")}')">
-                                <div class="resultado-nome">${resultado.nome}</div>
-                                <div class="resultado-endereco">${resultado.endereco}</div>
-                                <div class="resultado-tipo">${resultado.tipo}</div>
-                            </div>
-                        `;
-                    }
+                    marcadoresBuscaPoi.addLayer(marker);
+                    bounds.extend([item.latitude, item.longitude]);
                 });
-                
-                if (boundsGroup.getLayers().length > 0) {
-                    mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] });
+
+                if (marcadoresBuscaPoi.getLayers().length > 0) {
+                    mapa.fitBounds(bounds, { padding: [50, 50] });
                 }
                 container.style.display = 'block';
+            } else {
+                mostrarErro('Nenhum resultado encontrado.');
             }
         }
-        
-        function centralizarMarcadorBusca(latlng, nome, endereco, tipo) {
-            mapa.flyTo(latlng, 15); // Zoom mais próximo
-            ocultarResultados();
-            
-            // Reabre o popup no marcador correspondente (se necessário, ou cria um novo temporário)
-            // Para simplificar, vamos reabrir o popup do primeiro marcador se houver múltiplos
-            // ou centralizar e criar um popup dinâmico para o resultado clicado.
-            // Para um comportamento mais preciso, você precisaria associar o item da lista ao marcador criado.
-            // Por enquanto, vamos criar um popup temporário no centro da tela após o flyTo
-            L.popup()
-                .setLatLng(latlng)
-                .setContent(`
-                    <div style="padding: 10px; min-width: 180px;">
-                        <h5 style="margin: 0 0 5px 0; color: #333;">${nome}</h5>
-                        <p style="margin: 0 0 10px 0; font-size: 12px; color: #555;">${endereco}</p>
-                        <div style="font-size: 11px; color: #777;">${tipo}</div>
-                        <button onclick="obterDirecoesPara(${latlng[0]}, ${latlng[1]})" 
-                                style="margin-top: 10px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
-                            🧭 Direções
-                        </button>
-                    </div>
-                `)
-                .openOn(mapa);
+
+        // Funções auxiliares (extrairNome, formatarEndereco, determinarTipo, etc.)
+        function extrairNome(item) {
+            return item.namedetails.name || item.address.road || item.display_name;
         }
 
-        function ocultarResultados() {
-            document.getElementById('busca-resultados').style.display = 'none';
+        function formatarEndereco(item) {
+            const address = item.address;
+            let parts = [];
+            if (address.road) parts.push(address.road);
+            if (address.house_number) parts.push(address.house_number);
+            if (address.suburb) parts.push(address.suburb);
+            if (address.city || address.town || address.village) parts.push(address.city || address.town || address.village);
+            if (address.state) parts.push(address.state);
+            if (address.postcode) parts.push(`CEP: ${address.postcode}`);
+            return parts.join(', ') || item.display_name;
         }
-        
-        function mostrarErro(mensagem) {
-            const container = document.getElementById('busca-resultados');
-            container.innerHTML = `<div class="resultado-item" style="color: red; font-weight: bold;">${mensagem}</div>`;
-            container.style.display = 'block';
+
+        function determinarTipo(item) {
+            if (item.type === 'street' || item.class === 'highway') return '🛣️ Rua/Avenida';
+            if (item.class === 'place' && (item.type === 'city' || item.type === 'town' || item.type === 'village')) return '🏙️ Cidade';
+            if (item.class === 'amenity' || item.class === 'shop' || item.class === 'building') return '🏢 Comércio/Local';
+            if (item.address.postcode) return '📮 CEP';
+            return '📍 Localização';
+        }
+
+        function marcarESaltarPara(lat, lon, bbox = null) {
+            limparMarcadoresBuscaPoi();
+            limparMarcadoresUsuarioEncontrado(); // Garante que marcadores de usuário também são limpos
+
+            const marker = L.marker([lat, lon], {
+                icon: L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+            }).addTo(mapa)
+              .bindPopup('Localização da Busca').openPopup();
+
+            marcadoresBuscaPoi.addLayer(marker);
+
+            if (bbox) {
+                mapa.fitBounds([
+                    [parseFloat(bbox[0]), parseFloat(bbox[2])],
+                    [parseFloat(bbox[1]), parseFloat(bbox[3])]
+                ], { padding: [50, 50] });
+            } else {
+                mapa.flyTo([lat, lon], 15);
+            }
         }
 
         function limparMarcadoresBuscaPoi() {
@@ -972,37 +918,49 @@
             marcadoresUsuarioEncontrado = [];
         }
 
-        // Funções dos botões de controle
+        function ocultarResultados() {
+            document.getElementById('busca-resultados').style.display = 'none';
+        }
+
+        function mostrarLoading() {
+            document.getElementById('busca-loading').style.display = 'block';
+            document.getElementById('busca-resultados').style.display = 'none';
+        }
+
+        function mostrarErro(mensagem) {
+            const container = document.getElementById('busca-resultados');
+            container.innerHTML = `<div style="padding: 12px; color: #dc3545; font-weight: bold;">${mensagem}</div>`;
+            container.style.display = 'block';
+        }
+
         function voltarInicio() {
-            mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
+            mapa.flyTo(BRASIL_CENTER, BRASIL_ZOOM);
             limparBusca();
         }
 
         function centralizarUsuarios() {
             if (todosMarcadoresUsuario.length > 0) {
-                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
+                mapa.flyToBounds(marcadores.getBounds(), { padding: [50, 50] });
             } else {
-                mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
+                console.warn('Nenhum usuário para centralizar.');
             }
             limparBusca();
         }
 
         function alternarClustering() {
             if (clusteringAtivo) {
-                mapa.removeLayer(marcadores);
-                todosMarcadoresUsuario.forEach(marker => {
-                    marker.addTo(mapa);
-                });
-                console.log('Clustering desativado.');
+                mapa.removeLayer(marcadores); // Remove o grupo de cluster
+                todosMarcadoresUsuario.forEach(m => mapa.addLayer(m)); // Adiciona marcadores individuais
+                clusteringAtivo = false;
+                document.querySelector('.botao-controle[onclick="alternarClustering()"]').textContent = '📍 Marcadores';
+                console.log('Clustering desativado. Marcadores individuais visíveis.');
             } else {
-                todosMarcadoresUsuario.forEach(marker => {
-                    mapa.removeLayer(marker); // Remove marcadores individuais
-                });
-                mapa.addLayer(marcadores); // Adiciona o grupo de clustering
+                todosMarcadoresUsuario.forEach(m => mapa.removeLayer(m)); // Remove marcadores individuais
+                mapa.addLayer(marcadores); // Adiciona o grupo de cluster novamente
+                clusteringAtivo = true;
+                document.querySelector('.botao-controle[onclick="alternarClustering()"]').textContent = '🔗 Cluster';
                 console.log('Clustering ativado.');
             }
-            clusteringAtivo = !clusteringAtivo;
-            atualizarEstatisticas();
         }
 
         function limparBusca() {
@@ -1010,110 +968,100 @@
             ocultarResultados();
             limparMarcadoresBuscaPoi();
             limparMarcadoresUsuarioEncontrado();
-        }
-
-        function obterMinhaLocalizacao() {
-            limparMarcadoresBuscaPoi();
-            limparMarcadoresUsuarioEncontrado();
-            
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
-                    const lat = position.coords.latitude;
-                    const lon = position.coords.longitude;
-                    
-                    if (userLocationMarker) {
-                        userLocationMarker.setLatLng([lat, lon]).openPopup();
-                    } else {
-                        userLocationMarker = L.marker([lat, lon], {
-                            icon: L.icon({
-                                iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
-                                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-                                iconSize: [25, 41],
-                                iconAnchor: [12, 41],
-                                popupAnchor: [1, -34],
-                                shadowSize: [41, 41]
-                            })
-                        }).addTo(mapa)
-                        .bindPopup('Sua Localização Atual').openPopup();
-                    }
-                    mapa.flyTo([lat, lon], 15);
-                }, function(error) {
-                    console.error('Erro ao obter localização:', error);
-                    alert('Não foi possível obter sua localização. Por favor, verifique as permissões do navegador.');
-                });
+            // Reativa o clustering e centraliza nos usuários após limpar a busca, se houver usuários
+            if (!clusteringAtivo) {
+                alternarClustering(); 
+            }
+            if (todosMarcadoresUsuario.length > 0) {
+                centralizarUsuarios();
             } else {
-                alert('Geolocalização não é suportada por este navegador.');
+                mapa.setView(BRASIL_CENTER, BRASIL_ZOOM); // Se não houver usuários, volta para o centro do Brasil
+            }
+        }
+        
+        function obterMinhaLocalizacao() {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        const lat = position.coords.latitude;
+                        const lon = position.coords.longitude;
+
+                        if (userLocationMarker) {
+                            userLocationMarker.setLatLng([lat, lon]);
+                        } else {
+                            userLocationMarker = L.marker([lat, lon], {
+                                icon: L.icon({
+                                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png', // Marcador vermelho para sua localização
+                                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                                    iconSize: [25, 41],
+                                    iconAnchor: [12, 41],
+                                    popupAnchor: [1, -34],
+                                    shadowSize: [41, 41]
+                                })
+                            }).addTo(mapa)
+                              .bindPopup("Você está aqui!").openPopup();
+                        }
+                        mapa.flyTo([lat, lon], 15);
+                        console.log(`📍 Minha Localização: Latitude ${lat}, Longitude ${lon}`);
+                    },
+                    (error) => {
+                        console.error("Erro ao obter a localização: ", error);
+                        alert("Não foi possível obter sua localização. Por favor, verifique as permissões do navegador.");
+                    },
+                    { enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
+                );
+            } else {
+                alert("Geolocalização não é suportada pelo seu navegador.");
             }
         }
 
         function obterDirecoesPara(lat, lon) {
-            // Abre o Google Maps com direções a partir da localização atual do usuário
-            // para o ponto clicado. Isso exige que o navegador solicite a localização do usuário.
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
-                    const myLat = position.coords.latitude;
-                    const myLon = position.coords.longitude;
-                    window.open(`https://www.google.com/maps/dir/?api=1&origin=${myLat},${myLon}&destination=${lat},${lon}`, '_blank');
-                }, function(error) {
-                    alert('Não foi possível obter sua localização para calcular as direções. Por favor, permita o acesso à localização.');
-                    // Fallback: abre as direções sem a origem definida
-                    window.open(`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`, '_blank');
-                });
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        const myLat = position.coords.latitude;
+                        const myLon = position.coords.longitude;
+                        const url = `https://www.google.com/maps/dir/?api=1&origin=${myLat},${myLon}&destination=${lat},${lon}&travelmode=driving`;
+                        window.open(url, '_blank');
+                    },
+                    (error) => {
+                        console.error("Erro ao obter sua localização para direções: ", error);
+                        alert("Não foi possível obter sua localização para as direções. Por favor, verifique as permissões.");
+                    }
+                );
             } else {
-                // Fallback: abre as direções sem a origem definida
-                window.open(`https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`, '_blank');
+                alert("Geolocalização não é suportada pelo seu navegador. Não é possível obter direções.");
             }
-        }
-
-        function buscarProximo(termo) {
-            document.getElementById('busca-geral-input').value = termo;
-            executarBuscaGeral(termo);
         }
 
         function atualizarEstatisticas() {
             document.getElementById('total-usuarios-mapa').textContent = todosMarcadoresUsuario.length;
-            document.getElementById('zoom-atual').textContent = mapa.getZoom();
-            atualizarMarcadoresVisiveis(); // Chama para atualizar inicialmente
+            atualizarMarcadoresVisiveis();
         }
 
         function atualizarMarcadoresVisiveis() {
-            let visiveis = 0;
+            if (!mapa) {
+                return; // Garante que o mapa já foi inicializado
+            }
             const bounds = mapa.getBounds();
+            let visiveis = 0;
             if (clusteringAtivo) {
-                // No modo clustering, é mais complicado obter marcadores individuais visíveis diretamente.
-                // Esta é uma estimativa baseada nos clusters visíveis ou pode exigir uma iteração mais profunda.
-                // Por simplicidade, para o modo clustering, podemos mostrar o total de usuários ou implementar uma lógica mais complexa.
-                // Por enquanto, vamos manter uma lógica que itera sobre todos os marcadores de usuário.
+                 // Quando o clustering está ativo, não podemos contar marcadores visíveis individualmente
+                 // sem iterar pelos clusters. Simplificamos para o número total ou desativamos a contagem.
+                 // Ou você pode implementar uma lógica mais complexa para desclusterizar virtualmente.
+                 // Por simplicidade, vamos mostrar todos os usuários se o cluster estiver ativado.
+                visiveis = todosMarcadoresUsuario.length; 
+            } else {
                 todosMarcadoresUsuario.forEach(marker => {
                     if (bounds.contains(marker.getLatLng())) {
                         visiveis++;
                     }
                 });
-                
-            } else {
-                // Se o clustering estiver desativado, iteramos sobre os marcadores individuais no mapa
-                todosMarcadoresUsuario.forEach(marker => {
-                    if (mapa.hasLayer(marker) && bounds.contains(marker.getLatLng())) {
-                        visiveis++;
-                    }
-                });
             }
-
-            // Adiciona também os marcadores de busca se estiverem visíveis
-            marcadoresBuscaPoi.eachLayer(function(marker) {
-                if (bounds.contains(marker.getLatLng())) {
-                    visiveis++;
-                }
-            });
-            // O marcador de localização do usuário também
-            if (userLocationMarker && mapa.hasLayer(userLocationMarker) && bounds.contains(userLocationMarker.getLatLng())) {
-                visiveis++;
-            }
-            
             document.getElementById('marcadores-visiveis').textContent = visiveis;
         }
 
-        // Chamar a função de inicialização quando o DOM estiver carregado
+        // Inicializa o mapa quando o DOM estiver completamente carregado
         document.addEventListener('DOMContentLoaded', inicializarMapa);
     </script>
 </body>
