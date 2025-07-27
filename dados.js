@@ -2251,7 +2251,7 @@ const usuarios = [
         "latitude": -22.3168866,
         "longitude": -46.3279182,
         "cep": "37576000",
-        "pais": NaN
+        "pais": "Brasil"
     },
     {
         "id": 226,
@@ -2261,7 +2261,7 @@ const usuarios = [
         "latitude": -18.9921507,
         "longitude": -49.4455477,
         "cep": "13165498",
-        "pais": NaN
+        "pais": "Brasil"
     },
     {
         "id": 227,
