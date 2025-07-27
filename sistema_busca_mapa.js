@@ -1,4 +1,3 @@
-
 // SISTEMA DE BUSCA AVANÇADO PARA MAPA - PINMAP v5.2
 // Suporte: Ruas, Bairros, Cidades, Estados, Países, Estabelecimentos, Usuários (locais)
 
@@ -9,7 +8,8 @@ class SistemaBuscaMapa {
         this.resultadosCache = new Map();
         this.ultimaBusca = '';
         this.debounceTimer = null;
-        this.contadorBuscas = 0; // Move o contador para a classe para melhor encapsulamento
+        this.contadorBuscas = 0; // O contador agora está aqui e será acessado pelo index.html
+        this.userAgent = 'PINMAP-Sistema-Busca/1.0 (gustavo.pinheiro@example.com)'; // Substitua com seu email de contato real
 
         this.inicializar();
     }
@@ -38,13 +38,7 @@ class SistemaBuscaMapa {
                 </ul>
         `;
         
-        // Adicionar ao corpo (já no HTML agora)
-        // document.body.appendChild(containerBusca);
-        // Mantenho a criação no JS, mas a injeção ao body no HTML principal pode ser mais performática.
-        // Se a div 'sistema-busca-mapa' já estiver no HTML, este código irá sobrescrevê-la ou causará duplicidade.
-        // Assumindo que você vai remover a div do HTML e deixar o JS criar, ou vice-versa.
-        // Para a integração, vou injetar no body. Se já existir, pode ajustar.
-        document.body.appendChild(containerBusca);
+        document.body.appendChild(containerBusca); // Adiciona a interface de busca ao body
     }
     
     configurarEventos() {
@@ -94,7 +88,7 @@ class SistemaBuscaMapa {
         // Fechar resultados ao clicar fora do container de busca
         document.addEventListener('click', (e) => {
             const containerBusca = document.getElementById('sistema-busca-mapa');
-            if (containerBusca && !containerBusca.contains(e.target)) {
+            if (containerBusca && !containerBusca.contains(e.target) && e.target !== input && e.target !== btnBuscar && e.target !== btnLimpar) {
                 this.ocultarResultados();
             }
         });
@@ -105,10 +99,14 @@ class SistemaBuscaMapa {
         this.mostrarLoading();
         this.ultimaBusca = termo;
         this.contadorBuscas++; // Incrementa o contador de buscas na própria classe
-        document.getElementById('buscas-realizadas-mapa').textContent = this.contadorBuscas; // Atualiza UI
+        // Atualiza a UI do contador de buscas no index.html
+        const buscasRealizadasElement = document.getElementById('buscas-realizadas-mapa');
+        if (buscasRealizadasElement) {
+            buscasRealizadasElement.textContent = this.contadorBuscas;
+        }
 
         try {
-            // 4. Tentar busca local por usuário primeiro
+            // Tentar busca local por usuário primeiro
             const resultadosUsuarios = await this.buscarUsuariosLocais(termo);
             if (resultadosUsuarios.length > 0) {
                 this.resultadosCache.set(termo, resultadosUsuarios);
@@ -122,7 +120,7 @@ class SistemaBuscaMapa {
                 return;
             }
 
-            // 3. e 5. Buscar via API Nominatim (restrito ao Brasil e priorizando Campinas/SP)
+            // Buscar via API Nominatim (restrito ao Brasil e priorizando Campinas/SP)
             const resultadosNominatim = await this.buscarViaAPI(termo);
             this.resultadosCache.set(termo, resultadosNominatim);
             this.mostrarResultados(resultadosNominatim);
@@ -133,21 +131,23 @@ class SistemaBuscaMapa {
         }
     }
 
-    // 4. Implementa busca local por nome de usuário
+    // Implementa busca local por nome de usuário
     async buscarUsuariosLocais(termo) {
-        if (typeof usuarios === 'undefined' || !Array.isArray(usuarios)) {
-            console.warn('Dados de usuários não carregados ou inválidos para busca local.');
+        // Acessa a variável global 'usuarios' (do dados.js)
+        if (typeof window.usuarios === 'undefined' || !Array.isArray(window.usuarios)) {
+            console.warn('Dados de usuários (window.usuarios) não carregados ou inválidos para busca local.');
             return [];
         }
 
         const termoLower = termo.toLowerCase();
-        const resultadosLocais = usuarios.filter(usuario =>
+        const resultadosLocais = window.usuarios.filter(usuario =>
             usuario.nome && usuario.nome.toLowerCase().includes(termoLower) &&
-            usuario.latitude && usuario.longitude && !isNaN(usuario.latitude) && !isNaN(usuario.longitude)
+            typeof usuario.latitude === 'number' && typeof usuario.longitude === 'number' &&
+            !isNaN(usuario.latitude) && !isNaN(usuario.longitude)
         ).map(usuario => ({
             nome: usuario.nome,
             endereco: `${usuario.cidade || 'N/A'}, ${usuario.estado || 'N/A'}, ${usuario.pais || 'N/A'}`,
-            tipo: '👤 Usuário',
+            tipo: '👤 Usuário PINMAP', // Tipo diferenciado para usuários locais
             latitude: usuario.latitude,
             longitude: usuario.longitude,
             dadosOriginais: usuario // Para referência futura, se necessário
@@ -157,7 +157,7 @@ class SistemaBuscaMapa {
     }
     
     async buscarViaAPI(termo) {
-        // 3. e 5. Construir URL da API Nominatim com restrições para Brasil e prioridade para SP/Campinas
+        // Construir URL da API Nominatim com restrições para Brasil e prioridade para SP/Campinas
         const baseUrl = 'https://nominatim.openstreetmap.org/search';
         // Bounding box para o estado de São Paulo (aproximado, pode ser ajustado)
         // Coordenadas: lat_sul, lon_oeste, lat_norte, lon_leste
@@ -181,13 +181,13 @@ class SistemaBuscaMapa {
         
         const response = await fetch(url, {
             headers: {
-                'User-Agent': 'PINMAP-Sistema-Busca/1.0 (seuemail@exemplo.com)' // Substitua com seu email de contato
+                'User-Agent': this.userAgent // Usa o User-Agent definido na classe
             }
         });
         
         if (!response.ok) { // Verifica se a resposta foi bem-sucedida (status 200 OK)
             // Lança um erro se a requisição falhou (ex: 404, 500)
-            throw new Error(`Erro HTTP: ${response.status} - ${response.statusText}`);
+            throw new Error(`Erro HTTP ao buscar na Nominatim: ${response.status} - ${response.statusText}`);
         }
         
         const dados = await response.json();
@@ -304,12 +304,12 @@ class SistemaBuscaMapa {
             icon: L.divIcon({
                 className: 'marcador-busca-custom', // Classe para estilização
                 html: `
-                    <div style="background: ${resultado.tipo === '👤 Usuário' ? '#007bff' : '#ff4444'}; 
+                    <div style="background: ${resultado.tipo === '👤 Usuário PINMAP' ? '#007bff' : '#ff4444'}; 
                                 color: white; border-radius: 50%; width: 32px; height: 32px; 
                                 display: flex; align-items: center; justify-content: center; 
                                 font-size: 18px; border: 3px solid white; 
                                 box-shadow: 0 2px 8px rgba(0,0,0,0.3); font-weight: bold;">
-                        ${resultado.tipo === '👤 Usuário' ? '👤' : '📍'}
+                        ${resultado.tipo === '👤 Usuário PINMAP' ? '👤' : '📍'}
                     </div>`,
                 iconSize: [32, 32],
                 iconAnchor: [16, 32] // Ajuste para a base do pino
@@ -335,13 +335,7 @@ class SistemaBuscaMapa {
         // Atualizar input com nome selecionado
         document.getElementById('busca-endereco-input').value = resultado.nome;
     }
-    
-    // Não é mais necessário, já que está no HTML
-    // obterDirecoes(lat, lng) {
-    //     const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
-    //     window.open(url, '_blank');
-    // }
-    
+        
     limparBusca() {
         document.getElementById('busca-endereco-input').value = '';
         document.getElementById('limpar-busca-btn').style.display = 'none';
@@ -349,7 +343,7 @@ class SistemaBuscaMapa {
         
         // Remover marcador de busca
         if (this.marcadorBusca) {
-            this.mapa.removeLayer(this.marcadorBusca);
+            this.mapa.removeLayer(this.maradorBusca); // Corrigido erro de digitação: maradorBusca -> marcadorBusca
             this.marcadorBusca = null;
         }
     }
@@ -360,14 +354,7 @@ class SistemaBuscaMapa {
     }
 }
 
-// Variável global para acesso (já declarada no HTML principal, mas aqui é inicializada)
-let sistemaBusca = null;
-
-// Inicializar quando o mapa estiver pronto (chamado do HTML principal)
-// Esta função é chamada do script inline do index.html
-// function inicializarSistemaBusca(mapa) {
-//     sistemaBusca = new SistemaBuscaMapa(mapa);
-//     return sistemaBusca;
-// }
+// A variável global 'sistemaBusca' agora é declarada APENAS no index.html
+// e é atribuída lá. Não é necessário declará-la aqui novamente.
 
 console.log('🔍 Sistema de Busca Avançado carregado - PINMAP v5.2');
