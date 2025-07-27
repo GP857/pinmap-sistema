@@ -38453,7 +38453,7 @@ const usuarios = [
         "cep": "13082210",
         "pais": "Brasil"
     }
-];
+]
 
 // Estatísticas finais de usuários únicos
 const estatisticas = {
