@@ -143,60 +143,103 @@
             color: #2c3e50;
         }
 
-        /* Estilos para os clusters de marcadores com faixas de cores */
+        /* Estilos base para o cluster */
         .marker-cluster div {
-            width: 40px; /* Aumentado para melhor visualização */
-            height: 40px; /* Aumentado para melhor visualização */
-            margin-left: -20px; /* Ajuste para centralizar */
-            margin-top: -20px; /* Ajuste para centralizar */
-            border-radius: 20px; /* Metade da largura/altura para círculo */
-            font-size: 14px; /* Aumentado */
-            line-height: 40px; /* Deve ser igual à altura */
+            width: 30px; /* Tamanho base, será ajustado pelas classes de tamanho */
+            height: 30px;
+            margin-left: -15px; /* Ajuste para centralizar, metade da largura */
+            margin-top: -15px; /* Ajuste para centralizar, metade da altura */
+            border-radius: 50%; /* Faz um círculo perfeito */
+            font-size: 12px;
+            line-height: 30px; /* Deve ser igual à altura */
             text-align: center;
             font-weight: bold;
-            color: white;
+            color: white; /* Cor do texto */
             border: 2px solid #fff;
             box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            transition: all 0.2s ease-in-out; /* Transição suave para mudança de tamanho/cor */
         }
 
-        /* Faixas de 0-100 */
-        .marker-cluster-low div {
-            background-color: rgba(100, 200, 100, 0.8); /* Verde */
+        /* --- Cores e Tamanhos de acordo com as faixas --- */
+
+        /* 0-20 Azul (default/size 0) */
+        .marker-cluster-default div {
+            background-color: rgba(65, 105, 225, 0.8); /* Royal Blue */
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin-left: -15px;
+            margin-top: -15px;
         }
 
-        /* Faixas de 101-500 */
-        .marker-cluster-medium div {
-            background-color: rgba(255, 200, 0, 0.8); /* Amarelo */
+        /* 21-100 Verde Claro (size 1) */
+        .marker-cluster-size1 div {
+            background-color: rgba(144, 238, 144, 0.8); /* Light Green */
+            width: 35px; /* Um pouco maior */
+            height: 35px;
+            line-height: 35px;
+            margin-left: -17.5px;
+            margin-top: -17.5px;
         }
 
-        /* Faixas de 501-1000 */
-        .marker-cluster-high div {
-            background-color: rgba(255, 120, 0, 0.8); /* Laranja */
+        /* 101-500 Amarelo (size 2) */
+        .marker-cluster-size2 div {
+            background-color: rgba(255, 255, 0, 0.8); /* Yellow */
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: -20px;
+            margin-top: -20px;
         }
 
-        /* Faixas de 1001-5000 */
-        .marker-cluster-xl div {
-            background-color: rgba(255, 0, 0, 0.8); /* Vermelho */
+        /* 501-1000 Rosa Claro (size 3) */
+        .marker-cluster-size3 div {
+            background-color: rgba(255, 192, 203, 0.8); /* Pink */
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            margin-left: -22.5px;
+            margin-top: -22.5px;
         }
 
-        /* Faixas de 5001-10000 */
-        .marker-cluster-xxl div {
-            background-color: rgba(128, 0, 128, 0.8); /* Roxo */
+        /* 1001-10000 Vermelho (size 4) */
+        .marker-cluster-size4 div {
+            background-color: rgba(255, 0, 0, 0.8); /* Red */
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            margin-left: -25px;
+            margin-top: -25px;
         }
 
-        /* Faixas de 10001-20000 */
-        .marker-cluster-xxxl div {
-            background-color: rgba(0, 0, 0, 0.8); /* Preto */
+        /* 10001-100000 Roxo (size 5) */
+        .marker-cluster-size5 div {
+            background-color: rgba(128, 0, 128, 0.8); /* Purple */
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            margin-left: -27.5px;
+            margin-top: -27.5px;
         }
 
-        /* Faixas de 20001-50000 */
-        .marker-cluster-xxxxl div {
-            background-color: rgba(0, 100, 0, 0.8); /* Verde Escuro */
+        /* 100001-500000 Cinza (size 6) */
+        .marker-cluster-size6 div {
+            background-color: rgba(128, 128, 128, 0.8); /* Gray */
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            margin-left: -30px;
+            margin-top: -30px;
         }
-        
-        /* Faixas de 50001-100000 */
-        .marker-cluster-xxxxxl div {
-            background-color: rgba(0, 0, 100, 0.8); /* Azul Escuro */
+
+        /* > 500000 Preto (size 7) */
+        .marker-cluster-size7 div {
+            background-color: rgba(0, 0, 0, 0.8); /* Black */
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            margin-left: -32.5px;
+            margin-top: -32.5px;
         }
     </style>
 </head>
@@ -260,7 +303,7 @@
         let contadorBuscas = 0;
         let cacheResultados = new Map(); // Cache para resultados de busca
         
-        // MOVIDO PARA AQUI: Declaração e inicialização de camadasMapa e camadaAtual
+        // Declaração e inicialização de camadasMapa e camadaAtual
         let camadasMapa = {
             light: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
                 attribution: '© OpenStreetMap contributors © CartoDB | PINMAP v5.3',
@@ -338,30 +381,39 @@
                 // Função para criar o ícone do cluster com base na quantidade
                 iconCreateFunction: function(cluster) {
                     const count = cluster.getChildCount();
-                    let className = 'marker-cluster '; // Base
-                    
-                    if (count <= 100) {
-                        className += 'marker-cluster-low'; // 1-100
-                    } else if (count <= 500) {
-                        className += 'marker-cluster-medium'; // 101-500
-                    } else if (count <= 1000) {
-                        className += 'marker-cluster-high'; // 501-1000
-                    } else if (count <= 5000) {
-                        className += 'marker-cluster-xl'; // 1001-5000
-                    } else if (count <= 10000) {
-                        className += 'marker-cluster-xxl'; // 5001-10000
-                    } else if (count <= 20000) {
-                        className += 'marker-cluster-xxxl'; // 10001-20000
-                    } else if (count <= 50000) {
-                        className += 'marker-cluster-xxxxl'; // 20001-50000
-                    } else {
-                        className += 'marker-cluster-xxxxxl'; // >50000
+                    let className = 'marker-cluster '; // Base para todos os clusters
+                    let iconSize = new L.Point(30, 30); // Tamanho base, será sobrescrito
+
+                    if (count <= 20) { // 0-20 Azul (default/size 0)
+                        className += 'marker-cluster-default';
+                        iconSize = new L.Point(30, 30);
+                    } else if (count <= 100) { // 21-100 Verde Claro (size 1)
+                        className += 'marker-cluster-size1';
+                        iconSize = new L.Point(35, 35);
+                    } else if (count <= 500) { // 101-500 Amarelo (size 2)
+                        className += 'marker-cluster-size2';
+                        iconSize = new L.Point(40, 40);
+                    } else if (count <= 1000) { // 501-1000 Rosa Claro (size 3)
+                        className += 'marker-cluster-size3';
+                        iconSize = new L.Point(45, 45);
+                    } else if (count <= 10000) { // 1001-10000 Vermelho (size 4)
+                        className += 'marker-cluster-size4';
+                        iconSize = new L.Point(50, 50);
+                    } else if (count <= 100000) { // 10001-100000 Roxo (size 5)
+                        className += 'marker-cluster-size5';
+                        iconSize = new L.Point(55, 55);
+                    } else if (count <= 500000) { // 100001-500000 Cinza (size 6)
+                        className += 'marker-cluster-size6';
+                        iconSize = new L.Point(60, 60);
+                    } else { // > 500000 Preto (size 7)
+                        className += 'marker-cluster-size7';
+                        iconSize = new L.Point(65, 65);
                     }
                     
                     return new L.DivIcon({
                         html: '<div><span>' + count + '</span></div>',
                         className: className,
-                        iconSize: new L.Point(40, 40) // Tamanho fixo para todos os clusters
+                        iconSize: iconSize // Aplica o tamanho definido
                     });
                 }
             });
@@ -532,14 +584,11 @@
 
             try {
                 const isCep = /^\d{5}-?\d{3}$/.test(termo);
-                // Regex para verificar se a string contém pelo menos uma letra e pode ser um nome ou parte de um nome
-                // Permite termos como "Gustavo", "Maria", "Bradesco" (que não são nomes, mas são POIs)
                 const isPotentialNameOrPOI = /[a-zA-Z]/.test(termo); 
 
                 if (isCep) {
                     await buscarCep(termo);
                 } else if (isPotentialNameOrPOI && buscarUsuarioPorNome(termo)) {
-                    // buscarUsuarioPorNome agora retorna true se encontrou usuários
                     console.log(`DEBUG: Termo "${termo}" tratado como busca de usuário.`);
                 } else {
                     await buscarEndereco(termo); // Esta função já lida com POIs e endereços
@@ -558,14 +607,13 @@
                 return;
             }
             
-            // Adicionado parâmetro 'dedupe=1' para evitar resultados duplicados e 'osm_type=node,way,relation'
             const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(termo)}` +
                                  `&format=json&limit=20&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
                                  `&countrycodes=br` + 
                                  `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + 
                                  `&bounded=0` +
                                  `&dedupe=1` +
-                                 `&osm_type=node,way,relation`; // Busca por POIs, ruas, relações
+                                 `&osm_type=node,way,relation`; 
 
             const response = await fetch(url, {
                 headers: {
@@ -647,9 +695,8 @@
             }
         }
 
-        // Alterada para retornar boolean e usar o novo grupo de marcadores
         function buscarUsuarioPorNome(nomeCompleto) {
-            limparMarcadoresUsuarioEncontrado(); // Sempre limpa antes de adicionar novos
+            limparMarcadoresUsuarioEncontrado(); 
             
             const termoLimpo = nomeCompleto.toLowerCase().trim();
             const usuariosEncontrados = usuarios.filter(user =>
@@ -739,7 +786,7 @@
                     let iconToUse;
                     if (item.tipo.includes('CEP')) {
                         iconToUse = cepIcon;
-                    } else if (item.tipo.includes('Comércio')) {
+                    } else if (item.tipo.includes('Comércio') || item.tipo.includes('POI')) {
                         iconToUse = commerceIcon;
                     } else {
                         iconToUse = L.icon.Default(); 
@@ -826,15 +873,16 @@
             else if (item.address.village) parts.push(item.address.village);
             
             if (item.address.state) parts.push(item.address.state);
-            if (item.address.postcode) parts.push(item.postcode); // Acessa diretamente 'postcode' que vem do Nominatim top-level, não address.postcode
-            else if (item.address.postcode) parts.push(item.address.postcode);
+            // Verifica se postcode existe no item principal antes de address.postcode
+            if (item.postcode) parts.push(item.postcode); 
+            else if (item.address && item.address.postcode) parts.push(item.address.postcode);
 
             return parts.join(', ') || item.display_name;
         }
 
         function determinarTipo(item) {
             // Nomes de classes e tipos comuns de POIs do OSM
-            const poiTypes = ['amenity', 'shop', 'building', 'restaurant', 'bank', 'cafe', 'bar', 'hotel', 'hospital', 'school', 'pharmacy', 'supermarket'];
+            const poiTypes = ['amenity', 'shop', 'building', 'restaurant', 'bank', 'cafe', 'bar', 'hotel', 'hospital', 'school', 'pharmacy', 'supermarket', 'arts', 'museum', 'park', 'attraction', 'landmark', 'place_of_worship'];
             if (poiTypes.includes(item.type) || poiTypes.includes(item.class)) {
                 return `🏪 POI / ${item.type ? item.type.charAt(0).toUpperCase() + item.type.slice(1) : item.class.charAt(0).toUpperCase() + item.class.slice(1)}`;
             }
@@ -940,9 +988,8 @@
         }
 
         function obterDirecoesPara(lat, lon) {
-            // Usando o Google Maps para direções. A URL é um exemplo comum.
-            // O 8 no início pode ser ajustado dependendo da precisão.
-            const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
+            // Usando o Google Maps para direções.
+            const url = `http://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
             window.open(url, '_blank');
         }
 
@@ -972,11 +1019,8 @@
             let count = 0;
             const bounds = mapa.getBounds();
             
-            // Se o clustering estiver ativo, marcadores individuais de usuário não estão no mapa diretamente,
-            // então contamos apenas os de busca (POI/Usuário)
             if (clusteringAtivo) {
-                 // Contamos apenas os marcadores de busca de POI/CEP e os de usuário encontrados individualmente
-                marcadoresBuscaPoi.eachLayer(marker => {
+                 marcadoresBuscaPoi.eachLayer(marker => {
                     if (bounds.contains(marker.getLatLng())) {
                         count++;
                     }
@@ -986,17 +1030,8 @@
                         count++;
                     }
                 });
-                // E também os clusters visíveis, mas a contagem de "marcadores visíveis" é mais intuitiva para itens individuais.
-                // Para simplificar, focamos nos marcadores *não* agrupados aqui.
-                // Contar marcadores dentro dos clusters é mais complexo e pode ser feito se necessário.
                 
-                // Uma alternativa para contar todos os marcadores de usuários:
-                // Se o mapa tiver a camada de clusters, a contagem de visíveis é mais sobre o que o cluster representa.
-                // Para a estatística de "marcadores visíveis", pode ser mais útil mostrar quantos *itens individuais* (sejam eles clusters ou marcadores avulsos)
-                // estão visíveis, ou quantos *usuários* (desagrupados ou parte de clusters) estão na view.
-                // Por enquanto, mantenho a contagem de todosMarcadoresUsuario no total.
             } else {
-                // Se o clustering estiver desativado, todosMarcadoresUsuario estão no mapa
                 todosMarcadoresUsuario.forEach(marker => {
                     if (bounds.contains(marker.getLatLng())) {
                         count++;
