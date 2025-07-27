@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PINMAP - Mapa Interativo com Busca</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        #mapa {
+            height: 100vh;
+            width: 100%;
+        }
+        
+        /* Sistema de Busca */
+        .sistema-busca-container {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            min-width: 320px;
+            max-width: 400px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .busca-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 14px;
+        }
+        
+        .busca-input-container {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .busca-input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.2s;
+            outline: none;
+        }
+        
+        .busca-input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+        }
+        
+        .busca-btn {
+            padding: 12px 16px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+            min-width: 80px;
+        }
+        
+        .busca-btn:hover {
+            background: linear-gradient(135deg, #0056b3, #004085);
+            transform: translateY(-1px);
+        }
+        
+        .busca-btn:active {
+            transform: translateY(0);
+        }
+        
+        .busca-loading {
+            display: none;
+            text-align: center;
+            padding: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .busca-resultados {
+            display: none;
+            max-height: 250px;
+            overflow-y: auto;
+            border-top: 1px solid #eee;
+            margin-top: 10px;
+        }
+        
+        .resultado-item {
+            padding: 12px;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 13px;
+        }
+        
+        .resultado-item:hover {
+            background: #f8f9fa;
+            transform: translateX(2px);
+        }
+        
+        .resultado-item:last-child {
+            border-bottom: none;
+        }
+        
+        .resultado-nome {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 4px;
+        }
+        
+        .resultado-endereco {
+            color: #666;
+            font-size: 12px;
+            line-height: 1.3;
+        }
+        
+        .resultado-tipo {
+            display: inline-block;
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            margin-top: 4px;
+        }
+        
+        /* Controles do mapa */
+        .controles-mapa {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .botao-controle {
+            background: white;
+            border: none;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+            min-width: 120px;
+            font-weight: 500;
+        }
+        
+        .botao-controle:hover {
+            background: #f8f9fa;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        /* Info overlay */
+        .info-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: rgba(255,255,255,0.95);
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            max-width: 300px;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+        
+        .info-overlay h4 {
+            margin: 0 0 12px 0;
+            color: #2c3e50;
+            font-size: 16px;
+        }
+        
+        .info-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 12px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: all 0.2s;
+        }
+        
+        .stat-item:hover {
+            background: #e9ecef;
+        }
+        
+        .stat-number {
+            font-weight: bold;
+            font-size: 18px;
+            color: #007bff;
+            margin-bottom: 2px;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 11px;
+        }
+        
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .sistema-busca-container {
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                min-width: auto;
+                max-width: none;
+            }
+            
+            .controles-mapa {
+                top: 10px;
+                right: 10px;
+            }
+            
+            .info-overlay {
+                bottom: 10px;
+                left: 10px;
+                right: 10px;
+                max-width: none;
+            }
+            
+            .info-stats {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+        
+        /* Loading animation */
+        .loading-spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #f3f3f3;
+            border-top: 2px solid #007bff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div id="mapa"></div>
+    
+    <!-- Sistema de Busca -->
+    <div class="sistema-busca-container">
+        <div class="busca-header">
+            🔍 Buscar Localização
+        </div>
+        <div class="busca-input-container">
+            <input type="text" 
+                   id="busca-endereco-input" 
+                   class="busca-input"
+                   placeholder="Digite rua, cidade, estabelecimento..."
+                   autocomplete="off">
+            <button id="busca-endereco-btn" class="busca-btn">Buscar</button>
+        </div>
+        <div id="busca-loading" class="busca-loading">
+            <span class="loading-spinner"></span> Buscando...
+        </div>
+        <div id="busca-resultados" class="busca-resultados"></div>
+    </div>
+    
+    <!-- Controles do mapa -->
+    <div class="controles-mapa">
+        <button class="botao-controle" onclick="voltarInicio()" title="Voltar ao início">
+            🏠 Início
+        </button>
+        <button class="botao-controle" onclick="centralizarUsuarios()" title="Ver todos os usuários">
+            👥 Usuários
+        </button>
+        <button class="botao-controle" onclick="alternarClustering()" title="Alternar clustering">
+            🔗 Cluster
+        </button>
+        <button class="botao-controle" onclick="limparBusca()" title="Limpar busca">
+            🧹 Limpar
+        </button>
+    </div>
+    
+    <!-- Overlay de informações -->
+    <div class="info-overlay">
+        <h4>📊 Estatísticas do Mapa</h4>
+        <div class="info-stats">
+            <div class="stat-item">
+                <div class="stat-number" id="total-usuarios-mapa">0</div>
+                <div class="stat-label">Usuários</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="buscas-realizadas-mapa">0</div>
+                <div class="stat-label">Buscas</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="zoom-atual">4</div>
+                <div class="stat-label">Zoom</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="marcadores-visiveis">0</div>
+                <div class="stat-label">Visíveis</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    <script src="dados.js"></script>
+    
+    <script>
+        // Variáveis globais
+        let mapa;
+        let marcadores;
+        let marcadorBusca = null;
+        let clusteringAtivo = true;
+        let contadorBuscas = 0;
+        let cacheResultados = new Map();
+        
+        // Inicializar mapa
+        function inicializarMapa() {
+            console.log('🗺️ Inicializando PINMAP com Sistema de Busca');
+            
+            // Criar mapa centrado no Brasil
+            mapa = L.map('mapa').setView([-14.235, -51.925], 4);
+            
+            // Adicionar camada do mapa
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors | PINMAP v5.3'
+            }).addTo(mapa);
+            
+            // Criar grupo de marcadores com clustering
+            marcadores = L.markerClusterGroup({
+                chunkedLoading: true,
+                maxClusterRadius: 50,
+                spiderfyOnMaxZoom: true,
+                showCoverageOnHover: false,
+                zoomToBoundsOnClick: true,
+                iconCreateFunction: function(cluster) {
+                    const count = cluster.getChildCount();
+                    let className = 'marker-cluster-small';
+                    if (count > 100) className = 'marker-cluster-large';
+                    else if (count > 20) className = 'marker-cluster-medium';
+                    
+                    return new L.DivIcon({
+                        html: '<div><span>' + count + '</span></div>',
+                        className: 'marker-cluster ' + className,
+                        iconSize: new L.Point(40, 40)
+                    });
+                }
+            });
+            
+            // Carregar usuários
+            carregarUsuarios();
+            
+            // Configurar eventos do mapa
+            configurarEventosMapa();
+            
+            // Configurar sistema de busca
+            configurarSistemaBusca();
+            
+            // Atualizar estatísticas iniciais
+            atualizarEstatisticas();
+            
+            console.log('✅ PINMAP inicializado com sucesso');
+        }
+        
+        function carregarUsuarios() {
+            if (typeof usuarios === 'undefined') {
+                console.error('❌ Dados de usuários não encontrados');
+                return;
+            }
+            
+            console.log(`📊 Carregando ${usuarios.length} usuários`);
+            
+            usuarios.forEach((usuario, index) => {
+                if (usuario.latitude && usuario.longitude) {
+                    const marcador = L.marker([usuario.latitude, usuario.longitude])
+                        .bindPopup(`
+                            <div style="padding: 12px; min-width: 200px;">
+                                <h4 style="margin: 0 0 8px 0; color: #2c3e50;">${usuario.nome}</h4>
+                                <p style="margin: 0 0 8px 0; font-size: 13px; color: #666;">
+                                    📍 ${usuario.cidade || 'Cidade'}, ${usuario.estado || 'Estado'}<br>
+                                    📮 CEP: ${usuario.cep}
+                                </p>
+                                <div style="display: flex; gap: 8px; margin-top: 10px;">
+                                    <button onclick="buscarProximo('${usuario.cidade || usuario.cep}')" 
+                                            style="background: #3498db; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🔍 Buscar na região
+                                    </button>
+                                    <button onclick="obterDirecoesPara(${usuario.latitude}, ${usuario.longitude})" 
+                                            style="background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🧭 Direções
+                                    </button>
+                                </div>
+                            </div>
+                        `);
+                    
+                    marcadores.addLayer(marcador);
+                }
+            });
+            
+            mapa.addLayer(marcadores);
+            
+            // Ajustar zoom para mostrar todos os marcadores
+            if (marcadores.getLayers().length > 0) {
+                mapa.fitBounds(marcadores.getBounds(), { padding: [20, 20] });
+            }
+            
+            console.log(`✅ ${marcadores.getLayers().length} marcadores adicionados`);
+        }
+        
+        function configurarEventosMapa() {
+            // Atualizar zoom quando mudar
+            mapa.on('zoomend', function() {
+                document.getElementById('zoom-atual').textContent = mapa.getZoom();
+                atualizarMarcadoresVisiveis();
+            });
+            
+            // Atualizar marcadores visíveis quando mover
+            mapa.on('moveend', atualizarMarcadoresVisiveis);
+        }
+        
+        function configurarSistemaBusca() {
+            const input = document.getElementById('busca-endereco-input');
+            const btnBuscar = document.getElementById('busca-endereco-btn');
+            let debounceTimer = null;
+            
+            // Busca em tempo real (debounced)
+            input.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                const termo = e.target.value.trim();
+                
+                if (termo.length >= 3) {
+                    debounceTimer = setTimeout(() => {
+                        buscarEndereco(termo);
+                    }, 500);
+                } else {
+                    ocultarResultados();
+                }
+            });
+            
+            // Busca ao clicar no botão
+            btnBuscar.addEventListener('click', () => {
+                const termo = input.value.trim();
+                if (termo) {
+                    buscarEndereco(termo);
+                }
+            });
+            
+            // Busca ao pressionar Enter
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    const termo = input.value.trim();
+                    if (termo) {
+                        buscarEndereco(termo);
+                    }
+                }
+            });
+            
+            // Fechar resultados ao clicar fora
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.sistema-busca-container')) {
+                    ocultarResultados();
+                }
+            });
+        }
+        
+        async function buscarEndereco(termo) {
+            if (!termo) return;
+            
+            mostrarLoading();
+            contadorBuscas++;
+            document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas;
+            
+            try {
+                // Verificar cache
+                if (cacheResultados.has(termo)) {
+                    mostrarResultados(cacheResultados.get(termo));
+                    return;
+                }
+                
+                // Buscar via API Nominatim
+                const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(termo)}&format=json&limit=8&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en`;
+                
+                const response = await fetch(url, {
+                    headers: {
+                        'User-Agent': 'PINMAP-Sistema-Busca/1.0'
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                
+                const dados = await response.json();
+                
+                // Processar resultados
+                const resultados = dados.map(item => ({
+                    nome: extrairNome(item),
+                    endereco: formatarEndereco(item),
+                    tipo: determinarTipo(item),
+                    latitude: parseFloat(item.lat),
+                    longitude: parseFloat(item.lon),
+                    bbox: item.boundingbox
+                }));
+                
+                // Salvar no cache
+                cacheResultados.set(termo, resultados);
+                
+                // Mostrar resultados
+                mostrarResultados(resultados);
+                
+            } catch (error) {
+                console.error('Erro na busca:', error);
+                mostrarErro('Erro ao buscar endereço. Tente novamente.');
+            }
+        }
+        
+        function extrairNome(item) {
+            return item.display_name.split(',')[0] || item.name || 'Local encontrado';
+        }
+        
+        function formatarEndereco(item) {
+            const endereco = item.display_name;
+            return endereco.length > 80 ? endereco.substring(0, 80) + '...' : endereco;
+        }
+        
+        function determinarTipo(item) {
+            const classe = item.class;
+            const tipos = {
+                'highway': '🛣️ Via',
+                'amenity': '🏢 Estabelecimento',
+                'shop': '🛍️ Comércio',
+                'tourism': '🏛️ Turismo',
+                'leisure': '🎯 Lazer',
+                'place': '📍 Local',
+                'building': '🏢 Edifício',
+                'natural': '🌿 Natural',
+                'landuse': '🗺️ Área'
+            };
+            return tipos[classe] || '📍 Local';
+        }
+        
+        function mostrarLoading() {
+            document.getElementById('busca-loading').style.display = 'block';
+            document.getElementById('busca-resultados').style.display = 'none';
+        }
+        
+        function mostrarResultados(resultados) {
+            const container = document.getElementById('busca-resultados');
+            const loading = document.getElementById('busca-loading');
+            
+            loading.style.display = 'none';
+            
+            if (resultados.length === 0) {
+                container.innerHTML = '<div class="resultado-item">Nenhum resultado encontrado</div>';
+            } else {
+                container.innerHTML = resultados.map(resultado => `
+                    <div class="resultado-item" onclick="irParaLocal(${resultado.latitude}, ${resultado.longitude}, '${resultado.nome.replace(/'/g, "\\'")}')">
+                        <div class="resultado-nome">${resultado.nome}</div>
+                        <div class="resultado-endereco">${resultado.endereco}</div>
+                        <div class="resultado-tipo">${resultado.tipo}</div>
+                    </div>
+                `).join('');
+            }
+            
+            container.style.display = 'block';
+        }
+        
+        function mostrarErro(mensagem) {
+            const container = document.getElementById('busca-resultados');
+            const loading = document.getElementById('busca-loading');
+            
+            loading.style.display = 'none';
+            container.innerHTML = `<div class="resultado-item" style="color: #dc3545;">${mensagem}</div>`;
+            container.style.display = 'block';
+        }
+        
+        function ocultarResultados() {
+            document.getElementById('busca-resultados').style.display = 'none';
+            document.getElementById('busca-loading').style.display = 'none';
+        }
+        
+        function irParaLocal(lat, lon, nome) {
+            // Centralizar mapa no local
+            mapa.setView([lat, lon], 15);
+            
+            // Remover marcador anterior
+            if (marcadorBusca) {
+                mapa.removeLayer(marcadorBusca);
+            }
+            
+            // Adicionar novo marcador
+            marcadorBusca = L.marker([lat, lon], {
+                icon: L.icon({
+                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+            }).addTo(mapa);
+            
+            // Mostrar popup
+            marcadorBusca.bindPopup(`<strong>📍 ${nome}</strong><br><small>Local encontrado pela busca</small>`).openPopup();
+            
+            // Ocultar resultados
+            ocultarResultados();
+        }
+        
+        function atualizarMarcadoresVisiveis() {
+            const bounds = mapa.getBounds();
+            let visiveis = 0;
+            
+            marcadores.eachLayer(function(layer) {
+                if (bounds.contains(layer.getLatLng())) {
+                    visiveis++;
+                }
+            });
+            
+            document.getElementById('marcadores-visiveis').textContent = visiveis;
+        }
+        
+        function atualizarEstatisticas() {
+            if (typeof usuarios !== 'undefined') {
+                document.getElementById('total-usuarios-mapa').textContent = usuarios.length;
+            }
+            document.getElementById('zoom-atual').textContent = mapa.getZoom();
+            atualizarMarcadoresVisiveis();
+        }
+        
+        // Funções de controle
+        function voltarInicio() {
+            window.location.href = 'index.html';
+        }
+        
+        function centralizarUsuarios() {
+            if (marcadores.getLayers().length > 0) {
+                mapa.fitBounds(marcadores.getBounds(), { padding: [20, 20] });
+            }
+        }
+        
+        function alternarClustering() {
+            if (clusteringAtivo) {
+                mapa.removeLayer(marcadores);
+                marcadores.eachLayer(function(layer) {
+                    mapa.addLayer(layer);
+                });
+                clusteringAtivo = false;
+                console.log('🔗 Clustering desativado');
+            } else {
+                marcadores.clearLayers();
+                carregarUsuarios();
+                clusteringAtivo = true;
+                console.log('🔗 Clustering ativado');
+            }
+        }
+        
+        function limparBusca() {
+            document.getElementById('busca-endereco-input').value = '';
+            ocultarResultados();
+            if (marcadorBusca) {
+                mapa.removeLayer(marcadorBusca);
+                marcadorBusca = null;
+            }
+        }
+        
+        function buscarProximo(termo) {
+            document.getElementById('busca-endereco-input').value = termo;
+            buscarEndereco(termo);
+        }
+        
+        function obterDirecoesPara(lat, lng) {
+            const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
+            window.open(url, '_blank');
+        }
+        
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', function() {
+            // Aguardar um pouco para garantir que todos os scripts carregaram
+            setTimeout(inicializarMapa, 500);
+        });
+    </script>
+</body>
+</html>
