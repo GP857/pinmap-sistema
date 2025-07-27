@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -367,4 +366,577 @@
             }
 
             // Define a nova camada e o estilo atual
-            camadaAtual = camadasMapa
+            camadaAtual = camadasMapa[novoEstilo];
+            estiloAtual = novoEstilo; // Atualiza a variável estiloAtual
+            
+            // Adiciona a nova camada ao mapa
+            camadaAtual.addTo(mapa);
+            console.log(`Cambiando para camada de mapa: ${novoEstilo}`);
+        }
+
+        function carregarUsuarios() {
+            console.log('DEBUG: Início da função carregarUsuarios().');
+            
+            // Verifica se `usuarios` existe e é um array.
+            // O `dados.js` precisa definir `let usuarios = [...]` ou `const usuarios = [...]`.
+            if (typeof usuarios === 'undefined' || !Array.isArray(usuarios) || usuarios.length === 0) {
+                console.error('❌ Dados de usuários não encontrados, inválidos ou vazios. Verifique dados.js. Definindo mapa no centro do Brasil.');
+                document.getElementById('total-usuarios-mapa').textContent = 'Erro!';
+                mapa.setView(BRASIL_CENTER, BRASIL_ZOOM); 
+                return;
+            }
+            
+            console.log(`📊 Carregando ${usuarios.length} usuários.`); 
+            
+            // Limpa os marcadores existentes antes de recarregar
+            marcadores.clearLayers();
+            todosMarcadoresUsuario = []; // Limpa o array de referência
+            
+            let validUsersCount = 0; 
+            
+            usuarios.forEach((usuario, index) => {
+                if (usuario.latitude && usuario.longitude) {
+                    validUsersCount++; 
+                    const marcador = L.marker([usuario.latitude, usuario.longitude], { icon: userIcon }) // Usa o ícone de usuário
+                        .bindPopup(`
+                            <div style="padding: 12px; min-width: 200px;">
+                                <h4 style="margin: 0 0 8px 0; color: #2c3e50;">${usuario.nome || 'Usuário Desconhecido'}</h4>
+                                <p style="margin: 0 0 8px 0; font-size: 13px; color: #666;">
+                                    📍 ${usuario.cidade || 'Cidade'}, ${usuario.estado || 'Estado'}<br>
+                                    📮 CEP: ${usuario.cep || 'Não informado'}<br>
+                                    Rua: ${usuario.rua || 'Não informada'}
+                                </p>
+                                <div style="display: flex; gap: 8px; margin-top: 10px;">
+                                    <button onclick="buscarProximo('${usuario.cidade || usuario.cep}')" 
+                                            style="background: #3498db; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🔍 Buscar na região
+                                    </button>
+                                    <button onclick="obterDirecoesPara(${usuario.latitude}, ${usuario.longitude})" 
+                                            style="background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🧭 Direções
+                                    </button>
+                                </div>
+                            </div>
+                        `);
+                    todosMarcadoresUsuario.push(marcador); // Adiciona ao array de referência
+                } else {
+                    console.warn(`⚠️ Usuário ${usuario.nome} (ID: ${usuario.id || 'N/A'}, Index: ${index}) com coordenadas inválidas: Latitude: ${usuario.latitude}, Longitude: ${usuario.longitude}`);
+                }
+            });
+            
+            console.log(`DEBUG: ${validUsersCount} de ${usuarios.length} usuários têm coordenadas válidas.`);
+            
+            // Adiciona todos os marcadores carregados ao grupo de clustering
+            marcadores.addLayers(todosMarcadoresUsuario);
+            mapa.addLayer(marcadores);
+            
+            // Ajustar zoom para mostrar todos os marcadores de usuário
+            if (todosMarcadoresUsuario.length > 0) {
+                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
+                console.log('DEBUG: Mapa centralizado nos marcadores de usuários.');
+            } else {
+                // Se não houver usuários com coordenadas válidas, centraliza no Brasil
+                mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
+                console.warn('DEBUG: Nenhum usuário válido com coordenadas para centralizar, mapa centralizado no Brasil.');
+            }
+            
+            console.log(`✅ ${todosMarcadoresUsuario.length} marcadores de usuários adicionados ao mapa.`);
+            
+            // Atualizar estatísticas após carregar
+            atualizarEstatisticas();
+            console.log('DEBUG: Fim da função carregarUsuarios().');
+        }
+        
+        function configurarEventosMapa() {
+            // Atualizar zoom quando mudar
+            mapa.on('zoomend', function() {
+                document.getElementById('zoom-atual').textContent = mapa.getZoom();
+                atualizarMarcadoresVisiveis();
+            });
+            
+            // Atualizar marcadores visíveis quando mover
+            mapa.on('moveend', atualizarMarcadoresVisiveis);
+        }
+        
+        function configurarSistemaBusca() {
+            const input = document.getElementById('busca-geral-input');
+            const btnBuscar = document.getElementById('busca-geral-btn');
+            let debounceTimer = null;
+            
+            // Busca em tempo real (debounced)
+            input.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                const termo = e.target.value.trim();
+                
+                if (termo.length >= 3) {
+                    debounceTimer = setTimeout(() => {
+                        executarBuscaGeral(termo);
+                    }, 500);
+                } else {
+                    ocultarResultados();
+                    limparMarcadoresBuscaPoi(); 
+                    limparMarcadoresUsuarioEncontrado(); // Limpa ao apagar o campo
+                }
+            });
+            
+            // Busca ao clicar no botão
+            btnBuscar.addEventListener('click', () => {
+                const termo = input.value.trim();
+                if (termo) {
+                    executarBuscaGeral(termo);
+                }
+            });
+            
+            // Busca ao pressionar Enter
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    const termo = input.value.trim();
+                    if (termo) {
+                        executarBuscaGeral(termo);
+                    }
+                }
+            });
+            
+            // Fechar resultados ao clicar fora
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.sistema-busca-container') && !e.target.closest('.leaflet-popup')) {
+                    ocultarResultados();
+                }
+            });
+        }
+
+        async function executarBuscaGeral(termo) {
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
+            mostrarLoading();
+            contadorBuscas++;
+            document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas;
+
+            try {
+                const isCep = /^\d{5}-?\d{3}$/.test(termo);
+                // Ajustado para ser mais flexível e verificar se parece um nome completo ou parte de um nome
+                const isPossibleUserName = !(/\d/.test(termo)) && (termo.split(' ').length > 1 || termo.length > 5); 
+
+                if (isCep) {
+                    await buscarCep(termo);
+                } else if (isPossibleUserName && usuarios.some(u => u.nome && u.nome.toLowerCase().includes(termo.toLowerCase()))) {
+                    buscarUsuarioPorNome(termo);
+                } else {
+                    await buscarEndereco(termo);
+                }
+            } catch (error) {
+                console.error('Erro na busca geral:', error);
+                mostrarErro('Erro ao realizar busca. Tente novamente.');
+            } finally {
+                document.getElementById('busca-loading').style.display = 'none';
+            }
+        }
+        
+        async function buscarEndereco(termo) {
+            if (cacheResultados.has(termo)) {
+                mostrarResultados(cacheResultados.get(termo), 'poi'); 
+                return;
+            }
+            
+            const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(termo)}` +
+                                 `&format=json&limit=15&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
+                                 `&countrycodes=br` + 
+                                 `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + 
+                                 `&bounded=0`; 
+
+            const response = await fetch(url, {
+                headers: {
+                    'User-Agent': 'PINMAP-Sistema-Busca/1.0'
+                }
+            });
+            
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status} ao buscar endereço`);
+            }
+            
+            const dados = await response.json();
+            
+            const resultados = dados.map(item => ({
+                nome: extrairNome(item),
+                endereco: formatarEndereco(item),
+                tipo: determinarTipo(item),
+                latitude: parseFloat(item.lat),
+                longitude: parseFloat(item.lon),
+                bbox: item.boundingbox
+            }));
+            
+            cacheResultados.set(termo, resultados);
+            mostrarResultados(resultados, 'poi'); 
+        }
+
+        async function buscarCep(cep) {
+            const cleanCep = cep.replace(/\D/g, ''); 
+            if (cleanCep.length !== 8) {
+                mostrarErro('CEP inválido. Digite 8 dígitos numéricos.');
+                return;
+            }
+
+            try {
+                const viacepUrl = `https://viacep.com.br/ws/${cleanCep}/json/`;
+                const viacepResponse = await fetch(viacepUrl);
+                const viacepData = await viacepResponse.json();
+
+                if (viacepData.erro) {
+                    mostrarErro('CEP não encontrado ou inválido no ViaCEP.');
+                    return;
+                }
+
+                // Usar dados do ViaCEP para construir uma busca mais precisa no Nominatim
+                // Priorizar logradouro, bairro, cidade, estado para geocodificação
+                let addressQueryParts = [];
+                if (viacepData.logradouro) addressQueryParts.push(viacepData.logradouro);
+                if (viacepData.bairro) addressQueryParts.push(viacepData.bairro);
+                if (viacepData.localidade) addressQueryParts.push(viacepData.localidade);
+                if (viacepData.uf) addressQueryParts.push(viacepData.uf);
+                
+                const nominatimQuery = `${addressQueryParts.join(', ')}, Brasil`;
+                const nominatimUrl = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(nominatimQuery)}&format=json&limit=1&countrycodes=br`;
+
+                const nominatimResponse = await fetch(nominatimUrl, {
+                    headers: { 'User-Agent': 'PINMAP-Sistema-Busca/1.0 (ViaCEP integration)' }
+                });
+                const nominatimData = await nominatimResponse.json();
+
+                if (nominatimData.length > 0) {
+                    const lat = parseFloat(nominatimData[0].lat);
+                    const lon = parseFloat(nominatimData[0].lon);
+                    const name = nominatimData[0].display_name;
+
+                    mostrarResultados([{
+                        nome: `CEP ${cleanCep}`,
+                        endereco: viacepData.logradouro ? `${viacepData.logradouro}, ${viacepData.bairro || viacepData.localidade}` : name,
+                        tipo: '📮 CEP',
+                        latitude: lat,
+                        longitude: lon,
+                        bbox: nominatimData[0].boundingbox
+                    }], 'cep'); 
+
+                } else {
+                    // Se o Nominatim falhar, tentar usar as coordenadas do ViaCEP se disponíveis (alguns APIs ViaCEP fornecem)
+                    // Ou apenas exibir que não foi possível geocodificar no mapa.
+                    mostrarErro('Não foi possível geocodificar o endereço do CEP no mapa.');
+                }
+
+            } catch (error) {
+                console.error('Erro na busca de CEP:', error);
+                mostrarErro('Erro ao buscar CEP. Tente novamente.');
+            }
+        }
+
+        let marcadoresUsuarioEncontrado = [];
+
+        function buscarUsuarioPorNome(nomeCompleto) {
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
+
+            const termoLimpo = nomeCompleto.toLowerCase().trim();
+            const usuariosEncontrados = usuarios.filter(user =>
+                user.nome && user.nome.toLowerCase().includes(termoLimpo)
+            );
+
+            const container = document.getElementById('busca-resultados');
+            container.innerHTML = ''; 
+
+            if (usuariosEncontrados.length > 0) {
+                const boundsGroup = L.featureGroup(); 
+                usuariosEncontrados.forEach(user => {
+                    if (user.latitude && user.longitude) {
+                        const marker = L.marker([user.latitude, user.longitude], {
+                            icon: userIcon // Usa o ícone de usuário
+                        })
+                            .bindPopup(`
+                                <div style="padding: 10px;">
+                                    <strong>${user.nome || 'Usuário Desconhecido'}</strong><br>
+                                    <small>Rua: ${user.rua || 'Não informada'}</small><br>
+                                    <small>CEP: ${user.cep || 'Não informado'}</small><br>
+                                    <button onclick="obterDirecoesPara(${user.latitude}, ${user.longitude})" 
+                                            style="margin-top: 8px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                        🧭 Direções
+                                    </button>
+                                </div>
+                            `);
+                        marker.addTo(mapa); 
+                        marcadoresUsuarioEncontrado.push(marker); 
+                        boundsGroup.addLayer(marker);
+
+                        container.innerHTML += `
+                            <div class="resultado-item" onclick="mapa.flyTo([${user.latitude}, ${user.longitude}], 15); ocultarResultados();">
+                                <div class="resultado-nome">${user.nome}</div>
+                                <div class="resultado-endereco">${user.cidade || ''}, ${user.estado || ''}</div>
+                                <div class="resultado-tipo">👤 Usuário</div>
+                            </div>
+                        `;
+                    }
+                });
+                
+                if (boundsGroup.getLayers().length > 0) {
+                    mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] });
+                }
+                container.style.display = 'block';
+            } else {
+                mostrarErro('Nenhum usuário encontrado com esse nome.');
+            }
+            document.getElementById('busca-loading').style.display = 'none';
+        }
+
+        function mostrarResultados(resultados, tipoResultados) {
+            const container = document.getElementById('busca-resultados');
+            container.innerHTML = ''; // Limpa resultados anteriores
+            limparMarcadoresBuscaPoi(); // Garante que apenas os marcadores da busca atual apareçam
+
+            if (resultados.length === 0) {
+                mostrarErro('Nenhum resultado encontrado.');
+                return;
+            }
+
+            const bounds = L.latLngBounds();
+
+            resultados.forEach(item => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'resultado-item';
+                itemDiv.innerHTML = `
+                    <div class="resultado-nome">${item.nome}</div>
+                    <div class="resultado-endereco">${item.endereco}</div>
+                    <div class="resultado-tipo">${item.tipo}</div>
+                `;
+                itemDiv.onclick = () => {
+                    mapa.flyTo([item.latitude, item.longitude], 16); // Zoom mais próximo para o item selecionado
+                    ocultarResultados();
+                    
+                    // Cria e adiciona o marcador para o item de busca
+                    let iconToUse;
+                    if (item.tipo.includes('CEP')) {
+                        iconToUse = cepIcon;
+                    } else if (item.tipo.includes('Comércio')) {
+                        iconToUse = commerceIcon;
+                    } else {
+                        iconToUse = L.icon.Default(); // Marcador padrão azul para outros endereços
+                    }
+
+                    const marker = L.marker([item.latitude, item.longitude], { icon: iconToUse })
+                        .bindPopup(`
+                            <div style="padding: 10px;">
+                                <strong>${item.nome}</strong><br>
+                                <small>${item.endereco}</small><br>
+                                <small>${item.tipo}</small>
+                                <button onclick="obterDirecoesPara(${item.latitude}, ${item.longitude})" 
+                                        style="margin-top: 8px; background: #27ae60; color: white; border: none; padding: 4px 8px; border-radius: 3px; font-size: 11px; cursor: pointer;">
+                                    🧭 Direções
+                                </button>
+                            </div>
+                        `)
+                        .openPopup();
+                    marcadoresBuscaPoi.addLayer(marker);
+                };
+                container.appendChild(itemDiv);
+
+                // Adiciona as coordenadas para o cálculo de zoom
+                bounds.extend([item.latitude, item.longitude]);
+            });
+
+            container.style.display = 'block';
+
+            // Ajusta o mapa para mostrar todos os resultados da busca
+            if (resultados.length > 0) {
+                mapa.fitBounds(bounds, { padding: [50, 50] });
+            }
+        }
+
+        function ocultarResultados() {
+            document.getElementById('busca-resultados').style.display = 'none';
+        }
+
+        function mostrarLoading() {
+            document.getElementById('busca-loading').style.display = 'block';
+            document.getElementById('busca-resultados').style.display = 'none';
+        }
+
+        function mostrarErro(mensagem) {
+            const container = document.getElementById('busca-resultados');
+            container.innerHTML = `<div style="color: #d32f2f; padding: 10px; font-size: 13px;">${mensagem}</div>`;
+            container.style.display = 'block';
+        }
+
+        function limparMarcadoresBuscaPoi() {
+            marcadoresBuscaPoi.clearLayers(); // Remove todos os marcadores de busca de POI
+        }
+
+        function limparMarcadoresUsuarioEncontrado() {
+            marcadoresUsuarioEncontrado.forEach(marker => {
+                if (mapa.hasLayer(marker)) {
+                    mapa.removeLayer(marker);
+                }
+            });
+            marcadoresUsuarioEncontrado = [];
+        }
+        
+        // Funções auxiliares para Nominatim
+        function extrairNome(item) {
+            // Tenta obter um nome mais relevante para o POI ou endereço
+            if (item.namedetails && item.namedetails.name) return item.namedetails.name;
+            if (item.address && item.address.road && item.address.house_number) return `${item.address.road}, ${item.address.house_number}`;
+            if (item.address && item.address.road) return item.address.road;
+            if (item.type === 'amenity' || item.type === 'shop' || item.type === 'building') return item.name || item.display_name.split(',')[0];
+            return item.display_name;
+        }
+
+        function formatarEndereco(item) {
+            const parts = [];
+            if (item.address.road) parts.push(item.address.road);
+            if (item.address.house_number) parts.push(item.address.house_number);
+            if (item.address.suburb) parts.push(item.address.suburb); // Bairro
+            else if (item.address.city_district) parts.push(item.address.city_district);
+            
+            if (item.address.city) parts.push(item.address.city);
+            else if (item.address.town) parts.push(item.address.town);
+            else if (item.address.village) parts.push(item.address.village);
+            
+            if (item.address.state) parts.push(item.address.state);
+            if (item.address.postcode) parts.push(item.address.postcode);
+
+            return parts.join(', ') || item.display_name;
+        }
+
+        function determinarTipo(item) {
+            if (item.type === 'amenity' || item.type === 'shop' || item.class === 'shop' || item.class === 'amenity') {
+                return `🏪 Comércio / ${item.type.charAt(0).toUpperCase() + item.type.slice(1)}`;
+            }
+            if (item.type === 'house' || item.type === 'residential' || item.type === 'building' || item.class === 'highway') {
+                return '🏠 Endereço';
+            }
+            if (item.osm_type === 'relation' && item.osm_id === 184515) { // Exemplo para um país específico
+                return 'País';
+            }
+            if (item.address && item.address.postcode) {
+                return '📮 CEP';
+            }
+            // Verifica se o resultado da busca é um usuário já existente na base de dados
+            const matchingUser = usuarios.find(user => 
+                user.latitude === parseFloat(item.lat) && user.longitude === parseFloat(item.lon) && 
+                user.nome && item.display_name.toLowerCase().includes(user.nome.toLowerCase())
+            );
+            if (matchingUser) {
+                return '👤 Usuário';
+            }
+            return item.type ? item.type.charAt(0).toUpperCase() + item.type.slice(1) : 'Localização';
+        }
+
+        // Funções de controle do mapa
+        function voltarInicio() {
+            mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
+            limparBusca(); // Limpa busca e marcadores ao voltar ao início
+            console.log('🔙 Mapa voltou para o centro do Brasil.');
+        }
+
+        function centralizarUsuarios() {
+            if (todosMarcadoresUsuario.length > 0) {
+                mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
+                console.log('🎯 Mapa centralizado nos usuários.');
+            } else {
+                console.warn('⚠️ Não há usuários para centralizar.');
+            }
+        }
+
+        function alternarClustering() {
+            if (clusteringAtivo) {
+                mapa.removeLayer(marcadores);
+                // Adiciona os marcadores individuais de volta ao mapa sem clustering
+                todosMarcadoresUsuario.forEach(marker => {
+                    marker.addTo(mapa);
+                });
+                console.log('🔗 Clustering desativado.');
+            } else {
+                todosMarcadoresUsuario.forEach(marker => {
+                    if (mapa.hasLayer(marker)) {
+                        mapa.removeLayer(marker); // Remove marcadores individuais
+                    }
+                });
+                mapa.addLayer(marcadores); // Adiciona o grupo de clustering
+                console.log('🔗 Clustering ativado.');
+            }
+            clusteringAtivo = !clusteringAtivo;
+        }
+
+        function limparBusca() {
+            document.getElementById('busca-geral-input').value = '';
+            ocultarResultados();
+            limparMarcadoresBuscaPoi();
+            limparMarcadoresUsuarioEncontrado();
+            console.log('🧹 Busca e marcadores de busca limpos.');
+        }
+
+        function obterMinhaLocalizacao() {
+            if (!navigator.geolocation) {
+                alert('Seu navegador não suporta geolocalização.');
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const lat = position.coords.latitude;
+                    const lon = position.coords.longitude;
+
+                    if (userLocationMarker) {
+                        mapa.removeLayer(userLocationMarker);
+                    }
+                    userLocationMarker = L.marker([lat, lon]).addTo(mapa)
+                        .bindPopup("Você está aqui!")
+                        .openPopup();
+                    mapa.flyTo([lat, lon], 15);
+                    console.log(`📍 Sua localização: Latitude ${lat}, Longitude ${lon}`);
+                },
+                (error) => {
+                    console.error('Erro ao obter localização:', error);
+                    alert('Não foi possível obter sua localização.');
+                }
+            );
+        }
+
+        function obterDirecoesPara(lat, lon) {
+            const url = `http://maps.google.com/maps?daddr=${lat},${lon}`;
+            window.open(url, '_blank');
+        }
+
+        function atualizarEstatisticas() {
+            document.getElementById('total-usuarios-mapa').textContent = todosMarcadoresUsuario.length;
+            document.getElementById('zoom-atual').textContent = mapa.getZoom();
+            atualizarMarcadoresVisiveis(); // Chamada inicial
+        }
+
+        function atualizarMarcadoresVisiveis() {
+            let count = 0;
+            const bounds = mapa.getBounds();
+            // Se o clustering estiver ativo, não temos como contar marcadores individuais visíveis diretamente do `marcadores`
+            // mas podemos contar os que estão no array `todosMarcadoresUsuario` e dentro dos limites visíveis.
+            todosMarcadoresUsuario.forEach(marker => {
+                if (bounds.contains(marker.getLatLng())) {
+                    count++;
+                }
+            });
+            // Também contar os marcadores de busca (POI, CEP) se estiverem visíveis
+            marcadoresBuscaPoi.eachLayer(marker => {
+                if (bounds.contains(marker.getLatLng())) {
+                    count++;
+                }
+            });
+            // Adicione os marcadores de usuário encontrados pela busca
+            marcadoresUsuarioEncontrado.forEach(marker => {
+                if (bounds.contains(marker.getLatLng())) {
+                    count++;
+                }
+            });
+
+            document.getElementById('marcadores-visiveis').textContent = count;
+        }
+
+
+        // Inicializa o mapa quando o DOM estiver carregado
+        document.addEventListener('DOMContentLoaded', inicializarMapa);
+    </script>
+</body>
+</html>
