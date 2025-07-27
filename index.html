@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIINR9F9edUaC3htGYNEJ1T+POmpCSAApMF/7S1sFwR--5xL/PrqUPSSJ"
-     crossorigin=""/>
+     crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
     
@@ -303,8 +303,8 @@
     </div>
     
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-Rksm5RenBEKsPO7t7tBPQz<span><br/></span>LzwaaQyHF9kNpwxzl+t/HSY"
-     crossorigin=""></script>
+     integrity="sha256-Ap7fGTrW352MhB30x/y+fT/mN3z72c1T7vR7P1t5Fv8="
+     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
     
     <script src="dados.js"></script> 
@@ -316,7 +316,7 @@
         let marcadores;
         let clusteringAtivo = true;
         let contadorBuscas = 0;
-        let sistemaBusca; // Adicionado para acesso global ao sistema de busca
+        let sistemaBusca; // Declarado uma única vez aqui
 
         // Inicializar mapa
         function inicializarMapa() {
@@ -346,7 +346,7 @@
             carregarUsuarios();
             
             // Inicializar sistema de busca (passando a instância do mapa)
-            sistemaBusca = new SistemaBuscaMapa(mapa); // Atribui a variável global
+            sistemaBusca = new SistemaBuscaMapa(mapa); // Atribui à variável global já declarada
             
             // Configurar eventos do mapa
             configurarEventosMapa();
@@ -430,6 +430,7 @@
                 });
             } else {
                 // Se o clustering está desativado, os marcadores estão diretamente no mapa
+                // É necessário verificar se o layer realmente está no mapa
                 marcadores.eachLayer(function(layer) {
                     if (mapa.hasLayer(layer) && bounds.contains(layer.getLatLng())) {
                         visiveis++;
@@ -445,7 +446,8 @@
                 document.getElementById('total-usuarios-mapa').textContent = usuarios.length;
             }
             document.getElementById('zoom-atual').textContent = mapa.getZoom();
-            document.getElementById('buscas-realizadas-mapa').textContent = contadorBuscas; // Atualiza contador de buscas
+            // A atualização do contadorBuscas agora é feita pela instância de sistemaBusca
+            document.getElementById('buscas-realizadas-mapa').textContent = sistemaBusca ? sistemaBusca.contadorBuscas : 0;
             atualizarMarcadoresVisiveis();
         }
         
@@ -473,9 +475,11 @@
                 clusteringAtivo = false;
                 console.log('🔗 Clustering desativado');
             } else {
-                // Remove todos os marcadores individuais
+                // Remove todos os marcadores individuais que foram adicionados diretamente
                 marcadores.eachLayer(function(layer) {
-                    mapa.removeLayer(layer);
+                    if (mapa.hasLayer(layer)) { // Certifica-se que o layer está no mapa antes de remover
+                        mapa.removeLayer(layer);
+                    }
                 });
                 mapa.addLayer(marcadores); // Adiciona o grupo de clusters novamente
                 clusteringAtivo = true;
@@ -487,7 +491,7 @@
         function exportarDados() {
             const dados = {
                 totalUsuarios: usuarios.length,
-                buscasRealizadas: contadorBuscas,
+                buscasRealizadas: sistemaBusca ? sistemaBusca.contadorBuscas : 0, // Pega do sistemaBusca
                 zoomAtual: mapa.getZoom(),
                 centro: mapa.getCenter(),
                 timestamp: new Date().toISOString()
@@ -507,12 +511,13 @@
             // Esta função pode ser chamada de fora, por exemplo, de um popup
             if (sistemaBusca) {
                 document.getElementById('busca-endereco-input').value = cidade;
-                sistemaBusca.buscarEndereco(cidade);
+                sistemaBusca.buscar(cidade); // Chama o método buscar da instância
             }
         }
         
         function obterDirecoesPara(lat, lng) {
             // Abre o Google Maps com direções para o ponto selecionado
+            // Use o URL correto para o Google Maps
             const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
             window.open(url, '_blank');
         }
