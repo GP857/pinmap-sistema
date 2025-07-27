@@ -2925,13 +2925,13 @@ const usuarios = [
     },
     {
         "id": 293,
-        "nome": "RheINDEFINIDOHortolândia",
+        "nome": "Hortolândia",
         "cidade": "SP",
         "estado": "-22.8574723",
         "latitude": -47.2237563,
         "longitude": 13183040.0,
-        "cep": "Brasil",
-        "pais": NaN
+        "cep": "13188081",
+        "pais": "Brasil"
     },
     {
         "id": 294,
