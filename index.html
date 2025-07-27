@@ -143,41 +143,60 @@
             color: #2c3e50;
         }
 
-        /* Estilos para os clusters de marcadores */
-        .marker-cluster-small div {
-            background-color: rgba(181, 226, 140, 0.6);
-        }
-        .marker-cluster-small span {
-            background-color: rgba(181, 226, 140, 0.8);
-        }
-
-        .marker-cluster-medium div {
-            background-color: rgba(241, 211, 87, 0.6);
-        }
-        .marker-cluster-medium span {
-            background-color: rgba(241, 211, 87, 0.8);
-        }
-
-        .marker-cluster-large div {
-            background-color: rgba(253, 156, 115, 0.6);
-        }
-        .marker-cluster-large span {
-            background-color: rgba(253, 156, 115, 0.8);
-        }
-
-        .marker-cluster div, .marker-cluster span {
-            width: 30px;
-            height: 30px;
-            margin-left: 5px;
-            margin-top: 5px;
-            border-radius: 15px;
-            font-size: 12px;
-            line-height: 30px;
+        /* Estilos para os clusters de marcadores com faixas de cores */
+        .marker-cluster div {
+            width: 40px; /* Aumentado para melhor visualização */
+            height: 40px; /* Aumentado para melhor visualização */
+            margin-left: -20px; /* Ajuste para centralizar */
+            margin-top: -20px; /* Ajuste para centralizar */
+            border-radius: 20px; /* Metade da largura/altura para círculo */
+            font-size: 14px; /* Aumentado */
+            line-height: 40px; /* Deve ser igual à altura */
             text-align: center;
             font-weight: bold;
             color: white;
-            background-color: #2c3e50;
             border: 2px solid #fff;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+
+        /* Faixas de 0-100 */
+        .marker-cluster-low div {
+            background-color: rgba(100, 200, 100, 0.8); /* Verde */
+        }
+
+        /* Faixas de 101-500 */
+        .marker-cluster-medium div {
+            background-color: rgba(255, 200, 0, 0.8); /* Amarelo */
+        }
+
+        /* Faixas de 501-1000 */
+        .marker-cluster-high div {
+            background-color: rgba(255, 120, 0, 0.8); /* Laranja */
+        }
+
+        /* Faixas de 1001-5000 */
+        .marker-cluster-xl div {
+            background-color: rgba(255, 0, 0, 0.8); /* Vermelho */
+        }
+
+        /* Faixas de 5001-10000 */
+        .marker-cluster-xxl div {
+            background-color: rgba(128, 0, 128, 0.8); /* Roxo */
+        }
+
+        /* Faixas de 10001-20000 */
+        .marker-cluster-xxxl div {
+            background-color: rgba(0, 0, 0, 0.8); /* Preto */
+        }
+
+        /* Faixas de 20001-50000 */
+        .marker-cluster-xxxxl div {
+            background-color: rgba(0, 100, 0, 0.8); /* Verde Escuro */
+        }
+        
+        /* Faixas de 50001-100000 */
+        .marker-cluster-xxxxxl div {
+            background-color: rgba(0, 0, 100, 0.8); /* Azul Escuro */
         }
     </style>
 </head>
@@ -232,9 +251,10 @@
     <script>
         // --- Variáveis Globais ---
         let mapa;
-        let marcadores; // Grupo de marcadores com clustering
+        let marcadores; // Grupo de marcadores com clustering de USUARIOS
         let todosMarcadoresUsuario = []; // Array para referenciar todos os marcadores de usuário individualmente
         let marcadoresBuscaPoi = L.featureGroup(); // Grupo para marcadores de busca (POIs, CEPs)
+        let marcadoresUsuarioEncontrado = L.featureGroup(); // Novo grupo para usuários encontrados por busca, para gerenciar separadamente
         let userLocationMarker = null; // Marcador da localização do usuário
         let clusteringAtivo = true;
         let contadorBuscas = 0;
@@ -302,29 +322,46 @@
             // Criar mapa centrado inicialmente no Brasil
             mapa = L.map('mapa').setView(BRASIL_CENTER, BRASIL_ZOOM);
             
-            // A camadaAtual já está definida globalmente, agora apenas a adicionamos
             camadaAtual.addTo(mapa);
             
-            // Adiciona o grupo de marcadores de POI ao mapa
+            // Adiciona os grupos de marcadores ao mapa
             marcadoresBuscaPoi.addTo(mapa); 
+            marcadoresUsuarioEncontrado.addTo(mapa); // Adiciona o novo grupo ao mapa
             
-            // Criar grupo de marcadores com clustering
+            // Criar grupo de marcadores para USUARIOS com clustering e faixas de cores
             marcadores = L.markerClusterGroup({
                 chunkedLoading: true,
-                maxClusterRadius: 50,
+                maxClusterRadius: 80, // Aumentado para melhor agrupamento visual
                 spiderfyOnMaxZoom: true,
                 showCoverageOnHover: false,
                 zoomToBoundsOnClick: true,
+                // Função para criar o ícone do cluster com base na quantidade
                 iconCreateFunction: function(cluster) {
                     const count = cluster.getChildCount();
-                    let className = 'marker-cluster-small';
-                    if (count > 100) className = 'marker-cluster-large';
-                    else if (count > 20) className = 'marker-cluster-medium';
+                    let className = 'marker-cluster '; // Base
+                    
+                    if (count <= 100) {
+                        className += 'marker-cluster-low'; // 1-100
+                    } else if (count <= 500) {
+                        className += 'marker-cluster-medium'; // 101-500
+                    } else if (count <= 1000) {
+                        className += 'marker-cluster-high'; // 501-1000
+                    } else if (count <= 5000) {
+                        className += 'marker-cluster-xl'; // 1001-5000
+                    } else if (count <= 10000) {
+                        className += 'marker-cluster-xxl'; // 5001-10000
+                    } else if (count <= 20000) {
+                        className += 'marker-cluster-xxxl'; // 10001-20000
+                    } else if (count <= 50000) {
+                        className += 'marker-cluster-xxxxl'; // 20001-50000
+                    } else {
+                        className += 'marker-cluster-xxxxxl'; // >50000
+                    }
                     
                     return new L.DivIcon({
                         html: '<div><span>' + count + '</span></div>',
-                        className: 'marker-cluster ' + className,
-                        iconSize: new L.Point(40, 40)
+                        className: className,
+                        iconSize: new L.Point(40, 40) // Tamanho fixo para todos os clusters
                     });
                 }
             });
@@ -355,7 +392,7 @@
             const novoEstilo = selectElement.value;
 
             // Remove a camada atual do mapa
-            if (camadaAtual && mapa.hasLayer(camadaAtual)) { // Adicionado verificação se a camada existe e está no mapa
+            if (camadaAtual && mapa.hasLayer(camadaAtual)) {
                 mapa.removeLayer(camadaAtual);
             }
 
@@ -371,8 +408,6 @@
         function carregarUsuarios() {
             console.log('DEBUG: Início da função carregarUsuarios().');
             
-            // Verifica se `usuarios` existe e é um array.
-            // O `dados.js` precisa definir `let usuarios = [...]` ou `const usuarios = [...]`.
             if (typeof usuarios === 'undefined' || !Array.isArray(usuarios) || usuarios.length === 0) {
                 console.error('❌ Dados de usuários não encontrados, inválidos ou vazios. Verifique dados.js. Definindo mapa no centro do Brasil.');
                 document.getElementById('total-usuarios-mapa').textContent = 'Erro!';
@@ -382,16 +417,15 @@
             
             console.log(`📊 Carregando ${usuarios.length} usuários.`); 
             
-            // Limpa os marcadores existentes antes de recarregar
             marcadores.clearLayers();
-            todosMarcadoresUsuario = []; // Limpa o array de referência
+            todosMarcadoresUsuario = [];
             
             let validUsersCount = 0; 
             
             usuarios.forEach((usuario, index) => {
                 if (usuario.latitude && usuario.longitude) {
                     validUsersCount++; 
-                    const marcador = L.marker([usuario.latitude, usuario.longitude], { icon: userIcon }) // Usa o ícone de usuário
+                    const marcador = L.marker([usuario.latitude, usuario.longitude], { icon: userIcon })
                         .bindPopup(`
                             <div style="padding: 12px; min-width: 200px;">
                                 <h4 style="margin: 0 0 8px 0; color: #2c3e50;">${usuario.nome || 'Usuário Desconhecido'}</h4>
@@ -412,7 +446,7 @@
                                 </div>
                             </div>
                         `);
-                    todosMarcadoresUsuario.push(marcador); // Adiciona ao array de referência
+                    todosMarcadoresUsuario.push(marcador);
                 } else {
                     console.warn(`⚠️ Usuário ${usuario.nome} (ID: ${usuario.id || 'N/A'}, Index: ${index}) com coordenadas inválidas: Latitude: ${usuario.latitude}, Longitude: ${usuario.longitude}`);
                 }
@@ -420,35 +454,29 @@
             
             console.log(`DEBUG: ${validUsersCount} de ${usuarios.length} usuários têm coordenadas válidas.`);
             
-            // Adiciona todos os marcadores carregados ao grupo de clustering
             marcadores.addLayers(todosMarcadoresUsuario);
             mapa.addLayer(marcadores);
             
-            // Ajustar zoom para mostrar todos os marcadores de usuário
             if (todosMarcadoresUsuario.length > 0) {
                 mapa.fitBounds(marcadores.getBounds(), { padding: [50, 50] });
                 console.log('DEBUG: Mapa centralizado nos marcadores de usuários.');
             } else {
-                // Se não houver usuários com coordenadas válidas, centraliza no Brasil
                 mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
                 console.warn('DEBUG: Nenhum usuário válido com coordenadas para centralizar, mapa centralizado no Brasil.');
             }
             
             console.log(`✅ ${todosMarcadoresUsuario.length} marcadores de usuários adicionados ao mapa.`);
             
-            // Atualizar estatísticas após carregar
             atualizarEstatisticas();
             console.log('DEBUG: Fim da função carregarUsuarios().');
         }
         
         function configurarEventosMapa() {
-            // Atualizar zoom quando mudar
             mapa.on('zoomend', function() {
                 document.getElementById('zoom-atual').textContent = mapa.getZoom();
                 atualizarMarcadoresVisiveis();
             });
             
-            // Atualizar marcadores visíveis quando mover
             mapa.on('moveend', atualizarMarcadoresVisiveis);
         }
         
@@ -457,23 +485,21 @@
             const btnBuscar = document.getElementById('busca-geral-btn');
             let debounceTimer = null;
             
-            // Busca em tempo real (debounced)
             input.addEventListener('input', (e) => {
                 clearTimeout(debounceTimer);
                 const termo = e.target.value.trim();
                 
-                if (termo.length >= 3) {
+                if (termo.length >= 2) { // Reduzido para 2 caracteres para POIs e nomes mais curtos
                     debounceTimer = setTimeout(() => {
                         executarBuscaGeral(termo);
                     }, 500);
                 } else {
                     ocultarResultados();
                     limparMarcadoresBuscaPoi(); 
-                    limparMarcadoresUsuarioEncontrado(); // Limpa ao apagar o campo
+                    limparMarcadoresUsuarioEncontrado();
                 }
             });
             
-            // Busca ao clicar no botão
             btnBuscar.addEventListener('click', () => {
                 const termo = input.value.trim();
                 if (termo) {
@@ -481,7 +507,6 @@
                 }
             });
             
-            // Busca ao pressionar Enter
             input.addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
                     const termo = input.value.trim();
@@ -491,7 +516,6 @@
                 }
             });
             
-            // Fechar resultados ao clicar fora
             document.addEventListener('click', (e) => {
                 if (!e.target.closest('.sistema-busca-container') && !e.target.closest('.leaflet-popup')) {
                     ocultarResultados();
@@ -508,15 +532,17 @@
 
             try {
                 const isCep = /^\d{5}-?\d{3}$/.test(termo);
-                // Ajustado para ser mais flexível e verificar se parece um nome completo ou parte de um nome
-                const isPossibleUserName = !(/\d/.test(termo)) && (termo.split(' ').length > 1 || termo.length > 5); 
+                // Regex para verificar se a string contém pelo menos uma letra e pode ser um nome ou parte de um nome
+                // Permite termos como "Gustavo", "Maria", "Bradesco" (que não são nomes, mas são POIs)
+                const isPotentialNameOrPOI = /[a-zA-Z]/.test(termo); 
 
                 if (isCep) {
                     await buscarCep(termo);
-                } else if (isPossibleUserName && usuarios.some(u => u.nome && u.nome.toLowerCase().includes(termo.toLowerCase()))) {
-                    buscarUsuarioPorNome(termo);
+                } else if (isPotentialNameOrPOI && buscarUsuarioPorNome(termo)) {
+                    // buscarUsuarioPorNome agora retorna true se encontrou usuários
+                    console.log(`DEBUG: Termo "${termo}" tratado como busca de usuário.`);
                 } else {
-                    await buscarEndereco(termo);
+                    await buscarEndereco(termo); // Esta função já lida com POIs e endereços
                 }
             } catch (error) {
                 console.error('Erro na busca geral:', error);
@@ -532,11 +558,14 @@
                 return;
             }
             
+            // Adicionado parâmetro 'dedupe=1' para evitar resultados duplicados e 'osm_type=node,way,relation'
             const url = `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(termo)}` +
-                                 `&format=json&limit=15&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
+                                 `&format=json&limit=20&addressdetails=1&extratags=1&namedetails=1&accept-language=pt-BR,pt,en` +
                                  `&countrycodes=br` + 
                                  `&viewbox=${CAMPINAS_VIEWBOX.join(',')}` + 
-                                 `&bounded=0`; 
+                                 `&bounded=0` +
+                                 `&dedupe=1` +
+                                 `&osm_type=node,way,relation`; // Busca por POIs, ruas, relações
 
             const response = await fetch(url, {
                 headers: {
@@ -580,8 +609,6 @@
                     return;
                 }
 
-                // Usar dados do ViaCEP para construir uma busca mais precisa no Nominatim
-                // Priorizar logradouro, bairro, cidade, estado para geocodificação
                 let addressQueryParts = [];
                 if (viacepData.logradouro) addressQueryParts.push(viacepData.logradouro);
                 if (viacepData.bairro) addressQueryParts.push(viacepData.bairro);
@@ -611,8 +638,6 @@
                     }], 'cep'); 
 
                 } else {
-                    // Se o Nominatim falhar, tentar usar as coordenadas do ViaCEP se disponíveis (alguns APIs ViaCEP fornecem)
-                    // Ou apenas exibir que não foi possível geocodificar no mapa.
                     mostrarErro('Não foi possível geocodificar o endereço do CEP no mapa.');
                 }
 
@@ -622,12 +647,10 @@
             }
         }
 
-        let marcadoresUsuarioEncontrado = [];
-
+        // Alterada para retornar boolean e usar o novo grupo de marcadores
         function buscarUsuarioPorNome(nomeCompleto) {
-            limparMarcadoresBuscaPoi(); 
-            limparMarcadoresUsuarioEncontrado(); 
-
+            limparMarcadoresUsuarioEncontrado(); // Sempre limpa antes de adicionar novos
+            
             const termoLimpo = nomeCompleto.toLowerCase().trim();
             const usuariosEncontrados = usuarios.filter(user =>
                 user.nome && user.nome.toLowerCase().includes(termoLimpo)
@@ -638,6 +661,12 @@
 
             if (usuariosEncontrados.length > 0) {
                 const boundsGroup = L.featureGroup(); 
+                
+                // Oculta os clusters de usuários para não sobrepor aos marcadores individuais de busca
+                if (mapa.hasLayer(marcadores)) {
+                    mapa.removeLayer(marcadores);
+                }
+
                 usuariosEncontrados.forEach(user => {
                     if (user.latitude && user.longitude) {
                         const marker = L.marker([user.latitude, user.longitude], {
@@ -654,8 +683,7 @@
                                     </button>
                                 </div>
                             `);
-                        marker.addTo(mapa); 
-                        marcadoresUsuarioEncontrado.push(marker); 
+                        marcadoresUsuarioEncontrado.addLayer(marker); // Adiciona ao grupo específico
                         boundsGroup.addLayer(marker);
 
                         container.innerHTML += `
@@ -672,16 +700,17 @@
                     mapa.fitBounds(boundsGroup.getBounds(), { padding: [50, 50] });
                 }
                 container.style.display = 'block';
+                return true; // Retorna true se encontrou usuários
             } else {
-                mostrarErro('Nenhum usuário encontrado com esse nome.');
+                return false; // Retorna false se não encontrou usuários
             }
-            document.getElementById('busca-loading').style.display = 'none';
         }
 
         function mostrarResultados(resultados, tipoResultados) {
             const container = document.getElementById('busca-resultados');
-            container.innerHTML = ''; // Limpa resultados anteriores
-            limparMarcadoresBuscaPoi(); // Garante que apenas os marcadores da busca atual apareçam
+            container.innerHTML = ''; 
+            limparMarcadoresBuscaPoi(); // Limpa marcadores de POI anteriores
+            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuário encontrados por busca anterior
 
             if (resultados.length === 0) {
                 mostrarErro('Nenhum resultado encontrado.');
@@ -689,6 +718,11 @@
             }
 
             const bounds = L.latLngBounds();
+
+            // Oculta os clusters de usuários enquanto mostra resultados de busca de POI/endereço
+            if (mapa.hasLayer(marcadores)) {
+                mapa.removeLayer(marcadores);
+            }
 
             resultados.forEach(item => {
                 const itemDiv = document.createElement('div');
@@ -699,17 +733,16 @@
                     <div class="resultado-tipo">${item.tipo}</div>
                 `;
                 itemDiv.onclick = () => {
-                    mapa.flyTo([item.latitude, item.longitude], 16); // Zoom mais próximo para o item selecionado
+                    mapa.flyTo([item.latitude, item.longitude], 16); 
                     ocultarResultados();
                     
-                    // Cria e adiciona o marcador para o item de busca
                     let iconToUse;
                     if (item.tipo.includes('CEP')) {
                         iconToUse = cepIcon;
                     } else if (item.tipo.includes('Comércio')) {
                         iconToUse = commerceIcon;
                     } else {
-                        iconToUse = L.icon.Default(); // Marcador padrão azul para outros endereços
+                        iconToUse = L.icon.Default(); 
                     }
 
                     const marker = L.marker([item.latitude, item.longitude], { icon: iconToUse })
@@ -725,17 +758,15 @@
                             </div>
                         `)
                         .openPopup();
-                    marcadoresBuscaPoi.addLayer(marker);
+                    marcadoresBuscaPoi.addLayer(marker); // Adiciona ao grupo de POI
                 };
                 container.appendChild(itemDiv);
 
-                // Adiciona as coordenadas para o cálculo de zoom
                 bounds.extend([item.latitude, item.longitude]);
             });
 
             container.style.display = 'block';
 
-            // Ajusta o mapa para mostrar todos os resultados da busca
             if (resultados.length > 0) {
                 mapa.fitBounds(bounds, { padding: [50, 50] });
             }
@@ -757,25 +788,29 @@
         }
 
         function limparMarcadoresBuscaPoi() {
-            marcadoresBuscaPoi.clearLayers(); // Remove todos os marcadores de busca de POI
+            marcadoresBuscaPoi.clearLayers(); 
+            // Reativa o clustering de usuários se ele estava ativo antes
+            if (clusteringAtivo && !mapa.hasLayer(marcadores)) {
+                mapa.addLayer(marcadores);
+            }
         }
 
         function limparMarcadoresUsuarioEncontrado() {
-            marcadoresUsuarioEncontrado.forEach(marker => {
-                if (mapa.hasLayer(marker)) {
-                    mapa.removeLayer(marker);
-                }
-            });
-            marcadoresUsuarioEncontrado = [];
+            marcadoresUsuarioEncontrado.clearLayers();
+            // Reativa o clustering de usuários se ele estava ativo antes
+            if (clusteringAtivo && !mapa.hasLayer(marcadores)) {
+                mapa.addLayer(marcadores);
+            }
         }
         
         // Funções auxiliares para Nominatim
         function extrairNome(item) {
-            // Tenta obter um nome mais relevante para o POI ou endereço
             if (item.namedetails && item.namedetails.name) return item.namedetails.name;
             if (item.address && item.address.road && item.address.house_number) return `${item.address.road}, ${item.address.house_number}`;
             if (item.address && item.address.road) return item.address.road;
-            if (item.type === 'amenity' || item.type === 'shop' || item.type === 'building') return item.name || item.display_name.split(',')[0];
+            if (item.type === 'amenity' || item.type === 'shop' || item.type === 'building' || item.type === 'restaurant' || item.type === 'bank') {
+                return item.name || item.display_name.split(',')[0];
+            }
             return item.display_name;
         }
 
@@ -783,7 +818,7 @@
             const parts = [];
             if (item.address.road) parts.push(item.address.road);
             if (item.address.house_number) parts.push(item.address.house_number);
-            if (item.address.suburb) parts.push(item.address.suburb); // Bairro
+            if (item.address.suburb) parts.push(item.address.suburb);
             else if (item.address.city_district) parts.push(item.address.city_district);
             
             if (item.address.city) parts.push(item.address.city);
@@ -791,20 +826,20 @@
             else if (item.address.village) parts.push(item.address.village);
             
             if (item.address.state) parts.push(item.address.state);
-            if (item.address.postcode) parts.push(item.address.postcode);
+            if (item.address.postcode) parts.push(item.postcode); // Acessa diretamente 'postcode' que vem do Nominatim top-level, não address.postcode
+            else if (item.address.postcode) parts.push(item.address.postcode);
 
             return parts.join(', ') || item.display_name;
         }
 
         function determinarTipo(item) {
-            if (item.type === 'amenity' || item.type === 'shop' || item.class === 'shop' || item.class === 'amenity') {
-                return `🏪 Comércio / ${item.type.charAt(0).toUpperCase() + item.type.slice(1)}`;
+            // Nomes de classes e tipos comuns de POIs do OSM
+            const poiTypes = ['amenity', 'shop', 'building', 'restaurant', 'bank', 'cafe', 'bar', 'hotel', 'hospital', 'school', 'pharmacy', 'supermarket'];
+            if (poiTypes.includes(item.type) || poiTypes.includes(item.class)) {
+                return `🏪 POI / ${item.type ? item.type.charAt(0).toUpperCase() + item.type.slice(1) : item.class.charAt(0).toUpperCase() + item.class.slice(1)}`;
             }
-            if (item.type === 'house' || item.type === 'residential' || item.type === 'building' || item.class === 'highway') {
+            if (item.type === 'house' || item.type === 'residential' || item.class === 'highway') {
                 return '🏠 Endereço';
-            }
-            if (item.osm_type === 'relation' && item.osm_id === 184515) { // Exemplo para um país específico
-                return 'País';
             }
             if (item.address && item.address.postcode) {
                 return '📮 CEP';
@@ -822,7 +857,7 @@
 
         // Funções de controle do mapa
         function voltarInicio() {
-            if (mapa) { // Garante que o mapa existe antes de tentar usá-lo
+            if (mapa) {
                 mapa.setView(BRASIL_CENTER, BRASIL_ZOOM);
                 limparBusca(); // Limpa busca e marcadores ao voltar ao início
                 console.log('🔙 Mapa voltou para o centro do Brasil.');
@@ -842,30 +877,39 @@
 
         function alternarClustering() {
             if (clusteringAtivo) {
-                mapa.removeLayer(marcadores);
+                mapa.removeLayer(marcadores); // Remove o grupo de clusters
                 // Adiciona os marcadores individuais de volta ao mapa sem clustering
                 todosMarcadoresUsuario.forEach(marker => {
                     marker.addTo(mapa);
                 });
-                console.log('🔗 Clustering desativado.');
+                console.log('🔗 Clustering desativado. Marcadores individuais exibidos.');
             } else {
+                // Remove marcadores individuais antes de adicionar o grupo de clustering
                 todosMarcadoresUsuario.forEach(marker => {
                     if (mapa.hasLayer(marker)) {
-                        mapa.removeLayer(marker); // Remove marcadores individuais
+                        mapa.removeLayer(marker); 
                     }
                 });
                 mapa.addLayer(marcadores); // Adiciona o grupo de clustering
-                console.log('🔗 Clustering ativado.');
+                console.log('🔗 Clustering ativado. Marcadores agrupados.');
             }
             clusteringAtivo = !clusteringAtivo;
+            // Garante que os marcadores de busca sejam removidos ou adicionados de acordo
+            limparMarcadoresBuscaPoi(); 
+            limparMarcadoresUsuarioEncontrado(); 
         }
 
         function limparBusca() {
             document.getElementById('busca-geral-input').value = '';
             ocultarResultados();
-            limparMarcadoresBuscaPoi();
-            limparMarcadoresUsuarioEncontrado();
-            console.log('🧹 Busca e marcadores de busca limpos.');
+            limparMarcadoresBuscaPoi(); // Limpa marcadores de POI
+            limparMarcadoresUsuarioEncontrado(); // Limpa marcadores de usuário da busca
+            
+            // Reativa o clustering de usuários se ele estava ativo
+            if (clusteringAtivo && !mapa.hasLayer(marcadores)) {
+                mapa.addLayer(marcadores);
+            }
+            console.log('🧹 Busca e marcadores de busca limpos. Clusters de usuários reativados se estavam ativos.');
         }
 
         function obterMinhaLocalizacao() {
@@ -896,13 +940,13 @@
         }
 
         function obterDirecoesPara(lat, lon) {
-            // Usando o Google Maps para direções. A URL original estava incorreta.
+            // Usando o Google Maps para direções. A URL é um exemplo comum.
+            // O 8 no início pode ser ajustado dependendo da precisão.
             const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
             window.open(url, '_blank');
         }
 
         function atualizarEstatisticas() {
-            // Garante que o elemento existe antes de tentar acessar textContent
             const totalUsuariosElement = document.getElementById('total-usuarios-mapa');
             if (totalUsuariosElement) {
                 totalUsuariosElement.textContent = todosMarcadoresUsuario.length;
@@ -919,35 +963,56 @@
                 console.warn("Elemento 'zoom-atual' não encontrado.");
             }
             
-            atualizarMarcadoresVisiveis(); // Chamada inicial
+            atualizarMarcadoresVisiveis();
         }
 
         function atualizarMarcadoresVisiveis() {
-            if (!mapa) return; // Garante que o mapa foi inicializado
+            if (!mapa) return;
 
             let count = 0;
             const bounds = mapa.getBounds();
             
-            // Contagem dos marcadores de usuário
-            todosMarcadoresUsuario.forEach(marker => {
-                if (bounds.contains(marker.getLatLng())) {
-                    count++;
-                }
-            });
-            
-            // Contagem dos marcadores de busca (POI, CEP)
-            marcadoresBuscaPoi.eachLayer(marker => {
-                if (bounds.contains(marker.getLatLng())) {
-                    count++;
-                }
-            });
-            
-            // Adicione os marcadores de usuário encontrados pela busca
-            marcadoresUsuarioEncontrado.forEach(marker => {
-                if (bounds.contains(marker.getLatLng())) {
-                    count++;
-                }
-            });
+            // Se o clustering estiver ativo, marcadores individuais de usuário não estão no mapa diretamente,
+            // então contamos apenas os de busca (POI/Usuário)
+            if (clusteringAtivo) {
+                 // Contamos apenas os marcadores de busca de POI/CEP e os de usuário encontrados individualmente
+                marcadoresBuscaPoi.eachLayer(marker => {
+                    if (bounds.contains(marker.getLatLng())) {
+                        count++;
+                    }
+                });
+                marcadoresUsuarioEncontrado.eachLayer(marker => {
+                    if (bounds.contains(marker.getLatLng())) {
+                        count++;
+                    }
+                });
+                // E também os clusters visíveis, mas a contagem de "marcadores visíveis" é mais intuitiva para itens individuais.
+                // Para simplificar, focamos nos marcadores *não* agrupados aqui.
+                // Contar marcadores dentro dos clusters é mais complexo e pode ser feito se necessário.
+                
+                // Uma alternativa para contar todos os marcadores de usuários:
+                // Se o mapa tiver a camada de clusters, a contagem de visíveis é mais sobre o que o cluster representa.
+                // Para a estatística de "marcadores visíveis", pode ser mais útil mostrar quantos *itens individuais* (sejam eles clusters ou marcadores avulsos)
+                // estão visíveis, ou quantos *usuários* (desagrupados ou parte de clusters) estão na view.
+                // Por enquanto, mantenho a contagem de todosMarcadoresUsuario no total.
+            } else {
+                // Se o clustering estiver desativado, todosMarcadoresUsuario estão no mapa
+                todosMarcadoresUsuario.forEach(marker => {
+                    if (bounds.contains(marker.getLatLng())) {
+                        count++;
+                    }
+                });
+                marcadoresBuscaPoi.eachLayer(marker => {
+                    if (bounds.contains(marker.getLatLng())) {
+                        count++;
+                    }
+                });
+                marcadoresUsuarioEncontrado.eachLayer(marker => {
+                    if (bounds.contains(marker.getLatLng())) {
+                        count++;
+                    }
+                });
+            }
 
             const marcadoresVisiveisElement = document.getElementById('marcadores-visiveis');
             if (marcadoresVisiveisElement) {
