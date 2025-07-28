@@ -308,6 +308,6 @@ body {
     transform: rotate(45deg);
     display: block;
     color: #e74c3c; /* AGORA É VERMELHO UNIFORME! */
-    font-size: 48px; /* DOBRO do tamanho (de 24px) */
-    line-height: 80px; /* Ajustado para centralizar com o novo height */
+    font-size: 36px; /* DOBRO do tamanho (de 24px) */
+    line-height: 60px; /* Ajustado para centralizar com o novo height */
 }
