@@ -24,12 +24,12 @@ const POI_ICON = L.divIcon({
     shadowSize: [41, 41]
 });
 
-// Ícone personalizado para a Localização do Usuário (verde com alvo)
+// Ícone personalizado para a Localização do Usuário (alvo vermelho GRANDE)
 const USER_LOCATION_ICON = L.divIcon({
-    html: '<i class="fa-solid fa-crosshairs"></i>', // Ícone de alvo do Font Awesome
-    className: 'custom-user-location-icon', // Nova classe CSS para estilo
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
+    html: '<i class="fa-solid fa-bullseye"></i>', // Apenas o ícone de alvo
+    className: 'custom-user-location-icon', // Classe CSS para estilo
+    iconSize: [40, 40], // Tamanho base para o ícone
+    iconAnchor: [20, 40], // Ponto de ancoragem central inferior
     popupAnchor: [1, -34],
     shadowUrl: SHADOW_URL,
     shadowSize: [41, 41]
