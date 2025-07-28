@@ -287,9 +287,9 @@ body {
     font-size: 14px; /* Tamanho do ícone */
 }
 
-/* Estilos para o ícone personalizado de Localização do Usuário (alvo verde) */
+/* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho grande) */
 .custom-user-location-icon {
-    background-color: #28a745; /* Verde vibrante */
+    background-color: #dc3545; /* Cor vermelha para o marcador */
     border-radius: 50% 50% 50% 0; /* Formato de marcador do Leaflet */
     transform: rotate(-45deg); /* Gira para o formato correto */
     display: flex;
@@ -297,6 +297,16 @@ body {
     justify-content: center;
     border: 2px solid white; /* Borda branca */
     box-shadow: 0 0 0 4px rgba(0,0,0,0.2);
+    width: 40px; /* Aumenta o tamanho do marcador */
+    height: 40px; /* Aumenta o tamanho do marcador */
+}
+
+.custom-user-location-icon i {
+    transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
+    display: block;
+    color: white; /* Cor do ícone */
+    font-size: 24px; /* Aumenta o tamanho do ícone Font Awesome (aproximadamente 4x o original de 14px) */
+    line-height: 40px; /* Centraliza o ícone verticalmente dentro do círculo de 40px */
 }
 
 .custom-user-location-icon i {
