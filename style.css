@@ -288,6 +288,7 @@ body {
 }
 
 /* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho GRANDE - apenas o ícone) */
+/* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho GRANDE - apenas o ícone) */
 .custom-user-location-icon {
     background-color: transparent; /* Fundo transparente */
     border-radius: 50% 50% 50% 0; /* Mantém para compatibilidade, mas não visível */
