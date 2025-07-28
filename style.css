@@ -268,22 +268,24 @@ body {
     background-color: rgba(241, 128, 23, 0.6);
 }
 
-/* CSS para o ícone personalizado de POI (prédio vermelho) */
+/* CSS para o ícone personalizado de POI (prédio - apenas o ícone, transparente) */
 .custom-div-icon {
-    background-color: #e74c3c; /* Cor vermelha do marcador */
-    border-radius: 50% 50% 50% 0; /* Formato de marcador do Leaflet */
-    transform: rotate(-45deg); /* Gira para o formato correto */
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 50% 50% 50% 0; /* Mantém para compatibilidade, mas não visível */
+    transform: rotate(-45deg); /* Gira o contêiner */
     display: flex; /* Para centralizar o ícone Font Awesome */
     align-items: center;
     justify-content: center;
-    border: 2px solid white; /* Borda branca como nos outros marcadores */
-    box-shadow: 0 0 0 4px rgba(0,0,0,0.2); /* Sombra para simular o 3D */
+    border: none; /* Remove a borda */
+    box-shadow: none; /* Remove a sombra */
+    width: 25px; /* Tamanho padrão para POI */
+    height: 41px; /* Tamanho padrão para POI */
 }
 
 .custom-div-icon i {
     transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
     display: block; /* Garante que o ícone ocupe o espaço */
-    color: white; /* Cor do ícone */
+    color: white; /* Cor do ícone (o prédio será branco) */
     font-size: 14px; /* Tamanho do ícone */
 }
 
