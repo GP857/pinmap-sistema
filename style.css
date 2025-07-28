@@ -299,16 +299,16 @@ body {
     justify-content: center;
     border: none; /* Remove a borda */
     box-shadow: none; /* Remove a sombra */
-    width: 40px; /* Tamanho do espaço do ícone */
-    height: 40px; /* Tamanho do espaço do ícone */
+    width: 80px; /* Tamanho do espaço do ícone */
+    height: 80px; /* Tamanho do espaço do ícone */
 }
 
 .custom-user-location-icon i {
     transform: rotate(45deg); /* Gira o ícone de volta */
     display: block;
     color: #dc3545; /* Cor vermelha para o ícone */
-    font-size: 24px; /* Tamanho do ícone */
-    line-height: 40px; /* Centraliza o ícone verticalmente */
+    font-size: 48px; /* Tamanho do ícone */
+    line-height: 80px; /* Centraliza o ícone verticalmente */
 }
 
 .custom-user-location-icon i {
