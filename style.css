@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex; /* Permite que o mapa e a sidebar fiquem lado a lado */
+    height: 100vh; /* Altura total da viewport */
+    overflow: hidden; /* Esconde barras de rolagem desnecessárias */
+}
+
+#mapa {
+    flex-grow: 1; /* O mapa ocupa o máximo de espaço possível */
+    height: 100%;
+    background-color: #f0f0f0;
+    z-index: 1; /* Garante que o mapa esteja abaixo da sidebar em termos de z-index */
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #f8f9fa; /* Fundo mais claro para a sidebar */
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Sombra para destacar a sidebar */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empurra header e footer para as pontas */
+    z-index: 1000; /* Garante que a sidebar esteja acima do mapa */
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo for muito grande */
+    min-width: 280px; /* Garante que não fique muito pequeno em telas pequenas */
+}
+
+.header-sidebar {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header-sidebar h1 {
+    color: #34495e;
+    margin: 0 0 5px 0;
+    font-size: 1.8em;
+}
+
+.header-sidebar p {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.sistema-busca-container {
+    margin-bottom: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: relative; /* Para posicionar o dropdown de resultados */
+}
+
+#busca-geral-input {
+    width: calc(100% - 70px); /* Ajusta para o botão */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box; /* Inclui padding na largura */
+    margin-right: 5px;
+}
+
+#busca-geral-btn {
+    padding: 10px 15px;
+    background-color: #28a745; /* Verde para o botão de buscar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+#busca-geral-btn:hover {
+    background-color: #218838;
+}
+
+.loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    display: none; /* Escondido por padrão */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.resultados-dropdown {
+    max-height: 250px; /* Altura máxima para rolagem */
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 100%; /* Abaixo do input de busca */
+    left: 0;
+    right: 0;
+    z-index: 10; /* Acima de outros elementos */
+}
+
+.resultado-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.resultado-item:last-child {
+    border-bottom: none;
+}
+
+.resultado-item:hover {
+    background-color: #f0f0f0;
+}
+
+.resultado-nome {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.resultado-endereco {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.resultado-tipo {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.controles-mapa {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os botões quebrem a linha */
+    gap: 10px; /* Espaçamento entre botões */
+}
+
+.controles-mapa button {
+    flex: 1 1 calc(50% - 5px); /* Dois botões por linha */
+    padding: 10px 15px;
+    background-color: #007bff; /* Azul padrão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+    box-sizing: border-box; /* Inclui padding na largura */
+}
+
+.controles-mapa button:hover {
+    background-color: #0056b3;
+}
+
+.controles-mapa button:nth-child(1) { background-color: #6c757d; } /* Minha Localização - Cinza */
+.controles-mapa button:nth-child(1):hover { background-color: #5a6268; }
+.controles-mapa button:nth-child(2) { background-color: #dc3545; } /* Limpar Busca - Vermelho */
+.controles-mapa button:nth-child(2):hover { background-color: #c82333; }
+.controles-mapa button:nth-child(3) { background-color: #17a2b8; } /* Ver Brasil - Ciano */
+.controles-mapa button:nth-child(3):hover { background-color: #138496; }
+.controles-mapa button:nth-child(4) { background-color: #ffc107; color: #333; } /* Centralizar Usuários - Amarelo */
+.controles-mapa button:nth-child(4):hover { background-color: #e0a800; }
+.controles-mapa button:nth-child(5) { background-color: #fd7e14; } /* Alternar Clustering - Laranja */
+.controles-mapa button:nth-child(5):hover { background-color: #e66a00; }
+
+.estilos-mapa-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.estilos-mapa-toggle label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.estilos-mapa-toggle select {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 0.9em;
+    background-color: white;
+    cursor: pointer;
+}
+
+.estatisticas {
+    margin-top: auto; /* Empurra para o fundo da sidebar */
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.estatisticas h3 {
+    margin-top: 0;
+    color: #34495e;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.estatisticas p {
+    margin: 5px 0;
+}
+
+.footer-sidebar {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    color: #888;
+    font-size: 0.8em;
+}
+
+/* Estilos para o marcador de clustering */
+.marker-cluster {
+    background-clip: padding-box;
+    border-radius: 20px;
+}
+.marker-cluster div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.marker-cluster span {
+    line-height: 30px;
+}
+.marker-cluster-small {
+    background-color: rgba(181, 226, 140, 0.6);
+}
+.marker-cluster-small div {
+    background-color: rgba(110, 204, 57, 0.6);
+}
+.marker-cluster-medium {
+    background-color: rgba(241, 211, 87, 0.6);
+}
+.marker-cluster-medium div {
+    background-color: rgba(240, 194, 12, 0.6);
+}
+.marker-cluster-large {
+    background-color: rgba(253, 156, 115, 0.6);
+}
+.marker-cluster-large div {
+    background-color: rgba(241, 128, 23, 0.6);
+}
+
+/* CSS para o ícone personalizado de POI (casa vermelha) */
+.custom-div-icon {
+    background-color: #e74c3c; /* Cor vermelha do marcador */
+    border-radius: 50% 50% 50% 0; /* Formato de marcador do Leaflet */
+    transform: rotate(-45deg); /* Gira para o formato correto */
+    display: flex; /* Para centralizar o ícone Font Awesome */
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white; /* Borda branca como nos outros marcadores */
+    box-shadow: 0 0 0 4px rgba(0,0,0,0.2); /* Sombra para simular o 3D */
+}
+
+.custom-div-icon i {
+    transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
+    display: block; /* Garante que o ícone ocupe o espaço */
+    color: white; /* Cor do ícone */
+    font-size: 14px; /* Tamanho do ícone */
+}
