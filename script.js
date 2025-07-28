@@ -66,7 +66,7 @@ function inicializarMapa() {
         iconCreateFunction: function(cluster) {
             const count = cluster.getChildCount();
             let className = 'marker-cluster-small';
-            if (count > 100) className = 'marker-cluster-large';
+            if (count > 300) className = 'marker-cluster-large';
             else if (count > 20) className = 'marker-cluster-medium';
 
             return new L.DivIcon({
