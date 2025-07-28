@@ -306,7 +306,7 @@ body {
 .custom-user-location-icon i {
     transform: rotate(45deg); /* Gira o ícone de volta */
     display: block;
-    color: #dc3545; /* Cor vermelha para o ícone */
+    color: #e74c3c; /* Cor vermelha para o ícone */
     font-size: 48px; /* Tamanho do ícone */
     line-height: 80px; /* Centraliza o ícone verticalmente */
 }
