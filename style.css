@@ -278,15 +278,15 @@ body {
     justify-content: center;
     border: none; /* Remove a borda */
     box-shadow: none; /* Remove a sombra */
-    width: 25px; /* Tamanho padrão para POI */
-    height: 41px; /* Tamanho padrão para POI */
+    width: 50px; /* Tamanho padrão para POI */
+    height: 82px; /* Tamanho padrão para POI */
 }
 
 .custom-div-icon i {
     transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
     display: block; /* Garante que o ícone ocupe o espaço */
-    color: white; /* Cor do ícone (o prédio será branco) */
-    font-size: 14px; /* Tamanho do ícone */
+    color: #e74c3c; /* Cor do ícone (o prédio será vermelho) */
+    font-size: 30px; /* Tamanho do ícone */
 }
 
 /* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho GRANDE - apenas o ícone) */
