@@ -268,7 +268,7 @@ body {
     background-color: rgba(241, 128, 23, 0.6);
 }
 
-/* CSS para o ícone personalizado de POI (prédio - apenas o ícone, transparente) */
+/* CSS para o ícone personalizado de POI (prédio - APENAS O ÍCONE, DOBRO DO TAMANHO, VERMELHO UNIFORME) */
 .custom-div-icon {
     background-color: transparent; /* Fundo transparente */
     border-radius: 50% 50% 50% 0; /* Mantém para compatibilidade, mas não visível */
@@ -278,35 +278,36 @@ body {
     justify-content: center;
     border: none; /* Remove a borda */
     box-shadow: none; /* Remove a sombra */
-    width: 50px; /* Tamanho padrão para POI */
-    height: 82px; /* Tamanho padrão para POI */
+    width: 50px; /* DOBRO do tamanho */
+    height: 82px; /* DOBRO do tamanho */
 }
 
 .custom-div-icon i {
     transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
     display: block; /* Garante que o ícone ocupe o espaço */
-    color: #e74c3c; /* Cor do ícone (o prédio será vermelho) */
-    font-size: 30px; /* Tamanho do ícone */
+    color: #e74c3c; /* AGORA É VERMELHO UNIFORME! */
+    font-size: 28px; /* DOBRO do tamanho (de 14px) */
+    line-height: 82px; /* Ajustado para centralizar com o novo height */
 }
 
-/* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho GRANDE - apenas o ícone) */
+/* Estilos para o ícone personalizado de Localização do Usuário (ALVO/LOCATION-DOT VERMELHO GRANDE - apenas o ícone) */
 .custom-user-location-icon {
-    background-color: transparent; /* Fundo transparente */
-    border-radius: 50% 50% 50% 0; /* Mantém para compatibilidade, mas não visível */
-    transform: rotate(-45deg); /* Gira o contêiner */
+    background-color: transparent;
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(-45deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none; /* Remove a borda */
-    box-shadow: none; /* Remove a sombra */
-    width: 80px; /* Tamanho do espaço do ícone */
-    height: 80px; /* Tamanho do espaço do ícone */
+    border: none;
+    box-shadow: none;
+    width: 80px; /* DOBRO do tamanho */
+    height: 80px; /* DOBRO do tamanho */
 }
 
 .custom-user-location-icon i {
-    transform: rotate(45deg); /* Gira o ícone de volta */
+    transform: rotate(45deg);
     display: block;
-    color: #e74c3c; /* Cor vermelha para o ícone */
-    font-size: 48px; /* Tamanho do ícone */
-    line-height: 80px; /* Centraliza o ícone verticalmente */
+    color: #e74c3c; /* AGORA É VERMELHO UNIFORME! */
+    font-size: 48px; /* DOBRO do tamanho (de 24px) */
+    line-height: 80px; /* Ajustado para centralizar com o novo height */
 }
