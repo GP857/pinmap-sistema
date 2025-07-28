@@ -59,7 +59,7 @@ function inicializarMapa() {
     // Criar grupo de marcadores com clustering
     marcadores = L.markerClusterGroup({
         chunkedLoading: true,
-        maxClusterRadius: 500,
+        maxClusterRadius: 10,
         spiderfyOnMaxZoom: true,
         showCoverageOnHover: false,
         zoomToBoundsOnClick: true,
