@@ -287,20 +287,27 @@ body {
     font-size: 14px; /* Tamanho do ícone */
 }
 
-/* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho grande) */
+/* Estilos para o ícone personalizado de Localização do Usuário (alvo vermelho GRANDE - apenas o ícone) */
 .custom-user-location-icon {
-background-color: transparent; /* Tornando o fundo transparente */
-border-radius: 50% 50% 50% 0;
-transform: rotate(-45deg);
-display: flex;
-align-items: center;
-justify-content: center;
-border: 2px solid white;
-box-shadow: 0 0 0 4px rgba(0,0,0,0.2);
-width: 40px;
-height: 40px;
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 50% 50% 50% 0; /* Mantém para compatibilidade, mas não visível */
+    transform: rotate(-45deg); /* Gira o contêiner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none; /* Remove a borda */
+    box-shadow: none; /* Remove a sombra */
+    width: 40px; /* Tamanho do espaço do ícone */
+    height: 40px; /* Tamanho do espaço do ícone */
 }
 
+.custom-user-location-icon i {
+    transform: rotate(45deg); /* Gira o ícone de volta */
+    display: block;
+    color: #dc3545; /* Cor vermelha para o ícone */
+    font-size: 24px; /* Tamanho do ícone */
+    line-height: 40px; /* Centraliza o ícone verticalmente */
+}
 .custom-user-location-icon i {
     transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
     display: block;
