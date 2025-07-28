@@ -310,25 +310,3 @@ body {
     font-size: 48px; /* Tamanho do ícone */
     line-height: 80px; /* Centraliza o ícone verticalmente */
 }
-
-.custom-user-location-icon i {
-    transform: rotate(45deg); /* Gira o ícone de volta */
-    display: block;
-    color: #dc3545; /* Cor vermelha para o ícone */
-    font-size: 24px; /* Tamanho do ícone */
-    line-height: 40px; /* Centraliza o ícone verticalmente */
-}
-.custom-user-location-icon i {
-    transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
-    display: block;
-    color: white; /* Cor do ícone */
-    font-size: 24px; /* Aumenta o tamanho do ícone Font Awesome (aproximadamente 4x o original de 14px) */
-    line-height: 40px; /* Centraliza o ícone verticalmente dentro do círculo de 40px */
-}
-
-.custom-user-location-icon i {
-    transform: rotate(45deg); /* Gira o ícone Font Awesome de volta */
-    display: block;
-    color: white; /* Cor do ícone */
-    font-size: 14px; /* Tamanho do ícone */
-}
