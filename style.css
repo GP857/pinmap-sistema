@@ -2,29 +2,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex; /* Permite que o mapa e a sidebar fiquem lado a lado */
-    height: 100vh; /* Altura total da viewport */
-    overflow: hidden; /* Esconde barras de rolagem desnecessárias */
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
 }
 
 #mapa {
-    flex-grow: 1; /* O mapa ocupa o máximo de espaço possível */
+    flex-grow: 1;
     height: 100%;
     background-color: #f0f0f0;
-    z-index: 1; /* Garante que o mapa esteja abaixo da sidebar em termos de z-index */
+    z-index: 1;
 }
 
 .sidebar {
     width: 300px;
-    background-color: #f8f9fa; /* Fundo mais claro para a sidebar */
+    background-color: #f8f9fa;
     padding: 20px;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.1); /* Sombra para destacar a sidebar */
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Empurra header e footer para as pontas */
-    z-index: 1000; /* Garante que a sidebar esteja acima do mapa */
-    overflow-y: auto; /* Adiciona rolagem se o conteúdo for muito grande */
-    min-width: 280px; /* Garante que não fique muito pequeno em telas pequenas */
+    justify-content: space-between;
+    z-index: 1000;
+    overflow-y: auto;
+    min-width: 280px;
 }
 
 .header-sidebar {
@@ -50,22 +50,22 @@ body {
     padding: 15px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    position: relative; /* Para posicionar o dropdown de resultados */
+    position: relative;
 }
 
 #busca-geral-input {
-    width: calc(100% - 70px); /* Ajusta para o botão */
+    width: calc(100% - 70px);
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 5px;
     font-size: 1em;
-    box-sizing: border-box; /* Inclui padding na largura */
+    box-sizing: border-box;
     margin-right: 5px;
 }
 
 #busca-geral-btn {
     padding: 10px 15px;
-    background-color: #28a745; /* Verde para o botão de buscar */
+    background-color: #28a745;
     color: white;
     border: none;
     border-radius: 5px;
@@ -88,7 +88,7 @@ body {
     position: absolute;
     right: 25px;
     top: 25px;
-    display: none; /* Escondido por padrão */
+    display: none;
 }
 
 @keyframes spin {
@@ -97,7 +97,7 @@ body {
 }
 
 .resultados-dropdown {
-    max-height: 250px; /* Altura máxima para rolagem */
+    max-height: 250px;
     overflow-y: auto;
     border: 1px solid #e0e0e0;
     border-top: none;
@@ -105,10 +105,10 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     position: absolute;
-    top: 100%; /* Abaixo do input de busca */
+    top: 100%;
     left: 0;
     right: 0;
-    z-index: 10; /* Acima de outros elementos */
+    z-index: 10;
 }
 
 .resultado-item {
@@ -146,36 +146,36 @@ body {
 .controles-mapa {
     margin-bottom: 25px;
     display: flex;
-    flex-wrap: wrap; /* Permite que os botões quebrem a linha */
-    gap: 10px; /* Espaçamento entre botões */
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .controles-mapa button {
-    flex: 1 1 calc(50% - 5px); /* Dois botões por linha */
+    flex: 1 1 calc(50% - 5px);
     padding: 10px 15px;
-    background-color: #007bff; /* Azul padrão */
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 0.9em;
     transition: background-color 0.2s;
-    box-sizing: border-box; /* Inclui padding na largura */
+    box-sizing: border-box;
 }
 
 .controles-mapa button:hover {
     background-color: #0056b3;
 }
 
-.controles-mapa button:nth-child(1) { background-color: #6c757d; } /* Minha Localização - Cinza */
+.controles-mapa button:nth-child(1) { background-color: #6c757d; }
 .controles-mapa button:nth-child(1):hover { background-color: #5a6268; }
-.controles-mapa button:nth-child(2) { background-color: #dc3545; } /* Limpar Busca - Vermelho */
+.controles-mapa button:nth-child(2) { background-color: #dc3545; }
 .controles-mapa button:nth-child(2):hover { background-color: #c82333; }
-.controles-mapa button:nth-child(3) { background-color: #17a2b8; } /* Ver Brasil - Ciano */
+.controles-mapa button:nth-child(3) { background-color: #17a2b8; }
 .controles-mapa button:nth-child(3):hover { background-color: #138496; }
-.controles-mapa button:nth-child(4) { background-color: #ffc107; color: #333; } /* Centralizar Usuários - Amarelo */
+.controles-mapa button:nth-child(4) { background-color: #ffc107; color: #333; }
 .controles-mapa button:nth-child(4):hover { background-color: #e0a800; }
-.controles-mapa button:nth-child(5) { background-color: #fd7e14; } /* Alternar Clustering - Laranja */
+.controles-mapa button:nth-child(5) { background-color: #fd7e14; }
 .controles-mapa button:nth-child(5):hover { background-color: #e66a00; }
 
 .estilos-mapa-toggle {
@@ -203,7 +203,7 @@ body {
 }
 
 .estatisticas {
-    margin-top: auto; /* Empurra para o fundo da sidebar */
+    margin-top: auto;
     padding-top: 20px;
     border-top: 1px solid #eee;
     color: #555;
