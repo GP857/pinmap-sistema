@@ -202,7 +202,7 @@ Este projeto é desenvolvido para uso corporativo e demonstração de capacidade
 
 ## 👨‍💻 Desenvolvido por
 
-**Manus AI** - Sistema de Geolocalização Corporativa
+Gustavo Pinheiro
 
 ---
 
